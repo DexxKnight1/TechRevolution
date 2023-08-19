@@ -14,20 +14,20 @@ To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** 
 **OptiFine** mod is incompatible in this modpack. 
 
 ## Features:
-🔹Custom Main Menu, Textures, Sounds & Items
-🔹Unique Custom Player Shops & Economy System
-🔹500+ Custom recipes
-🔹400+ mods
-🔹3'300+ Quests, 10 Chapter Groups, 53 Chapters
-🔹Overhauled World Generation & Ambient surroundings: Terralith, BYG, Quark, Ambient Sounds, Dynamic Surroundings
-🔹7 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, The Abyss II, Blue Skies
-🔹New Unique Bosses: World of Bosses
-🔹1'000+ Builder blocks & Decorations
-🔹Technics mods: Create, Mekanism, Thermal Series, RS, AE2, Immersive Engineering, PNC, FTB IC
-🔹Magic mods: Botania, Ars Nouveau, Apotheosis
-🔹Dungeons: When Dungeons Arise, Better Dungeons, Dungeon Crawl
-🔹Space exploration: Ad Astra
-🔹Optimized with Shader Support
+- Custom Main Menu, Textures, Sounds & Items
+- Unique Custom Player Shops & Economy System
+- 500+ Custom recipes
+- 400+ mods
+- 3'300+ Quests, 10 Chapter Groups, 53 Chapters
+- Overhauled World Generation & Ambient surroundings: Terralith, BYG, Quark, Ambient Sounds, Dynamic Surroundings
+- 7 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, The Abyss II, Blue Skies
+- New Unique Bosses: World of Bosses
+- 1'000+ Builder blocks & Decorations
+- Technics mods: Create, Mekanism, Thermal Series, RS, AE2, Immersive Engineering, PNC, FTB IC
+- Magic mods: Botania, Ars Nouveau, Apotheosis
+- Dungeons: When Dungeons Arise, Better Dungeons, Dungeon Crawl
+- Space exploration: Ad Astra
+- Optimized with Shader Support
 
 ![server](https://user-images.githubusercontent.com/78975662/198345255-6f52f58b-62f2-475d-a9da-10463008fa43.png)
 
