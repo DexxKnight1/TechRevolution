@@ -1,0 +1,1653 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_generators"
+	group: "556BC0391B5938FF"
+	icon: "advgenerators:steam_turbine_controller"
+	id: "24554A904D9DC980"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.7142857142857224d
+			y: -12.125d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "kubejs:textures/item/harbinger.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.0d
+			y: -4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["176B96CAE822E9A0"]
+			id: "0056E38982B4C7C3"
+			rewards: [
+				{
+					id: "64382C57348DFB8D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "35672C3E6CA8F3E1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "advgenerators:iron_frame"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "33CBCB062C330591"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5258AF80B5567FAC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:iron_frame"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"0056E38982B4C7C3"
+				"71CAAC29885E63A5"
+			]
+			id: "2D54EDA039BCBA2F"
+			rewards: [
+				{
+					id: "0AD1C7920F0A0BCF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "693E3FD1FD527851"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "4EBA9D89F838C0EE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60EBB99110AEF320"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:power_io"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["176B96CAE822E9A0"]
+			id: "71CAAC29885E63A5"
+			rewards: [
+				{
+					id: "38A4E357E5C5980A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FC97161CFD8A00D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "advgenerators:iron_tubing"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "37773722A1F06647"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72B19319BF540D15"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:iron_tubing"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["71CAAC29885E63A5"]
+			id: "7EA65AF8988B4E7B"
+			rewards: [
+				{
+					id: "5F17D24C399D0754"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "6BBF1FCEAAC1468A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "advgenerators:iron_wiring"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "79850B2A24C780C6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "789BC743A5DB38D8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:iron_wiring"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"71CAAC29885E63A5"
+				"7EA65AF8988B4E7B"
+			]
+			hide_dependency_lines: true
+			id: "4B0DBE7F1D8B36A5"
+			rewards: [
+				{
+					id: "5345E3B1C7BCC1AB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39C3C251F60A4DFA"
+					table_id: 4056905653150789257L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "709505C22A7C40E0"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4AFE843BE67E07E3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5138167786334724"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:controller"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["71CAAC29885E63A5"]
+			id: "3BA5157B27DFD9EA"
+			rewards: [
+				{
+					id: "1A6AF9067FDF109A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7D5C652CF23D2682"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "advgenerators:pressure_valve"
+					}
+					type: "item"
+				}
+				{
+					id: "5B2536F264DB35A0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "048F82ACC4EB661E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:pressure_valve"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3BA5157B27DFD9EA"]
+			id: "438DBCFFE8D8AE02"
+			rewards: [
+				{
+					id: "6BEBD9E58C4DB30B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5382A2F8B7A15978"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "advgenerators:advanced_pressure_valve"
+					}
+					type: "item"
+				}
+				{
+					id: "37847E3012308F9E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A9EA3706901B277"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:advanced_pressure_valve"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0056E38982B4C7C3"]
+			id: "642D74E87F628D98"
+			rewards: [
+				{
+					id: "5883E5055CBBB2AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D29CE05403D08A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "advgenerators:upgrade_kit"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "033541153B6AF91E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "596C51494ABBC1BD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:upgrade_kit"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["642D74E87F628D98"]
+			hide_dependency_lines: true
+			id: "1A98163BD160B31E"
+			rewards: [
+				{
+					id: "1571E0E69171F96D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06681E78CA4140E5"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "0C21F12DE8E79DD3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5240C264CB1E299C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:turbine_kit_tier2"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1A98163BD160B31E"]
+			hide_dependency_lines: true
+			id: "2DB00F3727E87735"
+			rewards: [
+				{
+					id: "44D3DE878910B5F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "723DB38F5B8D9500"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "520813B43266BCD3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "020DBA9C552828F6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:turbine_kit_tier3"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2DB00F3727E87735"]
+			hide_dependency_lines: true
+			id: "37CA12130CDA0B19"
+			rewards: [
+				{
+					id: "3CF8CBA9E455C4F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E1CB63D2BCD7109"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "3C1D4481FFA79045"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70625F39A7926ABF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:turbine_kit_tier4"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["37CA12130CDA0B19"]
+			hide_dependency_lines: true
+			id: "3E27734F59EF59BA"
+			rewards: [
+				{
+					id: "4D883B1B0BF6D5B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79693307606B190C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "7B36B678C0281DBA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "22EF809E7C331E3F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:turbine_kit_tier5"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["42F43BC9FA444BB4"]
+			id: "28AE0B1C62972511"
+			rewards: [
+				{
+					id: "22C52870E543B311"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48939C25FA440D58"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "1854C7728D3E2AB5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2AF4D9703913EC53"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:capacitor_kit_tier2"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["42F43BC9FA444BB4"]
+			id: "6B48AF3A78BD5434"
+			rewards: [
+				{
+					id: "4A33C7B28F6F7F0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F470CA6B8898AE4"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "5028182BC03DEE6E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "293B2D5A23A79789"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:capacitor_kit_tier3"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0056E38982B4C7C3"]
+			id: "744337C01C91D95A"
+			rewards: [
+				{
+					id: "36A421FC7F915DA7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79DD9145DEA6CE62"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "advgenerators:turbine_blade"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6BCABD468565FF85"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "717869A1BB4D7C0F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:turbine_blade"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7EA65AF8988B4E7B"]
+			description: ["Up to 10 modules can be added to one generator."]
+			id: "42F43BC9FA444BB4"
+			rewards: [
+				{
+					id: "0A7BCBF032F363B6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18CD14DE6924CD05"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "30F8767EE115FB22"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "These modules can be added to Gas and Steam Turbine Generators to increase energy capacity"
+			tasks: [{
+				id: "17EE2375B74320EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:power_capacitor_tier1"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1F39E17F56F9BA4B"]
+			id: "426460654D6B7426"
+			rewards: [
+				{
+					id: "3471BE738131A6AD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E7B2BC4B3139B44"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6B60A4ECEC9A0628"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27C503F7497EB324"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:turbine_tier1"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4B0DBE7F1D8B36A5"]
+			description: [
+				"{image:kubejs:textures/item/exchanger_gui.png width:125 height:57 align:1}"
+				""
+				"The component blocks can be arranged in any configuration the player wishes as long as the blocks are adjacent to other components of the multiblock structure."
+				""
+				"Modules:"
+				"- A single &2Heat Exchanger Controller"
+				"- At least 1, up to a maximum of 50 &2Heat Exchangers&r (each can transfer up to 16 HU per tick)"
+				"- Up to 5 &9Fluid Intake Valves"
+				"- Up to 6 &9Output Modules"
+				"- Up to 10 &9Sensor Modules"
+				"- Up to 10 &9Control Modules"
+			]
+			icon: "advgenerators:exchanger_controller"
+			id: "667311CC28C1CB64"
+			rewards: [
+				{
+					id: "110A9171492D030C"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E9564BD874D1862"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12CAE78F6FCE252A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2A9A7E4F844034B6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "This is a multiblock machine that transfers heat between various substances"
+			tasks: [{
+				id: "5396408B3122EE7E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:exchanger_controller"
+				}
+				type: "item"
+			}]
+			title: "Heat Exchanger"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B0DBE7F1D8B36A5"]
+			description: [
+				"{image:kubejs:textures/item/syngas_gui.png width:125 height:57 align:1}"
+				""
+				"The component blocks can be arranged in any configuration the player wishes as long as the blocks are adjacent to other components of the multiblock structure."
+				""
+				"Required:"
+				"- A single &2Syngas Producer Controller"
+				"- At least 1, up to a maximum of 25 &2Mixing Chambers"
+				"- Up to 10 &9Heating Chambers&r (at least 1 needed unless steam is piped in)"
+				"- Up to 5 &9Item Input Ports"
+				"- Up to 5 &9Fluid Intake Valves"
+				"- Up to 6 &9Fluid Output Valves"
+				"- Up to 10 &9Sensor Modules"
+				"- Up to 10 &9Control Modules"
+			]
+			icon: "advgenerators:syngas_controller"
+			id: "458AB83C60931660"
+			rewards: [
+				{
+					id: "00A73E7736622BA4"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "720D353136955F6B"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "756112E253F52C77"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "0019D04CE51E6981"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "This is a multiblock machine that makes a fluid fuel (Syngas) from solid carbon-based fuels"
+			tasks: [{
+				id: "4DD7BBE095CDADDB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:syngas_controller"
+				}
+				type: "item"
+			}]
+			title: "Syngas Producer"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B0DBE7F1D8B36A5"]
+			description: [
+				"{image:kubejs:textures/item/steam_turbine_gui.png width:125 height:57 align:1}"
+				""
+				"The component blocks can be arranged in any configuration the player wishes as long as the blocks are adjacent to other components of the multiblock structure."
+				""
+				"Modules:"
+				"- A single &2Steam Turbine Controller"
+				"- At least 1, up to a maximum of 50 &2Turbines&r (each produces up to 100-500 RF/t depending on material)"
+				"- Up to 10 &9Power Capacitors&r (each adds 1M-25M RF storage capacity, depending on tier)"
+				"- Up to 5 &9Fluid Intake Valves"
+				"- Up to 6 &9Output Modules"
+				"- Up to 10 &9Sensor Modules"
+				"- Up to 10 &9Control Modules"
+			]
+			icon: "advgenerators:steam_turbine_controller"
+			id: "4587E62D6D21D7DC"
+			rewards: [
+				{
+					id: "19A9CCD89B8D10AF"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01FDCEC6D9363C21"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64EE6BFCFA422023"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "02E7992C3E81FEF9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "This is a multiblock generator that runs on steam, can be built in any form"
+			tasks: [{
+				id: "78D7D303B98E6DC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:steam_turbine_controller"
+				}
+				type: "item"
+			}]
+			title: "Steam Turbine Generator"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4B0DBE7F1D8B36A5"]
+			description: [
+				"{image:kubejs:textures/item/gas_turbine_gui.png width:125 height:57 align:1}"
+				""
+				"The component blocks can be arranged in any configuration the player wishes as long as the blocks are adjacent to other components of the multiblock structure."
+				""
+				"Modules:"
+				"- A single &2Gas Turbine Controller"
+				"- At least 1, up to a maximum of 50 &2Turbines&r (each produces up to 100-500 RF/t depending on material)"
+				"- Up to &910 Fuel Tanks&r (each adds 16 buckets of fuel capacity)"
+				"- Up to 10 &9Power Capacitors&r (each adds 1M-25M RF storage capacity, depending on tier)"
+				"- Up to 5 &9Fluid Intake Valves"
+				"- Up to 6 &9Output Modules"
+				"- Up to 10 &9Sensor Modules"
+				"- Up to 10 &9Control Modules"
+				"- Efficiency Upgrade Modules"
+			]
+			icon: "advgenerators:fuel_turbine_controller"
+			id: "6571B8DF72F24BD4"
+			rewards: [
+				{
+					id: "07A9F510EC855398"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376CD87B5BABC3E4"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2795C1B462C1E276"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "28E8C85695BFEE06"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "This is a multiblock generator that runs on various fluid fuels, can be built in any form"
+			tasks: [{
+				id: "7EF9A445A2E558A9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:fuel_turbine_controller"
+				}
+				type: "item"
+			}]
+			title: "Gas Turbine Generator"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["744337C01C91D95A"]
+			id: "1F39E17F56F9BA4B"
+			rewards: [
+				{
+					id: "729E24E8DF787507"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "6A32E01BD07492ED"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6A514972D23EB20D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22CE4B883F4E184B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:turbine_rotor_tier1"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2D54EDA039BCBA2F"]
+			description: ["Can connect on multiple sides and the output rate is unlimited."]
+			id: "565DA5ECDA28BA4A"
+			rewards: [
+				{
+					id: "1C1BE08D15EA7147"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63768DB6D210E23C"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "60350A91FA81A29D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "This module output the energy produced by the generator"
+			tasks: [{
+				id: "5D6099D6A7440D89"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:fe_output"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["06C7368D98DFEF51"]
+			description: [
+				"- Can produce RF and EU."
+				"- Run on various liquid fuel types or steam."
+				"- Heat Exchanger can transfer heat between various substances"
+				"- Syngas Producer makes fluid fuel from solid ones"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/advgen.png"
+				}
+			}
+			id: "176B96CAE822E9A0"
+			rewards: [{
+				id: "433AECF35C7BDDCA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oFurnace&r quest*"
+			tasks: [{
+				id: "422D794CAB421E57"
+				type: "checkmark"
+			}]
+			title: "Welcome to &cAdvanced Generators"
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3BA5157B27DFD9EA"]
+			id: "7ABB238F94F2D899"
+			rewards: [
+				{
+					id: "236C9AB0A160C7CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "641204DA645AE1D9"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "4A78317960F1745C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Produces up to 50 mb steam per tick when heated up"
+			tasks: [{
+				id: "3BA38FBD0D3A4BAF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:heating_chamber"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7ABB238F94F2D899"]
+			description: [
+				"This module can be added to Gas Turbine Generators to increase fuel efficiency."
+				""
+				"Only 1 module of each type can be installed per generator."
+			]
+			id: "31444D8CDB4BCF3F"
+			rewards: [
+				{
+					id: "36983DC65ED01610"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72036D784B6EBDFC"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "2C38A6FAB5408FAF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Increases efficiency to 135%"
+			tasks: [{
+				id: "40955E683837270A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:efficiency_upgrade_tier1"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7D405625F68AD184"]
+			id: "44813F6B2C6F79E4"
+			rewards: [
+				{
+					id: "3F2D8AB0AAE9C282"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31130D1526897667"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "2F90368AE81EF968"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Adds 16 buckets to fuel capacity"
+			tasks: [{
+				id: "1BA75F4CA6302985"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:fuel_tank"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["31444D8CDB4BCF3F"]
+			id: "7D405625F68AD184"
+			rewards: [
+				{
+					id: "583959B8C4A0BB12"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58FEFABD1F16E87E"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "2BF6937086279BCB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Consumes up to 10 mb steam and 50 carbon and produces 1 mb of syngas per tick"
+			tasks: [{
+				id: "00022F9C0AA3C6AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:mixing_chamber"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["438DBCFFE8D8AE02"]
+			description: [
+				"This module can be added to Gas Turbine Generators to increase fuel efficiency."
+				""
+				"Only 1 module of each type can be installed per generator."
+				""
+				"Requires Fuel/Air Mixer installed."
+			]
+			id: "701A27BB4112C873"
+			rewards: [
+				{
+					id: "03EEFBC80DA363E6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E21730CA51C0A22"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "5EC261526C9CD30A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Increases efficiency to 185%"
+			tasks: [{
+				id: "627C88A1EE04018C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:efficiency_upgrade_tier2"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["112068A571970497"]
+			description: [
+				"- Left slot determines if the process is enabled when signal is on or off."
+				""
+				"- Right slot determines the process to toggle."
+				""
+				"- Up to 10 control modules can be installed in multiblock machines."
+			]
+			id: "402D1219FB4F1174"
+			rewards: [
+				{
+					id: "6C4E450371549A72"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64698062AC09F5D9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "45105852C7433006"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Allows control of various processes inside machines using redstone signal"
+			tasks: [{
+				id: "7CA1237AD22F1165"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:control"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0056E38982B4C7C3"]
+			id: "58FD33B362DB18C8"
+			rewards: [
+				{
+					id: "64A8FB3C3EA94676"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12EC791174B21F73"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1A3BE35331E03479"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Allows fluid input"
+			tasks: [{
+				id: "362A1F579058C560"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:fluid_input"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["58FD33B362DB18C8"]
+			id: "39D49D60EB42DE2B"
+			rewards: [
+				{
+					id: "46CD203033A4E1B5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59A9A9BB44E454EA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "22F77C740597A08C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Allows fluid output"
+			tasks: [{
+				id: "5353C3D645D11CBB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:fluid_output_select"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0056E38982B4C7C3"]
+			id: "4BFDC7B3FAD66F2B"
+			rewards: [
+				{
+					id: "7EFE18CC40E34EB9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1566B7D3C220A5A2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6BD2BB248CF3AECE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Allows item input"
+			tasks: [{
+				id: "22DA828DE85E3E92"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:item_input"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4BFDC7B3FAD66F2B"]
+			id: "6AF54A2096E775D6"
+			rewards: [
+				{
+					id: "0FB3C2E6E6A6BC8C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54A6948817C55555"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0B5CC4EF10B9BB0F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Allows item output"
+			tasks: [{
+				id: "15381A8F53995ED1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:item_output"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5AC06D84EADC1265"]
+			id: "112068A571970497"
+			rewards: [
+				{
+					id: "07C342B63570EE59"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "270FE8703BF5376F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4D7AA0B5D5ABBC6A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Allows gas input from Mekanism gas tubes"
+			tasks: [{
+				id: "1FD92BB9E5C59B5B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:gas_input"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["402D1219FB4F1174"]
+			description: [
+				"- Multiblock machines can contain up to 10 sensor blocks in it’s structure."
+				""
+				"- Redstone signal is \"weak\" (will not pass through blocks) and will only be emitted from 1 side."
+				""
+				"- Can be rotated with any wrench."
+			]
+			id: "1D428757BEF36BF0"
+			rewards: [
+				{
+					id: "5A51C86381FC9483"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CC40D27CFC4B2F3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "02B003C470617694"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Can check for different conditions on the machine and emit redstone signal when a condition is met"
+			tasks: [{
+				id: "392A62AA3E74F1EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:sensor"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0056E38982B4C7C3"]
+			id: "5AC06D84EADC1265"
+			rewards: [
+				{
+					id: "74B6808F9A2D2298"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34487AB40B675984"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "114EDA3A6C331CE4"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Increases the maximum heat transfer per tick by 16 HU"
+			tasks: [{
+				id: "57C664F7F50953EC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "advgenerators:heat_exchanger"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+	]
+	title: "&c&oAdvanced Generators"
+}

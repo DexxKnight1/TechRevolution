@@ -1,0 +1,2814 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "only_the_best_sellers"
+	group: "0734189F95095884"
+	icon: {
+		Count: 1b
+		id: "blue_skies:summoning_tome"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "553F9CE9A36F431E"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_books.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "2400853CE03EFB5A"
+			rewards: [{
+				id: "705429C609D90AF4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 8s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$10'000"
+			tasks: [{
+				consume_items: true
+				id: "4A8B4A206C3DE131"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&cProtection VIII"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_protection"
+						lvl: 9s
+					}]
+				}
+			}
+			id: "3D48E0D89FA25C8A"
+			rewards: [{
+				id: "77327C05F04E074F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 9s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$10'000"
+			tasks: [{
+				consume_items: true
+				id: "5A63FE7D78AAD3B8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&cFire Protection IX"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			description: ["To get &eFeather Falling XII&r combine &eFeather Falling XI&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 11s
+					}]
+				}
+			}
+			id: "0E3C26F39A6B6EF7"
+			rewards: [
+				{
+					id: "0AB56605CCB43578"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 11s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "701E7109404CCCEA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 11s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$10'000"
+			tasks: [{
+				consume_items: true
+				id: "1404686EBDFFB28F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&cFeather Falling XII"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:blast_protection"
+						lvl: 9s
+					}]
+				}
+			}
+			id: "5A8989EF29DA2A4D"
+			rewards: [{
+				id: "216A2622EAE7E429"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:blast_protection"
+							lvl: 9s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "0A256860EED48731"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cBlast Protection IX"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:projectile_protection"
+						lvl: 11s
+					}]
+				}
+			}
+			id: "5676C42F5A8D3ADA"
+			rewards: [{
+				id: "6861B0652FDAC6F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:projectile_protection"
+							lvl: 11s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "3365981F9851DC8F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cProjectile Protection XI"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:respiration"
+						lvl: 7s
+					}]
+				}
+			}
+			id: "32CDDDC25DE587B4"
+			rewards: [{
+				id: "616AB54AF04A0590"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:respiration"
+							lvl: 7s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "7C47814B6E764465"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cRespiration VII"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "51FBAE02B707A0BC"
+			rewards: [{
+				id: "1D99E9281F2BF66F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:aqua_affinity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5B7723249334269B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cAqua Affinity"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: ["To get &eThorns VI&r combine &eThorns V&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 5s
+					}]
+				}
+			}
+			id: "76840E098B116215"
+			rewards: [
+				{
+					id: "047B9880BD8D066C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:thorns"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79459E934C07669A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:thorns"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "44D635BB11ACA601"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cThorns VI"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:depth_strider"
+						lvl: 7s
+					}]
+				}
+			}
+			id: "57135452130E1F0E"
+			rewards: [{
+				id: "24AA0D22B04197D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:depth_strider"
+							lvl: 7s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$4'000"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "55744E2A20C67681"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cDepth Strider VII"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:frost_walker"
+						lvl: 7s
+					}]
+				}
+			}
+			id: "35160783C5982FA8"
+			rewards: [{
+				id: "4CAB752500B26F52"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:frost_walker"
+							lvl: 7s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$4'000"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6E0DA3D641DE9C31"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cFrost Walker VII"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:soul_speed"
+						lvl: 7s
+					}]
+				}
+			}
+			id: "788A5924E23767F7"
+			rewards: [{
+				id: "069CFFC2A3DF4890"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:soul_speed"
+							lvl: 7s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$4'000"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2FA0C4205C921C96"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cSoul Speed VII"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: ["To get &eSharpness X&r combine &eSharpness IX&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 9s
+					}]
+				}
+			}
+			id: "0BDD41B10BE55CE2"
+			rewards: [
+				{
+					id: "63C0E54BA177F5B1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C02E3F699268977"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "54C62CB85783A63F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cSharpness X"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["To get &eSmite XI&r combine &eSmite X&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 10s
+					}]
+				}
+			}
+			id: "577C845FC0EE7BC0"
+			rewards: [
+				{
+					id: "4CE0AB8B7245FBB3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F958775E1668FD1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$10'000"
+			tasks: [{
+				consume_items: true
+				id: "1FFBEF6BB6DCD650"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&cSmite XI"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			description: ["To get &eBane of Arthropods XI&r combine &eBane of Arthropods X&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:bane_of_arthropods"
+						lvl: 10s
+					}]
+				}
+			}
+			id: "7B374B95B7671495"
+			rewards: [
+				{
+					id: "0F53D237CDB8EA90"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AE185FB4CAF7707"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:bane_of_arthropods"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$8'000"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "34C052394B4044CF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cBane of Arthropods XI"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: ["To get &eKnockback VI&r combine &eKnockbsck V&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:knockback"
+						lvl: 5s
+					}]
+				}
+			}
+			id: "30E3D69AA0CB0564"
+			rewards: [
+				{
+					id: "0D6B5908A0571024"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:knockback"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "490A79D692585662"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:knockback"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1B745C28204B99BC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cKnockback VI"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			description: ["To get &eFire Aspect VI&r combine &eFire Aspect V&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_aspect"
+						lvl: 5s
+					}]
+				}
+			}
+			id: "05A49E86685DBE79"
+			rewards: [
+				{
+					id: "7B2FF77D74190A27"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17194A60233BA7E2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "44AD541CB8A46B23"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cFire Aspect VI"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["To get &eLooting IX&r combine &eLooting VIII&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "62B475D13885647D"
+			rewards: [
+				{
+					id: "4922928BCCE56385"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "390F486E04756AB9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1F86396DB1A05E46"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cLooting IX"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["To get &eSweeping Edge IX&r combine &eSweeping Edge VIII&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "48AD0AF653BC46A4"
+			rewards: [
+				{
+					id: "1593901321CD7A8B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sweeping"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "016FA5226A2CEA33"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sweeping"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$10'000"
+			tasks: [{
+				consume_items: true
+				id: "756EBDC41E25FE3A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&cSweeping Edge IX"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["To get &eEfficiency X&r combine &eEfficiency IX&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 9s
+					}]
+				}
+			}
+			id: "671BF5FD56E461EA"
+			rewards: [
+				{
+					id: "512F14237F128239"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CF63B133A5F5A3A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4E83E38B534B9094"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cEfficiency X"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "11629EE30BD9BCA8"
+			rewards: [{
+				id: "1AD0AC9A0331C6B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "62FFD02C66522A02"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cSilk Touch"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: ["To get &eUnbreaking IX&r combine &eUnbreaking VIII&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "0CDEC1707CB3B5CE"
+			rewards: [
+				{
+					id: "31055D779AD6BA0A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16D34461F9A8289D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$8'000"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "7E8B14DC2E1BF65B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cUnbreaking IX"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: ["To get &eFortune IX&r combine &eFortune VIII&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "198741DF13F9D58C"
+			rewards: [
+				{
+					id: "774CC544DA04EDE3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "669684D401D64169"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "72FD19F26A73C526"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cFortune IX"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			description: ["To get &ePower X&r combine &ePower IX&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:power"
+						lvl: 9s
+					}]
+				}
+			}
+			id: "3886F84D21C6C82A"
+			rewards: [
+				{
+					id: "170CBEC1EDC5E24A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:power"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1536788C2F3BDCE6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:power"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$8'000"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0A00C5074387A102"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cPower X"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:flame"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "1F457AD4E3C5FF6E"
+			rewards: [{
+				id: "60B86C9D6BFCF034"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:flame"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5A2E260B1AFEE9B5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cFlame"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			description: ["To get &ePunch VI&r combine &ePunch V&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:punch"
+						lvl: 5s
+					}]
+				}
+			}
+			id: "1AD0462B5C474248"
+			rewards: [
+				{
+					id: "5A5486B90E9E9C72"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:punch"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0605D0D1CB0C8945"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:punch"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "208D8610E4F5D79B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cPunch VI"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:infinity"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "2F981F90F76F22EA"
+			rewards: [{
+				id: "1FF0DA3A7F676D08"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:infinity"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "44B1F7C0AD7CAEC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cInfinity"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: ["To get &eLuck of the Sea IX&r combine &eLuck of the Sea VIII&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "2703DA280B6F1CBD"
+			rewards: [
+				{
+					id: "4E7E79B10AC69268"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E38E10CE9480C3B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "7DCD4709427C2427"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cLuck of the Sea IX"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["To get &eLure IX&r combine &eLure VIII&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "042F2874A91B843A"
+			rewards: [
+				{
+					id: "6C90775813AEC10D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:lure"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F8E64EB67A10612"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:lure"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "627D1859B3452AF9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cLure IX"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: ["To get &eLoyalty X&r combine &eLoyalty IX&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:loyalty"
+						lvl: 9s
+					}]
+				}
+			}
+			id: "79273E190FC499A6"
+			rewards: [
+				{
+					id: "5F75A3BBD461FC34"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:loyalty"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63B1F201DE31DB18"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:loyalty"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "13793CCCB01B4838"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cLoyalty X"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["To get &eImpaling XI&r combine &eImpaling X&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:impaling"
+						lvl: 10s
+					}]
+				}
+			}
+			id: "4892FAA18C5B83AA"
+			rewards: [
+				{
+					id: "10DF29E9AFA7CDD6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:impaling"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AA2998DB99BA44E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:impaling"
+								lvl: 10s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "78F79DBE6EEA5D98"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cImpaling XI"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: ["To get &eRiptide X&r combine &eRiptide IX&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:riptide"
+						lvl: 9s
+					}]
+				}
+			}
+			id: "6390528705114E66"
+			rewards: [
+				{
+					id: "75F1D0232C65EAF2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:riptide"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F11F15494923B90"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:riptide"
+								lvl: 9s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "145E3DE53B9D2EE2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cRiptide X"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:channeling"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "6F24B5642F51C4F5"
+			rewards: [{
+				id: "1268EA5586D48207"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2548699EA9722F0E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cChanneling"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:multishot"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "284549BDDDD650CF"
+			rewards: [{
+				id: "0E58406AE272DA20"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:multishot"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2B646FFB03B6D516"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cMultishot"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:quick_charge"
+						lvl: 5s
+					}]
+				}
+			}
+			id: "08BC109F2E294F59"
+			rewards: [{
+				id: "157A5959E3FF65CF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:quick_charge"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$4'000"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "58B060CB5DB8395D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cQuick Charge V"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: ["To get &ePiercing IX&r combine &ePiercing VIII&r book with &9Ancient Tome&r on &bAnvil&r."]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 8s
+					}]
+				}
+			}
+			id: "3C965A5756E702AA"
+			rewards: [
+				{
+					id: "51B457FE9A8E5755"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:piercing"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "745EBB3CCF4A06AA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:piercing"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "22CCD0F8BBA2946D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cPiercing IX"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "06F0B70B6783A403"
+			rewards: [{
+				id: "240B3E131276BB05"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$10'000"
+			tasks: [{
+				consume_items: true
+				id: "63E9CF48EF6811BE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&cMending"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "evilcraft:unusing"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "52B74CE4140456AB"
+			rewards: [{
+				id: "720868B1EA9FF201"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "evilcraft:unusing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "7090C95529282A6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cUnusing"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "evilcraft:life_stealing"
+						lvl: 6s
+					}]
+				}
+			}
+			id: "63A238E8978CD305"
+			rewards: [{
+				id: "302A54DC09A148C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "evilcraft:life_stealing"
+							lvl: 6s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "409962609585B0AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cLife Steling VI"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "evilcraft:poison_tip"
+						lvl: 7s
+					}]
+				}
+			}
+			id: "29BF43F183FFBC1C"
+			rewards: [{
+				id: "50B14C20E4F98ABA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "evilcraft:poison_tip"
+							lvl: 7s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "11A9F9FF2C1C1C5B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cPoison Tip VII"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:miners_fervor"
+						lvl: 5s
+					}]
+				}
+			}
+			id: "0661335A9DFB743A"
+			rewards: [{
+				id: "0E6446AAD2240DBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:miners_fervor"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "2A3E3C6357390220"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cMiner'e Fervor V"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:stable_footing"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "30D4F99105E0D07A"
+			rewards: [{
+				id: "3F4DC353E717AE4E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:stable_footing"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "764EC1DFD3BB5C84"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cStable Footing"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:scavenger"
+						lvl: 3s
+					}]
+				}
+			}
+			id: "4AEA01F12BF1A0AB"
+			rewards: [{
+				id: "6700A1CD872A1695"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:scavenger"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "383158F067B727F2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cScavenger III"
+			x: -2.5d
+			y: 1.0d
+		}
+	]
+	title: "Bookstore"
+}

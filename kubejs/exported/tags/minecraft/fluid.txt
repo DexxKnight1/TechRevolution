@@ -1,0 +1,295 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 17, 2023, 7:05:49 PM
+
+#forge:oxygen
+- mekanism:oxygen (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_oxygen (from Mekanism-1.19.2-10.3.5.473.jar)
+- #ad_astra:oxygen (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20221230a.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20221230a.jar)
+- ad_astra:fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:flowing_fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:cryo_fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:flowing_cryo_fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:biodiesel
+- immersiveengineering:biodiesel (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.3-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.3-universal.jar)
+
+#forge:uranium_hexafluoride
+- mekanism:uranium_hexafluoride (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_uranium_hexafluoride (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#ad_astra:oxygen
+- ad_astra:oxygen (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:pink_slime
+- industrialforegoing:pink_slime (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sulfur_dioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:gaseous
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+- mekanism:steam (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_steam (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:hydrogen
+- mekanism:hydrogen (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_hydrogen (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#create:bottomless/deny
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_fusion_fuel (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+
+#forge:sewage
+- industrialforegoing:sewage (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.h.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.h.jar)
+
+#forge:superheated_sodium
+- mekanism:superheated_sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_superheated_sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:steam
+- mekanism:steam (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_steam (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:experience
+- cofh_core:experience (from cofh_core-1.19.2-10.0.2.33.jar)
+- industrialforegoing:essence (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#forge:glowstone
+- thermal:glowstone (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:lithium
+- mekanism:lithium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_lithium (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:oil
+- #ad_astra:oil (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#ae2:blacklisted/annihilation_plane
+
+#immersiveengineering:drill_fuel
+- #forge:biodiesel (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:bioethanol
+- mekanismgenerators:bioethanol (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_bioethanol (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+
+#forge:creosote
+- thermal:creosote (from thermal_core-1.19.2-10.0.0.1.jar)
+- immersiveengineering:creosote (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:sludge
+- industrialforegoing:sludge (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#ad_astra:oil
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.12.2.jar)
+- techreborn:oil? (from ad_astra-forge-1.19.2-1.12.2.jar)
+- modern_industrialization:crude_oil? (from ad_astra-forge-1.19.2-1.12.2.jar)
+- #forge:crude_oil? (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:phenolic_resin
+- immersiveengineering:phenolic_resin (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:heavy_water
+- mekanism:heavy_water (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_heavy_water (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:fuel
+- #ad_astra:fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:crude_oil
+- thermal:crude_oil (from thermal_core-1.19.2-10.0.0.1.jar)
+- ad_astra:oil (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:flowing_oil (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:redstone
+- thermal:redstone (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:herbicide
+- immersiveengineering:herbicide (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:tritium
+- mekanismgenerators:tritium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_tritium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+
+#ad_astra_platform:oil
+- #c:oil? (from ad_astra-forge-1.19.2-1.12.2.jar)
+- #forge:oil? (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:biofuel
+- industrialforegoing:biofuel (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-20221230a.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-20221230a.jar)
+
+#forge:plantoil
+- immersiveengineering:plantoil (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20221230a.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20221230a.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+- astral_dimension:withering_void_liquid (from Astral_1.3.jar)
+- astral_dimension:flowing_withering_void_liquid (from Astral_1.3.jar)
+
+#forge:ethene
+- mekanism:ethene (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_ethene (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:ethanol
+- immersiveengineering:ethanol (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-20221230a.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-20221230a.jar)
+
+#forge:uranium_oxide
+- mekanism:uranium_oxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_uranium_oxide (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#ad_astra:fuel
+- ad_astra:fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:flowing_fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+- #ad_astra:efficient_fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:meat
+- industrialforegoing:meat (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.h.jar)
+- create:chocolate (from create-1.19.2-0.5.0.h.jar)
+
+#forge:chlorine
+- mekanism:chlorine (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_chlorine (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#ad_astra:efficient_fuel
+- ad_astra:cryo_fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+- ad_astra:flowing_cryo_fuel (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:sodium
+- mekanism:sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:concrete
+- immersiveengineering:concrete (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.0.2.33.jar)
+- immersiveengineering:potion (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sulfur_trioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sulfuric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:ender
+- thermal:ender (from thermal_core-1.19.2-10.0.0.1.jar)
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_hydrogen_chloride (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.h.jar)
+- create:tea (from create-1.19.2-0.5.0.h.jar)
+
+#forge:deuterium
+- mekanismgenerators:deuterium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_deuterium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_hydrofluoric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#ad_astra_platform:fuel
+- #c:fuel? (from ad_astra-forge-1.19.2-1.12.2.jar)
+- #forge:fuel? (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#forge:brine
+- mekanism:brine (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_brine (from Mekanism-1.19.2-10.3.5.473.jar)
+
+#forge:latex
+- thermal:latex (from thermal_core-1.19.2-10.0.0.1.jar)
+- industrialforegoing:latex (from industrial-foregoing-1.19.2-3.3.2.1-3.jar)
+
+#forge:honey
+- cofh_core:honey (from cofh_core-1.19.2-10.0.2.33.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.h.jar)
+- create:honey (from create-1.19.2-0.5.0.h.jar)
+
+#ad_astra_platform:oxygen
+- #c:oxygen? (from ad_astra-forge-1.19.2-1.12.2.jar)
+- #forge:oxygen? (from ad_astra-forge-1.19.2-1.12.2.jar)
+
+#create:no_infinite_draining
+- mekanism:hydrogen (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_hydrogen (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:oxygen (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_oxygen (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:chlorine (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_chlorine (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:sulfur_dioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sulfur_dioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:sulfur_trioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sulfur_trioxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:sulfuric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sulfuric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:hydrogen_chloride (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_hydrogen_chloride (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:hydrofluoric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_hydrofluoric_acid (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:uranium_oxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_uranium_oxide (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:uranium_hexafluoride (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_uranium_hexafluoride (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:ethene (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_ethene (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:superheated_sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_superheated_sodium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:brine (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_brine (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:lithium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_lithium (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:steam (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_steam (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:heavy_water (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_heavy_water (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:nutritional_paste (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanism:flowing_nutritional_paste (from Mekanism-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:bioethanol (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_bioethanol (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:deuterium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_deuterium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:fusion_fuel (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_fusion_fuel (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:tritium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+- mekanismgenerators:flowing_tritium (from MekanismGenerators-1.19.2-10.3.5.473.jar)
+
+#forge:acetaldehyde
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.1.0-156.jar)

@@ -1,0 +1,1004 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rftools"
+	group: "318AD3DF2B0AC047"
+	icon: "rftoolsutility:crafter3"
+	id: "79702386FC1072FA"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.75d
+		y: -13.589285714285712d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C214DD51C58BE4D"]
+			description: [
+				"RFTools is a technological mod which main feature is the ability to create and maintain dimensions using RF energy."
+				""
+				"This includes:"
+				"- RFTools Utility"
+				"- RFTools Power"
+				"- RFTools Builder"
+				"- XNet"
+			]
+			icon: "rftoolsbase:manual"
+			id: "6C41E2026808192B"
+			rewards: [{
+				id: "747E1E90493413C6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oFlux Controller&r quest*"
+			tasks: [{
+				id: "322920B144ECD8CB"
+				type: "checkmark"
+			}]
+			title: "Welcome to &cRFTools"
+			x: -1.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6C41E2026808192B"]
+			id: "60FAF6D4F7C0045F"
+			rewards: [{
+				id: "57CBAB436C6E9F73"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56F9A2549A76DD88"
+				item: "rftoolsbase:smartwrench"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["60FAF6D4F7C0045F"]
+			description: ["It is used to craft various machines in this mod"]
+			id: "7DF063A7E5F71A24"
+			rewards: [
+				{
+					id: "1E4547DF19967E0B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "1EB2BE5A90B55D22"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Machine Frame is a basic ingredient added by RFTools mod"
+			tasks: [{
+				id: "6E6214A804561D5B"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			title: "&c&lMachine Frame"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "2A7DBB02C3F24F3C"
+			rewards: [
+				{
+					id: "6CE6B3D6B565C92B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "26A873F65AFF668D"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "703D960AA55A39DF"
+					item: {
+						Count: 1b
+						id: "rftoolsbase:filter_module"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C7241699DA66967"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rftools:crafter"
+					}
+				}
+				title: "Crafters"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "682086057646D4A9"
+			rewards: [
+				{
+					id: "7BE8A03DE324A2AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C2CA98736898517"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0DF35EA9DA7E7454"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["682086057646D4A9"]
+			id: "285F5229F9886964"
+			rewards: [
+				{
+					id: "339A7576076A67F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2E339B6882310E79"
+					item: {
+						Count: 1b
+						id: "minecraft:paper"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D232005308C6653"
+				item: "rftoolsbuilder:shape_card_def"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["285F5229F9886964"]
+			id: "1577F5904F74CAC2"
+			rewards: [
+				{
+					id: "24B5640FDC82D1F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B7FFC980BD67A36"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "10D0F13092D018DE"
+				item: "rftoolsbuilder:shape_card_pump"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["285F5229F9886964"]
+			id: "0BEF5569A44508CC"
+			rewards: [
+				{
+					id: "165B88DDF95F332F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "185C0461F381B5B9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04A6DEF1E226A3F1"
+				item: "rftoolsbuilder:shape_card_quarry"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["285F5229F9886964"]
+			id: "5D55CF2A574853CF"
+			rewards: [
+				{
+					id: "4D949A05DE7EA062"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B507A121CCB3160"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1A3E24855E306C7D"
+				item: "rftoolsbuilder:shape_card_void"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "5AF02F4038D42793"
+			rewards: [
+				{
+					id: "6E32B039FF0D0CC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "737D4A08E042AEA2"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "097530CA252C35ED"
+				item: "rftoolsbase:machine_base"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			id: "5BCE68F5A09D41F5"
+			rewards: [
+				{
+					id: "547602EF690FCB7C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "781A77D2F93E480A"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7428E84402337000"
+				item: "rftoolsutility:timer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			id: "6D7333BF4080FD46"
+			rewards: [
+				{
+					id: "5CFCA5F53CFC78FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4115DFBAD6061DCA"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1893EFDE81DB4E39"
+				item: "rftoolsutility:invchecker"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			id: "4ABAA892B2FF4921"
+			rewards: [
+				{
+					id: "4367BDCEDEF31251"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45094A8BF77C89ED"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "1B2832B3BFFE885C"
+					item: "rftoolsutility:redstone_transmitter"
+					type: "item"
+				}
+				{
+					id: "297E600E242A0D5A"
+					item: "rftoolsutility:redstone_receiver"
+					type: "item"
+				}
+			]
+			title: "Redstone Transmitter \\& Receiver"
+			x: -8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			id: "5C7EC68C8BF7AFE8"
+			rewards: [
+				{
+					id: "27E216BAC0021B59"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42E4D9F42B91CEB7"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6217DB5FB29F70FE"
+				item: "rftoolsutility:sensor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5AF02F4038D42793"]
+			id: "20ACD98053928296"
+			rewards: [
+				{
+					id: "1FD4842570ADA2AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F85058346164B75"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2417810F96A040E0"
+				item: "rftoolsutility:logic"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["20ACD98053928296"]
+			id: "6C052AB11C771F27"
+			rewards: [
+				{
+					id: "4996A88A46A69F4D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30D9F5E97F916790"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "43DF5DE3750E6674"
+				item: "rftoolsutility:analog"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6C052AB11C771F27"]
+			id: "1AFE50D6BF0DB19A"
+			rewards: [
+				{
+					id: "57EB848554C17029"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "336FA2B6F01CF4DF"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "29D76E3E788E29A2"
+				item: "rftoolsutility:sequencer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			description: [
+				"The cable system is designed in such way that you should be able to make huge cable systems without any overhead. Cables (for example) are not tile entities and have very simply models. This makes transporting items accross a cable of 12000 blocks long just as efficient as doing it on a 5 block long cable."
+				""
+				"At the core of this mod is a network. A network is basically a single section of connected cables connected (via connectors) to various blocks (chests, machines, ...) and one controller. The controller is the block that does the actual work for that network."
+				""
+				"Every network can have 8 channels maximum. Every channel has a type (energy, item, fluid, logic, ...) that you can configure in the controller. Depending on the type of a channel and the machines that are connected to that channel various things can happen."
+				""
+				""
+			]
+			id: "6DEF153CC59F8027"
+			rewards: [
+				{
+					id: "739359FB0F5B52F4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B2994A65750A83A"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "2AC0AD87B6B094B7"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "28F1D07CE295EA12"
+					item: {
+						Count: 1b
+						id: "rftoolsbase:filter_module"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "XNet is an item, fluid, energy, and information transportation mod that is all about efficiency"
+			tasks: [{
+				id: "616450752E51E49F"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			title: "&c&lxNet"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6DEF153CC59F8027"]
+			id: "365A6D42421BE3FD"
+			rewards: [
+				{
+					id: "434B3A69528FD915"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2929B450697776C9"
+					item: "xnet:connector_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33A2B9FB5D605328"
+				item: "xnet:connector_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6DEF153CC59F8027"]
+			description: ["If you want to go beyond the 8 channel limit or you want to connect multiple distinct networks you can make a 'routing network' using routers. A single router is already sufficient to connect up to six (six sides of the router) channels but using routing cables and routing connectors you can also make a routing network out of routers. Note that on a single routing network you can only have 32 published channels."]
+			id: "03E0E9E4FF65A1D0"
+			rewards: [
+				{
+					id: "1206388F0BFB6EC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DD082763EC411D7"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "61BF09383666D7EE"
+					item: "xnet:router"
+					type: "item"
+				}
+				{
+					id: "6A83AF02E3C02A1E"
+					item: "xnet:wireless_router"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03E0E9E4FF65A1D0"]
+			id: "5816B362FAC90FD2"
+			rewards: [
+				{
+					id: "45391F4D107EA132"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "159ED8E687A2FCB3"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71FCEB01BA7B06FE"
+					item: "xnet:antenna"
+					type: "item"
+				}
+				{
+					id: "0119D232828253CB"
+					item: "xnet:antenna_base"
+					type: "item"
+				}
+				{
+					id: "623CC846A508A5C3"
+					item: "xnet:antenna_dish"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DEF153CC59F8027"]
+			id: "6F55900506DA5023"
+			rewards: [
+				{
+					id: "36337CA9D5387055"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A080F06998E0999"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "036C7BB971E948C0"
+					table_id: 4056905653150789257L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "3D39D681526F2047"
+					item: "xnet:redstone_proxy"
+					type: "item"
+				}
+				{
+					id: "76AF1DC32A3A9068"
+					item: "xnet:redstone_proxy_upd"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "5B8997EA5EC2D7BB"
+			rewards: [
+				{
+					id: "21E04307CBC7DA65"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "55889DFDD560E11A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "3A6F6D0412C6A287"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "116D82288F3E9FD4"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+				{
+					id: "0E8561CDB7DF67F9"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "71405CB3BB7606C1"
+			rewards: [
+				{
+					id: "76E4A8CA24CC19AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57EBFF93EB4E32AC"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4AE45060837F5F5B"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5B8997EA5EC2D7BB"]
+			id: "389FA0ADD01A73AC"
+			rewards: [
+				{
+					id: "00E5933ECD3105EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6FE107CB1B131A37"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2D19A5CE1761834F"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:advanced_charged_porter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "1FE11C4B88FBDC4E"
+			rewards: [
+				{
+					id: "78A053F4680CE213"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "452C58B0B9C07853"
+					item: "rftoolsbase:infused_diamond"
+					type: "item"
+				}
+				{
+					id: "78507A59EB181F56"
+					item: "rftoolsbase:information_screen"
+					type: "item"
+				}
+				{
+					id: "64779FE4DC1FBA44"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5CA7C461254A2C76"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "rftools:powercell"
+					}
+				}
+				title: "Power Cells"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7DF063A7E5F71A24"]
+			id: "0609473B4EF78B7D"
+			rewards: [
+				{
+					id: "7912E250AFB76701"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "13462EF81ED901AF"
+					item: "rftoolspower:powercell_card"
+					type: "item"
+				}
+				{
+					id: "77921060751BD6E1"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "391C47D5D0A249A8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "rftools:dimensionalcell"
+						}
+					}
+					title: "Dimensional Cells"
+					type: "item"
+				}
+				{
+					id: "273093C32FEB3671"
+					item: "rftoolspower:powercell_card"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["71405CB3BB7606C1"]
+			id: "7277E270DAF637A6"
+			rewards: [
+				{
+					id: "4567629E9BE05CB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6125CD0A938D602E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "367807983732D1B9"
+				item: {
+					Count: 1b
+					id: "rftoolsbase:dimensionalshard"
+					tag: { }
+				}
+				title: "Dimensional Shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36ACEF60B952FA33"]
+			id: "02CC11CFB7361A56"
+			rewards: [
+				{
+					id: "2466B555C9CF950D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55F169481C074843"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FDA912F90118CEC"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B7E152D24FBF71"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6D2C3105C533B7B1"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:redstone_information"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["60FAF6D4F7C0045F"]
+			id: "36ACEF60B952FA33"
+			rewards: [
+				{
+					id: "1C850BC61E5B4D17"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38DA335570D1D3EE"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C207A73CE66DB59"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C308F1B6D7AED8"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "05065293DD883643"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "rftoolsbase:tablet"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["36ACEF60B952FA33"]
+			id: "577C38B7B7C62805"
+			rewards: [
+				{
+					id: "007B95FE4D828725"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "311DBAD5EA1E87BD"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "029EEE2B4BFD5AA8"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43C6092406F16195"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "051C855CC6B57223"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "rftoolscontrol:console_module"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["36ACEF60B952FA33"]
+			id: "26585C71DB45BE85"
+			rewards: [
+				{
+					id: "62C6BCC872C9EB76"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F32054E08315949"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57B61EBA027D4CD2"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08781AE3547266A3"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7B7CB7C2E79E08FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "rftoolsutility:screen_link"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+	]
+	title: "&d&oRFTools"
+}

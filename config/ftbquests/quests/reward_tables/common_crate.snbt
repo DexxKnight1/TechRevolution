@@ -1,0 +1,131 @@
+{
+	hide_tooltip: true
+	id: "3D82A73DCBF63726"
+	loot_crate: {
+		color: 1348628
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "common_crate"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 16, item: "minecraft:stone" }
+		{ count: 16, item: "minecraft:glass" }
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 8, item: "minecraft:iron_ore" }
+		{ count: 8, item: "minecraft:gold_ore" }
+		{ count: 2, item: "minecraft:sticky_piston" }
+		{ count: 2, item: "minecraft:piston" }
+		{ count: 16, item: "minecraft:white_wool" }
+		{ count: 4, item: "minecraft:bookshelf" }
+		{ item: "minecraft:jukebox" }
+		{ count: 8, item: "minecraft:pumpkin" }
+		{ item: "minecraft:anvil" }
+		{ count: 16, item: "minecraft:torch" }
+		{ count: 24, item: "minecraft:cobblestone_wall" }
+		{ count: 16, item: "minecraft:white_concrete" }
+		{ count: 16, item: "minecraft:lime_concrete_powder" }
+		{ count: 16, item: "minecraft:purple_carpet" }
+		{ count: 16, item: "minecraft:grass_block" }
+		{ count: 32, item: "minecraft:bamboo" }
+		{ count: 8, item: "minecraft:blue_ice" }
+		{ item: "minecraft:cauldron" }
+		{ item: "minecraft:smithing_table" }
+		{ count: 8, item: "minecraft:item_frame" }
+		{ count: 12, item: "minecraft:pumpkin_pie" }
+		{ item: "apotheosis:pickaxe_tome" }
+		{ count: 4, item: "quark:golden_apple_crate" }
+		{ count: 4, item: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+		{ count: 16, item: "mcwfences:bamboo_fence" }
+		{
+			item: {
+				Count: 1b
+				id: "lightingwand:wand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 16, item: "minecraft:redstone_torch" }
+		{ count: 3, item: "minecraft:bucket" }
+		{ count: 16, item: "minecraft:wither_rose" }
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:twig_wand"
+				tag: {
+					color1: 0
+					color2: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:common_material"
+				tag: { }
+			}
+		}
+		{ count: 16, item: "cyclic:milk_bottle" }
+		{ count: 12, item: "mcwwindows:birch_blinds" }
+		{ count: 16, item: "simplylight:illuminant_panel" }
+		{ count: 8, item: "botania:black_lotus" }
+		{ count: 16, item: "minecraft:podzol" }
+		{ count: 16, item: "minecraft:polished_deepslate" }
+		{ count: 16, item: "quark:andesite_pillar" }
+		{
+			item: {
+				Count: 1b
+				id: "framedblocks:framed_blueprint"
+				tag: {
+					blueprint_data: { }
+				}
+			}
+		}
+		{ count: 8, item: "ftbic:rubber" }
+		{ item: "minecraft:saddle" }
+		{
+			count: 4
+			item: {
+				Count: 1b
+				id: "sophisticatedstorage:chest"
+				tag: {
+					accentColor: 8439583
+					mainColor: 16701501
+				}
+			}
+		}
+		{ count: 8, item: "minecraft:cactus" }
+		{ count: 16, item: "minecraft:deepslate" }
+		{ count: 4, item: "minecraft:amethyst_shard" }
+		{ item: "minecraft:lectern" }
+		{ item: "minecraft:loom" }
+		{ item: "minecraft:cartography_table" }
+		{ item: "minecraft:blast_furnace" }
+		{
+			item: {
+				Count: 1b
+				id: "vanillaaiots:iron_aiot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Common Crate"
+	use_title: true
+}

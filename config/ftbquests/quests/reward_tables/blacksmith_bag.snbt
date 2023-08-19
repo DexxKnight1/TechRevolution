@@ -1,0 +1,296 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1b
+		id: "blue_skies:loot_bag_arachnarch"
+		tag: {
+			LootTable: "blue_skies:loot_bags/arachnarch/common"
+			Rarity: 0
+		}
+	}
+	id: "2D30B7455C486951"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:bronze_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:steeleaf_pickaxe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cyclic:copper_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:lapis_lazuli_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ae2:certus_quartz_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ae2:nether_quartz_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:axe_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:lapis_lazuli_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cyclic:copper_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ae2:nether_quartz_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ae2:certus_quartz_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:shovel_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:refined_obsidian_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:refined_glowstone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:glass_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:ice_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:osmium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:lapis_lazuli_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanismtools:bronze_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:armor_faraday_legs"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:yeti_leggings"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:fiery_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Blacksmith's Bag"
+	use_title: true
+}

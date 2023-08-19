@@ -1,0 +1,259 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "ae2:not_so_mysterious_cube"
+	id: "1911AFD01F29C18E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "kubejs:textures/item/tech_revolution.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -0.6071428571428541d
+			y: -0.5178571428571388d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Tech Revolution is a expert mod pack based on progression through technology."]
+			icon: {
+				Count: 1b
+				id: "computercraft:pocket_computer_normal"
+				tag: {
+					Upgrade: "advancedperipherals:player_pocket"
+				}
+			}
+			id: "12722F1E84AAA48A"
+			rewards: [{
+				id: "5EFCBEBD8D002602"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "54061B06CA4F17B6"
+				title: "Press and Login"
+				type: "checkmark"
+			}]
+			title: "Welcome to &9Tech Revolution"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12722F1E84AAA48A"]
+			description: [
+				"Don't forget to set your home first."
+				""
+				"Use command &d/sethome&r for setting home."
+				"Use command &d/home&r to teleport your back to home."
+				"Use command &d/back&r to teleport your to previous location. Can be used multiple times."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/home.png"
+				}
+			}
+			id: "750DC72FD4D075B8"
+			rewards: [{
+				id: "0413F11DB3B0BD9B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07508401EE912F59"
+				type: "checkmark"
+			}]
+			title: "&6Home Sweet Home!"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["12722F1E84AAA48A"]
+			description: [
+				"In your &bEccentric Tome&r are all books included."
+				""
+				"&6Right-click&r while holding Tome to open the book selection screen."
+				"&6Left-click&r on air to revert a book back into the Tome."
+				""
+				"When you need a fresh copy of Eccentric Tome, use a regular minecraft book in any crafting grid."
+			]
+			icon: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			id: "4F25DEA108D1267E"
+			rewards: [
+				{
+					id: "4359FBD3F80FAD41"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1091CB8AA8CA862E"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7359C817CD7579E4"
+				type: "checkmark"
+			}]
+			title: "&eThe Eccentric Tome"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12722F1E84AAA48A"]
+			description: ["The &9Personal ID Card&r is a main ingredient in some recipes."]
+			icon: "kubejs:personal_id"
+			id: "66A364380D3AA7B5"
+			rewards: [
+				{
+					id: "33C4A70013F124C1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7482F149EC7D86C5"
+					item: "kubejs:personal_id"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "176FB21603F3CC30"
+				type: "checkmark"
+			}]
+			title: "&9Personal ID Card"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12722F1E84AAA48A"]
+			description: [
+				"The money can be obtained by completing &eQuests&r or by &eselling&r your goodies in the &ePlayer Shop&r."
+				""
+				"It won't be easy, there is a lot of &eQuests&r."
+			]
+			icon: "kubejs:note_100"
+			id: "5EF0BA900A68FF54"
+			rewards: [
+				{
+					id: "234833165C1ACA3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6532CDAB8F14C922"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D897A5E18C17BCB"
+				type: "checkmark"
+			}]
+			title: "&aCurrency System"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12722F1E84AAA48A"]
+			description: ["The &dStore Chapter Group&r offers you &b&n8 Shops&r where you can buy rare items, equip yourself with powerful stuff, get some food, books... even cretive items are optainable in the &0Black Market Shop&r."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/store_ores.png"
+				}
+			}
+			id: "0852A72E87C76289"
+			rewards: [
+				{
+					id: "7876CE6ACCE090A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "404F157056A75347"
+					item: "croptopia:cherry"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A05592D6BC3C187"
+				type: "checkmark"
+			}]
+			title: "&cThe Store"
+			x: 2.0d
+			y: 2.5d
+		}
+	]
+	title: "&fWelcome"
+}

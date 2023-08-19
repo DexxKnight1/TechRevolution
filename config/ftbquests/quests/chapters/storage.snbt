@@ -1,0 +1,3008 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "4764DDDD84D4A3BB"
+	icon: "minecraft:chest"
+	id: "47376C1B5281DD80"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -8.785714285714278d
+			y: -10.589285714285712d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "kubejs:textures/item/chest.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.3d
+			hover: [ ]
+			image: "kubejs:textures/item/echest.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/mch.png"
+			rotation: 0.0d
+			width: 1.3d
+			x: -3.2500000000000004d
+			y: -3.2500000000000004d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["401C1E955BD4F117"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "15FD12469BD58A52"
+			rewards: [
+				{
+					id: "7623A50595D77856"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EE781D844E2747D"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "326395109E5B889C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09A10A6E10729C2D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:barrels/wooden"
+					}
+				}
+				title: "Any Wooden Barrel"
+				type: "item"
+			}]
+			title: "Wooden Barrel"
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_barrel_1"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "71CC1DD998682759"
+			rewards: [
+				{
+					id: "388B11C420CA7A46"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CB787F9B8A21756"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "6530E8A00C4BDD01"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CC41C9239673338"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_1/wooden"
+					}
+				}
+				title: "Any Limited Wooden Barrel I"
+				type: "item"
+			}]
+			title: "Limited Wooden Barrel I"
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_barrel_2"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "6BF31962E29A17C5"
+			rewards: [
+				{
+					id: "1607B1571724CD4B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BDC56245A1EC087"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "06A97B635C1A13B9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42D398716BC122EA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_2/wooden"
+					}
+				}
+				title: "Any Limited Wooden Barrel II"
+				type: "item"
+			}]
+			title: "Limited Wooden Barrel II"
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_barrel_3"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "446110270504C87F"
+			rewards: [
+				{
+					id: "65ED4B0CD44062E3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40481138F9FF4230"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "6B226AA3B8922AB4"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1341F8872E6F549F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_3/wooden"
+					}
+				}
+				title: "Any Limited Wooden Barrel III"
+				type: "item"
+			}]
+			title: "Limited Wooden Barrel III"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_barrel_4"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "28F4D7FBEFB829EF"
+			rewards: [
+				{
+					id: "53618A6AC3A2BD6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EA301E7714609E1"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "1BE6873E1A9F7D6F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "465EBAE74E7571A0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_4/wooden"
+					}
+				}
+				title: "Any Limited Wooden Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Wooden Barrel IV"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "7992DCDDDBAB121C"
+			rewards: [
+				{
+					id: "3B83E7581D706152"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A17D3F25F93B97D"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "5E362C6A9F861DCF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5578D9C3AA86EA85"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:chests/wooden"
+					}
+				}
+				title: "Any Wooden Chest"
+				type: "item"
+			}]
+			title: "Wood Chest"
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			icon: "sophisticatedstorage:shulker_box"
+			id: "558E155BA03CE5CC"
+			rewards: [
+				{
+					id: "007F8D31FBB97E1F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F6B3E58A3C5CEB5"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7E793109F94074BB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "286F655E5780B76D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:shulker_box"
+					}
+				}
+				title: "Any Shulker Box"
+				type: "item"
+			}]
+			title: "Shulker Box"
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15FD12469BD58A52"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:iron_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "07AA9C72ADE781C9"
+			rewards: [
+				{
+					id: "72D94648F63676EF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B66848B9CEA3AE1"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3B3B532CB2A802EC"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "400C40B6C7D03E8E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:barrels/iron"
+					}
+				}
+				title: "Any Iron Barrel"
+				type: "item"
+			}]
+			title: "Iron Barrel"
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07AA9C72ADE781C9"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:gold_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "50308133512A0DEC"
+			rewards: [
+				{
+					id: "24C157C0FEC77388"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47D033DE48A9A620"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "44F8E2FA7FD4B74F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "504E6EA79DE4D346"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:barrels/gold"
+					}
+				}
+				title: "Any Gold Barrel"
+				type: "item"
+			}]
+			title: "Golad Barrel"
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50308133512A0DEC"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:diamond_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "4755F9EEDFE3A5EA"
+			rewards: [
+				{
+					id: "312ADC0FF6140BB9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75742722137C2822"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "712F810E6E7273BF"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5960B625A6A8F3BD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:barrels/diamond"
+					}
+				}
+				title: "Any Diamond Barrel"
+				type: "item"
+			}]
+			title: "Diamond Barrel"
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4755F9EEDFE3A5EA"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:netherite_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "116B034429A200E5"
+			rewards: [
+				{
+					id: "6DED816F086967CA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2646AC73666A7089"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "68A4D3F855E8A5EF"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4078B0F657F78C58"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:barrels/netherite"
+					}
+				}
+				title: "Any Netherite Barrel"
+				type: "item"
+			}]
+			title: "Netherite Barrel"
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71CC1DD998682759"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_iron_barrel_1"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "1C6DB69575B7CDAF"
+			rewards: [
+				{
+					id: "41171F27D38D7690"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36B00A38AFB53863"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2402F98C43F8156D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7240D61C16F787CD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_1/iron"
+					}
+				}
+				title: "Any Limited Iron Barrel I"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel I"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BF31962E29A17C5"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_iron_barrel_2"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "654DC4B6E9D69FDF"
+			rewards: [
+				{
+					id: "4EDF5A8334A5676C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20101B49A0E8575C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2706E786C53CAF20"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17DC598CFACF8AFA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_2/iron"
+					}
+				}
+				title: "Any Limited Iron Barrel II"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel II"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C6DB69575B7CDAF"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_gold_barrel_1"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "02EB53CC2EE84D2D"
+			rewards: [
+				{
+					id: "35871F87DE60420E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E03793C64ADD98A"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "6422F2AC593D9BAE"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66179EECCCEA32A3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_1/gold"
+					}
+				}
+				title: "Any Limited Gold Barrel I"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel I"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02EB53CC2EE84D2D"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_diamond_barrel_1"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "1B3935D31C940CF1"
+			rewards: [
+				{
+					id: "472FFB5D65D8A400"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "719EDEA19858742F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7415AEBB4D9ECF03"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31382BA870F07AED"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_1/diamond"
+					}
+				}
+				title: "Any Limited Diamond Barrel I"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel I"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B3935D31C940CF1"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_netherite_barrel_1"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "186CCA95A9F69492"
+			rewards: [
+				{
+					id: "00D6F74A29D751B8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F017585A4E0846A"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "694EF767889D1C64"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "134463946A4BB3FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_1/netherite"
+					}
+				}
+				title: "Any Limited Netherite Barrel I"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel I"
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["654DC4B6E9D69FDF"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_gold_barrel_2"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "17D99D8F5C9AD89D"
+			rewards: [
+				{
+					id: "5F006135CD149EA2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45A6F0B87C81B887"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "199E8367648CAD60"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A4C56784A8516DB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_2/gold"
+					}
+				}
+				title: "Any Limited Gold Barrel II"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel II"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17D99D8F5C9AD89D"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_diamond_barrel_2"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "599837575F51837A"
+			rewards: [
+				{
+					id: "1931063C8344F1A7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A7541CA1A14733C"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "37A041B3B28CA46C"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5383E54C96CB7192"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_2/diamond"
+					}
+				}
+				title: "Any Limited Diamond Barrel II"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel II"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["446110270504C87F"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_iron_barrel_3"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "34E932880BF24F25"
+			rewards: [
+				{
+					id: "3CBE5877BA3AAAE6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FACB8310FF4D8E1"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5F6DCDB8C4A06FA4"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56CF7FA2C0FB3330"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_3/iron"
+					}
+				}
+				title: "Any Limited Iron Barrel III"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel III"
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["599837575F51837A"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_netherite_barrel_2"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "61B13CC4B01E083A"
+			rewards: [
+				{
+					id: "27F060292739220B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ACF3C4EF37DC54B"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "25B2AEB32CE6DEB4"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1279566ECD33872E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_2/netherite"
+					}
+				}
+				title: "Any Limited Netherite Barrel II"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel II"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34E932880BF24F25"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_gold_barrel_3"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "34A9DB065E07903A"
+			rewards: [
+				{
+					id: "6F48BCD7F5B7BEC7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "679F3FEC65421CA9"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "538B1DD6BDC68F4E"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B36BBA4EF41167C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_3/gold"
+					}
+				}
+				title: "Any Limited Gold Barrel III"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel III"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37E836616027EFE8"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_netherite_barrel_3"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "7E52B442D9E10521"
+			rewards: [
+				{
+					id: "1F98D0D2C186DC57"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09AFB283AED8AADB"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "6060F9328B509AE3"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "166B40D60B4F6BE4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_3/netherite"
+					}
+				}
+				title: "Any Limited Netherite Barrel III"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel III"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34A9DB065E07903A"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_diamond_barrel_3"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "37E836616027EFE8"
+			rewards: [
+				{
+					id: "7C88A51EF9DDEF43"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377FD4E0EB1E7317"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7C93A4956EE73DC8"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38182434BE705658"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_3/diamond"
+					}
+				}
+				title: "Any Limited Diamond Barrel III"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel III"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["28F4D7FBEFB829EF"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_iron_barrel_4"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "4A7DFB698B6804D2"
+			rewards: [
+				{
+					id: "20216C31F969027F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6222044FCA6A4B41"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2171D018D5A090A6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AF4AFED5BBF4CB0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_4/iron"
+					}
+				}
+				title: "Any Limited Iron Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel IV"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A7DFB698B6804D2"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_gold_barrel_4"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "5364D1753924B32F"
+			rewards: [
+				{
+					id: "19FD900A77818754"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14B3DE9E8A683051"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "3A94E71D12D0F928"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21D0DCEF40DC128B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_4/gold"
+					}
+				}
+				title: "Any Limited Gold Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel IV"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5364D1753924B32F"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_diamond_barrel_4"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "4CE4092FD0D0FA4B"
+			rewards: [
+				{
+					id: "6CC52D9631AD0CC0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CDFB44BA567695F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1B452994E7969CF4"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51EB6621544E1626"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_4/diamond"
+					}
+				}
+				title: "Any Limited Diamond Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel IV"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CE4092FD0D0FA4B"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:limited_netherite_barrel_4"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "0A904631441B18A8"
+			rewards: [
+				{
+					id: "695A880EB897F3A0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63A981E14F02D60D"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "5E7AB44E20514D8D"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A7669F408229C1C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:limited_barrels_4/netherite"
+					}
+				}
+				title: "Any Limited Netherite Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel IV"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7992DCDDDBAB121C"]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "6366C83E82CF5FB1"
+			rewards: [
+				{
+					id: "13187ADE68E35345"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B55B48944BE8123"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "39235023009B08F8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0768B8ED6330CDCE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:chests/iron"
+					}
+				}
+				title: "Any Iron Chest"
+				type: "item"
+			}]
+			title: "Iron Chest"
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6366C83E82CF5FB1"
+				"7992DCDDDBAB121C"
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:gold_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "52DBBB99FD635C4B"
+			rewards: [
+				{
+					id: "7709EAA1A800FCE7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5970CC607DC2EF11"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "62D5ABD5869EEC39"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A488B5F2B827B69"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:chests/gold"
+					}
+				}
+				title: "Any Gold Chest"
+				type: "item"
+			}]
+			title: "Gold Chest"
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7992DCDDDBAB121C"
+				"52DBBB99FD635C4B"
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:diamond_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "3E53170E0CCD66A5"
+			rewards: [
+				{
+					id: "36AE42A394BFD439"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A107D283D315121"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1C1499BDD0ECA21C"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D0A2B3353D1BDE8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:chests/diamond"
+					}
+				}
+				title: "Any Diamond Chest"
+				type: "item"
+			}]
+			title: "Diamond Chest"
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7992DCDDDBAB121C"
+				"3E53170E0CCD66A5"
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:netherite_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "2D1C47B84DD3C5E2"
+			rewards: [
+				{
+					id: "40AB07C2A6C010F1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C016A8294C856B9"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "6D735C28C05572A9"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E270EFC2F719716"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:chests/netherite"
+					}
+				}
+				title: "Any Netherite Chest"
+				type: "item"
+			}]
+			title: "Netherite Chest"
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["558E155BA03CE5CC"]
+			icon: "sophisticatedstorage:iron_shulker_box"
+			id: "568BB81CA6909D22"
+			rewards: [
+				{
+					id: "620EAAB83CF944D6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "064F9EA4793DFBDD"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "346871D25C42A805"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2BF6790B048EDF7E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:shulker_boxes/iron"
+					}
+				}
+				title: "Any Iron Shulker Box"
+				type: "item"
+			}]
+			title: "Iron Shulker Box"
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"558E155BA03CE5CC"
+				"568BB81CA6909D22"
+			]
+			icon: "sophisticatedstorage:gold_shulker_box"
+			id: "56A031AAB4FFAE57"
+			rewards: [
+				{
+					id: "25617FECD3D5C159"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3204F9E5A6BA140E"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "1C06FF6FEF20C2AB"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3E1CC2ACE1826E7F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:shulker_boxes/gold"
+					}
+				}
+				title: "Any Gold Shulker Box"
+				type: "item"
+			}]
+			title: "Gold Shulker Box"
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"558E155BA03CE5CC"
+				"56A031AAB4FFAE57"
+			]
+			icon: "sophisticatedstorage:diamond_shulker_box"
+			id: "798C5961A67B94F6"
+			rewards: [
+				{
+					id: "7FF36DE8BB779248"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "751C7CA77C6FF91A"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "3F8863C50067A071"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "44BB9CF176D3E5B3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:shulker_boxes/diamond"
+					}
+				}
+				title: "Any Diamond Shulker Box"
+				type: "item"
+			}]
+			title: "Diamond Shulker Box"
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"558E155BA03CE5CC"
+				"798C5961A67B94F6"
+			]
+			icon: "sophisticatedstorage:netherite_shulker_box"
+			id: "70D88A7F3D36B530"
+			rewards: [
+				{
+					id: "0829A5B1561F612B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29942CE06C13CB0D"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "305DFEA536E92C78"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D39C327815AC804"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:shulker_boxes/netherite"
+					}
+				}
+				title: "Any Netherite Shulker Box"
+				type: "item"
+			}]
+			title: "Netherite Shulker Box"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			id: "4E33D5F260CD4A03"
+			rewards: [
+				{
+					id: "33DDAF57BE0B837B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06B2A00445E1EE1D"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "31A1C6F014067730"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A1C8DBB4EF50695"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawers/1x1"
+					}
+				}
+				title: "Any Drawer (1x1)"
+				type: "item"
+			}]
+			title: "Drawer (1x1)"
+			x: -16.271428571428572d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4E33D5F260CD4A03"]
+			id: "55D8602CE46CE860"
+			rewards: [
+				{
+					id: "4B1C78DC3DF8D05B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "704E0C6F82E2537C"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "760159E3BFB5B675"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16FB4695D6A2D416"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawers/1x2"
+					}
+				}
+				title: "Any Drawer (1x2)"
+				type: "item"
+			}]
+			title: "Drawer (1x2)"
+			x: -16.271428571428572d
+			y: -8.0d
+		}
+		{
+			dependencies: ["55D8602CE46CE860"]
+			id: "19C0CBEB8B317439"
+			rewards: [
+				{
+					id: "00C29739C1A8AE9A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12602FE16419CFDD"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "28793E93FABD87B8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18F2B740621C1074"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawers/2x2"
+					}
+				}
+				title: "Any Drawer (2x2)"
+				type: "item"
+			}]
+			title: "Drawer (2x2)"
+			x: -16.271428571428572d
+			y: -7.0d
+		}
+		{
+			dependencies: ["19C0CBEB8B317439"]
+			id: "67E89C878C98239D"
+			rewards: [
+				{
+					id: "37A011B03E6708D1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "301F3AD22B943B73"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "406DE5B08039AA58"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26A2C7B1B6C9D864"
+				item: "functionalstorage:simple_compacting_drawer"
+				type: "item"
+			}]
+			x: -16.271428571428572d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67E89C878C98239D"]
+			id: "4398DB6ECD43C33C"
+			rewards: [
+				{
+					id: "3D2851F387DFBA21"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12E68482A23CB6E0"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					id: "4EC422440716F3B7"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ED8B14637BC8329"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
+			x: -15.271428571428572d
+			y: -5.5d
+		}
+		{
+			dependencies: ["67E89C878C98239D"]
+			id: "386D5C295E992A61"
+			rewards: [
+				{
+					id: "58A80DADB15788B1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06549FE1DE65F8A7"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "63170A89E20B828D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F666528AD1B1D91"
+				item: "functionalstorage:fluid_1"
+				type: "item"
+			}]
+			x: -16.271428571428572d
+			y: -5.0d
+		}
+		{
+			dependencies: ["386D5C295E992A61"]
+			id: "54271C3BA6BC2C5C"
+			rewards: [
+				{
+					id: "1A56004CCDE934A7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F35C1BCB6D6BC61"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "22FC56ED441E5C0E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28332435822BF7CB"
+				item: "functionalstorage:fluid_4"
+				type: "item"
+			}]
+			x: -15.271428571428572d
+			y: -4.5d
+		}
+		{
+			dependencies: ["386D5C295E992A61"]
+			id: "3E32BEF58DB47630"
+			rewards: [
+				{
+					id: "419479138584F3DA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12CB86E95744C719"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "160CDE6992B34C85"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B58C722097FFC99"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: -16.271428571428572d
+			y: -4.0d
+		}
+		{
+			dependencies: ["50BD6F09F26F1490"]
+			id: "20EE6B6030431A9B"
+			rewards: [
+				{
+					id: "085B7A9D500FBCFF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BCDCFD71A6D7816"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "608B2A4ACC127B62"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CBE66632B3ED680"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						contentsUuid: [I;
+							-2119849427
+							1602636264
+							-1998831087
+							-1412232943
+						]
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20EE6B6030431A9B"]
+			id: "5DD1FFEA3E956DB2"
+			rewards: [
+				{
+					id: "17DF2AD4EEB8CA45"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "578A35D00E2825C9"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "728C8B1C201B8755"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68B3E8682C0F564B"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							-392290737
+							915685893
+							-1239422422
+							-1238716712
+						]
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5DD1FFEA3E956DB2"]
+			id: "723174FEFDA1209D"
+			rewards: [
+				{
+					id: "12AEDBA9386C4297"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51CBAB63CF6A9E03"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0F865994D677FECF"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "282527C659FB73E2"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							-2050137613
+							1366575856
+							-1593678323
+							-841576761
+						]
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["723174FEFDA1209D"]
+			id: "7DC9358AF7BF5593"
+			rewards: [
+				{
+					id: "555108C9BFD0659F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75F4BA9DE1D00514"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "682AE7B0DCCC7BFB"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7734B918E040C635"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: {
+						contentsUuid: [I;
+							258694104
+							1927038906
+							-2066565083
+							-440784052
+						]
+						inventorySlots: 120
+						upgradeSlots: 7
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			id: "50BD6F09F26F1490"
+			rewards: [
+				{
+					id: "0D2B6CC2388D50E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F58DC7902155766"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "2EE9766A38BAD445"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21ECE540F695269C"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							234832280
+							-2032580607
+							-1969745744
+							350382044
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3E32BEF58DB47630"]
+			id: "550A93A2CC8B6932"
+			rewards: [
+				{
+					id: "4B813D2619604D2A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A83981A3822F7E2"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "5CC6A967BCD62AD5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "341C5BCB8DCB24F0"
+				item: "functionalstorage:controller_extension"
+				type: "item"
+			}]
+			x: -15.271428571428572d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70E5D627C41E328D"]
+			id: "0CEDB5E36F59D131"
+			rewards: [
+				{
+					id: "735729936A41F4F4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08CD1FBECEFA9B3C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41196042C1532D55"
+				item: "dankstorage:dock"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FA4D2AD791A70F2"]
+			hide_dependency_lines: true
+			id: "70E5D627C41E328D"
+			rewards: [
+				{
+					id: "5E5F683F17165F10"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "033F362BA403EFC6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "43E855B667062C25"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "dankstorage:dank_storages"
+					}
+				}
+				title: "Any #dankstorage:dank_storages"
+				type: "item"
+			}]
+			title: "Dank Storages"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E53170E0CCD66A5"]
+			hide_dependency_lines: true
+			id: "6EA02FC36BAD00C2"
+			rewards: [
+				{
+					id: "02B7AEE3A8D8BE82"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67B74700D8C48C78"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "456711C666123264"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6EA02FC36BAD00C2"]
+			id: "0FCBFC0775F03CEF"
+			rewards: [
+				{
+					id: "7A01F20DF7AB9A02"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34ECDC0A85BC1FD1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5B0EC1DBACD5F3BD"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B9D9A86E19FBA2D"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EA02FC36BAD00C2"]
+			id: "7CEEBF59A7659953"
+			rewards: [
+				{
+					id: "3617C1DED845207D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0145775704BA0BCB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7C514114352BBB32"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1458DF672BE718C6"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6EA02FC36BAD00C2"]
+			id: "5DC04D767A8D2087"
+			rewards: [
+				{
+					id: "567A45BD32F289F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "637623CE7526AB37"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0758D1F9F46D0828"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DE4FEC2DE82CF60"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29AB63AF8B2FD52E"]
+			id: "2E2B2D89435ED858"
+			rewards: [
+				{
+					id: "278F33C6D940D788"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21998C0645A679A0"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "2493694BC5D03FFC"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E2B2D89435ED858"]
+			id: "0E05D21402C992D6"
+			rewards: [
+				{
+					id: "24D0C3B3CB73E373"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31C4106C972C3D9A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "4B95CDAAB072E883"
+				item: "functionalstorage:gold_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.199999999999999d
+		}
+		{
+			dependencies: ["0E05D21402C992D6"]
+			id: "36940C575E487361"
+			rewards: [
+				{
+					id: "16977D99C0312ACF"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07F4948356EC59D1"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "3DB3E38F6D0255B8"
+				item: "functionalstorage:diamond_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.3999999999999995d
+		}
+		{
+			dependencies: ["36940C575E487361"]
+			id: "332405BB6A3D032F"
+			rewards: [
+				{
+					id: "7CE4556EC8F2026E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24139E1239D29A15"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "6589CA1981962BD2"
+				item: "functionalstorage:netherite_upgrade"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.6d
+		}
+		{
+			dependencies: ["4E33D5F260CD4A03"]
+			id: "29AB63AF8B2FD52E"
+			rewards: [
+				{
+					id: "0A376039F0C6131C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F1230C724A3EAE6"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "7C1C9785674E5BB6"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -8.8d
+		}
+		{
+			dependencies: ["3E32BEF58DB47630"]
+			id: "047173AEFD2EF560"
+			rewards: [
+				{
+					id: "2B0CE8F4139C9F0E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EA08FD0E2F575F5"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			size: 0.7d
+			tasks: [{
+				id: "6CDAB4DB4D0894F6"
+				item: {
+					Count: 1b
+					id: "functionalstorage:redstone_upgrade"
+					tag: {
+						Slot: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.47142857142857d
+			y: -2.4499999999999993d
+		}
+		{
+			dependencies: ["3E32BEF58DB47630"]
+			id: "3AB72F863374DA2A"
+			rewards: [
+				{
+					id: "7CC3ED36CB325E7D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4150073D0B85C7FB"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			size: 0.7d
+			tasks: [{
+				id: "01A6FA82AD5AABA9"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -17.17142857142857d
+			y: -2.4499999999999993d
+		}
+		{
+			dependencies: ["3E32BEF58DB47630"]
+			id: "48AD0DBD4D2F8BE0"
+			rewards: [
+				{
+					id: "1B22113B26027063"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02C50FA71510D9AE"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			size: 0.7d
+			tasks: [{
+				id: "29F9D01F8C980F2E"
+				item: "functionalstorage:iron_downgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.062499999999993d
+		}
+		{
+			dependencies: ["50BD6F09F26F1490"]
+			id: "48255E2726C88019"
+			rewards: [
+				{
+					id: "54DE339349BC0C11"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BF353323E3CC8EF"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "234F7BA70FCD6354"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "778151E0FA899D5E"
+			rewards: [
+				{
+					id: "42500E2FA21EA1AD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1118A814A1EA4FFC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "407127FB1F3353CB"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "7819AD150B6DF9B5"
+			rewards: [
+				{
+					id: "7BB04B111E9D675E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0D3FB90682D67E09"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "283D6FD01FCF15F1"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "7855AAB7873F6697"
+			rewards: [
+				{
+					id: "757CCD073CBE5EC7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "590F1AF5FB257DD9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3EAA951A7E19E74E"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "7E6C5CD44AE9DA6C"
+			rewards: [
+				{
+					id: "128FD7CB9112CAC6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "50BA5B945089E8DF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E55ECF14AEEB327"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "2FC0CD10810A7810"
+			rewards: [
+				{
+					id: "33F7D22A32E9509C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1E192EE10788D0A0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7415ADC3FE437123"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "23D1F29124BE071D"
+			rewards: [
+				{
+					id: "40BE7D8867517505"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "35575E99AEC258CF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "04F86F15B7B5DE71"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "3F2CCA8EF5724862"
+			rewards: [
+				{
+					id: "15767F2DF744FAC0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "46FB9080FE7940C3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7A3B9ABD3E2830DA"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "541AAAF11A67216F"
+			rewards: [
+				{
+					id: "4C20D0CB7FB567D0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "59B6B8752B753032"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "638FD0BB50FE670F"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["48255E2726C88019"]
+			hide_dependency_lines: true
+			id: "7457D81947B3EE20"
+			rewards: [
+				{
+					id: "5F90A27AB213A4B6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "63459F8AE8E2FD92"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "725372F213401EB6"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27D9339F57B502D2"]
+			hide_dependency_lines: true
+			id: "52ACDC86716C9D01"
+			rewards: [{
+				id: "22E47E6DAE3241CA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0895C0E39A2479E3"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52ACDC86716C9D01"]
+			id: "1E382C09495E925C"
+			rewards: [{
+				id: "294AB89A66B522BD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "55F815A553A4BF9A"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E382C09495E925C"]
+			id: "2EA848F1051E03B9"
+			rewards: [{
+				id: "0EF0B8A54DF314CE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2E648FDCC0661891"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EA848F1051E03B9"]
+			id: "749DE42957379CFF"
+			rewards: [{
+				id: "19DCC692D4F1E916"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B3254B60B718AD8"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749DE42957379CFF"]
+			id: "5D169DCDFF42554B"
+			rewards: [{
+				id: "05F9CA01848C5359"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "44FAA5DD1AB382B5"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["401C1E955BD4F117"]
+			id: "27D9339F57B502D2"
+			rewards: [
+				{
+					id: "6E0049A217B5BAA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20F3273F2C93C127"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "6976C297047C1DBE"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "71E96B6FA100C56C"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "07DE9EB1B699E239"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0C900C74F2616015"]
+			icon: "cfm:oak_crate"
+			id: "401C1E955BD4F117"
+			rewards: [{
+				id: "5298EF939B6260F3"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oChest&r quest*"
+			tasks: [{
+				id: "6D6535FAB5861D78"
+				type: "checkmark"
+			}]
+			title: "&bTime to organize!"
+			x: -9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["70E5D627C41E328D"]
+			id: "4E58727568C6D3C5"
+			rewards: [
+				{
+					id: "7AC9412D012E8770"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "642A47E8143F33B4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4285466C5E9EBF32"
+				item: "dankstorage:red_print"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E33D5F260CD4A03"]
+			id: "79AE50B90254C02F"
+			rewards: [
+				{
+					id: "313B4F42C516265F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6181AFA3973208EA"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			size: 0.8d
+			tasks: [{
+				id: "6F8B6D82DD991E82"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			x: -17.6d
+			y: -9.6d
+		}
+		{
+			dependencies: ["70E5D627C41E328D"]
+			id: "1FBA5181EE33F6AC"
+			rewards: [
+				{
+					id: "1032CBFFF3CC04A0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03A954E9833FF968"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3C28A0DBEB4E02A2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dankstorage:1_to_2"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:2_to_3"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:3_to_4"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:4_to_5"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:5_to_6"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:6_to_7"
+							}
+						]
+					}
+				}
+				title: "Any #danktorage:upgrades"
+				type: "item"
+			}]
+			title: "Dank Storage Upgrades"
+			x: -5.0d
+			y: -0.5d
+		}
+	]
+	title: "&e&oBasic Storage"
+}

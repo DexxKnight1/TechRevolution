@@ -1,0 +1,6512 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dj_quest"
+	group: "0191929ABBCAE7CF"
+	icon: "morediscs:music_disc_corrupte"
+	id: "4403AD20655CEF38"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/dj_quest.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 2.4642857142857153d
+			y: -9.482142857142858d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.392857142857139d
+			y: -1.732142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 2.5d
+			y: -6.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3BD605B4B1C89B92"
+			rewards: [
+				{
+					id: "4989086C8C2D395A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D943DD611FC5AB"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 3.0d
+			subtitle: "&o154 music discs , can you collect them all?"
+			tasks: [{
+				id: "359521046EE1FAC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:jukebox"
+				}
+				type: "item"
+			}]
+			title: "&6&lDJ G.O.A.T"
+			x: 2.5107142857142577d
+			y: -4.196428571428541d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0E72B5CAF4646E8D"
+			rewards: [
+				{
+					id: "766DFBDD30E83EFC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "102521FF93B78FD0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "72728F773F6BBB15"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - 13"
+			tasks: [{
+				id: "682F5A02C35E8F90"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_13"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 5.6d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "68DF03D31580C6BC"
+			rewards: [
+				{
+					id: "4C64AFC198CEEA4F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CE35BB3256AE5EB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2C45C83A7A48A54D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - cat"
+			tasks: [{
+				id: "4D79F53FEBD07B4A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_cat"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 7.7d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7A9C2AE4BBC9812A"
+			rewards: [
+				{
+					id: "01BE6A390F537E0F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33C08445A575B5D9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2019178D2CF2295E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - blocks"
+			tasks: [{
+				id: "433BA327F90523B5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_blocks"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 6.3d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "55067F5D2A8223CB"
+			rewards: [
+				{
+					id: "72060DE823DDE1F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24E264EB6E2187B1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7E9EEEAFFE17E449"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - chirp"
+			tasks: [{
+				id: "6FC4C98A700140F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_chirp"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 7.0d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "748265E8A140C04F"
+			rewards: [
+				{
+					id: "55451E9B2EB90616"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D91BC189643BFA7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "085583C68D9B48BD"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - far"
+			tasks: [{
+				id: "02B6FBB2522E0253"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_far"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 5.6d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "18E9975A40652D52"
+			rewards: [
+				{
+					id: "63D791E5B7F33188"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "555CA401C7A85B5F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "096F114FB49428F7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - mall"
+			tasks: [{
+				id: "476FD279E00291DB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_mall"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 8.4d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "55E4277DCB1B86B7"
+			rewards: [
+				{
+					id: "48F9DE6BED488922"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F53B828F047F142"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "37B263005E2AE8EF"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - mellohi"
+			tasks: [{
+				id: "1B69D003D88BAD38"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_mellohi"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 5.6d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5DA6ACDE156DA5D8"
+			rewards: [
+				{
+					id: "4FCC3AD1455FD5E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F1EBA975A4BE65"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6C77C152CAB4D521"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - stal"
+			tasks: [{
+				id: "0311E79DDCDB36B8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_stal"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 6.3d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4663E9698FC02807"
+			rewards: [
+				{
+					id: "473CF05DE66588DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "067CCCA87F43F7AF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7982B7A194DE3209"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - strad"
+			tasks: [{
+				id: "700577F83D02AA99"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_strad"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 7.0d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "64868636E3733E4E"
+			rewards: [
+				{
+					id: "5A34C50972FB27D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "591252377CCCC6A5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "17CD63F077D18D19"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418- Ward"
+			tasks: [{
+				id: "3843F18B563B1FDC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_ward"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 7.7d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "72FC99F4F3005DAD"
+			rewards: [
+				{
+					id: "3B0CE1E97B37067F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4028278330F2E239"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "37031014730CD6DD"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - 11"
+			tasks: [{
+				id: "1E080C548585F26B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_11"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 4.8999999999999995d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3D80899C76D05007"
+			rewards: [
+				{
+					id: "277396A662ECAE3C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41099AC9F4BB9A5E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "43D0B16638B0C6B5"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oC418 - wait"
+			tasks: [{
+				id: "1648546CE29CE6E9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_wait"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 5.6d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "20477022F5200068"
+			rewards: [
+				{
+					id: "6BD7D7664D3C7DC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7007B914C978EDEA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1C0E430053F3491C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLena Raine - Otherside"
+			tasks: [{
+				id: "33EB38A1E2C03351"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_otherside"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 6.3d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "070049FB87C3C153"
+			rewards: [
+				{
+					id: "7B61E37F8FB5ADCF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C8263DF6FF4361"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "04F7AA58E7FFB607"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLena Raine - Pigstep"
+			tasks: [{
+				id: "3E91432325F15413"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:music_disc_pigstep"
+				}
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 7.0d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "70D9F8F881C16742"
+			rewards: [
+				{
+					id: "56ED82EE9E3E30F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DC65AA2D8F604A2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "35B7C8C25BEA8703"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKain Vinosec - Endure Emptiness"
+			tasks: [{
+				id: "4B59D768890FBFAE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:record_gaia_1"
+				}
+				type: "item"
+			}]
+			title: "&dBotania"
+			x: 7.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "553854CB3684821B"
+			rewards: [
+				{
+					id: "3BEEC96FC4C1BFEE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7593B03BE459A232"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3943D93C637D6D43"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKain Vinosec - Fight for Quiescence"
+			tasks: [{
+				id: "65F8990F850BBD48"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:record_gaia_2"
+				}
+				type: "item"
+			}]
+			title: "&dBotania"
+			x: 7.7d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "73E0AA91F283DFA6"
+			rewards: [
+				{
+					id: "416E90F60CBF7D84"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AC660ECBC534F88"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4840527F8FCF50F8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oThistle - The Sound of Glass"
+			tasks: [{
+				id: "2848B5B2307A90AE"
+				item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
+				type: "item"
+			}]
+			title: "&1Ars Nouveau"
+			x: 7.7d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7EA7AF4BD2BB73A0"
+			rewards: [
+				{
+					id: "2B9E0BE3C9F567B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79C4AF7E96819F8E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6F2C301D4DE0B4CF"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oFirel - Aria Biblio"
+			tasks: [{
+				id: "13506A685CEF957D"
+				item: "ars_nouveau:music_disc_aria_biblio"
+				type: "item"
+			}]
+			title: "&1Ars Nouveau"
+			x: 7.0d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "44BD6C77AE13BF86"
+			rewards: [
+				{
+					id: "0C3A192AA84A0961"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47694D58F55CF02B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0337B23C702429B2"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oScreem - Mammoth"
+			tasks: [{
+				id: "0044197F86482C34"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "undergarden:music_disc_mammoth"
+				}
+				type: "item"
+			}]
+			title: "&3The Undergarden"
+			x: 9.799999999999999d
+			y: -4.2d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7CB4518C3B32883E"
+			rewards: [
+				{
+					id: "3C5E1D6B9210D1B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0799ADB16A9266A4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1DE4FFB22AB77D06"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oScreem - Limax Maximus"
+			tasks: [{
+				id: "12A1DE24319623F0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "undergarden:music_disc_limax_maximus"
+				}
+				type: "item"
+			}]
+			title: "&3The Undergarden"
+			x: 9.1d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "46BF7C973082CF92"
+			rewards: [
+				{
+					id: "3D5777390D8CAA45"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E8AB1D4C37887A0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3237461531D4E083"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oScreem - Relict"
+			tasks: [{
+				id: "486CF9B0293257B3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "undergarden:music_disc_relict"
+				}
+				type: "item"
+			}]
+			title: "&3The Undergarden"
+			x: 8.4d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4D0C770D8FFA17B8"
+			rewards: [
+				{
+					id: "2F33CE06AC0AAF16"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4121B04E4CB32400"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "24C5AA1CAF5F761C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oScreem - Gloomper Anthem"
+			tasks: [{
+				id: "18F47925990D9754"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "undergarden:music_disc_gloomper_anthem"
+				}
+				type: "item"
+			}]
+			title: "&3The Undergarden"
+			x: 7.7d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0E3549892D6BE41C"
+			rewards: [
+				{
+					id: "46A5E94EA798117F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164B8E9B6B7844B2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1889CF91D2276F8D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oJesterguy - Delve Deeper"
+			tasks: [{
+				id: "3F4A6E9F63990CC2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "conjurer_illager:music_disc_delve_deeper"
+				}
+				type: "item"
+			}]
+			title: "&2The Conjurer"
+			x: 7.0d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1B0276C10E24951F"
+			rewards: [
+				{
+					id: "1D145FA97E2CF41E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54BD9B16AE786E34"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "54AF431214DEDB86"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSamuel Åberg - 5"
+			tasks: [{
+				id: "2C0DA3AA774A959A"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			title: "&bMinecraft"
+			x: 8.4d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5E5B2ABB4B607581"
+			rewards: [
+				{
+					id: "2AFAFE6A6A132438"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "532CD88B29D1699F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2975249F1FA16E83"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oFirel - The Wild Hunt"
+			tasks: [{
+				id: "0EA0A69CF0AA0378"
+				item: "ars_nouveau:music_disc_firel_the_wild_hunt"
+				type: "item"
+			}]
+			title: "&1Ars Nouveau"
+			x: 8.4d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0D655D1B74D886D2"
+			rewards: [
+				{
+					id: "1C3E66426BCCDC1E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D77092E14F659AD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5613661E0F1AEE76"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oBertsz - Horizon"
+			tasks: [{
+				id: "06330D094780901E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquamirae:music_disc_horizon"
+				}
+				type: "item"
+			}]
+			title: "&4Aquamirae"
+			x: 9.1d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3DF47E959D3D605B"
+			rewards: [
+				{
+					id: "198DF38E68866965"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43F1168DC8412AAA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4008CF9932CFB9E6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKrossy - Forsaken Drownage"
+			tasks: [{
+				id: "22F3450E9A10E285"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquamirae:music_disc_forsaken_drownage"
+				}
+				type: "item"
+			}]
+			title: "&4Aquamirae"
+			x: 8.4d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "186330EA2619139F"
+			rewards: [
+				{
+					id: "1C4EB3633EB9919D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F9E68BAE3996CDF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2F923CB5FA78B5CC"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oJonathing - Blinding Rage"
+			tasks: [{
+				id: "2550EEDB697790EE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:blinding_rage"
+				}
+				type: "item"
+			}]
+			title: "&9Blue Skies"
+			x: 5.6d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "733ECA985FFC3CB1"
+			rewards: [
+				{
+					id: "45D09C65E67FFFAC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0950122D89D8044A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0C0E5C438BA52140"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oJonathing - Defying Starlight"
+			tasks: [{
+				id: "755B8EE74D22DF6A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:defying_starlight"
+				}
+				type: "item"
+			}]
+			title: "&9Blue Skies"
+			x: 6.3d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1CAE5ABF7D5FEC3D"
+			rewards: [
+				{
+					id: "186CAD5C8F4A3523"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BC56CFBAF85C275"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "439F8AA5FFB49D2D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oJonathing - Venomous Encounter"
+			tasks: [{
+				id: "06F09A02E79E4A4B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:venomous_encounter"
+				}
+				type: "item"
+			}]
+			title: "&9Blue Skies"
+			x: 7.0d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4B0D4B3444E7F28B"
+			rewards: [
+				{
+					id: "2F0224F94BE9847C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D3958D6627DF9EB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "53FFE4F64F4A24F8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLachney - Population"
+			tasks: [{
+				id: "277FE3765C4606E1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:population"
+				}
+				type: "item"
+			}]
+			title: "&9Blue Skies"
+			x: 7.7d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2E73D184068DE679"
+			rewards: [
+				{
+					id: "095442323F5B4B49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FE7AD98959A203D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "43733EC48573AD01"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&odescription go derrrrrrrrr"
+			tasks: [{
+				id: "217BAB12742EA0E8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_test"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 1.4d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1899B5B07D60EBA9"
+			rewards: [
+				{
+					id: "7366E20F83756DAF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06A348E28ABBA780"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0ECED2619E6DA46B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oNaps the Block - Tall"
+			tasks: [{
+				id: "3D4C1A58CB3C256D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_tall"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "65FA6F48C7104724"
+			rewards: [
+				{
+					id: "4F79E34D270F321A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57535F5BFB0557BF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2A7894CF0B0E818C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - 42"
+			tasks: [{
+				id: "70F897FD0B65A4C8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_42"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2C570B4863ABA611"
+			rewards: [
+				{
+					id: "5BD76C6E63B6B980"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A4D57135C7B8B78"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1924F7CD522CC773"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui - Activate"
+			tasks: [{
+				id: "50884D501A74F00F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_activate"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.2d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1EED89E9D11F7D80"
+			rewards: [
+				{
+					id: "31CDA5A2C4C8CD7D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A62CEC3722BF7A9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3F3A23277D9CEA2F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Aether"
+			tasks: [{
+				id: "24CABEF7AE85E221"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_aether"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 6.3d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "19AFCB04EDC6C62A"
+			rewards: [
+				{
+					id: "033CAB9AE2EDD9FF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "584C60ED14C8CDA8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "72545546EB6E4742"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oStarshine Animatics - Aggression Egression"
+			tasks: [{
+				id: "71500D37D0CEB0FB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_aggressionegression"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 7.0d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "15CB15BC5F96ED43"
+			rewards: [
+				{
+					id: "728C4C12638FEBA7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C911E3D441E5280"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "752CE3E697D42561"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Alternate Dimension"
+			tasks: [{
+				id: "189AEAAA0F5CC288"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_alternatedimension"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 6.3d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "71E938E6BD93A4FA"
+			rewards: [
+				{
+					id: "4407A9EE85D30E39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B2B051A84C8039"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7AA595150B9DED47"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - Amethyzied"
+			tasks: [{
+				id: "0619A55858A92A49"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_amethyzied"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7785E31CFF11725C"
+			rewards: [
+				{
+					id: "78DED823A52549A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34255261C16ECDB7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "74DBD999867D8F7C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Ancient Ruins"
+			tasks: [{
+				id: "3FB81D1B1809E9BE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_ancientruins"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3BA40FA28D674902"
+			rewards: [
+				{
+					id: "230FE234CD486955"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "691A5444C9F516CC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1C41FEFB494805D3"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oFirch - Anti"
+			tasks: [{
+				id: "43D69AE55D816524"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_anti"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "6D159EE0B2A3318A"
+			rewards: [
+				{
+					id: "2B31DAE098642A0D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0739B4A9DB85D1EE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "19066BBF2AAF86BD"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oFirch - Anti (REMAKE)"
+			tasks: [{
+				id: "057360D43C3C30D2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_antiremake"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.7d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1C257095A7D95D22"
+			rewards: [
+				{
+					id: "50BC120DC34A292F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "371AE602A784F950"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2E40795AF82FB298"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&omango unit - Avian"
+			tasks: [{
+				id: "45F3FC8C29E9A569"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_avian"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7D109A23AF4A9A2A"
+			rewards: [
+				{
+					id: "65B0644AD59F11B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52D45A43BBEA4251"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "26A704B26B7FF7D0"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - BEFORE"
+			tasks: [{
+				id: "732A7FE524F9F88F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_before"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "774506DEF80BC799"
+			rewards: [
+				{
+					id: "10B78D053909C42A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C03B881B3CF7BA2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "20F62FF16E766C13"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&omango unit - Blazetrap"
+			tasks: [{
+				id: "4995BC7496F42B2A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_blazetrap"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4B52B7A2CC81A1EB"
+			rewards: [
+				{
+					id: "170D2131FC6A5B30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34839DF51D1D8D2C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4818FC53BA619289"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Castle"
+			tasks: [{
+				id: "3F857AFDEB50C235"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_castle"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "45F9ACDC7F277332"
+			rewards: [
+				{
+					id: "7A9C1A82953EFC1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F0288924AC47371"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "683AA0018B362F40"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - CHILL"
+			tasks: [{
+				id: "78AB5F45C65FCD6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_chill"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "79D2BDADA26BAA68"
+			rewards: [
+				{
+					id: "1807DF543A3B26A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C6E58AC5585D5F4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "19FBDDE3409DA901"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oFirch - Chop"
+			tasks: [{
+				id: "1EA488568854DDAD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_chop"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "304197A60D4BD4C5"
+			rewards: [
+				{
+					id: "2C138F73DB61DF13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "701705B94DDA001E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "67DA53DA0FE4D52E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui - Chorus"
+			tasks: [{
+				id: "0B222BF48C9DEB45"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_chorus"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 5.6d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5FA3F868916B8643"
+			rewards: [
+				{
+					id: "489B09182912ECB4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70D892E331B1AA16"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5012B5722FEE6E49"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSpooky Skeleton - Clouds"
+			tasks: [{
+				id: "7E70496C60D26C33"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_clouds"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1F6B8D6F58265F4B"
+			rewards: [
+				{
+					id: "09132207C88F41C9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D37C07F2532B453"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4BEECDDF91C39BB0"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&obeaniefrog - Dear Diary"
+			tasks: [{
+				id: "7BDF8BF06934A634"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_dear_diary"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 3.5d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "698685DB290A274D"
+			rewards: [
+				{
+					id: "4099979464286096"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AAD5862BE8B4046"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "45B843DD5A1A82A4"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Desert"
+			tasks: [{
+				id: "09A45411A7256E5A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_desert"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 6.3d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1E2D6AAEDB4EB071"
+			rewards: [
+				{
+					id: "75F25C5A9EDFB8A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28D80E2BBA79E96A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5DDB04DCCEB1DE0F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - disc"
+			tasks: [{
+				id: "00075A8BF8C375C9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_disc"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -3.5d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3CFFF9B81E9CF81E"
+			rewards: [
+				{
+					id: "361302C8D3521514"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F688C67EB3763F0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "64590CF5B8D72524"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - DIVE"
+			tasks: [{
+				id: "7CB4989941F02D06"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_dive"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "573B2A4B87A917F5"
+			rewards: [
+				{
+					id: "1A1E5D5C5B0B6B38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ADAD745AFB6EC81"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "48A362F159152482"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - DREAMS"
+			tasks: [{
+				id: "5685427DCE77A9D6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_dreams"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5E6AB968E16B0882"
+			rewards: [
+				{
+					id: "3B3D3AC48151DAD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "551F639E4464B7C7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "06DB3C9A84280105"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui - Droopy loves Jean"
+			tasks: [{
+				id: "0A38D9427E1504B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_droopylovesjean"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "17C3C4715F076B49"
+			rewards: [
+				{
+					id: "069824240F68EC5E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CDE08D671669D66"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0907E23F3531E18B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&obeaniefrog - Drowned anthem"
+			tasks: [{
+				id: "6C298D6C20EC4692"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_drowned_anthem"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.7d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "60E4D3A49D4F6994"
+			rewards: [
+				{
+					id: "383969AC05DAB1F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04E2EEEC72DB6450"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "08D527A7CCBC2BE7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLost Angel - Enderwalk"
+			tasks: [{
+				id: "1435E84BBD8ACA8F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_enderwalk"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "75CA90634EFC33FE"
+			rewards: [
+				{
+					id: "18200963F6773D0F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7914ECD0CC72ED46"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4A44B35A0F78285A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Flight Of The Voids Ship"
+			tasks: [{
+				id: "0807B1B29A4EE832"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_flight_of_the_voids_ship"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "63FFDCE13EF89141"
+			rewards: [
+				{
+					id: "21835F954A4ED00E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E12A7DFD9A506B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4DA17350D0BAF338"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - Flying Ships"
+			tasks: [{
+				id: "34BA1599D0642AA7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_flyingship"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.2d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "40FA0ADC9A35694A"
+			rewards: [
+				{
+					id: "163FED4B96C46445"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E4498BD0E5E7FFC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "273062AD6A36F54C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - Forest"
+			tasks: [{
+				id: "0F3CB805BB9A8ABE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_forest"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 7.0d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5AA6ADFA555BD4C7"
+			rewards: [
+				{
+					id: "1839D3D8AF6F0E5B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F09E0ACF0107E28"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0363D03C270CF438"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oCarrotAndCo - Hue"
+			tasks: [{
+				id: "28C9BF2FBB5C2E54"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_hue"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.7d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4FCCDB128A7DD765"
+			rewards: [
+				{
+					id: "31D9B4C093C588F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04B38A0E1BE74141"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4D48FA7D6F66A78A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - Into the Jungle"
+			tasks: [{
+				id: "4012CEE1EEACBEDA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_intothejungle"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3644327AFD61E07F"
+			rewards: [
+				{
+					id: "4DE846F8ABD94C48"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "397E4919485F8872"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6A0227C99F3604B6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui - Jungle"
+			tasks: [{
+				id: "691D71B887FD12C7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_jungle"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "31D5C8BBBFAFF4E5"
+			rewards: [
+				{
+					id: "023515A379E1C37F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00D855AD01C594B2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4AE99168589493DD"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Jungle"
+			tasks: [{
+				id: "52F373F48AA60F56"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_jungler"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -1.05d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4F7F56BDBA5EE919"
+			rewards: [
+				{
+					id: "7B6A12A9A4E77B64"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "376F2A829FDB4BBB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "40AAF64D9585307F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Just The Beginning"
+			tasks: [{
+				id: "23539903B95B6F82"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_justyhebeginning"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "01F19BC2551AB257"
+			rewards: [
+				{
+					id: "2339877F5DBB8893"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62DD248834B2BF39"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "76F145B506AA1CDC"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Krushearz"
+			tasks: [{
+				id: "2001E9EE3DC677B3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_krushearz"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -4.2d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "44698D205619CAFD"
+			rewards: [
+				{
+					id: "2ED249CA50314D77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "314F3901665E1FCE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "28B930566852FFF8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&obeaniefrog - Left Shift"
+			tasks: [{
+				id: "3877C081A59FACDE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_left_shift"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -3.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "29F4090E723FD73F"
+			rewards: [
+				{
+					id: "4565CFC659CC80A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "577F8BB8E8288B75"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "15666026E76B769E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&ohappywithsugar - LGM"
+			tasks: [{
+				id: "77E8896B172277F3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_lgm"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "565FF57F11B2333B"
+			rewards: [
+				{
+					id: "1BA7B8BB70907643"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43BCEF8EA2D26B5B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "585C2DC7E615298B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Mangrove Swamp"
+			tasks: [{
+				id: "1FFE9C35FE28357A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_mangrove_swamp"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5C834C790E09C67D"
+			rewards: [
+				{
+					id: "37B8D575DB06AD86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39EB7DE5114BCCA4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5EC932BBD0AB7178"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oStarshine Animatics - Mesa Depth"
+			tasks: [{
+				id: "1EBAAF11BB3D159D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_mesa_depth"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3D57ED39194DCE3F"
+			rewards: [
+				{
+					id: "292FD8E46998CDA9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B085A222C884015"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2D9A7F0DD2654252"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&obeaniefrog - mush roam"
+			tasks: [{
+				id: "6F53B0E99D348A06"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_mush_roam"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "180A933E36EE65F3"
+			rewards: [
+				{
+					id: "04228F34A80A863A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44D2663752D60C72"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7D3AE1D705F90317"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oStarshine Animatics - Nostalg"
+			tasks: [{
+				id: "2E340E584B0F4176"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_nostalg"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "27D8555B7C719C71"
+			rewards: [
+				{
+					id: "4F84FC0A932EF9C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4380063AA94C1049"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "363C01E3BE0182AB"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oNaps the Block - Omen"
+			tasks: [{
+				id: "2533703CAD338EF2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_omen"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5BD6A2679F774317"
+			rewards: [
+				{
+					id: "54384299BC40A4D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "228DB9C74544976F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1BAC04A697EA73C8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Passion"
+			tasks: [{
+				id: "6DB2ED37BFDD9B66"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_passion"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "079EA65654C4BEF1"
+			rewards: [
+				{
+					id: "23B328D6CCE6BCD1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6325306968C99C15"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "44A314CD13487929"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Planet Tech"
+			tasks: [{
+				id: "0E000B2B1E42B798"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_planettech"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4D348329B121DF18"
+			rewards: [
+				{
+					id: "639A427EC176A96B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "305EF27DC8AC9208"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "24DD8C911E679BED"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oCarrotAndCo - Potion Of Swiftness"
+			tasks: [{
+				id: "03E598BDC396A0B0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_potion_of_swiftness"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "48B9045AD0A817FD"
+			rewards: [
+				{
+					id: "607C04327FD944F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11BCB2C8E62B9C54"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0E06F3CA5000CF4B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - RAID"
+			tasks: [{
+				id: "41A0E08FBE37A5FB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_raid"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.2d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4848735A20C5610E"
+			rewards: [
+				{
+					id: "4AD17FFFB7FE2C4E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70C5C2021E831DDD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "65F81E016A0B5475"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui - Rain"
+			tasks: [{
+				id: "3B869AD0B3CBB053"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_rain"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3A5CF840B36CC06C"
+			rewards: [
+				{
+					id: "4821E7BD1480B85A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62F62D545139D30D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "21F4882F2C43CC71"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&obeaniefrog - rainbows"
+			tasks: [{
+				id: "6F90236018812BB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_rainbows"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.2d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2795314E868B4135"
+			rewards: [
+				{
+					id: "319B186B400DE7E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C91534F939BAD7E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "54BC93A3B4625081"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oFirch - Range"
+			tasks: [{
+				id: "7266DEDA9006A4DD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_range"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 9.1d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "229889F7A3D6029E"
+			rewards: [
+				{
+					id: "6349C4AB3E4A71B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17AD8DE68B17F12D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1287571F6351EC88"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Ravage"
+			tasks: [{
+				id: "49A3486E5695EE67"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_ravage"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -4.2d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "56C811F5440D6669"
+			rewards: [
+				{
+					id: "0E78DDC011788B44"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71978C546E3CAAC5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "576840F1C294A618"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&omango unit - Mitosis"
+			tasks: [{
+				id: "1FF7D7F5C640AD9C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_reloaded"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -3.5d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2D491546B4C3629E"
+			rewards: [
+				{
+					id: "7443782937168E23"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FF08DB5D4B89EFF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "103598C583C9F3A2"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oStreetside Singer - retri"
+			tasks: [{
+				id: "045209671BE7DB54"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_retri"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "522D4F8516374585"
+			rewards: [
+				{
+					id: "13728CABE05CBFFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AE3C395ED66EE25"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6F8A9E13D41F6B8E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&omango unit - Sand"
+			tasks: [{
+				id: "2380CE1471FC76BB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_sand"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4E09E52DE38052A8"
+			rewards: [
+				{
+					id: "5FAF23CF3110D659"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "690B3CFA17E9C454"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3F922ACC269FB04D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&omango unit - Scopophobia"
+			tasks: [{
+				id: "260FAF29AD6F8938"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_scopophobia"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3B140D2CF468EB52"
+			rewards: [
+				{
+					id: "35D286360B4F2791"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5E61B2FB4CE18B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "32018AA54B043B55"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&ohappywithsugar - Scorched"
+			tasks: [{
+				id: "3E2D912CB437F9A1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_scorched"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1681084D616DEA56"
+			rewards: [
+				{
+					id: "1BE6AC96BE75E4E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6297AC6897C225DC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "16A3DE1C677344A6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Seeds"
+			tasks: [{
+				id: "3EE2BB5F8F4DFAA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_seeds"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "6F02E1CB3E740BC3"
+			rewards: [
+				{
+					id: "14F83118770DBD20"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "261C6C2D26F3542C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "206FD76F9A10E0C6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oStarshine Animatics - ShallOw"
+			tasks: [{
+				id: "487453E34A596539"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_shallow"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "46D125A1346A5E3A"
+			rewards: [
+				{
+					id: "2A48E1C892584F70"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E7574BDC1C77DAE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "45C2D0FC8194A7F4"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui - Shroom"
+			tasks: [{
+				id: "5B85E086DDA61873"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_shroom"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3C1304642F41F52D"
+			rewards: [
+				{
+					id: "767C627EC8C01508"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E54766334C1232E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4F1024B57CC4E00C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oNaps the Block - Silence"
+			tasks: [{
+				id: "7BC95D2530C3F83B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_silence"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.7d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "26F469416AF8AD2C"
+			rewards: [
+				{
+					id: "4BC5A847879E14ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63C6C23A0C4745CA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "10933AC0FC6D8BAC"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedstonian [Emboar] - Sky"
+			tasks: [{
+				id: "75C852299C04C2EE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_sky"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5784F3B9613868EF"
+			rewards: [
+				{
+					id: "5E201CB0BABC22B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "527BEBF9A1F53C94"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "186D56853EC8508D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui - Soul"
+			tasks: [{
+				id: "7754E197BAFDF7E2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_soul"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 6.3d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3F7CAEE4455E6CDD"
+			rewards: [
+				{
+					id: "27FCF743F69A433F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FD37D1D8D7E2563"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5ECC3CD6355F652A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - SOUND"
+			tasks: [{
+				id: "5ECAF3FF65A55887"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_sound"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 1.4d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4A6331C61DF870F5"
+			rewards: [
+				{
+					id: "54A34D7D9534C849"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73E23290D21CB1E6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0D03788F90955A44"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&obeaniefrog - spiral"
+			tasks: [{
+				id: "4C864190C2D378DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_spiral"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 3.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "68FC29E3F8266EA1"
+			rewards: [
+				{
+					id: "45AC6F6AA2E4231B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16A5B4EE7573A03C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2B86F38D3EBBC559"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKaz Yumayui \\& Starshine Animatics - Squiggles"
+			tasks: [{
+				id: "76F3ACDD767EA85B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_squiggles"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1E70EF4588126535"
+			rewards: [
+				{
+					id: "35D793DD184EC7D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BB05381DB152B2A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "68712CA75DCAE348"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&omango unit - Stridehop"
+			tasks: [{
+				id: "186B08A65C5BB71D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_stridehop"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -4.2d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5098B05695003412"
+			rewards: [
+				{
+					id: "527A9560D6E3CBAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08A224FBF3D6233C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "363B348ECDB7F1E7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLost Angel - Strike Them DOWN"
+			tasks: [{
+				id: "4236FA7EF394DD51"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_strikethemdown"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -3.5d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2EF2A72B16252133"
+			rewards: [
+				{
+					id: "6FBC94F6910F402C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "452ED878A7195C82"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "77F9AB8DD8E3E722"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&ohappywithsugar - submerge"
+			tasks: [{
+				id: "5246FDDC16106D5F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_submerge"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "19114725A44B1729"
+			rewards: [
+				{
+					id: "6814A1B2A05D91D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "785C01EDC0D0D320"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "79B56A65CF546D25"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLost Angel - Tears of Joy"
+			tasks: [{
+				id: "7D30596996E49EFD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_tearsofjoy"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5B6155D7F0619682"
+			rewards: [
+				{
+					id: "7F1E6B350044B17D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38A2973C0E2F5FE4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "39C4D75F3A579D24"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - Technoblade Never Dies, at least in our hearts"
+			tasks: [{
+				id: "10B46338B0AC8EA0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_technobladeneverdiesatleastinourhearts"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "196AC48F43C4CACA"
+			rewards: [
+				{
+					id: "5A96660AD830F216"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A899B7590441386"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "61E363714F532DF7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - The Bright Side"
+			tasks: [{
+				id: "71CA0D07B86DE3A6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_thebrightside"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "7FC39A2A4C128133"
+			rewards: [
+				{
+					id: "0EA4B6E16E5F85F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73EEADC441B911ED"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7A06A3532B6813AF"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - The Dark Side"
+			tasks: [{
+				id: "76913A7E67F22B24"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_thedarkside"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "23E6AB9A951BBC7A"
+			rewards: [
+				{
+					id: "5488CCE9B5D9B915"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C12BFB4DFD4DA3E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5E831EE0F8412AA3"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - The Lost Soul"
+			tasks: [{
+				id: "645F05E07C7171E9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_thelostsoul"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.7d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2772D5D85EE0EF77"
+			rewards: [
+				{
+					id: "3521C40C4CAD3FE0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40AE0C217CC24B46"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3652A8F0C38A1307"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLost Angel - The Speedrunner"
+			tasks: [{
+				id: "488E95032BCD5E3B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_thespeedrunner"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "56F3F9A76AD5A7AA"
+			rewards: [
+				{
+					id: "7A4920BFEF150F42"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B67AC1415892976"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7EAE3D6EA68727BB"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLost Angel - The Syndicate"
+			tasks: [{
+				id: "4FDC60542BDECEB2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_thesyndicate"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "403CD417999C7500"
+			rewards: [
+				{
+					id: "3F591A8F34AA775A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AAFA86451B58805"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "314DC8FBE3F16FC1"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLost Angel - The Unfinished Symphony"
+			tasks: [{
+				id: "0AB279A40098C9F1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_theunfinishedsymphony"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.2d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4A9AA59FBBC35030"
+			rewards: [
+				{
+					id: "290817C0CCE985C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "261BEF91985B8219"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4E6BD25C46B36F85"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Tide"
+			tasks: [{
+				id: "4A4710DE091133E6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_tide"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "10CD6F8BE86C318B"
+			rewards: [
+				{
+					id: "570737792C952B8E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "520A94A423864D2F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "58D7F1C9F899C68A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Vengeful"
+			tasks: [{
+				id: "5C868E46ED68DB96"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_vengeful"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3416EA089C94CB69"
+			rewards: [
+				{
+					id: "064BAD24959F0515"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FD5C1537BD38E53"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6CE7F0584F18E14E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSomeone - VICTORY"
+			tasks: [{
+				id: "76BB2AE3E09782E6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_victory"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "0989DDF083A4069C"
+			rewards: [
+				{
+					id: "69B5F941861D697B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10354C7159758B87"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "49F55AA01E25F82D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Void"
+			tasks: [{
+				id: "0C44B6E0DA44AC84"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_void"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1239625D83C45BA3"
+			rewards: [
+				{
+					id: "0BBDEACC62B7C8F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EBF1856999C0781"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "263F119457F529B7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Warden"
+			tasks: [{
+				id: "2E426E71500A03FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_warden"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -4.2d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5F7430398051DAE3"
+			rewards: [
+				{
+					id: "5EED9BA5FE073579"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421F78CAD8345771"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "52EF281B858CCF71"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Warden's Prize"
+			tasks: [{
+				id: "72712DAAF27216AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_wardensprize"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -3.5d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "6DEED7E6DE8FE14A"
+			rewards: [
+				{
+					id: "4F01F01A3CCABFFB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7761ED4B78C99BBE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "06E415B828DDB00B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oDoom_On_A_Spoon - Warped Forest"
+			tasks: [{
+				id: "7FCF75F6AEB38A15"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_warped_forest"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "6C80C4E2B61ED3EC"
+			rewards: [
+				{
+					id: "5459A598A6409065"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377DF2CCA7A1AAB8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0F67AA95ECBF86E1"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRedWolfNinja - Waves"
+			tasks: [{
+				id: "710BF4049DB85ED9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_waves"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1B1EA1E58EC41919"
+			rewards: [
+				{
+					id: "68AAFAEA06083791"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29F9D39885D9A6A2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "02A3BBAE8A992ABE"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLost Angel - Weeping Souls"
+			tasks: [{
+				id: "32D03F46962CD2DD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_weepingsouls"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "410703652E1F4894"
+			rewards: [
+				{
+					id: "51DC91AB848DD28A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A9E93739BF394B0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1288A8A4A26FD131"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&omango unit - Witherdance"
+			tasks: [{
+				id: "5E0D563A97A558DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_witherdance"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3F97E91B42675994"
+			rewards: [
+				{
+					id: "0D64AD379383F066"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "424FC9B53220EF2F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6FB17FEAB11EAF05"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Anchores"
+			tasks: [{
+				id: "0163188C3FE088D2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_anchores"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "14ABE12DBAAB42E1"
+			rewards: [
+				{
+					id: "0073134104B4A372"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB61356C4F90E95"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7673343ED6A69313"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Azometrall"
+			tasks: [{
+				id: "5A844920F815662D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_azometrall"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.7d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "29EC24C050117F72"
+			rewards: [
+				{
+					id: "5435951936F45981"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E471837403F0EE9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4AFE8CF8FB6D66B3"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Become a Destructor"
+			tasks: [{
+				id: "7726EFD687942B6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_becomeadestructor"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "261C5524802E63D1"
+			rewards: [
+				{
+					id: "023521285ACB4E13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B27C151FDEE8DDC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2A9DF4D6B0DCC736"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Corrupte"
+			tasks: [{
+				id: "609B70C943CB1A4F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_corrupte"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1F053173F3EDEF5D"
+			rewards: [
+				{
+					id: "2D75AEF469B549B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B7918657A6B4428"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "43862CBCD4A3BC76"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Dropclouds"
+			tasks: [{
+				id: "3C90589E48E59190"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_dropclouds"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 5.6d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "383B10BC2A3052B1"
+			rewards: [
+				{
+					id: "5476F79FB604C407"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "478AD81B161C7464"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "27A8918DB15315DD"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Extrauoser 2"
+			tasks: [{
+				id: "76EC0B799E72EF03"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_extrauosert"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "085A55325B197EBC"
+			rewards: [
+				{
+					id: "3506B3DFE41374F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71A01679AD942BCA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6BF13F2B8FD3F366"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Extrauoser"
+			tasks: [{
+				id: "40FE2E2B892F9822"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_extrauoser"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "6D5439F1C3930285"
+			rewards: [
+				{
+					id: "6E8ED13F52BDDB57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05599A13E6761FC2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3E7DAA545FA0EDE3"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Galactic Loose"
+			tasks: [{
+				id: "095E3573072C9373"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_galacticloose"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 0.0d
+			y: -0.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1E3A40E16432AF90"
+			rewards: [
+				{
+					id: "22EC75244FDCAF4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "698340C7AD058225"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "00324336E6A1061C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Glitshymonum"
+			tasks: [{
+				id: "79F69B07802C5AFE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_glitshymonum"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.2d
+			y: -7.35d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "54542B3EB4BE5301"
+			rewards: [
+				{
+					id: "1D738567937C33F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08FB9159C5D6FACD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1193A807E2392D7F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Quit Here"
+			tasks: [{
+				id: "3FE16AC631E54707"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_quithere"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -4.2d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "03C169BCF5D45AE1"
+			rewards: [
+				{
+					id: "687FC70D83715372"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12A906FDF61AAECB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "60FD21EF245E393C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Sleepz"
+			tasks: [{
+				id: "5571085A6344F9D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_sleepz"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -3.5d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "39DC574EDD0CD297"
+			rewards: [
+				{
+					id: "2D8DE6EDAAEEB7B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "443EAE7E446262AA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1850EC7E14C34D8E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Turfufact"
+			tasks: [{
+				id: "522FB22A6603F2C4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_turfufact"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.8d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5D44707FA1A45C37"
+			rewards: [
+				{
+					id: "187D9999BF046E6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B0BA14B709DA349"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2254E94338B6F843"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Ucrism"
+			tasks: [{
+				id: "0799CE720876BEA5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_ucrism"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -2.1d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "15D504F2BDB4FC81"
+			rewards: [
+				{
+					id: "3AAF2CE556431AAB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "371FF020F6201699"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "39150854F9B3D668"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Xziniron"
+			tasks: [{
+				id: "0A4D66B01FD15947"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_xziniron"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -1.4d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "42982B457671260E"
+			rewards: [
+				{
+					id: "295BFDE462A793C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "097E68FFE19A2927"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "66DF6B5C4A8D7505"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Yarona"
+			tasks: [{
+				id: "1E2B75424946944C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_yarona"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: -0.7d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4420FC9D40AA120F"
+			rewards: [
+				{
+					id: "23CF4917586AA858"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DDAF3D8258EDDFE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "09C05E70F67B873E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oSchakavun - Zayz"
+			tasks: [{
+				id: "548DE94B9CB69742"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "morediscs:music_disc_zayz"
+				}
+				type: "item"
+			}]
+			title: "&6MoreDiscs"
+			x: 4.8999999999999995d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "52AB5B749DB04A89"
+			rewards: [
+				{
+					id: "10A5C2C05AAE7A6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7870CD3A2712837A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "74BBB5144FBE21EE"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLudoCrypt - Thime"
+			tasks: [{
+				id: "1C7CA848E9892B29"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:music_disc_thime"
+				}
+				type: "item"
+			}]
+			title: "&dAlex's Mobs"
+			x: 5.6d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "6E6A0CF9875B959B"
+			rewards: [
+				{
+					id: "2BC8F49C9A90A081"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0530E2EAC274C709"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5624A67FB7D2B327"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oLudoCrypt - Daze"
+			tasks: [{
+				id: "0D0853D6EEC0A88F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:music_disc_daze"
+				}
+				type: "item"
+			}]
+			title: "&dAlex's Mobs"
+			x: 6.3d
+			y: -3.15d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "2E49E4B958137692"
+			rewards: [
+				{
+					id: "4D6C3DB384F7A9D8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC664EC99F59B52"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5E2E4B52C74BD969"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRoth Gwylt - Radiance"
+			tasks: [{
+				id: "16765FC3EB427361"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_radiance"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 7.7d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "63A56D5A721133B5"
+			rewards: [
+				{
+					id: "0C700C23E9945BA3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0559E9E0F05EED9E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3006134DAAF0EA87"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRoth Gwylt - Steps"
+			tasks: [{
+				id: "67B752195EA69622"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_steps"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 5.6d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "3928D38EE5994885"
+			rewards: [
+				{
+					id: "1DFD46CDE6A3A252"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56F2D72EDD25F8B9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "76DA76FA8B33CF12"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oRoth Gwylt - Superstitious"
+			tasks: [{
+				id: "3A8C51E7ECE21317"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_superstitious"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 6.3d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "23840C8C9BD791EF"
+			rewards: [
+				{
+					id: "264CBE61534E770F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63AE8E1F5707110D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "75BAAE6A90D37991"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oMrCompost - Home"
+			tasks: [{
+				id: "44AF11B4202245EF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_home"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 7.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4936DF585B8A200C"
+			rewards: [
+				{
+					id: "743026AA93087667"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1067ADB677732AC3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "20A7D03975AD1255"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oMrCompost - Wayfarer"
+			tasks: [{
+				id: "621640A888CCA8A1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_wayfarer"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 7.7d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "79B236B557D8F065"
+			rewards: [
+				{
+					id: "5B16EFD311026503"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06E2DF012CD7B044"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "212EADEC06135D1F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oMrCompost - Findings"
+			tasks: [{
+				id: "5F0DBF81163F5C83"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_findings"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 8.4d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "045C775B69AE2F28"
+			rewards: [
+				{
+					id: "165C198B8944B1AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C539B6D49BCA426"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "60CFD46D7E5FCB46"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oMrCompost - Maker"
+			tasks: [{
+				id: "347A1A8CB742938B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_maker"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 9.1d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "54D9C570A2A234F9"
+			rewards: [
+				{
+					id: "0DC06BB3113578F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12FD06589A1E41F7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6A373CE9336E4C5C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oMrCompost - Thread"
+			tasks: [{
+				id: "2A2C3C9E9614BE4D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_thread"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 5.6d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "72091938BBC787F4"
+			rewards: [
+				{
+					id: "60AE48E44AF0C1F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BABF78BAA60C20D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "67089FA25C75074D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oMrCompost - Motion"
+			tasks: [{
+				id: "0DAEF0C582AF8E71"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:music_disc_motion"
+				}
+				type: "item"
+			}]
+			title: "&cThe Twilight Forest"
+			x: 6.3d
+			y: -1.75d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "181FD35D3DED58DF"
+			rewards: [
+				{
+					id: "44CDC248B42CC4AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F3C67328C2ED921"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "44DE60FF868D4EF2"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oKain Vinosec - Endermosh"
+			tasks: [{
+				id: "19825BEE4265026F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_endermosh"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 4.8999999999999995d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "751C3C559C4EB6C3"
+			rewards: [
+				{
+					id: "141F5865EA5F263E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D71A2F757313016"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0BE5EE870DD167A9"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Water Droplets"
+			tasks: [{
+				id: "3B56E774E51D3954"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_drips"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 5.6d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5FAAA070ACC3F9ED"
+			rewards: [
+				{
+					id: "784350931D8D8A65"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04B5057A69FA23A3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6332C748BBC43AF6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Ocean Waves"
+			tasks: [{
+				id: "592C5D6FE779386A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_ocean"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 6.3d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "5E7A9BAC9FB6BC88"
+			rewards: [
+				{
+					id: "10452FCB0E2BF2DA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6298BB3EAF1E5704"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5572F43C2C3FEE5F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Rainy Mood"
+			tasks: [{
+				id: "0B1E736193741413"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_rain"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 7.0d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4648E118B51864DF"
+			rewards: [
+				{
+					id: "5A2CA3C447529AF0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25A8CF1777737247"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "482E8EA796F29FAF"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Heavy Wind"
+			tasks: [{
+				id: "3C09A4008BBB719A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_wind"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 7.7d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1732649519EBDE24"
+			rewards: [
+				{
+					id: "6B35DC33329752AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A0AD4E60AD96833"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "407CA946A172760E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Soothing Cinders"
+			tasks: [{
+				id: "51F2002FDCD1F657"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_fire"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 8.4d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "58993574446DE6A8"
+			rewards: [
+				{
+					id: "1C5E29C2394811EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D296DBFFB3EECE7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "44425C1D18859E42"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Tick-Tock"
+			tasks: [{
+				id: "122CF19BE65A22FF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_clock"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 9.1d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "594FE50D7AD36D4D"
+			rewards: [
+				{
+					id: "5182F42EE2C2753F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BEA9CF52290D8AA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7BAE4228E4FF4FA6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Cricket Song"
+			tasks: [{
+				id: "53633CBBED17BD03"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_crickets"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 5.6d
+			y: -3.85d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "4A69028E8AB28F20"
+			rewards: [
+				{
+					id: "08C4918A775A2375"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627CF5E5B62896CE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "687A3A99854F7EF2"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "&oAmbience - Packed Venue"
+			tasks: [{
+				id: "564385E8EF2F998A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:music_disc_chatter"
+				}
+				type: "item"
+			}]
+			title: "&9Quark"
+			x: 4.8999999999999995d
+			y: -4.55d
+		}
+		{
+			dependencies: ["3BD605B4B1C89B92"]
+			hide_dependency_lines: true
+			id: "1749F541040579B8"
+			rewards: [
+				{
+					id: "79582650A9B65B27"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7716D436CAE56E58"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7D79015A6F11AA8B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "43F44BD48E5BAE34"
+				item: "mysticalagriculture:blank_record"
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -4.2d
+		}
+	]
+	title: "&6&oDJ Quest"
+}

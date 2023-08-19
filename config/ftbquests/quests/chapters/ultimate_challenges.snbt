@@ -1,0 +1,1094 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ultimate_challenges"
+	group: "0191929ABBCAE7CF"
+	icon: "reliquary:infernal_chalice"
+	id: "77BF0D1882072338"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/uc.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "kubejs:textures/item/sf.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/cube.png"
+			rotation: 48.0d
+			width: 1.0d
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/cube.png"
+			rotation: -20.0d
+			width: 1.0d
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 4.951612903225807d
+			y: -9.353046594982079d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: -3.0d
+			y: -9.38928571428572d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/jailors_scythe.png"
+				}
+			}
+			id: "0C8BB19B42305267"
+			rewards: [
+				{
+					id: "7A4FA7FD49FA8514"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "20DE3DC16409B26A"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "451EB5DF67E5591A"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "007EADDAD495468A"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "modularrouters:player_module"
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+				id: "5FE6CF4715CD753A"
+				stat: "minecraft:time_since_death"
+				type: "stat"
+				value: 6900000
+			}]
+			title: "&c&l&oSince Last Death"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "7D8DD102700A5C97"
+			rewards: [
+				{
+					id: "4F211D24050F83EE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 100
+					id: "3E3C41216A0803E6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "7521EAF403A151DE"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "098152BF003FCD89"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.4d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "theabyss:clock_of_time"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5710C05DA1B84695"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 5900000
+			}]
+			title: "&b&l&oTime Played"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/royal_guard_helmet.png"
+				}
+			}
+			id: "76ECAE980254D515"
+			rewards: [
+				{
+					id: "2EAB0B088C3DAF20"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					id: "399FDA83FEF4B325"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2B6C9396047ADBCB"
+					table_id: 4683234648620558652L
+					type: "random"
+				}
+				{
+					count: 100
+					id: "3F75B7EDBB052BF0"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "2CDD4A8BBD9E2348"
+					item: "kubejs:10m_card"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.3d
+			subtitle: "Kill them all!"
+			tasks: [{
+				icon: "apotheosis:boss_summoner"
+				id: "16DCBE2E107303B6"
+				stat: "minecraft:mob_kills"
+				title: "Kill: 1,000,000 Mobs"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "&8&l&oThor's Justice"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/steak.png"
+				}
+			}
+			id: "4641D535199C5F8B"
+			rewards: [
+				{
+					id: "622597B018738240"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					count: 100
+					id: "236E3BAE8BCA68B2"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "606AADC94B50FCAE"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "35DA1DF0EC668A51"
+					item: "kubejs:1m_card"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "1 million steaks waiting to be grilled"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "57BA1BF3724BDAF9"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			title: "&6&l&oKing of the Grill"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "36901054929FE3EF"
+			rewards: [
+				{
+					id: "46E0F5F0A3CAAF5F"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					id: "12C8E9A9F20C3257"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "5DBD747B8EFA2B5E"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "12A2440598F489B6"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "5DFBAAE7432DBB25"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "1DE900987106D702"
+					item: "kubejs:1m_card"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Spend 1 million of diamonds to benefit poor"
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "79ACBA57DC39394B"
+				item: "minecraft:diamond"
+				title: "1,000,000 Diamonds"
+				type: "item"
+			}]
+			title: "&1&l&oRobin Hood"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "0B6FE364D1DADE22"
+			rewards: [
+				{
+					id: "288D185D5D66CD53"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					id: "638693B9CF680AF6"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "37057E296A5CC80B"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "04EF1749DF21E363"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "7EF60A1AC4C66C7F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "7B6F8B7A92E70D16"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "cyclic:heart"
+				id: "70828AFB26CF8F6D"
+				stat: "minecraft:animals_bred"
+				title: "Bred: 1,500 Animals"
+				type: "stat"
+				value: 1500
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "7B44968F569EEE16"
+			rewards: [
+				{
+					id: "56D0A4DC072A96A8"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					id: "5CE1608A412EB2E3"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "4E76FF9AB0CCDF42"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "22FD70960768152C"
+					item: {
+						Count: 1b
+						id: "megacells:item_storage_cell_1m"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "29B74F49F4D75336"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ae2:item_storage_cell_64k"
+					tag: { }
+				}
+				id: "632CDBDBB8ACE278"
+				stat: "appliedenergistics2:items_inserted"
+				title: "Add: 100K item to your ME Storage System"
+				type: "stat"
+				value: 100000
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/with_er.png"
+				}
+			}
+			id: "4749F46F794687BF"
+			rewards: [
+				{
+					id: "507CED276FDCE997"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					count: 100
+					id: "366B35D4389818CF"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "07E2FA97CAE5DE5C"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "7E07A6F04B6308E9"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "51E2C4E17C4B629C"
+				title: "Kill: 100x Wither"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			id: "7D5BEA03255E69F2"
+			rewards: [
+				{
+					id: "2F8B899B01E3E45D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "395F9DD6DEDB6E39"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "516E2AC3B3DFB8B0"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "517EF6B34C9DE215"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/villhead.png"
+					}
+				}
+				id: "261F33F4A4A3A3ED"
+				stat: "minecraft:traded_with_villager"
+				title: "Make: 1,000 trades with Villagers"
+				type: "stat"
+				value: 1000
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "4E04E3C10F2CBF85"
+			rewards: [
+				{
+					id: "25BB5518362721AA"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					id: "26B6FE8F5650AF12"
+					item: "extradisks:infinite_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "63B17D3DE9ED56A4"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "16982D6811CDC768"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CFE33E5A9F78A10"
+				points: false
+				title: "XP Levels: &c3,000"
+				type: "xp"
+				value: 3000L
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			id: "2437D9BEC5AC8736"
+			rewards: [
+				{
+					id: "0F0F41C6C3CBFB4D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "295724D80B35E88B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14699F81A3204145"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ABDC6F47B7E9388"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "7C37837C184B5069"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 1500L
+				id: "37C3FAEBE72C5EDD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:corals"
+					}
+				}
+				title: "Collect: 1,500x Corals"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "37B5AB03011BEAC2"
+			rewards: [
+				{
+					id: "20A48D4845CD886C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "456697CAFF9ED78D"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1F528905EC6BEF29"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "3AD78C6B3A83A082"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_bed"
+				id: "0F332AE1241A512A"
+				stat: "minecraft:sleep_in_bed"
+				title: "Sleep: 3,000x in your bed"
+				type: "stat"
+				value: 3000
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "1FD5C5128D418042"
+			rewards: [
+				{
+					id: "4B8DC26DF9C40BA5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "11237ED529CC206E"
+					table_id: 6363515282471183984L
+					type: "random"
+				}
+				{
+					id: "449F971B6BA470D6"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "3666C4918A9AE54B"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:jukebox"
+				id: "5C69AE6392056334"
+				stat: "minecraft:play_record"
+				title: "Play: 1,000 Music Discs"
+				type: "stat"
+				value: 1000
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			id: "410C1A5F6FA99764"
+			rewards: [
+				{
+					id: "48ACDC6C1C05C394"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "658C98C2636A3261"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "744DCE6CDAA1A4A4"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "055A22419A8763B8"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "7F57F134AA0FC70B"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "aquaculture:goldfish"
+				id: "14B3C291F47A3E72"
+				stat: "minecraft:fish_caught"
+				title: "Catch: 1,500x Fish"
+				type: "stat"
+				value: 1500
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "5D9E10F27EEAF2A1"
+			rewards: [
+				{
+					id: "45251A8BF2C484D5"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					count: 300
+					id: "0A70172FF12A05A5"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "48A7BCD47DB25618"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77A5F3A08F953160"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:enchanting_table"
+				id: "2C3910CD1178E3CC"
+				stat: "minecraft:enchant_item"
+				title: "Enchant: 500x Items"
+				type: "stat"
+				value: 500
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "3A8B5860FDA8013A"
+			rewards: [
+				{
+					id: "5AD1652B917518B2"
+					type: "xp_levels"
+					xp_levels: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2292577291DC1BFB"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44DA261DD0E4F7CC"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C4E80BCE6B955D0"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EE79737F108E087"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "369DAFF23E38B932"
+					item: "kubejs:5k_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21F5E74D0CDDA049"
+				item: "irongenerators:infinity_generator"
+				title: "Craft: Infinity Generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "151505A49E3F872D"
+			rewards: [
+				{
+					id: "6ECC2BBEF56E4D96"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "473F9211965825F4"
+					item: "botania:gaia_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5AAD6237EDFD482E"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "4FB2DA364C7DD850"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "29BE966B7A0E388C"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Wow!"
+			tasks: [{
+				id: "129D737AE0F76798"
+				item: "ftbic:ev_battery_box"
+				type: "item"
+			}]
+			title: "&2&l&oThe EV Battery Box"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			description: ["Use &eTask Screen&r to complete this Quest."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/lava_bar.png"
+				}
+			}
+			id: "48AAA21C2214AED4"
+			rewards: [
+				{
+					id: "06C4E0C62EF632E9"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7746BC4A49019062"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2794FCE2D7CDE747"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74EEEFCEADAB102B"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "6832BCBA83748FC6"
+					item: "kubejs:100m_card"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Hot Stuff"
+			tasks: [{
+				amount: 1000000000L
+				fluid: "minecraft:flowing_lava"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/lava_bar.png"
+					}
+				}
+				id: "014040012F86D797"
+				title: "1,000,000 Buckets of Lava"
+				type: "fluid"
+			}]
+			title: "&4&l&oThe Smeltery"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: ["Use &eTask Screen&r to complete this Quest."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/energie_bar.png"
+				}
+			}
+			id: "51F42BF270D6F54D"
+			rewards: [
+				{
+					id: "0850077C401F05A5"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F01473DD31ECB1A"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5830821AB3E7F4B7"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04E21E404D09A0F3"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "4A0A5B6DEACF4C96"
+					item: "kubejs:100m_card"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Cool, eh?"
+			tasks: [{
+				id: "4D8588BE28BFAE5C"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 1000000000L
+			}]
+			title: "&5&l&oAll That Power"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			id: "7CFE69A0CD15C6A3"
+			rewards: [
+				{
+					id: "1F3F25B0BF992B37"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0C54F9E9E65376F0"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "33F6DEB15A168407"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "146CB77E1E3B164E"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "2AD893045598B985"
+					item: "kubejs:5k_card"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4076914782A79491"
+				item: "allthemodium:alloy_sword"
+				type: "item"
+			}]
+			title: "&6&l&oAllthemodium Alloy Blade"
+			x: 7.178571428571431d
+			y: -5.982142857142861d
+		}
+		{
+			id: "7B1F42202D89F563"
+			rewards: [
+				{
+					id: "277438B375143D69"
+					type: "xp"
+					xp: 100000
+				}
+				{
+					id: "24B38DAA01B5C90D"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "571798BCB4D0C642"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "052F9175507D4951"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "57E32639368D2C65"
+					item: "kubejs:5k_card"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "22F14CC788517E4D"
+				item: "allthemodium:alloy_paxel"
+				type: "item"
+			}]
+			title: "&6&l&oAllthemodium Alloy Paxel"
+			x: -5.25d
+			y: -6.0d
+		}
+		{
+			id: "0B6ACDEFAD525E54"
+			rewards: [
+				{
+					id: "79A6C0D3BEFF28B3"
+					type: "xp_levels"
+					xp_levels: 777
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7138C420E0A7DB3F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AC3B07C43395143"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "157F3DCA2AE8BAD7"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 200L
+				id: "617E75FAC56E0FB5"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:ultimate_singularity"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Master of the Singularity"
+			x: -1.5d
+			y: -7.5d
+		}
+	]
+	title: "&6&oUltimate Challenges"
+}

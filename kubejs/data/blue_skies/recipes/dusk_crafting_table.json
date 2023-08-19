@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting_tables",
+  "key": {
+    "P": {"item": "blue_skies:dusk_planks"},
+    "R": {"tag": "blue_skies:logs/dusk"}
+  },
+  "pattern": ["PR","RP"],
+  "result": {
+    "item": "blue_skies:dusk_crafting_table"
+  }
+}

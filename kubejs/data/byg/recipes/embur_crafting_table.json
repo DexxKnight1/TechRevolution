@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:embur_planks"},
+        "R":{"tag":"byg:embur_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:embur_crafting_table"
+    }
+}

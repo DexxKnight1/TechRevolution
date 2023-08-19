@@ -1,0 +1,1761 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tavern_bloody_moon"
+	group: "0734189F95095884"
+	icon: "blue_skies:food_prep_table"
+	id: "37EF982A98CC49C1"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_food.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "farmersdelight:mushroom_rice"
+			id: "33FAEDD222363DE6"
+			rewards: [{
+				count: 4
+				id: "555F7633492061CF"
+				item: "farmersdelight:mushroom_rice"
+				random_bonus: 2
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "7848D7F953A00852"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aMushroom Rice"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon: "croptopia:beer"
+			id: "034F5F5B8F3D9AFF"
+			rewards: [{
+				count: 3
+				id: "106C95F96C7BFFAF"
+				item: "croptopia:beer"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				id: "4F897E0BC2A9AE72"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aBeer"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			icon: "croptopia:coffee"
+			id: "31A284340ECFA254"
+			rewards: [{
+				id: "16FA48EC024A9933"
+				item: "croptopia:coffee"
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "5501A2F06C6878CA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aHot Coffee"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			icon: "croptopia_additions:cherry_soda"
+			id: "1CC6032C6FB09664"
+			rewards: [{
+				id: "3F5AF74219513F3F"
+				item: "croptopia_additions:cherry_soda"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$7"
+			tasks: [
+				{
+					consume_items: true
+					id: "72E05B2E93006200"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_5"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2BBCBD3D90962C7C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_2"
+					}
+					type: "item"
+				}
+			]
+			title: "&aCherry Soda"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			icon: "farmersdelight:bacon_and_eggs"
+			id: "48762FF02ED0B2E7"
+			rewards: [{
+				count: 4
+				id: "14054DB03E654EFC"
+				item: "farmersdelight:bacon_and_eggs"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "056F8369CDA3EDD5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aBacon and Eggs"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "farmersdelight:pasta_with_meatballs"
+			id: "02EA3C2E75CC88E1"
+			rewards: [{
+				count: 4
+				id: "37545407F0564E7E"
+				item: "farmersdelight:pasta_with_meatballs"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "11FBD1CAF4AAA86B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aPasta with Meatballs"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon: "farmersdelight:steak_and_potatoes"
+			id: "48C19C15A4AFD542"
+			rewards: [{
+				count: 4
+				id: "22F4C16E0656EAA6"
+				item: "farmersdelight:steak_and_potatoes"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "015BBE9AA078FCA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aSteak and Potatoes"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			icon: "croptopia:quesadilla"
+			id: "6B4172859A2191D5"
+			rewards: [{
+				count: 4
+				id: "3BEFC2059D247F86"
+				item: "croptopia:quesadilla"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "1BD8CB4BDBA4E140"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aQuesadilla"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			icon: "farmersdelight:barbecue_stick"
+			id: "2A02C381C752D309"
+			rewards: [{
+				count: 3
+				id: "28B8EBA5D0B40574"
+				item: "farmersdelight:barbecue_stick"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "2FCE6C76AAA8EE23"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6BB53C1B74E7653A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&aBarbecue on a Stick"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			icon: "delightful:cheeseburger"
+			id: "4244BABB4718C8C2"
+			rewards: [{
+				count: 4
+				id: "202B7FCDBBFBF396"
+				item: "delightful:cheeseburger"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "5A62B8374810F84D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aCheeseburger"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: "croptopia:lemon_chicken"
+			id: "3B32650DED9BCB6D"
+			rewards: [{
+				count: 4
+				id: "3D1F9B0976EE1E45"
+				item: "croptopia:lemon_chicken"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "4F42B44B10F69E85"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aLemon Chicken"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:egg"
+			}
+			id: "7C9293FF09A02143"
+			rewards: [{
+				count: 16
+				id: "086366B3AAC73F6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:egg"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				id: "29B4C05A306EE825"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aEggs"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "thermal:cheese_wedge"
+			}
+			id: "3F5DE55C66F7E810"
+			rewards: [{
+				count: 6
+				id: "08604977E0910644"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:cheese_wedge"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				id: "3ED675C073E55B2F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aCheese"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			icon: "croptopia:banana_cream_pie"
+			id: "1943BE439C4379CE"
+			rewards: [{
+				count: 3
+				id: "5A28C07B5AFD8384"
+				item: "croptopia:banana_cream_pie"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "37A053B7E4BD2EC8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3B6F0C56942EB4F8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&aBanana Cream Pie"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			icon: "farmersdelight:milk_bottle"
+			id: "1A9CCA51E2CB3017"
+			rewards: [{
+				count: 2
+				id: "3BC16C477DB9F304"
+				item: "farmersdelight:milk_bottle"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				id: "5C63083F3610CF8B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			title: "&aMilk"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: "farmersdelight:dumplings"
+			id: "363545C3942C1DCC"
+			rewards: [{
+				count: 4
+				id: "21903FB72878C188"
+				item: "farmersdelight:dumplings"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2ACA4388C717E170"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&aDumplings"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "undergarden:bloody_stew"
+			}
+			id: "7ADF4D0665F2A692"
+			rewards: [{
+				count: 6
+				id: "793AE61FAB65FA5C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "undergarden:bloody_stew"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				id: "4B15238D044FD8FF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aBloody Stew"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "farmersdelight:melon_juice"
+			id: "3B196DF3E7BA2E5F"
+			rewards: [{
+				id: "428E2FD76DD9C74F"
+				item: "farmersdelight:melon_juice"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$7"
+			tasks: [
+				{
+					consume_items: true
+					id: "572D1DF55DA44DD0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_5"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7C6A579A03B04271"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_2"
+					}
+					type: "item"
+				}
+			]
+			title: "&aMelon Juice"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			icon: "croptopia:banana_smoothie"
+			id: "3F5E807351CFCCC6"
+			rewards: [{
+				id: "5D17014152E51CC9"
+				item: "croptopia:banana_smoothie"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				id: "1FCCD2E48F02150C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			title: "&aBanana Smoothie"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:beetroot_soup"
+			}
+			id: "5C0A77BB5A76C28E"
+			rewards: [{
+				count: 6
+				id: "6F62408995DE486A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:beetroot_soup"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				id: "623A4D6FBF548C8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aBeetroot Soup"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: "croptopia:cooked_calamari"
+			id: "64D168197B3A32AB"
+			rewards: [{
+				count: 16
+				id: "6866DB8F04C52391"
+				item: "croptopia:cooked_calamari"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$40"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6A2E8EE38F88A27A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aCooked Calamari"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:cooked_beef"
+			}
+			id: "0A784DCCA80A5A27"
+			rewards: [{
+				count: 16
+				id: "0D3038C23B36E810"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:cooked_beef"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$40"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "73D5BA782A784DBE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aSteak"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			icon: "croptopia:fried_frog_legs"
+			id: "0A6273603830DD46"
+			rewards: [{
+				count: 8
+				id: "6128C491715C7D2C"
+				item: "croptopia:fried_frog_legs"
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "61636FAD7F3CACE9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "26B769600F223876"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&aFried Frog Leg"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: "farmersdelight:honey_glazed_ham"
+			id: "05125701B7038207"
+			rewards: [{
+				id: "4DCAECC59ECEE8A4"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "15B2EB0DE198341E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "15C61C2C141073BA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&aPlate of Honey Glazed Ham"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: "aquaculture:sushi"
+			id: "107DAA804AE48DF3"
+			rewards: [{
+				count: 16
+				id: "6D99FBBBD80C6520"
+				item: "aquaculture:sushi"
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$40"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4ECFC0F08E5D5FA8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aSushi"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			icon: "croptopia:french_fries"
+			id: "715A8FB04C09D556"
+			rewards: [{
+				count: 4
+				id: "3203247260F984FF"
+				item: "croptopia:french_fries"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				id: "3C04D906AF85AE02"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aFrench Fries"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:kangaroo_burger"
+			}
+			id: "2A29F99BE76F3063"
+			rewards: [{
+				count: 2
+				id: "4CF99E1C9DD45ECF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:kangaroo_burger"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "1A483D3C8B0E4339"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "15F3A5B861BF84A3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&aKangaroo Burger"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: "farmersdelight:cooked_mutton_chops"
+			id: "35120E7F432035FC"
+			rewards: [{
+				count: 5
+				id: "7F583EF83E4C4DE4"
+				item: "farmersdelight:cooked_mutton_chops"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$40"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5FCF04BA2DA5F82D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aCooked Mutton Chops"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:cooked_moose_ribs"
+			}
+			id: "626E66661CAF15A9"
+			rewards: [{
+				count: 16
+				id: "3531A1E74E315DB6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:cooked_moose_ribs"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$40"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "58EBBED943315AEB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			title: "&aCooked Moose Ribs"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			icon: "croptopia:chocolate_milkshake"
+			id: "576332AF0A142158"
+			rewards: [{
+				id: "31DCBE505F1396B6"
+				item: "croptopia:chocolate_milkshake"
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "7B99E068C27C3586"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aChocolate Milkshake"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			icon: "croptopia:toast"
+			id: "660B68140CC887EE"
+			rewards: [{
+				count: 3
+				id: "26E21466F7877EF2"
+				item: "croptopia:toast"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				id: "41D62D8FB5BCBA72"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			title: "&aToast"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:honey_bottle"
+			}
+			id: "38CFCAD4E8BE0BF3"
+			rewards: [{
+				count: 2
+				id: "0B3926751292843B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:honey_bottle"
+				}
+				type: "item"
+			}]
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				id: "248F71220F36A60E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			title: "&aHoney"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:bread"
+			}
+			id: "42A5778048FC5538"
+			rewards: [{
+				count: 6
+				id: "2352D5362781A3C7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bread"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				id: "16194219AF2D0EA9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			title: "&aBread"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: "croptopia:paprika"
+			id: "3FCEE9C5E58807B2"
+			rewards: [{
+				id: "5170E6E8E2DE8D30"
+				item: "croptopia:paprika"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				id: "1EF298FABDE6AADD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aPaprika"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			icon: "croptopia:peanut_butter"
+			id: "64E3B5A707BA51AB"
+			rewards: [{
+				id: "44EAE017E84B7C65"
+				item: "croptopia:peanut_butter"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				id: "2DF20F354ACFE447"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aPeanut Butter"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			icon: "croptopia_additions:curry_powder"
+			id: "49830086C76D16D4"
+			rewards: [{
+				id: "74FE172D21EFAB18"
+				item: "croptopia_additions:curry_powder"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				id: "0747DDB8A2EAFF30"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aCurry"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: "farmersdelight:apple_cider"
+			id: "513E75B701C5F367"
+			rewards: [{
+				id: "772B5050B43077F7"
+				item: "farmersdelight:apple_cider"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$7"
+			tasks: [
+				{
+					consume_items: true
+					id: "66D366972CA9C1EA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_5"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "34DF5D1C18C03255"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_2"
+					}
+					type: "item"
+				}
+			]
+			title: "&aApple Cider"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: "croptopia:soy_milk"
+			id: "7EAF7FDF7A8F413E"
+			rewards: [{
+				count: 3
+				id: "655C517274F58491"
+				item: "croptopia:soy_milk"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				id: "228A467F8CE44495"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			title: "&aSoy Milk"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: "croptopia:soy_sauce"
+			id: "5E359FCE683DE366"
+			rewards: [{
+				id: "5AA5402C521C1465"
+				item: "croptopia:soy_sauce"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				id: "42A5533A5A4CCB1B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aSoy Sauce"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			icon: "croptopia:olive_oil"
+			id: "039FD57369DBF795"
+			rewards: [{
+				id: "03AFF36F4FFFBE78"
+				item: "croptopia:olive_oil"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				id: "01026EB68CBE2F4E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aOlive Oil"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: "alexsmobs:fish_oil"
+			id: "2C81DC697494AF80"
+			rewards: [{
+				id: "0B45AE437ACCB512"
+				item: "alexsmobs:fish_oil"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				id: "4750F92F47A07FE3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aFish Oil"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: "croptopia:salt"
+			id: "39F49CC631156958"
+			rewards: [{
+				id: "0086F94138A42698"
+				item: "croptopia:salt"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				id: "15702A659C9E7B74"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aSalt"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			icon: "croptopia:pepper"
+			id: "383644683F4861C6"
+			rewards: [{
+				id: "09FC58028BB1510F"
+				item: "croptopia:pepper"
+				type: "item"
+			}]
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				id: "056514A0E4B11874"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			title: "&aPepper"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			icon: "croptopia:tea"
+			id: "55822CC5C93F63C2"
+			rewards: [{
+				id: "6EC1E7219C60D9DF"
+				item: "croptopia:tea"
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "2C7AAF05484BADC4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aHot Tea"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			icon: "croptopia:caramel"
+			id: "392129A0C0EA8B8A"
+			rewards: [{
+				id: "747BDB251F94C871"
+				item: "croptopia:caramel"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "369DC4588409D0F5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aCaramel"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			icon: "croptopia:eton_mess"
+			id: "582A4EE12485CACD"
+			rewards: [{
+				id: "1301DF7E3D61E288"
+				item: "croptopia:eton_mess"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "5E64656DA21A5575"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aEton Mess"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			icon: "croptopia_additions:cupcake"
+			id: "535FD4C409A6334C"
+			rewards: [{
+				id: "3D4F2FC5B9D9E0B4"
+				item: "croptopia_additions:cupcake"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "21933D544A53FB7A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aCupcake"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			icon: "croptopia_additions:cola"
+			id: "62A0B9507D2FDC74"
+			rewards: [{
+				id: "2226DE27A53AC41B"
+				item: "croptopia_additions:cola"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$7"
+			tasks: [
+				{
+					consume_items: true
+					id: "4639139693C93AEC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_5"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "43368DB00091B33F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_2"
+					}
+					type: "item"
+				}
+			]
+			title: "&aCola"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			icon: "croptopia:candy_corn"
+			id: "7BF7DE4ED54F70B4"
+			rewards: [{
+				id: "09242B8EF3945BA8"
+				item: "croptopia:candy_corn"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "653DE7082BA59058"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aCandy Corn"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			icon: "croptopia:chocolate"
+			id: "00317BEF261B2286"
+			rewards: [{
+				id: "4BF88AFEE001795D"
+				item: "croptopia:chocolate"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				id: "6D7E4A1368CACE12"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			title: "&aChocolate"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			icon: "delightful:animal_oil_bottle"
+			id: "3BAF6370F34D5AE7"
+			rewards: [{
+				id: "27B7E10993B42A1A"
+				item: "delightful:animal_oil_bottle"
+				type: "item"
+			}]
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				id: "763EA7A0C1DD2482"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			title: "&aAnimal Oil"
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	title: "Restaurant"
+}

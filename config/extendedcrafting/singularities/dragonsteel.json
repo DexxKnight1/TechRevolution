@@ -1,0 +1,10 @@
+{
+    "name": "Dragonsteel",
+    "colors": [
+        "0000A0",
+        "0020C2"
+    ],
+    "ingredient": {
+        "tag": "forge:ingots/dragonsteel"
+    }
+}

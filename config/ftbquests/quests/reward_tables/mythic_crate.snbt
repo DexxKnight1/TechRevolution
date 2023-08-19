@@ -1,0 +1,103 @@
+{
+	hide_tooltip: true
+	id: "40FE31199ED4693C"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "mythic_crate"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:mythic_material"
+				tag: { }
+			}
+			weight: 3000.0f
+		}
+		{ count: 64, item: "minecraft:nether_star", weight: 3000.0f }
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_sword"
+				tag: { }
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_pickaxe"
+				tag: { }
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_axe"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "allthemodium:allthemodium_shovel"
+				tag: { }
+			}
+			weight: 3000.0f
+		}
+		{ count: 8, item: "mekanism:pellet_antimatter", weight: 3000.0f }
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			weight: 3000.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1b
+				id: "mekanism:alloy_atomic"
+				tag: { }
+			}
+			weight: 3000.0f
+		}
+		{ count: 12, item: "mysticalagradditions:insanium_block", weight: 3000.0f }
+		{ count: 12, item: "mysticalagradditions:insanium_apple", weight: 3000.0f }
+		{ count: 32, item: "minecraft:netherite_block", weight: 3000.0f }
+		{
+			item: {
+				Count: 1b
+				id: "redstone_arsenal:flux_sword"
+				tag: { }
+			}
+		}
+		{ count: 64, item: "minecraft:totem_of_undying" }
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "sophisticatedstorage:netherite_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+		}
+		{ count: 16, item: "mysticalagradditions:insanium_coal_block" }
+		{ item: "allthecompressed:nether_star_block_9x" }
+	]
+	title: "Mythic Crate"
+	use_title: true
+}

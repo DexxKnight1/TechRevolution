@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:mahogany_planks"},
+        "R":{"tag":"byg:mahogany_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:mahogany_crafting_table"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:sythian_planks"},
+        "R":{"tag":"byg:sythian_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:sythian_crafting_table"
+    }
+}

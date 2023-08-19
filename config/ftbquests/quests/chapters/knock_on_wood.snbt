@@ -1,0 +1,1586 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "knock_on_wood"
+	group: "0734189F95095884"
+	icon: {
+		Count: 1b
+		id: "theabyss:bone_axe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "12D34982E79C740D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_logs.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "allthemodium:allthemodium_axe"
+			id: "3CCB3E4ADCEAB502"
+			rewards: [{
+				id: "78CCB2D0A2B37E3E"
+				item: "allthemodium:allthemodium_axe"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$1'500'000"
+			tasks: [
+				{
+					consume_items: true
+					id: "5FAB270DD4F24335"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:1m_card"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "279570556B5C3351"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:500k_card"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Allthemodium Axe"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3D7037F737C68496"
+			rewards: [{
+				id: "596EAF5CA9B5683F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "56087C2389642666"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&9Diamond Axe"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "thermal:flux_saw"
+				tag: { }
+			}
+			id: "3E0557ADE89DAFF7"
+			rewards: [{
+				id: "5B78C56B2F1C6C35"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "$15'000"
+			tasks: [
+				{
+					consume_items: true
+					id: "6E43034904B3FF03"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:10k_card"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "53D6C35A45E82490"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:5k_card"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Fluxsaw"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "corail_woodcutter:canopy_woodcutter"
+			}
+			id: "4B5DBC7458B1F504"
+			rewards: [{
+				id: "00C37464C0E08B99"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "corail_woodcutter:canopy_woodcutter"
+				}
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2742660065D5F83B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&9Sawmill"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:oak_log"
+			}
+			id: "7DA4396B439F0C76"
+			rewards: [{
+				count: 12
+				id: "658DB185A888F16E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:oak_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "32F5138D664A4E92"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Oak Logs"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:spruce_log"
+			}
+			id: "7B4235AA3BF711C1"
+			rewards: [{
+				count: 12
+				id: "3C680B26B05F5F37"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:spruce_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "3FF7810D612BDFB0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Spruce Logs"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:birch_log"
+			}
+			id: "4B2D1975ABF21364"
+			rewards: [{
+				count: 12
+				id: "033CE0253DEC60AC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:birch_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "2BFD1E68C78AD993"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Birch Logs"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:jungle_log"
+			}
+			id: "4406D05BE0567D54"
+			rewards: [{
+				count: 12
+				id: "6DD4C3B86B4497FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:jungle_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "518111E1E98ABF8D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Jungle logs"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:acacia_log"
+			}
+			id: "26BD64982947035C"
+			rewards: [{
+				count: 12
+				id: "06EB3355958AE696"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:acacia_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "41ACD334021BA213"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Acacia Logs"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:dark_oak_log"
+			}
+			id: "186FF6C5D74E3039"
+			rewards: [{
+				count: 12
+				id: "4EC4A6F01B85ABCE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:dark_oak_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "1A95F6F6E494EE57"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Dark Oak Logs"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:mangrove_log"
+			id: "59C3310674611007"
+			rewards: [{
+				count: 12
+				id: "430E8651444A85EF"
+				item: "minecraft:mangrove_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "14107A00A43FB583"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "01D4943607DBB223"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Mangrove Logs"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon: "byg:ether_log"
+			id: "7FE7D454B484ED6A"
+			rewards: [{
+				count: 12
+				id: "19FFC6995993C59B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:ether_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "530BCA759EA7B5D6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "40B2700E59EAE29C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Ether Logs"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: "byg:cika_log"
+			id: "6EADA41EBACDA14B"
+			rewards: [{
+				count: 12
+				id: "3031C284F3647BDD"
+				item: "byg:cika_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "1133823F822BDC00"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4C1845E8711B4AC9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Cika Logs"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:azalea_log"
+			}
+			id: "18B16AD1B1480073"
+			rewards: [{
+				count: 12
+				id: "6699BF62576315AF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:azalea_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "4856130BAA041C10"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "371F90CFA2E26CE3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Azalea Logs"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: "theabyss:frozen_log"
+			id: "709CF7C408B72CC2"
+			rewards: [{
+				count: 12
+				id: "5D00559775B32525"
+				item: "theabyss:frozen_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "109BF8327B4DA44C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "64BF4C6466891257"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Frozen Logs"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "byg:witch_hazel_log"
+			}
+			id: "2B253A129B183420"
+			rewards: [{
+				count: 12
+				id: "04902BF5864C7701"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:witch_hazel_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "01FE7C186DD865EE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "34F92951E155A025"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Witch Hazel Logs"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "allthemodium:ancient_log_0"
+			}
+			id: "10920B935EC5C1E4"
+			rewards: [{
+				count: 12
+				id: "57AC88F64625349D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthemodium:ancient_log_0"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "124787CE47757664"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&9Ancient Logs"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "allthemodium:soul_log"
+			}
+			id: "55885DCD72FAD52F"
+			rewards: [{
+				count: 12
+				id: "2954BDFC1F508A73"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthemodium:soul_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2B96B5B7EE50F4B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&9Soul logs"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			icon: "theabyss:vigilant_log"
+			id: "49214A264B8DB150"
+			rewards: [{
+				count: 12
+				id: "721F19FD4B3BFC9D"
+				item: "theabyss:vigilant_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2DEE500A7C26AFB2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&9Vigilant Logs"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			icon: "deeperdarker:echo_log"
+			id: "6010C14F18D1F090"
+			rewards: [{
+				count: 12
+				id: "17568F0D319EC1C9"
+				item: "deeperdarker:echo_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "06A0D99BD7667EFD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&9Echo Logs"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "byg:withering_oak_log"
+			}
+			id: "2295EE1CBDAF85E4"
+			rewards: [{
+				count: 12
+				id: "5701AAA2130AAFBE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:withering_oak_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "4E564F086E536C9B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&9Withering Oak Logs"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "twilightforest:cinder_log"
+			}
+			id: "6FB5E7F6B70D722A"
+			rewards: [{
+				count: 12
+				id: "296AB52BA1B9CC52"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:cinder_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "7C1C508F87779DCF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&9Cinder Logs"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "582D460A4701C4FD"
+			rewards: [{
+				id: "4775645AF572FA16"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2A08C2CE7D50B282"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&9Netherite Axe"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "byg:redwood_log"
+			}
+			id: "5C83A3C6005D9130"
+			rewards: [{
+				count: 12
+				id: "5DC7521C8C214EA3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:redwood_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "6EC76AE67D6E50E1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Redwood Logs"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "byg:fir_log"
+			}
+			id: "3781841EC7E92E72"
+			rewards: [{
+				count: 12
+				id: "13B6C47BA1D3FB9D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:fir_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "2EFD301B3398D083"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Fir Logs"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "byg:rainbow_eucalyptus_log"
+			}
+			id: "5028284E5AC40548"
+			rewards: [{
+				count: 12
+				id: "27A36C3EC9446589"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:rainbow_eucalyptus_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "36B79CDBAD81FA65"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74C5C248DD58E675"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Rainbow Eucalyptus Logs"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "byg:jacaranda_log"
+			}
+			id: "4DEB71F2472824B5"
+			rewards: [{
+				count: 12
+				id: "6CA50474C3C08F89"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:jacaranda_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "2A9EEF20E1B2F6F2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Jacaranda Logs"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: "byg:willow_log"
+			id: "479AC18E1493A1CC"
+			rewards: [{
+				count: 12
+				id: "43D89695B04DA7C8"
+				item: "byg:willow_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "3274E4BFC3146FE0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2F8A3BB690166C7C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Willow Logs"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:crimson_stem"
+			}
+			id: "1C55D45470775EE8"
+			rewards: [{
+				count: 12
+				id: "19D2E769E2261119"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:crimson_stem"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "3A06A76329C78215"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Crimson Logs"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:warped_stem"
+			}
+			id: "72CE98B7F349D0C1"
+			rewards: [{
+				count: 12
+				id: "7C65D2239A95D075"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:warped_stem"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "4F4AFB17D60E604F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&9Warped Logs"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "byg:palm_log"
+			}
+			id: "38E00872D8B074EC"
+			rewards: [{
+				count: 12
+				id: "0833E6718C9CA578"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:palm_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "7F1B4EAB243F1468"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3D5F251604561BC4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Palm Logs"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: "undergarden:smogstem_log"
+			id: "0C04BB29D4ED48A5"
+			rewards: [{
+				count: 12
+				id: "3C229D555A1AF938"
+				item: "undergarden:smogstem_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "248128EE0C857091"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "58FB7A7861E3077B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Smogstem Logs"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "twilightforest:canopy_log"
+			}
+			id: "06E283BAEDB8D113"
+			rewards: [{
+				count: 12
+				id: "115104DD3218D357"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:canopy_log"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$70"
+			tasks: [
+				{
+					consume_items: true
+					id: "1E88AC3FCEB6B9D3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2B2AAB6CE416E3BC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			title: "&9Canopy Tree Logs"
+			x: -5.5d
+			y: 1.0d
+		}
+	]
+	title: "Wood Supply"
+}

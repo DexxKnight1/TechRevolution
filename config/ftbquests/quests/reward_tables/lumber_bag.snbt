@@ -1,0 +1,53 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:textures/item/dark_rune_bag.png"
+		}
+	}
+	id: "1DA820F678551254"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ count: 16, item: "minecraft:oak_log" }
+		{ count: 16, item: "minecraft:spruce_log" }
+		{ count: 16, item: "minecraft:birch_log" }
+		{ count: 16, item: "minecraft:jungle_log" }
+		{ count: 16, item: "minecraft:acacia_log" }
+		{ count: 16, item: "minecraft:dark_oak_log" }
+		{ count: 16, item: "minecraft:mangrove_log" }
+		{ count: 16, item: "quark:azalea_log" }
+		{ count: 16, item: "quark:blossom_log" }
+		{ count: 16, item: "byg:aspen_log" }
+		{ count: 16, item: "byg:baobab_log" }
+		{ count: 16, item: "byg:blue_enchanted_log" }
+		{ count: 16, item: "byg:cherry_log" }
+		{ count: 16, item: "byg:cika_log" }
+		{ count: 16, item: "byg:cypress_log" }
+		{ count: 16, item: "byg:ebony_log" }
+		{ count: 16, item: "byg:ether_log" }
+		{ count: 16, item: "byg:fir_log" }
+		{ count: 16, item: "byg:green_enchanted_log" }
+		{ count: 16, item: "byg:holly_log" }
+		{ count: 16, item: "byg:jacaranda_log" }
+		{ count: 16, item: "byg:lament_log" }
+		{ count: 16, item: "byg:mahogany_log" }
+		{ count: 16, item: "byg:maple_log" }
+		{ count: 16, item: "byg:nightshade_log" }
+		{ count: 16, item: "byg:palm_log" }
+		{ count: 16, item: "byg:palo_verde_log" }
+		{ count: 16, item: "byg:pine_log" }
+		{ count: 16, item: "byg:rainbow_eucalyptus_log" }
+		{ count: 16, item: "byg:redwood_log" }
+		{ count: 16, item: "byg:skyris_log" }
+		{ count: 16, item: "byg:willow_log" }
+		{ count: 16, item: "byg:witch_hazel_log" }
+		{ count: 16, item: "byg:zelkova_log" }
+		{ count: 16, item: "byg:withering_oak_log" }
+		{ count: 16, item: "myrtrees:rubberwood_log" }
+	]
+	title: "Lumber's Bag"
+	use_title: true
+}

@@ -1,0 +1,117 @@
+{
+	hide_tooltip: true
+	id: "584FBF6F1E76E670"
+	loot_crate: {
+		color: 11748460
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "epic_crate"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 9s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{ item: "immersiveengineering:shader_bag_epic", weight: 70.0f }
+		{ count: 32, item: "minecraft:emerald", weight: 70.0f }
+		{ item: "enderstorage:ender_chest", weight: 70.0f }
+		{ count: 32, item: "minecraft:diamond", weight: 70.0f }
+		{ count: 4, item: "mysticalagriculture:supremium_essence", weight: 70.0f }
+		{ count: 25, item: "minecraft:bookshelf", weight: 70.0f }
+		{ count: 16, item: "minecraft:nether_star", weight: 70.0f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tombstone:scroll_of_mercy"
+				tag: {
+					ancient: 1b
+					enchant: 1b
+				}
+			}
+			weight: 70.0f
+		}
+		{ item: "botania:life_essence", weight: 70.0f }
+		{ item: "botania:rune_water", weight: 70.0f }
+		{ item: "botania:rune_summer", weight: 70.0f }
+		{
+			item: {
+				Count: 1b
+				id: "botania:dice"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 9
+					}
+				}
+				id: "cyclic:ender_book"
+				tag: {
+					Damage: 0
+					itemCount: 0
+				}
+			}
+			weight: 70.0f
+		}
+		{ item: "twilightforest:magic_map_focus", weight: 70.0f }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:triple_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 70.0f
+		}
+		{ count: 12, item: "minecraft:enchanted_golden_apple", weight: 70.0f }
+		{ item: "mekanism:digital_miner", weight: 10.0f }
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:machine_frame_advanced"
+				tag: { }
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "apotheosis:epic_material"
+				tag: { }
+			}
+		}
+		{ count: 12, item: "minecraft:totem_of_undying" }
+	]
+	title: "Epic Crate"
+	use_title: true
+}

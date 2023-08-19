@@ -1,0 +1,462 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1b
+		id: "blue_skies:loot_bag_alchemist"
+		tag: {
+			LootTable: "blue_skies:loot_bags/alchemist/common"
+			Rarity: 0
+		}
+	}
+	id: "13174489544FAD4F"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:depth_strider"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:frost_walker"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:respiration"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:soul_speed"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:smite"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 7s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:knockback"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:bane_of_arthropods"
+						lvl: 8s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fire_aspect"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:respiration"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 8s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:power"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:infinity"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:flame"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:luck_of_the_sea"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:lure"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:impaling"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:loyalty"
+						lvl: 8s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:channeling"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:piercing"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:hell_infusion"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:depth_miner"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:scavenger"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:icy_thorns"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:capturing"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:quick_charge"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:splitting"
+						lvl: 9s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "tombstone:shadow_step"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+	]
+	title: "Librarian's Bag"
+	use_title: true
+}

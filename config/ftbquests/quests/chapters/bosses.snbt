@@ -1,0 +1,2613 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "0191929ABBCAE7CF"
+	icon: "artifacts:fire_gauntlet"
+	id: "56C30AAD66E38A2B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/boss.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 0.1785714285714306d
+			y: -4.446428571428569d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.7d
+			hover: [ ]
+			image: "kubejs:textures/item/skull.png"
+			rotation: 0.0d
+			width: 1.9d
+			x: 0.1071428571428612d
+			y: -3.017857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/firef.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5357142857142847d
+			y: -1.5178571428571388d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/fire.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.1d
+			hover: [ ]
+			image: "kubejs:textures/item/skeletonf.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.1d
+			hover: [ ]
+			image: "kubejs:textures/item/skeleton.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/item/firswo.png"
+			rotation: -2.0d
+			width: 2.3d
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:dragon_head"
+			id: "045A7C6A2B0E8D9D"
+			rewards: [
+				{
+					id: "6BBCC82D0F7AC9A4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4FF2FEAA873FE8DF"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "098172EEAF963F5C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.3d
+			subtitle: "The Ender dragon is a gigantic flying hostile boss mob found when first entering the End. She is the largest naturally spawning mob in the game and is widely acknowledged as the final boss of &b&oMinecraft."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "4989CF445E225FF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"This Boss can be baited out of the void by tossing a Mysterious Worm into the End's void."
+				"One can obtain one of these worms by placing a Crimson Mosquito Larva inside an Enderiophage's Capsid."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/voidworm.png"
+				}
+			}
+			id: "76F050E836FA5A71"
+			rewards: [
+				{
+					id: "29EABF32121D3270"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "406117454BC8C557"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0472A534F191E492"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Void Worm is an ancient creature that naturally dwells in the void beneathe the End"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: {
+					Count: 1b
+					id: "alexsmobs:spawn_egg_void_worm"
+					tag: { }
+				}
+				id: "40E6D68371EC8AFA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/elder_guardian.png"
+				}
+			}
+			id: "32BDEB2C50FB1D9F"
+			rewards: [
+				{
+					id: "151745CF00069052"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "78B893FAA77BDBBD"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "00B887D179A7FE97"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.3d
+			subtitle: "An elder guardian is a stronger, larger variant of the guardian that can inflict Mining Fatigue. Three of them spawn inside an ocean monument; one in the penthouse room and one in each wing."
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "08FA9CD1FCA05B6E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"It has a base of about 200 health points and unknown damage; however, the health and damage get multiplied depending on the amount of players in the arena. With two, the health is 600. This is a dangerous boss that is very difficult to defeat; this is due to the Guardian's extremely frequent teleporting, almost always after you hit it, and release of Gaia Traps."
+				""
+				"**Must be summoned**"
+			]
+			icon: "botania:gaia_head"
+			id: "44CFA46C0F128BD9"
+			rewards: [
+				{
+					id: "34562A784D23CE01"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "285D9E18170D3FFD"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7D399986F8008335"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "229C9A4B1B4C6615"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "2CC977EA2AD49B97"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "The Gaia Guardian is a hostile boss in Botania. It takes on the appearance of the player, albeit being far darker in color."
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "499443CB235423E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/crusher.png"
+				}
+			}
+			id: "274B0E0DC3E6BBCE"
+			rewards: [
+				{
+					id: "5846943787A69562"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "227B6576EFA8F566"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "7564401F5798C6B4"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1b
+					id: "blue_skies:starlit_crusher_spawn_egg"
+					tag: { }
+				}
+				id: "382364AFF94B1B67"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/summoner.png"
+				}
+			}
+			id: "40290067C8657D68"
+			rewards: [
+				{
+					id: "173BCA704437B493"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1F197E6CDA38318A"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "7514B5840FED4704"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1b
+					id: "blue_skies:summoner_spawn_egg"
+					tag: { }
+				}
+				id: "2A3037FF9421199C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/alchemist.png"
+				}
+			}
+			id: "02345E03CFA88DB0"
+			rewards: [
+				{
+					id: "6136EB4241532F80"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3ABD248131C10E5D"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "3B43DA961B9E2E0D"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1b
+					id: "blue_skies:alchemist_spawn_egg"
+					tag: { }
+				}
+				id: "6311A1F7FFE46980"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/arachnarch.png"
+				}
+			}
+			id: "6972C23D79B5B721"
+			rewards: [
+				{
+					id: "45AC736E9AABFE93"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "596C3415FA9B095D"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "00A0963CA925D81B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1b
+					id: "blue_skies:arachnarch_spawn_egg"
+					tag: { }
+				}
+				id: "5FA37D78AD0265B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:minoshroom_trophy"
+			id: "558ADEA5E26F17D2"
+			rewards: [
+				{
+					id: "08550B5E20016DBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "447DB46A4A6C0600"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "23EB77CFFDA5A09A"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "164B008021DCE80D"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Minoshroom is a mini-boss found lurking in a prison in the bottom of a Labyrinth. The Minoshroom is a bizarre hybrid of a Mooshroom and a Centaur."
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_spawn_egg"
+				id: "2802F6F501010818"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "73A3AEB690FDE4F1"
+			rewards: [
+				{
+					id: "1020D524A23C8D2E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "48184019999CDF0B"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "2F7025D0A92AC60A"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "6D179A1983D0466A"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Knight Phantoms reside in a brick-layered room in the Goblin Knight Stronghold. They appear as ghostly pieces of Phantom Armor, and appear to have a spooky, ghost-like look when attacking."
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_spawn_egg"
+				id: "647C43DBAC44D8B6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			icon: "twilightforest:snow_queen_trophy"
+			id: "57836DD0A7A3D6C3"
+			rewards: [
+				{
+					id: "54FA4F2A49286B3C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E56A8D8E9C9F0FC"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					id: "6590204C084DC820"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7CFEFC853EB2579B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Snow Queen is found in an ice-encrusted room near the top of the Aurora Palace. She is perhaps the most human-like creature encountered in the Twilight Forest, resembling a woman, but with large violet eyes and pale blue skin. She is immediately hostile towards any intruders in her vicinity, launching quickly into one of three main attack patterns."
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_spawn_egg"
+				id: "704CE93F993B2DC6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "786087BA5C725188"
+			rewards: [
+				{
+					id: "21BBB1FA13DDE5E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "64FD44979A62122D"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "43CAFBE211E55D26"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "3EC0C80F913C626C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Ur-Ghast can be found flying around at the top of the gigantic Dark Tower. It appears as a large, supernatural creature with many large, waving tentacles. It is covered in what adventurers fear is blood, or could be Carminite. This creature resembles the Carminite Ghastguard, due to their ability to stalk players, as well as the Nether-exclusive Ghasts, but is much larger and much more dangerous."
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_spawn_egg"
+				id: "73FCFD4719D7F0F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:hydra_trophy"
+			id: "09039B021F97E728"
+			rewards: [
+				{
+					id: "1B2BA45739CEF3F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "383FF2684A60FA78"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "23A2EDD8636AAD38"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "335466F96757647B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Hydra can be found in a unique, cracked-open Hydra Lair in a Fire Swamp. The Hydra appears as a massive creature, with two stumpy legs supporting a wide, scaly body. Multiple serpentine necks end in large fiery heads."
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_spawn_egg"
+				id: "71C0713B696A130E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:lich_trophy"
+			id: "5F41CE55D1C492A0"
+			rewards: [
+				{
+					id: "24AEA87F77075CB4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00911BE820899F14"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "0F307E03A877C743"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "0B4F480F6E5DAFD2"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Twilight Lich resides on the top of a Lich Tower. It appears as a tall humanoid skeleton wearing a purple cape, and a large golden crown. Surrounding itself is a wall of shields to protect itself from any damage, but maybe they can be broken."
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "3F8D499D1AD1089D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			icon: "twilightforest:naga_trophy"
+			id: "235998CFC8B3A476"
+			rewards: [
+				{
+					id: "0B94571E8C4BEF71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "42C17082157E8E24"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "52A41CFD68D0D965"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "4FF9FD0DE1EEFB48"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Naga is a serpent that lurks in a Naga Courtyard. It appears as an immense green snake-like creature with a human-like face. Its scales have subtle hints of all sorts of other colors."
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "610D57F08FA28CC9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "04287692226241F9"
+			rewards: [
+				{
+					id: "7E9D951442B14DC6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62D64B87451241B7"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "1A8FD2FF88291CE9"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "1AC5AFD6D42AECBC"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_spawn_egg"
+				id: "761D5339B305D59D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "twilightforest:giant_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2AF05F1B13F5F1E1"
+			rewards: [
+				{
+					id: "77F46356D75DC01B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E1F19538E146CE8"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "685EE492003F62A8"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "36B65EFCDCE3C318"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Giant Miners can be found in the Highlands biome, in the Cloud Cottage. Unlike a typical boss mob, Giant Miners will continue to respawn for as long as the house is not destroyed."
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				icon: "twilightforest:giant_miner_spawn_egg"
+				id: "613DA70F34D60AF3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "twilightforest:giant_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19FBBD6FF4DA8A08"
+			rewards: [
+				{
+					id: "7AEC6E5B62AE5681"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "51FB1F08B8E61C1D"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "122A92A5E69EEFC7"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "390CE6EB50CAA280"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Giants live on solid cloudbanks above the Highlands biome. They take on the appearance of the player's skin, and therefore look different to every player, though reasons remain unknown. Although due to their size they appear to move slowly, they actually move fairly fast compared to most creatures. Giants are aggressive towards players they spot, although relative to their size, their sensory range is fairly small. They are difficult to fight with melee weapons, and are better engaged with ranged attacks."
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				icon: "twilightforest:armored_giant_spawn_egg"
+				id: "500F2E95AD1A7BD8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/chimera.png"
+				}
+			}
+			id: "108CD35E863201C1"
+			rewards: [
+				{
+					id: "5E18F6F0D5D1C6EE"
+					type: "xp"
+					xp: 700
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AB044AEE7E70F73"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AD6E44CA98521CD"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "49C68A40EF6B3357"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: {
+					Count: 1b
+					id: "ars_nouveau:wilden_tribute"
+					tag: { }
+				}
+				id: "5CA6A2779A32BE7D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/wither.png"
+				}
+			}
+			id: "335EECE2A8A1DF81"
+			rewards: [
+				{
+					id: "6F13610A843146D5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7D24B80BC596F367"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "44F3646C5B90828F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2E098FD42E5D0458"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "The wither is an undead hostile boss mob that floats and shoots explosive skulls at players and mobs, that can only be purposely constructed by the player. It is the only source of nether stars, which are used to craft beacons"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/with_er.png"
+					}
+				}
+				id: "3B179A23F583E826"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/warpmos.png"
+				}
+			}
+			id: "0DA86756ACBD3A5F"
+			rewards: [
+				{
+					id: "7F96AA9151E3F7A9"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "2429201E786571AC"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "4AD267C91B9E1AC5"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "4550AD926B4C519D"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Warped Mosco is an aggressive mini-boss version of a Crimson Mosquito that appears if a Crimson Mosquito sucks the blood of a Mungus that is covered in Warped Fungus"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: {
+					Count: 1b
+					id: "alexsmobs:spawn_egg_warped_mosco"
+					tag: { }
+				}
+				id: "1BF9E2696C0FB5F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/captain_cornelia.png"
+				}
+			}
+			id: "6BF70EBA5CCBF813"
+			rewards: [
+				{
+					id: "4C1904244BDE4D0A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AEBCDE18B1DA661"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "7232A5EA9A03B884"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Ghost of Captain Cornelia can be summoned with Shell Horn. Cornelia is the only source of Three-Bolt Helmet, Coral Lance and Sweet Lance."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquamirae:captain_cornelia_spawn_egg"
+				}
+				id: "5C29BC75363947A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/eel.png"
+				}
+			}
+			id: "5F0A87FDE169F3F8"
+			rewards: [
+				{
+					id: "1CC15D28986164AC"
+					type: "xp"
+					xp: 700
+				}
+				{
+					exclude_from_claim_all: true
+					id: "535609B619709C88"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "19FE4B437D88C58B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A large stationary mob that spawns in the Shelter."
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquamirae:eel_spawn_egg"
+				}
+				id: "5ADFE5F7A66EDFAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/mother_maze.png"
+				}
+			}
+			id: "4ED047FDA2CFAE5B"
+			rewards: [
+				{
+					id: "31123589F05463A1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21ADCA4050B194E9"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "28D4BF0EEE796DD4"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A massive stingray-like creature with a cluster of amethysts on its back and can spawn Underwater."
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquamirae:maze_mother_spawn_egg"
+				}
+				id: "4D1E84C9692FD3CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/conjurer.png"
+				}
+			}
+			id: "0E7121CDED2A9E45"
+			rewards: [
+				{
+					id: "5C0669A64999BA77"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F8C089295040D2F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "37C011DBCCAC2780"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "He owns a theater deep in the roofed forest biome. He has plenty of tricks up his sleve, so don’t take him lightly!"
+			tasks: [{
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "conjurer_illager:conjurer_spawn_egg"
+				}
+				id: "4C0B07C2A3D6805E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/warden.png"
+				}
+			}
+			id: "3F5938292409F03B"
+			rewards: [
+				{
+					id: "2863DA82B88560AB"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CB9FD031319C6A1"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BFE8FD9B20F14B3"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60C256B5CFD0A1B1"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "1550192384E9F430"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.7d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:warden_spawn_egg"
+				id: "61C1ED7E405ADEF2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ender_ordnance.png"
+				}
+			}
+			id: "4D5BABE803EE617A"
+			rewards: [
+				{
+					id: "233EBB129D8B20C1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A3851EFC20253E2"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3861A9819D3EC054"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F3F4C84109E3809"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "454012BC1174B109"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aDisgusting Pendent"
+			tasks: [{
+				entity: "somebosses:ender_ordnance"
+				icon: "somebosses:ender_ordnance_spawn_egg"
+				id: "29683BD2E93044EE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/frost_magma.png"
+				}
+			}
+			id: "4288F695FBB6B959"
+			rewards: [
+				{
+					id: "46C150BE606D93E5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321AC60074BA05DE"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60F7338238641AE0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03E4DCA317ACE7A3"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "6EE05DEC0D9FA15A"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aIce Lantern"
+			tasks: [{
+				entity: "somebosses:frost_magma"
+				icon: "somebosses:frost_magma_spawn_egg"
+				id: "1CD2E33AC470D115"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/flaming_berserker.png"
+				}
+			}
+			id: "5EA055CB9E538078"
+			rewards: [
+				{
+					id: "2474F1C637A23857"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BAAF4D054962131"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D635FE4D849B76A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A9361B52A052C52"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0132A825DAC67497"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aFurnace Torch"
+			tasks: [{
+				entity: "somebosses:flaming_berserker"
+				icon: "somebosses:flaming_berserker_spawn_egg"
+				id: "211F8B0088008BD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/volcanium.png"
+				}
+			}
+			id: "4A634B897D1EBEED"
+			rewards: [
+				{
+					id: "04FD0D7EA74E4870"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42BF6ECA3505F78D"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164D09EDD3F6DE2C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22D4C75023A75CE8"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "6FB0AE19CE8861A9"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aBurning Volcanic Rock"
+			tasks: [{
+				entity: "somebosses:volcanium"
+				icon: "somebosses:volcanium_spawn_egg"
+				id: "33269F97A5242499"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/aesegull.png"
+				}
+			}
+			id: "15A9B2723DF3497B"
+			rewards: [
+				{
+					id: "107E506D836FD010"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D3D887DD2A60C9E"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BDF85DEFF512989"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29AD774887295E3A"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "7EEB59BBC73A99BB"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aIllegal Beacon"
+			tasks: [{
+				entity: "somebosses:aesegull"
+				icon: "somebosses:aesegull_spawn_egg"
+				id: "065012F2D1583B6C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/froverlord.png"
+				}
+			}
+			id: "76183A7A8DF77164"
+			rewards: [
+				{
+					id: "41F0E0306C24FE47"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51EAB351E01CEEB1"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16D29960F1C7884D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ED4D3249FA49A44"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "23F339D2A9B364C5"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aFrozen Shield Plate"
+			tasks: [{
+				entity: "somebosses:froverlord"
+				icon: "somebosses:froverlord_spawn_egg"
+				id: "642D2F37CFC660FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/hand_head.png"
+				}
+			}
+			id: "3BF065213DE4A676"
+			rewards: [
+				{
+					id: "3C84FF34EB27DAA3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A906F0059814A25"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A274A9FA9ACCCD2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CF4A6B7BAF2EFBE"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "04A749F344DDB850"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aDark Magic Gauntlet"
+			tasks: [{
+				entity: "somebosses:hand_head"
+				icon: "somebosses:hand_head_spawn_egg"
+				id: "2C83D2F89A5BDF45"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/merciless_assasin.png"
+				}
+			}
+			id: "4EAA715D11558D85"
+			rewards: [
+				{
+					id: "7CB7918040D3C531"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7622BA84A5CB54F1"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07433E065B366E5C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0358E611F13DE04C"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "169C65CE0A19BCE9"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aToken of the Ninja"
+			tasks: [{
+				entity: "somebosses:merciless_assasin"
+				icon: "somebosses:merciless_assasin_spawn_egg"
+				id: "581F0E743A741049"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/mono_eyed_skeleton.png"
+				}
+			}
+			id: "12A1F805EEBFA2F1"
+			rewards: [
+				{
+					id: "3F77E32ED9C967D3"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10606DA5C2D2600B"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B069A45F3261A09"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64516E21CC29B156"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "63ECAB7FEAEE3B66"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Can be summoned with &aOne Eyed Wrait in a Bottle"
+			tasks: [{
+				entity: "somebosses:mono_eyed_skeleton"
+				icon: "somebosses:mono_eyed_skeleton_spawn_egg"
+				id: "58BB7906940FBA1F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/crimson_vampire.png"
+				}
+			}
+			id: "713B9D75D0AE82B2"
+			rewards: [
+				{
+					id: "13CDB2E42637CCD9"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7669997F61302C9B"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D5D16673A884447"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "759E82641676870F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "55C5B11B7B1D13C8"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aVampire Bait"
+			tasks: [{
+				entity: "somebosses:crimson_vampire"
+				icon: "somebosses:crimson_vampire_spawn_egg"
+				id: "0599D142A48478FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ancient_wizard.png"
+				}
+			}
+			id: "41DC6725E85FE9BA"
+			rewards: [
+				{
+					id: "20495530E4A0FEA7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ACCBADDC9244779"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C56674A2349BAE4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60D49B0E8279F89A"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "136A899B1B168817"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aRusty Sword Relic"
+			tasks: [{
+				entity: "somebosses:ancient_wizard"
+				icon: "somebosses:ancient_wizard_spawn_egg"
+				id: "4D9725ED8FF65D47"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/prismarine_watcher.png"
+				}
+			}
+			id: "44CEE55A539AC242"
+			rewards: [
+				{
+					id: "3889D733AF1087CE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50A6403AB4F3DAC5"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2356C83807E6A2EC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FECF78E70EFE9D2"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4791BB7BDFB8F112"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aPrismarine Eye"
+			tasks: [{
+				entity: "somebosses:prismarine_watcher"
+				icon: "somebosses:prismarine_watcher_spawn_egg"
+				id: "39BAE6F8E56C895A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/sand_giant.png"
+				}
+			}
+			id: "0DF4F7CA060F9B37"
+			rewards: [
+				{
+					id: "4224F00841A79692"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36AF8D9270111801"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4225B69582E3C891"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DDB39A8B44AF850"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "5EC39212F44B3C3D"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aCactus Relic"
+			tasks: [{
+				entity: "somebosses:sand_giant"
+				icon: "somebosses:sand_giant_spawn_egg"
+				id: "57074F9BAD89E07B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/vulcan.png"
+				}
+			}
+			id: "1C28A3F8F8F91E8A"
+			rewards: [
+				{
+					id: "5F6B4CD0660D3842"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A96E2747F3DEB45"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14ADD59042798AC2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78205AE916D156FD"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "54DF02D2BDE5D870"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aGilded Dynamite"
+			tasks: [{
+				entity: "somebosses:vulcan"
+				icon: "somebosses:vulcan_spawn_egg"
+				id: "0DF4E518EE2FD8F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/knight_garent.png"
+				}
+			}
+			id: "3DCAA1F4E18D1867"
+			rewards: [
+				{
+					id: "3F0D18147F6C7FDE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "442CAD4A8A8268E6"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D77224745DB1F0F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "721045091B50D33F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "38038386630E8583"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aChaos Insignia"
+			tasks: [{
+				entity: "somebosses:knight_garent"
+				icon: "somebosses:knight_garent_spawn_egg"
+				id: "20B64EFDBF8A8F2C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/dark_mask.png"
+				}
+			}
+			id: "4C0F21384550213E"
+			rewards: [
+				{
+					id: "6481F3F219425887"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06EF99E45BD24A9B"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "371E2F7832CC17D8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "352871EDAF569FDE"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "1E09A74D85EFDD76"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Can be summoned with &aMonochrome Mask"
+			tasks: [{
+				entity: "somebosses:dark_mask"
+				icon: "somebosses:dark_mask_spawn_egg"
+				id: "4CD0C00DF0E13468"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/nameless_one.png"
+				}
+			}
+			id: "3356D40E27B32721"
+			rewards: [
+				{
+					id: "777B820B14E86BAC"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BCA98C94B357116"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "543A8F85C16FF2FF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C9914AE00472AA"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "40378E4E25B6DFB9"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aNecromancy Stuff"
+			tasks: [{
+				entity: "somebosses:nameless_one"
+				icon: "somebosses:nameless_one_spawn_egg"
+				id: "33BAC0F0AF20C3D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/stone_guard.png"
+				}
+			}
+			id: "44B4D3B8C24CCB75"
+			rewards: [
+				{
+					id: "477E7CDFB4FFEC4E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DC28DAB643A6AB3"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "433E14AA2725B3B3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F94D8917ED2272F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4820E570ECE512EC"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aSlab of Command"
+			tasks: [{
+				entity: "somebosses:stone_guard"
+				icon: "somebosses:stone_guard_spawn_egg"
+				id: "03D4E579C023F971"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/skeleton_demon.png"
+				}
+			}
+			id: "4E64F938035CE9C8"
+			rewards: [
+				{
+					id: "5D3356B544475292"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C14EEFB416D54A5"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F04ECE4A9ECEF61"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7183019B53C80E40"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "338B968521DAAEE9"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aBone of Curse"
+			tasks: [{
+				entity: "somebosses:skeleton_demon"
+				icon: "somebosses:skeleton_demon_spawn_egg"
+				id: "647B18B5F8ADBBB8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/electric_head.png"
+				}
+			}
+			id: "5DA3FA0D7EB43745"
+			rewards: [
+				{
+					id: "37927BD031AF4071"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EBF93C9D5ADC70E"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B0C6997BD07B9C0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "706F154A500CFEB4"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "20FCBF9D11A165DE"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aPower Generator Core"
+			tasks: [{
+				entity: "somebosses:electric_head"
+				icon: "somebosses:electric_head_spawn_egg"
+				id: "76932C64054F0180"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/man_of_water.png"
+				}
+			}
+			id: "7C77EF5E96D3E8B6"
+			rewards: [
+				{
+					id: "7D81057590B94A7A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F8BCDDB8705BD2"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6455F99431481E86"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F724E8885BFDFF5"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "276851EB4B44CE38"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Can be summoned with &aCursed Spring Water"
+			tasks: [{
+				entity: "somebosses:man_of_water"
+				icon: "somebosses:man_of_water_spawn_egg"
+				id: "7EFE75C3C216FCEB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/shriek_worm.png"
+				}
+			}
+			id: "27AE7D1AC4C0BF5D"
+			rewards: [
+				{
+					id: "61B7D4A9FBAD17D1"
+					type: "xp"
+					xp: 700
+				}
+				{
+					exclude_from_claim_all: true
+					id: "735F6B64849341BB"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DC6F6BA37022D05"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7D001ECFC8E037E4"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				id: "2990D9DD46F612B8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/stalder.png"
+				}
+			}
+			id: "191C6A0C58563B5C"
+			rewards: [
+				{
+					id: "43A456B45D210B6A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FA4E309C558F212"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0874005156161BAB"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7C788E18A640C27B"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "612F22940321A503"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_roka_end_boss.png"
+				}
+			}
+			id: "4DEE3E826989ADDB"
+			rewards: [
+				{
+					id: "5052B2A9D96312B0"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "385B3E97D1260D3B"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D5180F12C20B691"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EE002A5278A9CE8"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "7567A31EAD1E0D8C"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:the_roka"
+				icon: "theabyss:the_roka_spawn_egg"
+				id: "4351BCA20F85FB8A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/rib_golem.png"
+				}
+			}
+			id: "2F19F4F59261F34D"
+			rewards: [
+				{
+					id: "1BFF4165D3AE453B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54906EEB48DB42A4"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D8BBEEB5EBACD57"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29DBD4835B24BC91"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "65C8050E27E5F108"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&aSpawn Egg&r will drop by defeating &9Ender Dragon"
+			tasks: [{
+				entity: "somebosses:rib_golem"
+				icon: "somebosses:rib_golem_spawn_egg"
+				id: "26028B98D40FD5E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyssaurus.png"
+				}
+			}
+			id: "28B09476059EC058"
+			rewards: [
+				{
+					id: "043A5EA5084F03FA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "207EA0FBD7128FD0"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "031B3272554BCA90"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10097A577CF75590"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "1F1ECA11D0856B47"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:abyssaur"
+				icon: "theabyss:abyssaur_spawn_egg"
+				id: "69EA2C2D6352C8F8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_elder.png"
+				}
+			}
+			id: "7B9C28C390746C77"
+			rewards: [
+				{
+					id: "372D217151CDC320"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5666B9C1AE56C999"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F23E8CC97F34151"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33B2ED2A181FA6A9"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "3BD4154CFC17E9CE"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:elder"
+				icon: "theabyss:elder_spawn_egg"
+				id: "3DE8713B58156C43"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_nightbladenightblade.png"
+				}
+			}
+			id: "4AF722A3316A4E5F"
+			rewards: [
+				{
+					id: "55285821DBB347A8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15CC7326A536961F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C71F62C932774D6"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "2D29602DB87AEBC2"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Can be summonend with &aEye Of Abyss&r using &5Night Altar&r in the &bNightblade Summoning Structure"
+			tasks: [{
+				entity: "theabyss:nightblade_boss"
+				icon: "theabyss:nightblade_boss_spawn_egg"
+				id: "7625AF8C310B5344"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+	]
+	title: "&6&oBosses"
+}

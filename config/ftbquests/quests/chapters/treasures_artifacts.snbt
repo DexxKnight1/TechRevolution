@@ -1,0 +1,3899 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "treasures_artifacts"
+	group: "0191929ABBCAE7CF"
+	icon: "quark:diamond_heart"
+	id: "1FFC17911A292602"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/taa.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 0.1071428571428612d
+			y: -4.69285714285715d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E630448B20FA566"
+			rewards: [
+				{
+					id: "0AFFD1B8949CBFFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2CA6629C6AE9629E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7728057910A55C59"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "0E0CB9FE92FAC8FB"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "153D6C29BB42831C"
+				item: {
+					Count: 1b
+					id: "relics:spatial_sign"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "6E863267FEBC4D12"
+			rewards: [
+				{
+					id: "7AB47744FBF91E58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "00DDB96CDDA1BCC3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "37C9ACB68F2EBAF1"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5EACB60AE6AB60EA"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B88755FFDF2EE0B"
+				item: {
+					Count: 1b
+					id: "relics:reflection_necklace"
+					tag: {
+						Damage: 0
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 41.064d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5B41A9C774DADC64"
+			rewards: [
+				{
+					id: "13070CB1F58E841F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5726B4AC6A520E5A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2E0ACAF8DD2F6D08"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "50683C46B23769C7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "439CC87E8BE17CCC"
+				item: {
+					Count: 1b
+					id: "relics:rage_glove"
+					tag: {
+						Damage: 0
+						abilities: {
+							rage: {
+								points: 0
+								stats: {
+									attack_speed: 0.006d
+									dealt_damage: 0.037d
+									incoming_damage: 0.028d
+									movement_speed: 0.024d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "700FCD53D6498DAE"
+			rewards: [
+				{
+					id: "0B9D3DF0EE3BF8C3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1AA75ECBFA97A065"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2E8E19B689FFE8DE"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "054272B81B125766"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75CB4F1844307B5F"
+				item: {
+					Count: 1b
+					id: "relics:jellyfish_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "38D5BE9C450AF78D"
+			rewards: [
+				{
+					id: "0D3A2BBFD8B11DDE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "16CFAD5E2BD0A2F1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "53E56F8D37846534"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "674EF00FD37BE831"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "552E86FEC360BB5D"
+				item: {
+					Count: 1b
+					id: "relics:drowned_belt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "0F3C12319C57A16C"
+			rewards: [
+				{
+					id: "65F599EAA0BD131D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "737491EDD2F5AF41"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "08C75BF105F8783C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "79A5CED02855006D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03E9123A7DCEEF70"
+				item: {
+					Count: 1b
+					id: "relics:bastion_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "1E2AE06DD8CA0B8D"
+			rewards: [
+				{
+					id: "2E86031E7DAB7A1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6CA8355BB96EDB8C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0027A5631F706ECF"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "54EA50680F70FFEB"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64D796BC76DB991F"
+				item: {
+					Count: 1b
+					id: "relics:chorus_inhibitor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "14735A17AFA85427"
+			rewards: [
+				{
+					id: "5BAACE9D3682E47B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2E15BFD9D77A51BF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "681B98192C331AC9"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "79F740DE0A0B394D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48E307235ABC37A5"
+				item: {
+					Count: 1b
+					id: "relics:midnight_robe"
+					tag: {
+						Damage: 0
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.413d
+									distance: 17.61d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.322d
+									speed: 0.268d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "08DD2FB316B96B67"
+			rewards: [
+				{
+					id: "637C2FD0A9362278"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5938D13A39AB4F26"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "51A3841A5BAD78A2"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "0AAC9E39728909A1"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "621771638900AECB"
+				item: {
+					Count: 1b
+					id: "relics:shadow_glaive"
+					tag: {
+						Damage: 0
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 3.533d
+									damage: 4.764d
+									radius: 4.112d
+									recharge: 14.474d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 0.847d
+									speed: 18.93d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "54A18F5A1702F0CE"
+			rewards: [
+				{
+					id: "76B163251B8FC40F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "665B00331D7BE862"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3228B58ED18DF60A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2BD2C8CD7EF3DA0E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "55A6DFD4BCF00B5A"
+				item: {
+					Count: 1b
+					id: "relics:holy_locket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "15C62D63FBAF3CD5"
+			rewards: [
+				{
+					id: "67872498FD27CFE5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0DF9CC14EF5F3522"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4C11EAA1F3BF0E93"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2303AB46CA08A6C7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E879BC3B320B1B6"
+				item: {
+					Count: 1b
+					id: "relics:elytra_booster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "25B3051A7195EE0F"
+			rewards: [
+				{
+					id: "0FFFFE975606D600"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "60502B1CA3F743EB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "469A36BFFC2D90B5"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "55FE399B391F0DA2"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61CF4B58BC3C5808"
+				item: {
+					Count: 1b
+					id: "relics:magic_mirror"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "57E48F6BEB4C528D"
+			rewards: [
+				{
+					id: "2A600B4AEAF12886"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "29452961974DB4B5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "43CCD90FF0F6F800"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7604A028A9CA2514"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51B50243CCA41D58"
+				item: {
+					Count: 1b
+					id: "relics:blazing_flask"
+					tag: {
+						Damage: 0
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.145d
+									speed: 0.013d
+									step: 1.863d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "18F41217816183CE"
+			rewards: [
+				{
+					id: "1E0031536A0DCCEE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "28FAEE8A02A84101"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2A7A1D6E8DF6F730"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1891CD5E065A4D91"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5490396D60340F3F"
+				item: {
+					Count: 1b
+					id: "relics:magma_walker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "7C756239EA6B8718"
+			rewards: [
+				{
+					id: "3761042C32CB8EE7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "57EC3F600B8CBDAF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6EA4F039BA4E2FE5"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "27DE5A4A8354AC64"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "453DFD98A6FC41E6"
+				item: {
+					Count: 1b
+					id: "relics:infinity_ham"
+					tag: {
+						Damage: 0
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.87d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 1.953d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "1291EA352E0C0550"
+			rewards: [
+				{
+					id: "33516AA5D7E09FA9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1B9261620FA8299F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5DF6F50EED2C8BB8"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "51221743851B5AF7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B9D6FB769F0D547"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "004FC96A6365E244"
+			rewards: [
+				{
+					id: "436E85FD8746C122"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "28B7B154EC67745B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "307ACCD40EB64597"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5C3DB12FFE1AE4A5"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E9F0DB18DCE9D33"
+				item: "reliquary:infernal_chalice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "5E2A7E5ED2A746AC"
+			rewards: [
+				{
+					id: "75322A22AF6D5CD6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4A15D41160AD770B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "342CF0C1E7A5E39A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2A78FA890DB9C03F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F51A3D3B69B07F1"
+				item: "reliquary:infernal_claws"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "189854DB8F809CD1"
+			rewards: [
+				{
+					id: "3F097E85E24FE443"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "668AEFEECE5EFE15"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "175D23A8B38324C5"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "314A4BCEE8F3B612"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A37E7CBD22AC1D0"
+				item: "reliquary:kraken_shell"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "563426842C9F27ED"
+			rewards: [
+				{
+					id: "53FC7D46998FABED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "443DF4BBBBBAEC1F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2564A7E0212A5EE8"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "05791EB1F8D489F6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "277700D25372047D"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "4B7F3ACF59E1350C"
+			rewards: [
+				{
+					id: "50B8CA9DA3CC0AF5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "02229A43F30E7A0D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6BE28ACE36A16816"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "0EA06BB944B75F82"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04A2EE0D9EBA0794"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "7E3EE1F2215AFD51"
+			rewards: [
+				{
+					id: "57DD3FF4A905EFA7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F50DFBFBE97FD44"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6F05C1A0DEF4204A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3E511ABFBA55EF9A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A806F3A33646678"
+				item: "reliquary:witherless_rose"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "47741FAE1072292B"
+			rewards: [
+				{
+					id: "71572D8281F485EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4B8139C9BAAC17C5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "492ABD723522EB1A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4BD481146F1407EC"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2395AC7AFEE17099"
+				item: "reliquary:twilight_cloak"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "5E0419DF39BF66EC"
+			rewards: [
+				{
+					id: "4EFF622088CA9474"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "166CCE1D95AEAF10"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "35657768D1E266D1"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1A0B0488DC473986"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "518252B989F48FC8"
+				item: "reliquary:angelic_feather"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "0638AA159A0934EF"
+			rewards: [
+				{
+					id: "660A537FCE6E1FC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4973160F223202DF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "68FAB64432EFD254"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "37EFACC574ACE9E6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FB3D4A149D3D1C7"
+				item: "reliquary:infernal_tear"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "4CE67989CEC1B883"
+			rewards: [
+				{
+					id: "38971AD7143D5A7F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5D615A5FC78F43BF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5A276B953E785F8E"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "757A50C2CC18EC38"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FEEB55A83FC60DD"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "1BADB3E6963E6D38"
+			rewards: [
+				{
+					id: "4F9926ECF8EF258A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "479FC0CA6C3A726D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1929BA2A16B2E091"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "6EDAEC72E70E0316"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E85004A06DD82BA"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "7251554BCFE0C3EE"
+			rewards: [
+				{
+					id: "3DC533BF2F1933DF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "17F70C2293F76B7C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "21AC9FAB548187D8"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "0B7A97114DB5F581"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BF77D8EE66B496B"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "57A26AFD21DE2850"
+			rewards: [
+				{
+					id: "062BEC9A4657113D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "11454B3751EDB2B4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4AE69291E0B6952E"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "7196D2D2828FEC78"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C63F28295BE5AF7"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "268CDDDE6F35BBBA"
+			rewards: [
+				{
+					id: "337B5CF7AD2B26FB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2588C47A71E13A20"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "27C1C4E64CE72FAF"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "2C140B01D4171E8D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C999236894291FE"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "6139E32199FFC750"
+			rewards: [
+				{
+					id: "163937544F4C6635"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4F0222AFAB37D1EF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "67A16412364D963D"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "08F00A9B1D89D339"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1931498FB6FF3F4B"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "4DFCFC1D6BF70F04"
+			rewards: [
+				{
+					id: "7F93F6F25FAFDEA6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "21892581CDF9E511"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "07DD988AE7EFDAF0"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "40CFB856AB8E00ED"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7247EF35EB616D92"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "0EBFA0136B65FFA6"
+			rewards: [
+				{
+					id: "195240D417F64D18"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "60D2640F73F8BBF1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "08A6BE32BD39793C"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "4EF5E64CE5DEFEF3"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CFAF50E80760C28"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "2C3BE8F0C8F277E0"
+			rewards: [
+				{
+					id: "7DC63D2558E67A39"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3A9D3102090BF463"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5B9AF3F3606726DC"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "2F0A25FEA101DA95"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BB1EC4E80073C57"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "29AC75CE39EBCBB2"
+			rewards: [
+				{
+					id: "7DEA79BBA5C4CB5C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "52C3E715947C00CF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "67F244B209DD3991"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "59CD0C7CBB751B3C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61E5C37BA4C9C56E"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "139B29709F2C7AA7"
+			rewards: [
+				{
+					id: "4AB7CF5E13B67FCA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7F72BD4EE4A618D7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "02C8F0F1221EEDCA"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "34173E4FCC75B87C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65494A8A08742EAA"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "310132E9A65B6AB7"
+			rewards: [
+				{
+					id: "1ADE33AB339A9CEA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4F042A75E0510FB0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6DA6E5766D17163C"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "64B0689B6DFB2080"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A8D758FB858C9F0"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "6F499B709F2085D6"
+			rewards: [
+				{
+					id: "6A62C556278F1DE1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "36A5B20935676457"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "09712C6D0232FD27"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "15273E8705CD9C98"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "045D5991319588BA"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "13A6F7F30AE73032"
+			rewards: [
+				{
+					id: "65F42F8AD2DBDFCC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "38A24A9355B03183"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "38C5C909241A977F"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "5A0BFB57797BE912"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68AF5DBE256FAA86"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "653929B52FFA62E0"
+			rewards: [
+				{
+					id: "0E726B1459DA84E1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "089FDAF5735062FE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "47865B09F764C1F7"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "7425AE89D79E72A4"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4818A830129CC90C"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "3579962EBDCDA4AC"
+			rewards: [
+				{
+					id: "010EFAEA49318BE4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0A8D42E21B1DE958"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7799472EE22769C8"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "196547C2C77B1B46"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "427CC3D687E763B2"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "24B8A8A53A8FB415"
+			rewards: [
+				{
+					id: "54FC59290FB03F67"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "432EAAA8C9527D5E"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "02E5889F6A0D2BE5"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "5DA9346ECF293C5F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1D5444DB6FE51EF5"
+				item: "relics:researching_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			id: "7D5A09D8E8F3C9E7"
+			rewards: [
+				{
+					id: "11F2F5E7A22AE89A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6892D17180577003"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0F35E3795E19C332"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7A6AC37390B5BB86"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0396ED44CFFF3862"
+				item: {
+					Count: 1b
+					id: "relics:aqua_walker"
+					tag: {
+						Damage: 0
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 30.562d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "543E417D54AF982D"
+			rewards: [
+				{
+					id: "25D553C7E4B10975"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "58DE02C556809EAD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6EC67F456BC078E0"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1876B6F01C314061"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B9D71D7805ECEDD"
+				item: {
+					Count: 1b
+					id: "relics:ice_breaker"
+					tag: {
+						Damage: 0
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 3.421d
+									size: 4.092d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.556d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "1B8EFBC5EE7EB086"
+			rewards: [
+				{
+					id: "151F2D457AA215C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "50B5CD5CD29D6C47"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6B515F853DE2287C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "13B8C7120D268B4D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ABE5C314BA0E6D0"
+				item: {
+					Count: 1b
+					id: "relics:amphibian_boot"
+					tag: {
+						Damage: 0
+						abilities: {
+							swimming: {
+								points: 0
+								stats: {
+									speed: 0.007d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "01B71AA809F4A326"
+			rewards: [
+				{
+					id: "18051C8445B0CDF9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2932057146AEADAE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2C0D2E05A0E2A6B4"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4A597DC07E1880E2"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25CC6CAF9CF4CBEB"
+				item: {
+					Count: 1b
+					id: "relics:roller_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 21.085d
+									speed: 0.004d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "4C8D0FF4DE4922DD"
+			rewards: [
+				{
+					id: "27B375E7BC5D0942"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6B24DF81102098AF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7D6B275E8922ECD9"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1057C23657B8F0FD"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C8204210CDBE9DC"
+				item: {
+					Count: 1b
+					id: "relics:wool_mitten"
+					tag: {
+						Damage: 0
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.188d
+									freeze: 1.536d
+									size: 28.585d
+									stun: 0.042d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			id: "21084631EEFDEF67"
+			rewards: [
+				{
+					id: "17123936B7343DCC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7F1F41B7B8DE0F7A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7A360554363200CD"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "0A8904D045596573"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F8AFB4C9BEEAF62"
+				item: {
+					Count: 1b
+					id: "relics:leather_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 2.8d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "000D157BC140AD35"
+			rewards: [
+				{
+					id: "073BBABF9B2E7C8C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2F2387F5D20A8FB2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5DBC4C8E15A744F4"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5CAB52A387573BD6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BCCA82E38D207EE"
+				item: {
+					Count: 1b
+					id: "relics:spore_sack"
+					tag: {
+						Damage: 0
+						abilities: {
+							spore: {
+								points: 0
+								stats: {
+									amount: 1.0d
+									resize: 0.014d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			id: "4D6A53901B6CAFCC"
+			rewards: [
+				{
+					id: "188D6154A9FAB2CD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "51E483A4E4CFE8AF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4217F86F4C9B5681"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "58675538C0DEB48A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D704BAEB347A59A"
+				item: {
+					Count: 1b
+					id: "relics:arrow_quiver"
+					tag: {
+						Damage: 0
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 2.88d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "0972DCAF72CC9282"
+			rewards: [
+				{
+					id: "78755AA9B212FBF3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3A7971BC6AB7D6A0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0A35A6334AF62D57"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "29D96F10510225C5"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0688251ABB9DF9AE"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_longfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "284C09B1F231BBC0"
+			rewards: [
+				{
+					id: "40B58400D332A848"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "520188D8D1C89311"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1F4B92DFBC3AF827"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "02903C82D4888179"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "705B59AF25512997"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_creeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "12C1CB5475B58CB0"
+			rewards: [
+				{
+					id: "0EBFBF57C72A17E5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7AF3CE6FA0CAC225"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5EEF7EC1B5140D71"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4D916D305113D892"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4287863D6CF8364F"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "2DC18F72DA12CE9F"
+			rewards: [
+				{
+					id: "34809D625351BD53"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26CB9657BE4FA0D8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0FE5D5FE5C784EDF"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "09756D637032F513"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C144E819935AE8A"
+				item: {
+					Count: 1b
+					id: "cyclic:charm_boostpotion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			id: "0027E0B389B88DCB"
+			rewards: [
+				{
+					id: "1EE2B99D9A3F582D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "758FF0B646E04789"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4AC65D25A659CA64"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2BA2233188DA9BA6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "083CF9B86F9E285A"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "08CD9265703AE7FD"
+			rewards: [
+				{
+					id: "6AFDEF13609D4FD7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "15FC8F3E8B4BCF2F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "207186A6BFBCF82D"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "13AF034AB5CAF8F0"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6615AFC4556906B1"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "5267ECA423F1E955"
+			rewards: [
+				{
+					id: "482CEC5A7F1D6BDE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2FA4DBF1CFC54689"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1B7F6B6365E5D230"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1803096F0838CD4B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DCF4E8CEA2737F5"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "3AE28FA7D3822D55"
+			rewards: [
+				{
+					id: "2CB1FC8274208BD9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2246CA73B119A349"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "026C1A1F2BECB446"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4E8E75DBF819F772"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "506BC148360E29EF"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "0FE04683EFFC4FE0"
+			rewards: [
+				{
+					id: "4ECAE3BE2BADAC80"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "17F2B78FB351358E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "79C7A26826A4E2C9"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3ABE3FC21EE9BD9D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48AA2E767967136C"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			id: "6CD72EC5F83E6294"
+			rewards: [
+				{
+					id: "520E0364AB48F901"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "39A6A517A7176488"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "34E20AC49EE9B3E4"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3E9E2BA400FB9E4C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20E9100E64EC8AE2"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "40ADD406B418B070"
+			rewards: [
+				{
+					id: "4F4278FCACD7A3BA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "76D02D80E850E463"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7A41AB499AEEB69F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7669B3B393EB698A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A96C30C384C59A4"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "354271EA44AA79AE"
+			rewards: [
+				{
+					id: "0949258FD7EECB38"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "584CD005719DF602"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "024C43C4AC73D271"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2828BAF0DC37038F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AA135E076938DBB"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "3453DCCBAB690A2E"
+			rewards: [
+				{
+					id: "52364FBC15B30BC1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "26FA1933F4A70CD7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1A96F2216345395C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3BDCC0CB46DF5B84"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43870E729420AF24"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "5912F24D303C5D1A"
+			rewards: [
+				{
+					id: "5972484DF54089D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "30B75CFDBC83889E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0BAB5ABCF6C4DA71"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "61648C865B359A40"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C3287923C38BE55"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "0209B501CE678F0D"
+			rewards: [
+				{
+					id: "1E515519CC58B47E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "60DF13F09DD7D9B3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "287E192846313516"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "61B34C5028281F49"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17AF009562626121"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "203DBB84E6F76851"
+			rewards: [
+				{
+					id: "4DEACA0B02644B40"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "02D01E03EB9488F0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1F038BCD494B7D3F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2E2A7B219B1BD4A8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33B373E78F2DB2A2"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "303556DCD3B57E9B"
+			rewards: [
+				{
+					id: "0357F50101587453"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "67F124A5E25CCC6B"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "5DCD8378D3E92F4F"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "03D21C98CAB47181"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "365D1612B417C388"
+				item: {
+					Count: 1b
+					id: "botania:magnet_ring_greater"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "3997C154A356A6A4"
+			rewards: [
+				{
+					id: "40CE935972EBE8B7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "45BCEAEF6FC50FC4"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "35EA41EC1278D582"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "3BC98777E82E9CCA"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "239C52A699DF43FA"
+				item: {
+					Count: 1b
+					id: "botania:invisibility_cloak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "3CE2A3BFE0CF2F5F"
+			rewards: [
+				{
+					id: "6C1A61D674820A66"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "44F8CEA5357E01A4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1299240DE0E7247C"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "3C927E2327E94029"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "709B606EBF5E8F8F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2C83517B4A782646"
+				item: {
+					Count: 1b
+					id: "botania:dice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "37E081F2E5A418C9"
+			rewards: [
+				{
+					id: "23738ACBD197A6D7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "2620F9D73A1CBDA5"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "1F2574FAC81BC2A7"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "1580D6F9B44BE6EB"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "24B221D5FC1495FA"
+				item: "ringsofascension:ring_flight"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			id: "365CF2F8D998C129"
+			rewards: [
+				{
+					id: "7F17A4DC64E79AD8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5569DC1E3CB387C3"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "7749C082B4EA31DA"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "07F42EC6D62518AA"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4ABC85A86D6953C8"
+				item: {
+					Count: 1b
+					id: "relics:enders_hand"
+					tag: {
+						Damage: 0
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 22.418d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			id: "70DFDB3173518E10"
+			rewards: [
+				{
+					id: "76F6BFBCE1F52C3C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "151ADB434CE076DF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6D6122B06F1BB64A"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "051B43F705DF5C4C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "45A9CAF6D9D4D466"
+				item: {
+					Count: 1b
+					id: "relics:ice_skates"
+					tag: {
+						Damage: 0
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.243d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 42.753d
+									speed: 0.025d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "16664C2903A62846"
+			rewards: [
+				{
+					id: "2FEFD49ED9620BAA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "35FB01503D405C26"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "53211BCE8B75A6C2"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "2B69B4C23DDBBCA7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "169756BF3BE0219C"
+				item: {
+					Count: 1b
+					id: "relics:horse_flute"
+					tag: {
+						Damage: 0
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.072d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "25F10699BC95168E"
+			rewards: [
+				{
+					id: "5EFE726B63CD88C7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "188D72FE5A34A435"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "68E055AA6A48B756"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "774317D49D92FC4E"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4A6F6B1A2CE10358"
+				item: {
+					Count: 1b
+					id: "relics:hunter_belt"
+					tag: {
+						Damage: 0
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.451d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.535d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "7F29B16A2FF63552"
+			rewards: [
+				{
+					id: "7BBB2ED8C7C5AEEA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "78993D0E50D6C7B6"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "04C14CF13DF8CDDF"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "5FF34AB7419E74B7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "194593D2D805F183"
+				item: "cyclic:charm_xp_speed"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "05971A1830375F2A"
+			rewards: [
+				{
+					id: "543CC1D5FBD92A05"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "79F1817780D05559"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2938482FE9272627"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "16BA97FB3F890ECA"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "072B8BFE818E95A4"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0C3249B930B7A3E2"
+				item: {
+					Count: 1b
+					id: "botania:black_hole_talisman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "21710D6FFE8BD8D2"
+			rewards: [
+				{
+					id: "6BB09888E37CED0F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "55B559662389C4B7"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "7F2EFAB5E71E4745"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7A8892FE345E1896"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1ACCB64F3165E024"
+				item: {
+					Count: 1b
+					id: "botania:reach_ring"
+					tag: {
+						baubleUUIDLeast: -8778025163686097661L
+						baubleUUIDMost: -6497266275098736007L
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "4F0C2CD6EE421F2F"
+			rewards: [
+				{
+					id: "5B32405909D5FC0C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7F6E539846D24494"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "18B9CC43712EA20C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "77903262B8145724"
+				item: "ring_of_repair:ring_of_repair"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "0FFA9832EBDF4BFB"
+			rewards: [
+				{
+					id: "2AD623AB6AD79B86"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39E8349BD3C6F379"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40A194E8FEA9D3EE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34675271F22F201F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "113E201B14406C86"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B58E61FB10ED88F"
+				item: "ringsofascension:ring_fire_resistance"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "21E777CBC2BA2D2A"
+			rewards: [
+				{
+					id: "0D4EB5538DA71FD3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28AD5EEF131D852B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "419AF83CE0A707CE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "126BFA1D3CFB533F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7AB566F1E9128ED6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "31FF9396A02C06D9"
+				item: "ringsofascension:ring_invisibility"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "567A056E2739960C"
+			rewards: [
+				{
+					id: "3929DD6FD877E3B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14164C9CA9AD52FF"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FA772B19B6DF7F3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05C50C50169DD924"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "578FC20F868C17C3"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EA47E98C77D53F9"
+				item: "ringsofascension:ring_regeneration"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "57F4AB8867722E92"
+			rewards: [
+				{
+					id: "6213794F705D4B12"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E9C9358CD449A77"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27673107EF887A05"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17D1966930EE7DEE"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6A3C89788814372A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D04B15F4E7CCF5F"
+				item: "ringsofascension:ring_strength"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "200CB5A9606CF6C7"
+			rewards: [
+				{
+					id: "45674B55447B87CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19433A487F4310DA"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51BBE515BF41007E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75604436579CD513"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3F1785FF60A1769A"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B643714F7A8A93E"
+				item: "ringsofascension:ring_water_breathing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "2C7BBC47327FFB4E"
+			rewards: [
+				{
+					id: "262E8745CE6BF5CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C283828142F27AF"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A51306E7F594973"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C933FB3D622C545"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5EAC122B79732AFE"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "73341DFCFB18F9D2"
+				item: "ringsofascension:ring_night_vision"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "7482CC19CC1A5829"
+			rewards: [
+				{
+					id: "1F0CE81177D9C0D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09EB28D5FA8C63E8"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34D35E926D8C62CC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61E77D9FAAB7C7A4"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4B9437565579DAB3"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "236FE5236F289A3A"
+				item: "ringsofascension:ring_mining"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "12AD807BA610C044"
+			rewards: [
+				{
+					id: "78A5C80801F0D5BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "399DCC5419BC5979"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39D6EEBE7A30E95D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "797EF0AAB0B87D26"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1314054DAED1741C"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1E5AE8F462186B1F"
+				item: "ringsofascension:ring_luck"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "20C04E661B292A89"
+			rewards: [
+				{
+					id: "4CE2017DCE294380"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76AA882FA1301716"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "692C75F174553FA5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B727E87DA441046"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6448DD60AAAA956B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "402CAA4A2E03725B"
+				item: "ringsofascension:ring_magnetism"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "7CCE42AF85750C6A"
+			rewards: [
+				{
+					id: "66AA8B6FFD2CF927"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "189F2ACF160C3C61"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64BFE7B7BD697F35"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FC01CBFC3D54402"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "70C226B58B3A72C1"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F3ADAA7FAB2555D"
+				item: "ringsofascension:ring_poison_resistance"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "2C24E5C6CB657955"
+			rewards: [
+				{
+					id: "09D8471F621ACDBF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A709210974C12B1"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5473441D0ACF8A2A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D27C237185586CC"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3DE149E4B5182C28"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5302332167608FF9"
+				item: "ringsofascension:ring_hungerless"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "3036F999119DD109"
+			rewards: [
+				{
+					id: "223A294F7E2611ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18D814A557193870"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F3F5851F81B86F4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C60DFA593551D08"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "64B5A6363655CD96"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "74D00DCBEFC54A9D"
+				item: "ringsofascension:ring_growth"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "06495C83251E815F"
+			rewards: [
+				{
+					id: "1D4E431569E08382"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "283C0D72934EB3A3"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FBBBBBDE90E1166"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E7BDCFB168C787A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "0C9C18DC81944061"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "41E02624F078E391"
+				item: "ringsofascension:ring_health"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "3C9AF120C2A59993"
+			rewards: [
+				{
+					id: "2DBC591508159165"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53258E45AE7DF5F3"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "400DB0BF73D7C2FD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "446A0C436EA0E683"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5B2FCCACE822B4FB"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "18B953F53EAAF21F"
+				item: "ringsofascension:ring_experience"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "687F766EE7814BF8"
+			rewards: [
+				{
+					id: "255845A5A0A57205"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "373F51A4D6DEE9B5"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D6A26DC5191248B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7782001CE03B678D"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3021B61B5DD3620B"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "070FF75BF7EA28BE"
+				item: "ringsofascension:ring_water_walking"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "4E60C4920EBF5B3E"
+			rewards: [
+				{
+					id: "31451147923F08FC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "596D5796900244B0"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B3CF652341785C0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32993D2DD2D6719A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6FD680BE7CC90BC4"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5903958E4FCE7CF5"
+				item: "ringsofascension:ring_wither"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "22FCA83EF462D81D"
+			rewards: [
+				{
+					id: "2AB3AF793133524F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1145F8AE8BCF73A9"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36CD1914B2969CEE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B6F5198DBC30B1E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "032C05FC25975592"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E825B5A25002628"
+				item: "ringsofascension:ring_undying"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "5DFB31FCA825FFA7"
+			rewards: [
+				{
+					id: "501ACBEB5650987A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "611F113A1D0388F4"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4939CA7759B1F679"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C2009788009E97B"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4201F25402B43E96"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3501CB8B3BB4620C"
+				item: "ringsofascension:ring_slow_resistance"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "680B2901B34F5C0C"
+			rewards: [
+				{
+					id: "7FA8CE940662177D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E8C417F076FA012"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E4B4BBA898F012E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C8DBD0F87B637A0"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "28665AF72F4303F8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "19668344F1C366FE"
+				item: "ringsofascension:ring_speed"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "32755D55C9B2AA80"
+			rewards: [
+				{
+					id: "7507DE69B64F6400"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E334069BC296EF4"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "018E2F21BB0D0C67"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36AB7660A47BE043"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "0F4CCF5F20D9ABE8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "08314061393BDCC2"
+				item: "ringsofascension:ring_knockback_resistance"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			id: "011104C5692DBF0A"
+			rewards: [
+				{
+					id: "3357C097DF8B9CF0"
+					type: "xp"
+					xp: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "319BD996552A5056"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E086319328D4C77"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "716907D8F183A83D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "222AE330A5A2E2F2"
+				item: {
+					Count: 1b
+					id: "relics:space_dissector"
+					tag: {
+						Damage: 0
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 27.07145d
+									time: 9.56473d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+	]
+	title: "&6&oTreasures \\& Artifacts"
+}

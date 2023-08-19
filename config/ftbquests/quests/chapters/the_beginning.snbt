@@ -1,0 +1,1488 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: ""
+	icon: "minecraft:flint"
+	id: "50FC6DA196D2D0EF"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -5.607142857142861d
+			y: -8.017857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/item/myhouse.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["597AE1C794C28A93"]
+			description: ["&aLeaves&r can be harvested without a tool for sticks and yes I now this is a vanilla feature, but will be very important here."]
+			id: "67177E25EA4AE090"
+			rewards: [{
+				id: "27E22D6817FD3F7B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 16L
+				id: "0BB26A204D307B2D"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			title: "Sticks"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["12722F1E84AAA48A"]
+			description: ["No tree punching... what? Dude, how???"]
+			icon: "byg:mahogany_sapling"
+			id: "597AE1C794C28A93"
+			rewards: [{
+				id: "0B68E3D0AF21580B"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&oThat's awesome!"
+			tasks: [{
+				id: "30DE43AE8E1330DE"
+				type: "checkmark"
+			}]
+			title: "&aTree punching... yeah!"
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["67177E25EA4AE090"]
+			description: ["&3Gravel&r can be mined without a tool, and enables you to aquire some &0Flint&r."]
+			id: "1968D371E06DCBE0"
+			rewards: [
+				{
+					id: "40731B1C5A82B466"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "3467448E9B7A0C43"
+					item: "minecraft:gravel"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "4F1F9E2F49718751"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			title: "Gravel"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1968D371E06DCBE0"]
+			description: ["&0Flint&r can be knapped on an exposed stone surface, obtaining &3Flint Shards&r."]
+			id: "7D8F0C0FBE23B499"
+			rewards: [{
+				id: "1C3471F13CFB7F52"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 16L
+				id: "1544635247B9598F"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			title: "Flint"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7D8F0C0FBE23B499"
+				"38E72413FF7D27AE"
+			]
+			description: ["&0Flint&r can be knapped on an exposed stone surface, obtaining &3Flint Shards&r."]
+			id: "3F75776DD47E9E31"
+			rewards: [
+				{
+					id: "5946010FCD21B5DA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2FEF904FBBC17B3B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "74C913992317D969"
+				item: "notreepunching:flint_shard"
+				type: "item"
+			}]
+			title: "Flint Shards"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3F75776DD47E9E31"]
+			description: [
+				"A &6Flint Knife&r can now be crafted, allowing you to harvest plant materials for &aPlant Fibers&r and craft &aPlant String&r."
+				""
+				"&6Knives&r are a new tool available in all vanilla tool materials, and can be used as &b&nweak swords&r, as a &b&ncrafting tool&r, or a &b&nplant harvester&r."
+			]
+			id: "6AADBA20D7F36CCE"
+			rewards: [
+				{
+					id: "0E5AAD63E6D2C4CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "08A6A6FCE8A139FC"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F808C9F48CC153F"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6AADBA20D7F36CCE"]
+			description: [
+				"Ok, now you've learned some basics, so let's continue."
+				""
+				"The &2Plant Fiber&r. To get some Plant Fiber use your new tool, yes the &3Flint Knife&r, and harvest around all plants you can find. Of Course there is just a chanse to obtaine the Plant Fiber, you'll get more seeds then Plant Fiber it self, but however... after investing some time, you'll have enought Plant Fier to progress."
+			]
+			id: "0E5B6570F0D4A261"
+			rewards: [
+				{
+					id: "291A22FC33D48F0E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "3A796AF03076E82B"
+					item: "notreepunching:plant_fiber"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "2C6FF5D5BFBB5D60"
+				item: "notreepunching:plant_fiber"
+				type: "item"
+			}]
+			title: "Plant Fiber"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E5B6570F0D4A261"]
+			description: ["Using the &aPlant Fiber&r you can craft some &2Plant Stings&r which you can use to craft all &0Filnt Tools&r and the &eFire Starter&r."]
+			id: "7119DA61483BC01F"
+			rewards: [
+				{
+					id: "4A612D2A55F580E5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "0AC0514225FFC018"
+					item: "notreepunching:plant_string"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "06FDCBC5F0DF933E"
+				item: "notreepunching:plant_string"
+				type: "item"
+			}]
+			title: "Plant Sting"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7119DA61483BC01F"]
+			description: ["A &0Flint Axe&r can enable you to collect wood and build a crafting table."]
+			id: "734A552F21F425EF"
+			rewards: [
+				{
+					id: "4445A65615B13B38"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1B27BD50F5E5F5BB"
+					item: {
+						Count: 1b
+						id: "notreepunching:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41A558E43A611DC9"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["769E94E684F89340"]
+			description: ["Finaly we can doing something good!"]
+			id: "745F26C8984D7408"
+			rewards: [
+				{
+					id: "3B3552F4E78C5251"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65506E075B823A79"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4C893E998F91A2D1"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "&2Crafting Table"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["745F26C8984D7408"]
+			description: ["The &0Flint Tools&r will serve you as early game tools."]
+			id: "4E6795A57F3B6C57"
+			rewards: [
+				{
+					id: "2F4C9BA3F5207238"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164ACCE0F58934D7"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "07DDC8EBDE7E6FD3"
+					item: {
+						Count: 1b
+						id: "notreepunching:flint_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BC594BAF8DCF71E"
+					item: {
+						Count: 1b
+						id: "notreepunching:flint_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "532C73EEF804C72D"
+					item: {
+						Count: 1b
+						id: "notreepunching:flint_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Starting Tools"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["734A552F21F425EF"]
+			description: ["Go on... get some wood!"]
+			id: "769E94E684F89340"
+			rewards: [
+				{
+					id: "48CEED98E59FA2C9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19B6895098A54A64"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "27BC90CD457CC0ED"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any log type"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4B807C72488E3561"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any plank type"
+					type: "item"
+				}
+			]
+			title: "Getting wood"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7119DA61483BC01F"]
+			id: "62EC6E15294C429E"
+			rewards: [
+				{
+					id: "1A717F3577CF99F4"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "31524ED08FC6D4EF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39D7278CC75C9F9B"
+				item: {
+					Count: 1b
+					id: "notreepunching:fire_starter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62EC6E15294C429E"]
+			description: [
+				"&6Fire&r, the &n&b1st&r Element of nature, but how lit the Fire."
+				""
+				"It's not so complicated at all, throw one &n&blog&r and three &n&bsticks&r on the ground and use your &eFire Starter&r to lit the fire, simple as thet... right?"
+			]
+			icon: "minecraft:campfire"
+			id: "0D4C60D4046F1A6E"
+			rewards: [{
+				id: "697683D51A107FBF"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "700DA1C274830F55"
+				type: "checkmark"
+			}]
+			title: "Lit a Campfire"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			description: ["Craft a &dMacuahuitl&r for a good early game weapon. "]
+			id: "646145AC0BD9E3D0"
+			rewards: [
+				{
+					id: "558283313884C9D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0757D17AA8D05D2D"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "048607B911CD4B26"
+				item: {
+					Count: 1b
+					id: "notreepunching:macuahuitl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67177E25EA4AE090"]
+			description: ["The &bClay Tool&r can be used to shape &bClay&r items like &bVessels&r, &bBuckets&r and &bFlower Pots&r."]
+			id: "1DD80ECDFB4A1431"
+			rewards: [
+				{
+					id: "2F590953573DC474"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6F12C3492928359C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B545BFD59AD59BA"
+				item: {
+					Count: 1b
+					id: "notreepunching:clay_tool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1DD80ECDFB4A1431"]
+			id: "5A53AF3A6305E94F"
+			rewards: [
+				{
+					id: "1EB837288E9619A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "3A2A468B7959CD01"
+					item: "minecraft:clay_ball"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "5C52DA53CCEDFCC2"
+				item: "minecraft:clay"
+				title: "Clay"
+				type: "item"
+			}]
+			title: "Clay Brick"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A53AF3A6305E94F"]
+			description: ["&dPottery&r can be created using a &bClay Tool&r on a block of clay, forming it to shape before firing it in a &eCampfire&r or a &8Furnace&r."]
+			id: "306CF0357EC0F1FB"
+			rewards: [
+				{
+					id: "3B53277775F6E3AC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1B852791137E77EA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B7CCE48531012D7"
+				item: "notreepunching:clay_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"306CF0357EC0F1FB"
+				"0D4C60D4046F1A6E"
+			]
+			description: ["Congrats, your first &2Bucket&r."]
+			id: "12A958F3862A3DAB"
+			rewards: [
+				{
+					id: "28B0341577BCC6B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "054DA819D99C221E"
+					item: "minicoal:mini_coal"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60B233CD61A22A92"
+				item: "notreepunching:ceramic_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12A958F3862A3DAB"]
+			description: ["Finaly, you have some &9Water&r, that's great, now you can plant some &n&bseeds&r which, I assume you have a plenty of it by now, and make a nice &afarm&r for your &7food&r supply."]
+			id: "566DADE0C8E44A64"
+			rewards: [
+				{
+					id: "49D46C49E4413289"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "144DF118A97B2966"
+					item: "notreepunching:ceramic_bucket"
+					type: "item"
+				}
+				{
+					id: "54CD2BE41187E3FD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "2C5A8716EA5BC6C2"
+				item: "notreepunching:ceramic_water_bucket"
+				type: "item"
+			}]
+			title: "&dWater Bucket"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D4C60D4046F1A6E"]
+			description: ["NOW we're cooking."]
+			id: "6D88F5DC6A70B4B3"
+			rewards: [
+				{
+					id: "291BF3097B449230"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "569EC64E68BE0C5E"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "4DFE8EFF21A6DA1E"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "244C57F27C51A854"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0D7C0BDEEF8D068F"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+			]
+			title: "&9The Food"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["745F26C8984D7408"]
+			description: ["Everyone needs to rest, so get your self a &cBed&r."]
+			id: "4C014CD5F7E27249"
+			rewards: [
+				{
+					id: "56E37694AE7B18E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7ED0D6E48539570E"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F210EBFE355767B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any minecraft bed"
+				type: "item"
+			}]
+			title: "Sweet Dreams"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			description: ["Good, we're doing some &n&bprogress&r!"]
+			id: "410E6B04549AC432"
+			rewards: [
+				{
+					id: "0EA88ABD0F2B5963"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "068B8F38DD2034BD"
+					table_id: 3168213399534062586L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "3C0ADD97DB383B0A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Iron"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["410E6B04549AC432"]
+			description: ["Excellent, &n&bshiny&r stuff!"]
+			id: "54F7AD3F22FE31D3"
+			rewards: [
+				{
+					id: "61D3E9777F8972DE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34A643FB1B00E48B"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5BEFEE7C72F0D4A9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54F7AD3F22FE31D3"]
+			description: ["Enormously, &0Heavy Metal&r time!"]
+			id: "60BF34FF1D8937FA"
+			rewards: [
+				{
+					id: "263E78C50EFD8810"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A5F623264A0720"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.7d
+			tasks: [{
+				id: "7FC3F3482262E946"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Netherite"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["410E6B04549AC432"]
+			id: "2C8EC6084FC14F36"
+			rewards: [
+				{
+					id: "64B7EDAA84900F5A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "213B36A08C444E90"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4253D450B793E16C"
+				item: {
+					Count: 1b
+					id: "notreepunching:iron_mattock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D8F0C0FBE23B499"]
+			description: ["The &0Flint Shers&r will help you out to get some &5Wool&r... potentially... maybe &aLeaves&r... OK, OK, shear what ever you want!"]
+			id: "7DC2FDF3E98A3A89"
+			rewards: [
+				{
+					id: "276C7AF11CBAF65C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "14819AFB2E1A05D9"
+					item: "minecraft:jungle_leaves"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5039E516D6E3EC9F"
+				item: {
+					Count: 1b
+					id: "cyclic:shears_flint"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DC2FDF3E98A3A89"]
+			id: "7218DC648CDD97D9"
+			rewards: [
+				{
+					id: "0D99672C8349F46E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "41CB8DC3C050E996"
+					item: "minecraft:vine"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "508335FB5FC6A121"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wool"
+					}
+				}
+				title: "Any #forge:wool"
+				type: "item"
+			}]
+			title: "Wool"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C014CD5F7E27249"]
+			description: [
+				"The &eSleeping Bag&r is a portable version of your &cBed&r."
+				""
+				"Your &b&nspawn point&r would not be reset each night if you rest in a &eSleeping Bag&r."
+			]
+			id: "608EF643136863A7"
+			rewards: [
+				{
+					id: "43344DFFC80E2278"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2CD65968BB9C8BED"
+					item: "minecraft:lime_dye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "057D742E67E4A493"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Any sleeping bag"
+				type: "item"
+			}]
+			title: "The Sleeping Bag"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["608EF643136863A7"]
+			description: ["&4Hammocks&r are simple multi-block structures that act similarly to vanilla &cBeds&r except that they are strictly for napping during the &n&bdaytime&r."]
+			id: "30BBA4F8525F70E8"
+			rewards: [
+				{
+					id: "298079D94E2023AC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6052550CDCDDC38A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D4FB14303ED8502"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:hammocks"
+					}
+				}
+				title: "Any #comforts:hammocks"
+				type: "item"
+			}]
+			title: "The Hammock Cloth"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["410E6B04549AC432"]
+			id: "414237A649868762"
+			rewards: [
+				{
+					id: "4D87690F05DA1324"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07446213FEA5C8FB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1D244E91B1695610"
+				item: {
+					Count: 1b
+					id: "notreepunching:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["410E6B04549AC432"]
+			id: "1C821B47F718C065"
+			rewards: [
+				{
+					id: "359D12191C982D3C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3315CB5AC5F039DE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5D09D2CEBBBAEB13"
+				item: {
+					Count: 1b
+					id: "notreepunching:iron_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["54F7AD3F22FE31D3"]
+			id: "396202FDC3C4162E"
+			rewards: [
+				{
+					id: "38C60B3403D17453"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "126989BB56EA4561"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "43CB602C4799E575"
+				item: {
+					Count: 1b
+					id: "notreepunching:diamond_mattock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60BF34FF1D8937FA"]
+			id: "0E0B9C9845F88BFB"
+			rewards: [
+				{
+					id: "35BF3CAAD32734AF"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3BC9392215059F22"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "41D2CF2A13D64AC4"
+				item: {
+					Count: 1b
+					id: "notreepunching:netherite_mattock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54F7AD3F22FE31D3"]
+			id: "18CA3EF8BA956AA7"
+			rewards: [
+				{
+					id: "06918185B2F2676C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6B403229BD8E5468"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4E9D34AC18D71474"
+				item: {
+					Count: 1b
+					id: "notreepunching:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60BF34FF1D8937FA"]
+			id: "44F48889D0A96944"
+			rewards: [
+				{
+					id: "11C37BCA0897F91E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2C2A1369EBE58144"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "00EEDD0FC136C24C"
+				item: {
+					Count: 1b
+					id: "notreepunching:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["54F7AD3F22FE31D3"]
+			id: "26A9E1BBC0B1497E"
+			rewards: [
+				{
+					id: "7794316D4DD51B65"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "569FE08E6A7845B4"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0547CD67534BB012"
+				item: {
+					Count: 1b
+					id: "notreepunching:diamond_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60BF34FF1D8937FA"]
+			id: "6C0A16D9ACA33B05"
+			rewards: [
+				{
+					id: "73A4AF530F3DEFE0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2A404917A883FB95"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "40F8F1A837C23113"
+				item: {
+					Count: 1b
+					id: "notreepunching:netherite_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["597AE1C794C28A93"]
+			description: [
+				"The &eLoose Rock&r can be found around your world laying down on the ground."
+				""
+				"Harvesting &aLoose Rock&r will no tool required, oh yeah the &b&npunch&r is back, punch it, punch it a lot."
+			]
+			id: "75374A69C1F9E047"
+			rewards: [
+				{
+					id: "3C8F392B1BEB285D"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 12
+					id: "329B2625F59D2C8C"
+					item: "notreepunching:stone_loose_rock"
+					random_bonus: 12
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "321CD74ECEFA074F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "notreepunching:stone_loose_rock"
+							}
+							{
+								Count: 1b
+								id: "notreepunching:andesite_loose_rock"
+							}
+							{
+								Count: 1b
+								id: "notreepunching:granite_loose_rock"
+							}
+							{
+								Count: 1b
+								id: "notreepunching:diorite_loose_rock"
+							}
+						]
+					}
+				}
+				title: "Any Loose Rock"
+				type: "item"
+			}]
+			title: "The loose Rocks"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["75374A69C1F9E047"]
+			description: ["Using the &aLoose Rocks&r you'll be able to craft &3Cobblestone&r."]
+			id: "38E72413FF7D27AE"
+			rewards: [
+				{
+					id: "6AA3BB96A8FC575B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "7718939BB398ED46"
+					item: "minecraft:cobblestone"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2AC559F4783432C9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:cobblestone"
+							}
+							{
+								Count: 1b
+								id: "notreepunching:andesite_cobblestone"
+							}
+							{
+								Count: 1b
+								id: "notreepunching:granite_cobblestone"
+							}
+							{
+								Count: 1b
+								id: "notreepunching:diorite_cobblestone"
+							}
+						]
+					}
+				}
+				title: "Any Cobblestone"
+				type: "item"
+			}]
+			title: "Cobblestone"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["734A552F21F425EF"]
+			id: "0C900C74F2616015"
+			rewards: [
+				{
+					id: "5A58A1B3A2A27DD0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2480F4380F138936"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F01105E09D53DC9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any wooden chest"
+				type: "item"
+			}]
+			title: "Chest"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7E5196BBB0F649DF"
+				"0C900C74F2616015"
+			]
+			id: "73E72915F9DDC352"
+			rewards: [
+				{
+					id: "7C9FCCF6BEE1315A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C621C33F6CEC7C2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "45EA6B2BEB800CCC"
+				item: "thermal:satchel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6AADBA20D7F36CCE"]
+			id: "7E5196BBB0F649DF"
+			rewards: [
+				{
+					id: "6BF5FE6CD3624D82"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2F4495486A20232A"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7EB80C3E188584E4"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "Leather"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3E2B980B37083B5B"]
+			id: "06C7368D98DFEF51"
+			rewards: [
+				{
+					id: "52AF7CAA59EE0873"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "032FBDEFFE9EC8E3"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "693568CDA7FF0756"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "261FE2760F6CAB67"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "&9Furnace "
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["38E72413FF7D27AE"]
+			description: ["So, now use any type of &3Cobblestone&r you have, make some &6Compressed Cobblestone&r."]
+			id: "3E2B980B37083B5B"
+			rewards: [
+				{
+					id: "4B9F9EFC12CCF0A7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C815BCF1B87B29"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "72F1BA54DD0298B3"
+				item: "allthecompressed:cobblestone_block_1x"
+				type: "item"
+			}]
+			title: "Compressed Cobblestone"
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0C900C74F2616015"]
+			id: "6FA4D2AD791A70F2"
+			rewards: [
+				{
+					id: "03CFDFFB7D9AF141"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "70D92FD4254C2F06"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F5AE1F3FA062868"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+	]
+	title: "&fThe Beginning"
+}

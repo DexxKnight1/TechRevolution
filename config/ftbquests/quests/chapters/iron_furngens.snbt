@@ -1,0 +1,2732 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furngens"
+	group: "556BC0391B5938FF"
+	icon: {
+		Count: 1b
+		id: "ironfurnaces:million_furnace"
+		tag: {
+			display: {
+				Name: "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"b\"},{\"color\":\"red\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"red\",\"text\":\" \"},{\"color\":\"red\",\"text\":\"F\"},{\"color\":\"green\",\"text\":\"u\"},{\"color\":\"blue\",\"text\":\"r\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"aqua\",\"text\":\"e\"}],\"text\":\"\"}"
+			}
+		}
+	}
+	id: "38776B03328BEF2C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -8.214285714285715d
+			y: -17.892857142857142d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -0.3928571428571459d
+			y: -17.803571428571427d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: -11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -17.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["773C9DA610091CFC"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "4F0520A262ABF5FC"
+			rewards: [
+				{
+					id: "2D36F4732957B9A4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB0E39D8243B0FA"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "09D282CCE9C8AB97"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E099001B3A37382"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "4FFA0E75873C9E43"
+			rewards: [
+				{
+					id: "26EB70705A795C5C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E701B55B832C12E"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "6E39BDF6E3442B90"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F78BB3F9719FC59"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4FFA0E75873C9E43"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "1BD55248A4A2F746"
+			rewards: [
+				{
+					id: "46B539DD52DD5843"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE7622AF88596FC"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "67234725B9B30FB2"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B91053AA9CDA2BA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:diamond_furnace"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1BD55248A4A2F746"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "4F90B661FCAD7F06"
+			rewards: [
+				{
+					id: "340C06D7E79FD36D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25AD5CC1C5923936"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "0481B6C69A476021"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47C17E03F4EE9717"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4F90B661FCAD7F06"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "7F7D391EFBC3F4B0"
+			rewards: [
+				{
+					id: "443F6603873D2ABA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15F5D0D3CE3EF952"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7E7161B6C25D6E20"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7806C4C145241240"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1BD55248A4A2F746"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "0BD51D1C1A6C9DDA"
+			rewards: [
+				{
+					id: "3DC05C9093A913B7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74167DD71812D512"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "45B1896D50E33AE8"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6DCDA864CF9A8137"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7F7D391EFBC3F4B0"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "3B2DC7721D6091A9"
+			rewards: [
+				{
+					id: "7FAFFCC9AA8D242C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "115F2ABD37C4A59C"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "1CB9EA4A167F2DB8"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06294D72835F86EC"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 1.2857142857142847d
+			y: -12.946428571428573d
+		}
+		{
+			dependencies: ["3E9F5A571D66D654"]
+			dependency_requirement: "one_completed"
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "15108C34082629CB"
+			rewards: [
+				{
+					id: "2FB28D42AC3DE656"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13AC1C7176F5AFE5"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "0DDCBC05605ECF18"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E0655443D5D5973"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"37C09CF1535831C8"
+				"7DFA2A821AF89EC8"
+			]
+			description: [
+				"Link 7 furnaces and keep them all running at the same time to generate power."
+				"10,000 RF/Tick Generated when active."
+			]
+			id: "137684A683529061"
+			rewards: [
+				{
+					id: "553B0F7E7516F664"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A602C4E9BD7A94F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ED721B6CE015C5B"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "7271BB3D5BD1586F"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4E4DFFB53095AC55"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"red\",\"text\":\"w\"},{\"color\":\"aqua\",\"text\":\" \"},{\"color\":\"red\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"green\",\"text\":\"r\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"3E9F5A571D66D654"
+				"0BD51D1C1A6C9DDA"
+				"1BD55248A4A2F746"
+				"4F90B661FCAD7F06"
+				"4FFA0E75873C9E43"
+				"4F0520A262ABF5FC"
+				"3B2DC7721D6091A9"
+				"7F7D391EFBC3F4B0"
+				"15108C34082629CB"
+			]
+			description: ["Used for crafting a Rainbow Furnace."]
+			hide_dependency_lines: true
+			id: "37C09CF1535831C8"
+			rewards: [
+				{
+					id: "187D81B79AAFCDC9"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E83051EA5BE25E0"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1E4C268BC783B72B"
+				item: "ironfurnaces:rainbow_plating"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3B2DC7721D6091A9"]
+			description: ["Used for crafting a Rainbow furnace and linker."]
+			hide_dependency_lines: true
+			id: "7DFA2A821AF89EC8"
+			rewards: [
+				{
+					id: "294AC3A23A69C529"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36BF280E802758A6"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4A9DAA5E569E7CF0"
+				item: "ironfurnaces:rainbow_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["773C9DA610091CFC"]
+			hide_dependency_lines: true
+			id: "60C1E3DDCE80E06A"
+			rewards: [
+				{
+					id: "563477729028C309"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B8B5CEB1EE6056E"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AB99A00A6F7F7ED"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5C8D5504F3EC56FE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "07D5F85E6528ABB2"
+				item: "ironfurnaces:upgrade_iron"
+				type: "item"
+			}]
+			x: -2.1d
+			y: -9.799999999999999d
+		}
+		{
+			dependencies: ["60C1E3DDCE80E06A"]
+			id: "4F7575CDE3E3C210"
+			rewards: [
+				{
+					id: "257F8FA13A61A533"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F3EBA3784166935"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "617DC1B5588DD2C2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "10CEB91441892B40"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "281E6E2715EC38C9"
+				item: "ironfurnaces:upgrade_gold"
+				type: "item"
+			}]
+			x: -1.4d
+			y: -9.799999999999999d
+		}
+		{
+			dependencies: ["4F7575CDE3E3C210"]
+			id: "1E837BD89E89B4ED"
+			rewards: [
+				{
+					id: "145197F74565E900"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "283EDC0E3A8DD126"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78B28046CE813D02"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4B337F6F79E621A5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "44A42D1221FD6428"
+				item: "ironfurnaces:upgrade_diamond"
+				type: "item"
+			}]
+			x: -0.7d
+			y: -9.799999999999999d
+		}
+		{
+			dependencies: ["1E837BD89E89B4ED"]
+			id: "14DD40D301573E45"
+			rewards: [
+				{
+					id: "7AA7DEFDAE6D0D97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "696D0D1E99499107"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FD408D6BA73C08B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "36F5383DCA7AE692"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "49D19237FE55BC89"
+				item: "ironfurnaces:upgrade_emerald"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.15d
+		}
+		{
+			dependencies: ["14DD40D301573E45"]
+			id: "2BD6033A5CA7AAD9"
+			rewards: [
+				{
+					id: "5C2816619486A689"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F5214F2737BAFC9"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3857B331AFA8CF67"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "046AA35BB4F3476A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4E83449D3FF7351B"
+				item: "ironfurnaces:upgrade_obsidian"
+				type: "item"
+			}]
+			x: 0.7d
+			y: -10.5d
+		}
+		{
+			dependencies: ["14DD40D301573E45"]
+			id: "423D21AB00898F01"
+			rewards: [
+				{
+					id: "472D32D8D2FC3D9A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CF6ED4310599BB5"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F5D41EC6273DA6E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3263BC1C57F24070"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "525CAAB886F1750E"
+				item: "ironfurnaces:upgrade_crystal"
+				type: "item"
+			}]
+			x: 0.7d
+			y: -9.799999999999999d
+		}
+		{
+			dependencies: ["2BD6033A5CA7AAD9"]
+			id: "2138C31FDB99FF44"
+			rewards: [
+				{
+					id: "2B9AB4D30F739FBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30E299678B703554"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "009DE1C8A1CFD898"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "68CC0236F42CA2F6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2E5FB5EBA4F0DB68"
+				item: "ironfurnaces:upgrade_netherite"
+				type: "item"
+			}]
+			x: 1.4d
+			y: -10.5d
+		}
+		{
+			dependencies: ["773C9DA610091CFC"]
+			hide_dependency_lines: true
+			id: "6D42455659F8ED48"
+			rewards: [
+				{
+					id: "3D841833D1E59E4A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "378A7A795FC1883B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0644778470938BF6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "37D5B3F20555B144"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "36C5C3D8F24C2999"
+				item: "ironfurnaces:upgrade_copper"
+				type: "item"
+			}]
+			x: -2.1d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6D42455659F8ED48"]
+			id: "205E8750366E846C"
+			rewards: [
+				{
+					id: "0FDFF158F5B839C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AE6715EDB9C9E78"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24AAF3B270C3B73C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "12E808A6BEEC7785"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2A0CB14CBE4EB034"
+				item: "ironfurnaces:upgrade_silver"
+				type: "item"
+			}]
+			x: -1.4d
+			y: -10.5d
+		}
+		{
+			dependencies: ["423D21AB00898F01"]
+			id: "54A9FC48C8CCE281"
+			rewards: [
+				{
+					id: "42025EC1A3E203DA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41D84CC0FF52CE8B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2922F4664BF5E153"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "655DD1019C9B2F7E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1E9C479379848C62"
+				item: "ironfurnaces:upgrade_obsidian2"
+				type: "item"
+			}]
+			x: 1.4d
+			y: -9.799999999999999d
+		}
+		{
+			dependencies: ["205E8750366E846C"]
+			id: "340F34EB836270F9"
+			rewards: [
+				{
+					id: "63FD2AF19C27BF23"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "587F402B477C49B0"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "717108AB08223951"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "414A439AB85AE89F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "234140609FFF623B"
+				item: "ironfurnaces:upgrade_gold2"
+				type: "item"
+			}]
+			x: -0.7d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7DFA2A821AF89EC8"]
+			description: ["Used to link your other furnaces to the Rainbow furnace."]
+			hide_dependency_lines: true
+			id: "5967711CE9092DDA"
+			rewards: [
+				{
+					id: "63B792B21EA4DDFE"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CB3C690E54E9A90"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "091D6703BFB5672C"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C044A9891CABA27"
+				item: "ironfurnaces:item_linker"
+				type: "item"
+			}]
+			x: 6.714285714285708d
+			y: -15.017857142857146d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Provide this block with forge energy and it will power any recievers that are linked."]
+			hide_dependency_lines: true
+			id: "64FCC61BED04CC5F"
+			rewards: [
+				{
+					id: "3B55A1893099A2CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03FB591BEF3B8D4C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DEA873F41B2913D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6716B15729E79F9E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "4ABFEAB88829723F"
+				item: "ironfurnaces:heater"
+				type: "item"
+			}]
+			x: 6.8d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Place in a fuel slot of a furnace. Iron or above only."]
+			hide_dependency_lines: true
+			id: "0DF561617A0633C8"
+			rewards: [
+				{
+					id: "2C91FD40C53182AD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11A1EB5C5E767EE5"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3944C6039E124782"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1BC8C122C798C80C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "1384363877767767"
+				item: "ironfurnaces:item_heater"
+				type: "item"
+			}]
+			x: 7.6d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Halves the cook time for blasting recipes. Can only do blasting recipes."]
+			hide_dependency_lines: true
+			id: "3CF176559C2B5DB7"
+			rewards: [
+				{
+					id: "1D92AB87D026B8F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AB877D57DC3B92D"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "210719A4B505C9A4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3E8EE48A14E7A0AC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "0F35BA4AEDC5FB2E"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.7d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Halves the cook time for smoking recipes. Can only do smoking recipes."]
+			hide_dependency_lines: true
+			id: "3F33F9E4F02D1555"
+			rewards: [
+				{
+					id: "4D3B5D2F6257918A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "293BBA82E1CB11F8"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B40FE6999FA263C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "784258BA74FFD15B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "2D047E115F4373A3"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: 6.8d
+			y: -12.7d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Halves all smelting recipes cook time. Uses double the amount of fuel."]
+			hide_dependency_lines: true
+			id: "782B46D96C1FF2AE"
+			rewards: [
+				{
+					id: "6C0C436964C64ECC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4358FF60DC9F73FD"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "721BFB25FF9CFD40"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "16CF4D7FD99F3DF5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "0375C6093E43FC7D"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: 7.6d
+			y: -12.7d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Fuel heats up the furnace twice as fast. All cooking recipes are 1/4 slower."]
+			hide_dependency_lines: true
+			id: "0085D3A2C64140D7"
+			rewards: [
+				{
+					id: "0033A71AAB0FC5B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "171BD964E847E166"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24480EA60F2FF312"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5A682BD3C7FD4D42"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "5DEAA92F98DDBAAB"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: 6.8d
+			y: -11.899999999999999d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Right click to copy settings. Shift right click to paste settings."]
+			hide_dependency_lines: true
+			id: "52DE931C5F538795"
+			rewards: [
+				{
+					id: "51226D1431CA8F92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "516A6D8066395756"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "540560012DCB02BA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "35EDE6240E08588D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "3F4064075BDE5425"
+				item: "ironfurnaces:item_copy"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			description: ["Wrap up a furnace and gift it to a friend!"]
+			hide_dependency_lines: true
+			id: "28E8EE057F9B18C4"
+			rewards: [
+				{
+					id: "00B651AF3CFBCC8D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "780717317DD099A2"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43163D4BBBC3BFCD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "38C1E7DB7593E6F3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A26FDFD6BCA8C7E"
+				item: "ironfurnaces:item_xmas"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["732CBAF3CF4F53E4"]
+			description: ["Generates: 4 FE/t"]
+			id: "6B02ADFDCB591081"
+			rewards: [
+				{
+					id: "4B86EDC993EC45E0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365B89BDF12DB3CF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6C8E78F8D72A82AD"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DAEB76280C35E6D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:iron_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6B02ADFDCB591081"]
+			description: ["Generates: 16 FE/t"]
+			id: "39DC7BE83562B702"
+			rewards: [
+				{
+					id: "2BEF66A316C01BFF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76E46CED87F2F7A8"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7C956042AC5EAAA9"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02A032D39F23D7AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:gold_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["39DC7BE83562B702"]
+			description: ["Generates: 64 FE/t"]
+			id: "528152A216435873"
+			rewards: [
+				{
+					id: "6603E45B6CB7CEAB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2700009597E79E54"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "62CEF6790CABA02C"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18E9BF87E0701FEC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:diamond_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["528152A216435873"]
+			description: ["Generates: 64 FE/t"]
+			id: "60609881A437CC02"
+			rewards: [
+				{
+					id: "3820AE34C94302AE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34E974D8EA913C65"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7D2BF37E122D2BBE"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DBA6686F0331854"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:obsidian_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["60609881A437CC02"]
+			description: ["Generates: 256 FE/t"]
+			id: "6B47E65169B35A95"
+			rewards: [
+				{
+					id: "79CF4E869AB64037"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2272E2ED07E2BC1F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7B23E1613AB53893"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A4F26986E8C48EB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:netherite_generator"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6B02ADFDCB591081"]
+			description: ["Generates: 32 FE/t"]
+			id: "4417677A9AE5AB6D"
+			rewards: [
+				{
+					id: "0D1E5640F012F672"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A568D930F581331"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "144544A937142354"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57EF233264421011"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:bronze_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["732CBAF3CF4F53E4"]
+			description: ["Generates: 8 FE/t"]
+			id: "3665DE5C21F41C1D"
+			rewards: [
+				{
+					id: "04781EDA9F746BC8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "769C9D98352009F1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "774CD16BA28C6C48"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "377A1A3DC52F917E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:copper_generator"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["732CBAF3CF4F53E4"]
+			description: ["Generates: 6 FE/t"]
+			id: "5442BC1A46D9139B"
+			rewards: [
+				{
+					id: "10D33780AE22BD7B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E2E6A51BCC3FF72"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "26AE7C6E38B5F379"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A0C48D128B7EDE9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:lead_generator"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6B02ADFDCB591081"]
+			description: ["Generates: 20 FE/t"]
+			id: "0C78558EADDDDFF6"
+			rewards: [
+				{
+					id: "34F17A34CEB1BE44"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32D336B5FF994182"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7362A4B7E6535DD5"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52DD57605CD8F564"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:osmium_generator"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["60609881A437CC02"]
+			description: ["Generates: 100 FE/t"]
+			id: "380FEABFAB32EE41"
+			rewards: [
+				{
+					id: "33A23B8A248FF2A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "648B39BABC789354"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "20602F1FFC38A86D"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A4A5F59BA267526"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:refined_obsidian_generator"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["528152A216435873"]
+			description: ["Generates: 72 FE/t"]
+			id: "2E01F283C80F1CD5"
+			rewards: [
+				{
+					id: "3EB69E9ABC79CF84"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30C1634A17EE1470"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "5714FF84C7EC42D0"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E238C37CFE44B68"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:steel_generator"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["732CBAF3CF4F53E4"]
+			description: ["Generates: 10 FE/t"]
+			id: "50722E995DC2B1F0"
+			rewards: [
+				{
+					id: "65AA005F7B065D6C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63B2600A811F0C14"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "424A839788B829C1"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21ABE0AAD9466DB1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:tin_generator"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["732CBAF3CF4F53E4"]
+			description: ["Generates: 24 FE/t"]
+			id: "21BC98D34E8EE9A9"
+			rewards: [
+				{
+					id: "5C3825E942B22D80"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17DB5BD10C4649DF"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5A9587EEBB3CC105"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "586981EDCD9C197B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:quartz_enriched_iron_generator"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3E968958FD31FBE6"]
+			description: ["Generates: 512 FE/t"]
+			id: "6F5172484B4CC539"
+			rewards: [
+				{
+					id: "5476499558231A88"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5443956FA35D9147"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "395EA54BFF7754E9"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0292B9A9E16FE3ED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:enderium_generator"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["4F3DC8F6EE6F22B2"]
+			description: ["Generates: 1 FE/t"]
+			id: "154BC8E0B9DF5E69"
+			rewards: [
+				{
+					id: "2CB189E30B24A5F8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C7FC5F76BF2C20D"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "52187E1DBF7F1DAE"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00670E55809345F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:netherrack_generator"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["4F3DC8F6EE6F22B2"]
+			description: ["Generates: 1-3 FE/t"]
+			id: "44C03D28EC991C52"
+			rewards: [
+				{
+					id: "3F671DA09B080973"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "683BFBAEDDB353A2"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "4FF798E10D45BCAB"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52BD3C41F78AF6E0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:certus_quartz_generator"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["773C9DA610091CFC"]
+			description: ["Improved Speed and Fuel Efficiency."]
+			id: "3E9F5A571D66D654"
+			rewards: [
+				{
+					id: "6B7AC8152E31EA2D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09359248A6498660"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "630E65CF8944A56B"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A39FD98727A3F72"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4F3DC8F6EE6F22B2"]
+			description: ["Generates: 1 FE/t"]
+			id: "732CBAF3CF4F53E4"
+			rewards: [
+				{
+					id: "5D3B7E2BE36FC30F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24EA88D3F432E095"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "5DF46AAF2B510672"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15B34121CBBF6E70"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:stone_generator"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"352430990A83D255"
+				"69E03D6BB1A4ED0D"
+				"4567BD315CC6382F"
+			]
+			description: ["Generates: 65,536 FE/t without fuel"]
+			id: "0E6CD6B162FD458A"
+			rewards: [
+				{
+					id: "6E2394485AAEA2B0"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09E5419DC64AFD68"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70FEE63DD79FA97A"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "11414FC52F9386F2"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "39E3B6A2EDAE501A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:infinity_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4F3DC8F6EE6F22B2"]
+			description: ["Generates: 3-5 FE/t"]
+			id: "2D61E291F58C6025"
+			rewards: [
+				{
+					id: "79312C3A773814FF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AC09458402B9B48"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "08BB8D98150F3294"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25D15D302D9B3BE5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:skystone_generator"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["528152A216435873"]
+			description: ["Generates: 96 FE/t"]
+			id: "167E96FC0B3120C8"
+			rewards: [
+				{
+					id: "65EBFC7252ED690A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3627D0B64B5380BE"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "20BAD5244100D34E"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0018A41743A4182A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:uranium_generator"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["732CBAF3CF4F53E4"]
+			description: ["Generates: 48 FE/t"]
+			id: "51F98BEE5048184D"
+			rewards: [
+				{
+					id: "5CBE5CB83E44D120"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4096770F3AB87208"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3DB28516CBE276BA"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EF71DA110067394"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:invar_generator"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["51F98BEE5048184D"]
+			description: ["Generates: 128 FE/t"]
+			id: "3E968958FD31FBE6"
+			rewards: [
+				{
+					id: "120AAF292FFA39B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21F559D0E612D636"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "4368B6CA8BE57C5E"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BB5D2C654BF0571"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:signalum_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["6B47E65169B35A95"]
+			description: ["Generates: 384 FE/t"]
+			id: "418E09B04263CE25"
+			rewards: [
+				{
+					id: "0AF0CF9E549229FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0864053234878ABB"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "5DE2D7DD1ADCAC2B"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17339507DA40944F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:platin_generator"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6B47E65169B35A95"]
+			description: ["Generates: 1,024 FE/t"]
+			id: "352430990A83D255"
+			rewards: [
+				{
+					id: "6B1F1059AD2DAA68"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53529864FE5E9D3A"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "12643D82B9AC066D"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F2B1A40028A7DD3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:allthemodium_generator"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["352430990A83D255"]
+			description: ["Generates: 4,096 FE/t"]
+			id: "69E03D6BB1A4ED0D"
+			rewards: [
+				{
+					id: "0733F9C3D9E22590"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D0779C2DD058EA5"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "11ECCF58B3B0F8B9"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "384F785DD0A3088E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:vibranium_generator"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["69E03D6BB1A4ED0D"]
+			description: ["Generates: 16,384 FE/t"]
+			id: "4567BD315CC6382F"
+			rewards: [
+				{
+					id: "5CE0B6D0FB2E2170"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FD21FFB2CC0E9E9"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "34FC676EB1D75342"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49258B1816613DA2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "irongenerators:unobtainium_generator"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["06C7368D98DFEF51"]
+			description: ["Adds a variety of simple generators."]
+			icon: "irongenerators:dirt_generator"
+			id: "4F3DC8F6EE6F22B2"
+			rewards: [{
+				id: "647083886133D287"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oFurnace&r quest*"
+			tasks: [{
+				id: "13B5968763910E80"
+				type: "checkmark"
+			}]
+			title: "Welcome to &6Iron Generators"
+			x: -9.0d
+			y: -17.25d
+		}
+		{
+			dependencies: ["06C7368D98DFEF51"]
+			description: ["Push smelting to the absolute limit with extraordinary smelting speed, reconfigurable sides, augments for smoking and blasting and much more."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ir_fur.png"
+				}
+			}
+			id: "773C9DA610091CFC"
+			rewards: [{
+				id: "55284CB6C3DB726C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oFurnace&r quest*"
+			tasks: [{
+				id: "2B49076FE189A4CF"
+				type: "checkmark"
+			}]
+			title: "Welcome to &dIron Furnaces"
+			x: -1.2142857142857153d
+			y: -17.196428571428573d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			hide_dependency_lines: true
+			id: "7175F8109730B9C0"
+			rewards: [
+				{
+					id: "2929A2FDC85C1368"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "251D8FCBE5C5183D"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "775A9F1F5E036702"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4FCBB6C9BFD07DE9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D73B0F196627FB8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:item_spooky"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3B2DC7721D6091A9"]
+			id: "4672AD02D376E5D0"
+			rewards: [
+				{
+					id: "4703B1B6EAE207C1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A81B4E9B32045E6"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32276320EF6C52D0"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "03DB9BAE5B9063DA"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3547403FD96FE35F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:allthemodium_furnace"
+				}
+				type: "item"
+			}]
+			x: 1.2857142857142847d
+			y: -13.946428571428573d
+		}
+		{
+			dependencies: ["4672AD02D376E5D0"]
+			id: "0DC735075F12925A"
+			rewards: [
+				{
+					id: "0277C229030FE110"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "144F2976DA8DE021"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17DA52E68E18B718"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "3AFFB08C474545A7"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5875B2A90CC9F243"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:vibranium_furnace"
+				}
+				type: "item"
+			}]
+			x: 1.2857142857142847d
+			y: -14.946428571428573d
+		}
+		{
+			dependencies: ["0DC735075F12925A"]
+			id: "24306D4BB13EC435"
+			rewards: [
+				{
+					id: "3A6D254DFAEAF8EC"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4576817DC0414F4D"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BBE6094D6D01AEC"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0A56A9ED065FEC20"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29034C51BBD084A2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:unobtainium_furnace"
+				}
+				type: "item"
+			}]
+			x: 1.2857142857142847d
+			y: -15.946428571428573d
+		}
+		{
+			dependencies: ["2138C31FDB99FF44"]
+			id: "176B5F0CBDA31F18"
+			rewards: [
+				{
+					id: "7D74C447332A5641"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "479880E424E3C956"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C745D63BF995F29"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "17BC4A5576DF6BDD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "48FA540BC05A5F19"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:upgrade_allthemodium"
+				}
+				type: "item"
+			}]
+			x: 2.1d
+			y: -10.15d
+		}
+		{
+			dependencies: ["176B5F0CBDA31F18"]
+			id: "28733DB2238DFD14"
+			rewards: [
+				{
+					id: "70D5B4801EEAC0E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04DFFBC56EB26DBB"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6937ED00A371D6E0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "08DD0AACED326068"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1EFCFD771AF952CC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:upgrade_vibranium"
+				}
+				type: "item"
+			}]
+			x: 2.8d
+			y: -10.15d
+		}
+		{
+			dependencies: ["28733DB2238DFD14"]
+			id: "226575536BC934C3"
+			rewards: [
+				{
+					id: "3947948F75EFDCE1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24835CAE0E02352F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67892FC451602640"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "60B5DDE114361C39"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "07F6E76ABE3BFB5A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:upgrade_unobtainium"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.15d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			hide_dependency_lines: true
+			id: "1BB99D7A56388EC1"
+			rewards: [
+				{
+					id: "69A72168B0A9015C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45B51A839E5F25CF"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DA4AA51F16B575C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3E9318EEDC8865FA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "0B3EB42CC451354E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:augment_xp"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.899999999999999d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			hide_dependency_lines: true
+			id: "1C40ABD4151A61A5"
+			rewards: [
+				{
+					id: "48410AC451AEC519"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71FF92D103F24266"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "709E1F347956E293"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "679D26754DC4A080"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "2D36B2E187EFCCEC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:augment_factory"
+				}
+				type: "item"
+			}]
+			x: 7.6d
+			y: -11.899999999999999d
+		}
+		{
+			dependencies: ["4F0520A262ABF5FC"]
+			hide_dependency_lines: true
+			id: "7CF04529EC23F186"
+			rewards: [
+				{
+					id: "509FD3A65875D72A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CCDA4FE47B2EA7E"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0873AF882018600F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "562A2245DFEDF205"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.8d
+			tasks: [{
+				id: "2B2F57EC4C3D48F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ironfurnaces:augment_generator"
+				}
+				type: "item"
+			}]
+			x: 6.8d
+			y: -11.1d
+		}
+	]
+	title: "&c&oIron Furnaces \\& Generators"
+}

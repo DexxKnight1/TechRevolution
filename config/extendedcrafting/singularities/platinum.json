@@ -1,0 +1,10 @@
+{
+  "name": "Platinum",
+  "colors": [
+    "6feaef",
+    "6feaef"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/platinum"
+  }
+}

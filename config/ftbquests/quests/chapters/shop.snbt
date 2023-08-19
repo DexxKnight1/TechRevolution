@@ -1,0 +1,3644 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "shop"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "thermal:textures/item/electrum_coin_4.png"
+		}
+	}
+	id: "7400C7F4E8CC48A5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/playershop.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: -2.3214285714285765d
+			y: -1.0955357142857167d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/diamond.png"
+			rotation: -15.0d
+			width: 1.0d
+			x: -3.0204081632653086d
+			y: -0.010204081632650741d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/diamond.png"
+			rotation: 15.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.03061224489795933d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/emerald.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.3928571428571601d
+			y: -0.0892857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.642857142857153d
+			y: -0.017857142857138797d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/nether_star.png"
+			rotation: 25.0d
+			width: 1.0d
+			x: -0.7500000000000142d
+			y: 0.4107142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/nether_star.png"
+			rotation: -25.0d
+			width: 1.0d
+			x: -4.250000000000007d
+			y: 0.4107142857142776d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/gold.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/gold.png"
+			rotation: 40.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thermal:textures/item/bronze_coin_4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thermal:textures/item/constantan_coin_3.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "thermal:textures/item/invar_coin_2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/criches.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -12.25d
+			y: 1.3392857142857153d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.3d
+			hover: [ ]
+			image: "kubejs:textures/item/treasure-chest.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 4.0d
+			y: 8.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "665A83F8FD6E2A4E"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "29FE85B70E3E2C92"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$400"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "496B91089ED73628"
+				item: "alltheores:steel_block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "6CF9E53F3D8F13B4"
+			repeatable: true
+			rewards: [{
+				id: "6BD7670B34F72023"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1C1C7852ADB98172"
+				item: "chemlib:zirconium_metal_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2C5561209FB23B2D"
+			repeatable: true
+			rewards: [{
+				id: "16BBA8299B807D25"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "74B8901259061BAB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:neptunium_block"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2B84E8DA44358BA6"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "687EBB7F975EE0D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$300"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "11BF4247BBE7355B"
+				item: "thermal_extra:dragonsteel_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "6A06DEA2C2630946"
+			repeatable: true
+			rewards: [{
+				id: "51A192832597ABF8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7FFF3C8527D6946C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "6B8CF7839FADA622"
+			repeatable: true
+			rewards: [{
+				id: "2A75F5D6F83B3CCC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "12DE1414A2EE6C3F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:coal_block"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "0BFD6ED7DE2E8E24"
+			repeatable: true
+			rewards: [{
+				id: "6C0AEEB67D6E38E1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "20017B9734C38525"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:coal_block_1x"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "5154E32A096084DD"
+			repeatable: true
+			rewards: [{
+				id: "007F406018D67AC7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "586196AF93EE29D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "6A8D3555E20E0D6B"
+			repeatable: true
+			rewards: [{
+				id: "46E9364E6708F006"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3814D5064ECF5889"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "1B5F2C6F9F6F4C33"
+			repeatable: true
+			rewards: [{
+				id: "4EBD44D1D335A848"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6610FFBF7643D287"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:redstone_block_1x"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "6CB016FD6DA106D7"
+			repeatable: true
+			rewards: [
+				{
+					id: "45A793121D6B79E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_5"
+					}
+					type: "item"
+				}
+				{
+					id: "598F3CFBCB0D4C8E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$6"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7ACF4F7A8A2F24A5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "4ACCC6E930D49A24"
+			repeatable: true
+			rewards: [
+				{
+					id: "466BECFFE0671545"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					id: "05663CEC3137CE4C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_10"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$60"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4CFBD049DC7D5A86"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:glowstone"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "452CF66754DAD8CB"
+			repeatable: true
+			rewards: [
+				{
+					id: "097C815331E0D6F0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_500"
+					}
+					type: "item"
+				}
+				{
+					id: "07680F48976476B8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_100"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$600"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0F465711B5AB75B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:glowstone_block_1x"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "46ED7ECD29E3E736"
+			repeatable: true
+			rewards: [
+				{
+					id: "53A9BA8002F5415E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_5"
+					}
+					type: "item"
+				}
+				{
+					id: "7AE4FDAFEC63B91B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_2"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$7"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5961016EB07C9E01"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "6389F44D73B1BB87"
+			repeatable: true
+			rewards: [
+				{
+					id: "328A13A080364ABF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					id: "29B396ECEB4B3A0E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_20"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$70"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "03C99262CE891ED9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:lapis_block"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "2BC32584A1EA9A21"
+			repeatable: true
+			rewards: [
+				{
+					id: "23F92D8C11ED0E4D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_500"
+					}
+					type: "item"
+				}
+				{
+					id: "0CD2BC6983D48315"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$700"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5B1C6DBA50067C24"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:lapis_block_1x"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "5B714C6017F0148A"
+			repeatable: true
+			rewards: [{
+				id: "18411A240DDE92D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "418BA1C0F8D5A4EC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "1F36F8089BD395C9"
+			repeatable: true
+			rewards: [{
+				id: "2CC11E84FD9E22D4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "31E1129FFA69BA96"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "7BEA232078A4B2CC"
+			repeatable: true
+			rewards: [{
+				id: "3290BEFA75A8BA9F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3D30FD21F9F1B797"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "7376D593CA5ADEC0"
+			repeatable: true
+			rewards: [{
+				id: "458BFDA4E9C250AE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$1'000"
+			tasks: [{
+				count: 16L
+				id: "06EA0203FBCED8F9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:iron_block_1x"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "1A709DA685C0974E"
+			repeatable: true
+			rewards: [{
+				id: "099CC8D4FB28FDBD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "69E8DF4BFCF460AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "29364C592B472F78"
+			repeatable: true
+			rewards: [{
+				id: "3E3149825236A970"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0A4803B4E85ED46C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:gold_block_1x"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "30CD06A71CF92FD1"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "23C33A559AC3A280"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$15"
+			tasks: [{
+				count: 16L
+				id: "657DDCB55572298A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:platinum_ingot"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "62ADFC060A52AF35"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "05B19E528B036A58"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$150"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "174E1914EED124F5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:platinum_block"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "5ED436A7E43EED9B"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "62573C3406FCE906"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$1'500"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7A24F16539BAE5E8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:platinum_block_1x"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "4E85F8116F160274"
+			repeatable: true
+			rewards: [{
+				id: "4F732C9B61E9A288"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5A827C3093611094"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:lead_ingot"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "742082ED9B081BCA"
+			repeatable: true
+			rewards: [{
+				id: "1DA87B7ADF5769BF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6621A330E1F776CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:lead_block"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "7CC082AA0B487394"
+			repeatable: true
+			rewards: [{
+				id: "6C8E2D7B2C02DA5C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "13276CF273997C21"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:lead_block_1x"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "6B8AA25F621526FD"
+			repeatable: true
+			rewards: [{
+				id: "39A7283BFBCC5D14"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$20"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "111539FB204061F7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "4ADC36C730BB4B2D"
+			repeatable: true
+			rewards: [{
+				id: "704504BC16DDA9CC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3470AF2E0B1E28C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:netherite_block"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "22492825062596CA"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "1DF80F2CC5E82721"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2A7455E5BFAA17B6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:netherite_block_1x"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "653575248611BF56"
+			repeatable: true
+			rewards: [{
+				id: "309E1E83D9FCB271"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "47CF0B5A975FB5C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23D1C8B375310D6F"]
+			id: "5E4E96B9A3271E2D"
+			repeatable: true
+			rewards: [{
+				id: "3FE9BE84B8A3105B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "650598F9A0B88D53"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "extendedcrafting:nether_star_block"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "13795350522E4456"
+			repeatable: true
+			rewards: [{
+				id: "7F2064D7A2707488"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "71AD989E4BEA70C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:nether_star_block_1x"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "72360891570EACD6"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "7036E9096D5ACF02"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$3"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "51637F3F6F6B2C03"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:sapphire"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "6102F2FEA579C820"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "364089E143E94378"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$30"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "236A6FD5A7D00ECA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:sapphire_block"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "236AD766DA2FEDC5"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "29C0AD1D602A824E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$300"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1EFB6064DED34576"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:sapphire_block_1x"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "36C9F7C019DE36DD"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "708135C0C9448E7C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$4"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "474FCD1F60A43D5D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:ruby"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "0770D489C379D253"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "3BEE11CAB65D0F09"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$40"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6D4CFDCD42AE8A4F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:ruby_block"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "030600D1198B6F46"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "3863A6267D0CF0C1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$400"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0A6CAFDED1AE887D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:ruby_block_1x"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "3D5FBDACD64E0DEB"
+			repeatable: true
+			rewards: [{
+				count: 4
+				id: "045FC243C3A7DBD0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$8"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "649F6DB76478E819"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "56C282934A2D760A"
+			repeatable: true
+			rewards: [{
+				count: 4
+				id: "0EF428FC8D2E9470"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$80"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6B9FBD726543344B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "241645D1048A0B05"
+			repeatable: true
+			rewards: [{
+				count: 4
+				id: "540D6E3D28438BDC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$800"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5E5F7AE4ABF6DCEF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:diamond_block_1x"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2604B540981EA32D"
+			repeatable: true
+			rewards: [{
+				id: "107C8CD091F65C94"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "75FB56C3E99BE170"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "10AA72D1B57C0F00"
+			repeatable: true
+			rewards: [{
+				id: "0EC63134DE77E04A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0CF8320DBB62F990"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:emerald_block"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "4BAFC313F9112CF0"
+			repeatable: true
+			rewards: [{
+				id: "271DDACB6A9BF00B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5435200799C2D121"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:emerald_block_1x"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "60FD1E5ED22421C0"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "1DA317857B86B5B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$6"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "47629A97933211FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "148E2083F5BC4626"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "7A007FDA080408FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$60"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "34C969AA26D5787C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:amethyst_block"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "515704A52A92A45A"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "60986F2324F96D30"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$600"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "278E1FED7B36171A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:amethyst_block_1x"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "033621EDFAA51A24"
+			repeatable: true
+			rewards: [
+				{
+					id: "4077EA352ABB8F81"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_5"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "79E62AFD0B80CF88"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$8"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "62DF7216754EF4C6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50FC6DA196D2D0EF"]
+			id: "2600D1F0BF57A73F"
+			repeatable: true
+			rewards: [
+				{
+					id: "1DA6ADD5BC4042C5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "60202782C19E1F96"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_10"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$80"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "04EB2BBB3A11CB48"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:quartz_block"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			id: "659ACFEE8C696EFE"
+			repeatable: true
+			rewards: [
+				{
+					id: "7B2D6C9FF074472B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_500"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "70C6F96764DE9584"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_100"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "$800"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "752B17DA06CBF207"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthecompressed:quartz_block_1x"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2887870C187948BD"
+			repeatable: true
+			rewards: [{
+				id: "49BACC41041C0E24"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6BD0D20786D4E42F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2AD0580CB0F11BB4"
+			repeatable: true
+			rewards: [{
+				id: "660422E11E6D83AF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "178C7A2FE7FF3026"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:spruce_log"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "5BBA0E841E67FFF7"
+			repeatable: true
+			rewards: [{
+				id: "04AA24917F3CE00F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6604A82158A03191"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:aspen_log"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "72E7189C229392D3"
+			repeatable: true
+			rewards: [{
+				id: "1A489A705DEC7486"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1150D4EE12D2B701"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:mahogany_log"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "47DE3F158495DA99"
+			repeatable: true
+			rewards: [{
+				id: "0364CD4FBE9546BE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4A88C4B02214D3CA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:cherry_log"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "516AD0E4B1834E91"
+			repeatable: true
+			rewards: [{
+				id: "15BDD188AABA9371"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5F2B5D673C7F62E7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "byg:ebony_log"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "088F420088F46556"
+			repeatable: true
+			rewards: [{
+				id: "06C2B1162D364C49"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$1"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3AF12CA7AFB18B39"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "52D459E5B310BF18"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "086C15504C07D766"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$3"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "59289681CFC1C433"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:carrot"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "23D81F3AFD304B04"
+			repeatable: true
+			rewards: [{
+				id: "6ABE0147C80DD37F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$3"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "049090112CEB61F9"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2F5D3184407AECE4"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "0067493D87620EC2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$3"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "33EAF05FA2EEA950"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "6801FA4717C63BD9"
+			repeatable: true
+			rewards: [{
+				id: "7F292952AD984A84"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "4F6CF2C6893AE49A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:radish"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "6726743F337E792C"
+			repeatable: true
+			rewards: [{
+				id: "19BC082D07F336A6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$5"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0E57C76C9B661B2A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:corn"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "0259338319792D35"
+			repeatable: true
+			rewards: [{
+				id: "4CEDA8EEA00A6B88"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0E45B1D884DE3C82"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:apple_block"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "0DB45A713BD26163"
+			repeatable: true
+			rewards: [{
+				id: "757FA5202D0FB8C1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "245CBC82B8577319"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:potato_block"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "298920816209CA45"
+			repeatable: true
+			rewards: [{
+				id: "3AA3D6DFC0194B83"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "71CB5F5573A89324"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:tomato_block"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2F514BFC4157A999"
+			repeatable: true
+			rewards: [{
+				id: "4229DDEC68893826"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "04B0FE2B09400AD5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:strawberry_block"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "3CA10578A8D59624"
+			repeatable: true
+			rewards: [{
+				id: "5387BB4B72C03745"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "379EFF739A7C4718"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:onion_block"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "2B683A30A3FEEC06"
+			repeatable: true
+			rewards: [{
+				id: "48E65D3EB4A7C9E7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "26DD9A60A0C7AEB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:beetroot_block"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "0A772111E7035EEF"
+			repeatable: true
+			rewards: [{
+				id: "6A92357DE54DF429"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_2"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$2"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "36DEC1C11BE06F69"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "37BC909A46D5B7B2"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "77F8637D4449EFA8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$3"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6795907DE959593E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			icon: "thermal:gunpowder_block"
+			id: "5D9FD3B2543F26E7"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "0878482C3B4AD0D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$15"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0D5E24F03ECB7145"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "71009FB87D239487"
+			repeatable: true
+			rewards: [{
+				id: "0BC6D89BA6EC6C19"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "272D2B8F87660302"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bone_block"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "251DCF9D91CC5518"
+			repeatable: true
+			rewards: [{
+				count: 4
+				id: "0E3EDED0FA0BC2EA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$4"
+			tasks: [{
+				consume_items: true
+				id: "56E0694A70D31C17"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:ender_pearl"
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			icon: "cyclic:eye_teleport"
+			id: "01A79588AF3E26FA"
+			repeatable: true
+			rewards: [{
+				id: "2106370398C48828"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_10"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$10"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "74890B15BF87E1D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "17CA73E64B6C62B2"
+			repeatable: true
+			rewards: [{
+				id: "27E00D5E21532DB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "5A14146585BF612D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:skeleton_skull"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "53339747E82D206E"
+			repeatable: true
+			rewards: [{
+				id: "7BA23E957142898F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "2D9E008B4948C06C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "6D50CCF40000A5BF"
+			repeatable: true
+			rewards: [{
+				id: "6A42585F75C95530"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "375F1A88A62B01BA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:dragon_head"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			hide_dependency_lines: true
+			id: "03BFB1CF83411EF4"
+			repeatable: true
+			rewards: [{
+				id: "5914291AA9E02BD5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "187E175C98B15A73"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:creeper_head"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["23D1C8B375310D6F"]
+			description: [
+				"  &o&cEnergy&r"
+				""
+				"  Input into &eTask Screen&r."
+			]
+			icon: "rftoolspower:cell1"
+			id: "20B3387206FB331B"
+			repeatable: true
+			rewards: [{
+				id: "3BB83D5C9CDEBFB8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$50"
+			tasks: [{
+				id: "65A5F6020C9AC837"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 10000000L
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["56C30AAD66E38A2B"]
+			description: [
+				"  &o&cEnergy&r"
+				""
+				"  Input into &eTask Screen&r."
+			]
+			icon: "rftoolspower:cell3"
+			id: "40E99760B3819D82"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "2C0F8E4A86B376B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$400"
+			tasks: [{
+				id: "42D7D09941F4F72B"
+				max_input: 1000L
+				type: "forge_energy"
+				value: 100000000L
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			description: [
+				"  &o&cLiquid&r"
+				""
+				"  Pipe into a &eTask Screen&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:creative_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 2147483647
+								FluidName: "thermal:refined_fuel"
+							}
+						}]
+					}
+				}
+			}
+			id: "36C88D17C1522F1D"
+			repeatable: true
+			rewards: [{
+				count: 5
+				id: "0436F3A7BC035E6C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_5"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$25"
+			tasks: [{
+				amount: 25000L
+				fluid: "thermal:refined_fuel_flowing"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/ref_fuel_bar.png"
+					}
+				}
+				id: "3E82B8FE7FF3DFA3"
+				title: "25 B of Refined Fuel"
+				type: "fluid"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			description: [
+				"  &o&cLiquid&r"
+				""
+				"  Pipe into a &eTask Screen&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "mekanism:creative_fluid_tank"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 2147483647
+								FluidName: "thermal:crude_oil"
+							}
+						}]
+					}
+				}
+			}
+			id: "1B679D81F500C27E"
+			repeatable: true
+			rewards: [{
+				id: "71946172A0BE0F40"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_20"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "$20"
+			tasks: [{
+				amount: 25000L
+				fluid: "thermal:crude_oil_flowing"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/crud_oil_cool_bar.png"
+					}
+				}
+				id: "1589E9372E96020B"
+				title: "25 B of Crude Oil"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1911AFD01F29C18E"]
+			description: [
+				"Ok, you want to earn some money, right? That's a good decision, for now!"
+				""
+				"I'm going to show you the basics to automating the process and setting you up for life, if you know what I mean!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "thermal:textures/item/gold_coin_4.png"
+				}
+			}
+			id: "27B452C627C505BC"
+			rewards: [{
+				id: "4E693CB0ED20EC47"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oWelcome&r chapter*"
+			tasks: [{
+				id: "4268B5A98CF1C27F"
+				type: "checkmark"
+			}]
+			title: "&6Introduction to Selling"
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27B452C627C505BC"]
+			description: [
+				"The task screen will become your best friend, to begin simply open the &eGUI&r and pick a &9Task&r."
+				""
+				"&7*To make some Quest to be automated is still work in progress*"
+			]
+			id: "7B281DBDAD5EF27B"
+			rewards: [
+				{
+					id: "58AB4CF05965ACF1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5AC8AAD3C6F697AB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ftbquests:screen_1"
+					}
+					type: "item"
+				}
+				{
+					id: "1747B1CF88F7DF57"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pipez:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "1633A93AEB55414B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pipez:energy_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "648D38CD7800F2C9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pipez:item_pipe"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4A5A19811DBACE4A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ftbquests:screen_1"
+				}
+				type: "item"
+			}]
+			title: "Task Screen"
+			x: -13.0d
+			y: 4.0d
+		}
+	]
+	title: "&fPlayer Shop"
+}

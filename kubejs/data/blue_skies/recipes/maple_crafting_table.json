@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "crafting_tables",
+  "key": {
+    "P": {"item": "blue_skies:maple_planks"},
+    "R": {"tag": "blue_skies:logs/maple"}
+  },
+  "pattern": ["PR","RP"],
+  "result": {
+    "item": "blue_skies:maple_crafting_table"
+  }
+}

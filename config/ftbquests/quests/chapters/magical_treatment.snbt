@@ -1,0 +1,1425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical_treatment"
+	group: "0734189F95095884"
+	icon: "chipped:wicked_red_mushroom"
+	id: "25808C4A96919319"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_magic.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "233D7479E5FE6566"
+			rewards: [{
+				id: "2F081B53D3CC624E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7E6CC02B196001A0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cMagical Eye"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "twilightforest:lamp_of_cinders"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "004770A4DAA7DD36"
+			rewards: [{
+				id: "255D4CC9F9F722CD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'200"
+			tasks: [
+				{
+					consume_items: true
+					id: "3AD8F64BCA774588"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_1000"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2E4038DED6154AD3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+			]
+			title: "&cLamp of Cinders"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ars_nouveau:wand"
+				tag: { }
+			}
+			id: "705C92B3236EFF31"
+			rewards: [{
+				id: "0960F6C06A6610F8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "$800"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7ABBAD91C2259E5C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&cCasting Wand"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "botania:twig_wand"
+				tag: {
+					color1: 0
+					color2: 0
+				}
+			}
+			id: "2F5CC5B4E0AC3BB2"
+			rewards: [{
+				id: "635D48B77010655F"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$350"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "40FB3D0343468500"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_100"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3F6FFA480CECAA76"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+			]
+			title: "&cWand of the Forest"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "52D0679DD3C01480"
+			rewards: [{
+				id: "2FC8D3639C4DD728"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ars_nouveau:archmage_spell_book"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$25'000"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "605C13A83B9DCD09"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&cArchmage Spell Book"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:monocle"
+			}
+			id: "14C4C6D4A730B1B8"
+			rewards: [{
+				id: "2523BB2C0EA6129E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:monocle"
+				}
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "7D69EEAE246F9926"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&cManaseer Monocle"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:mana_bottle"
+			}
+			id: "550040C6A3AD52E5"
+			rewards: [{
+				id: "20F4F12E76487197"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:mana_bottle"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "2288D040E1B3E260"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&cMana in a Bottle"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:blacker_lotus"
+			}
+			id: "6BC6F15F48B4F1E9"
+			rewards: [{
+				id: "7106DFB453E27BD7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:blacker_lotus"
+				}
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "5B257EF4E0910982"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&cBlacker Lotus"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ars_nouveau:spell_parchment"
+				tag: { }
+			}
+			id: "6C4FD13BE00CAB59"
+			rewards: [{
+				id: "389BAAEEF76DE79B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "$300"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2084A1950CEA3E84"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cSpell Parchment"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "twilightforest:magic_map_focus"
+			}
+			id: "39BD41591E1AF2DC"
+			rewards: [{
+				id: "105C50C02D84F2DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:magic_map_focus"
+				}
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "28E019235F434064"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cMagic Map Focus"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "twilightforest:ore_map"
+			}
+			id: "7EAC1465430C2A67"
+			rewards: [{
+				id: "7AC9F9A7E1B80A0B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:ore_map"
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "777DCC3B6ABD53AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cBlank Maze/Ore Map"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "villagertools:bribe"
+			}
+			id: "24ADD5F4D7A878BD"
+			rewards: [{
+				count: 4
+				id: "08CFD88A188D9022"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "villagertools:bribe"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "3E42482E43A3E5C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cIchor of Virtue"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ars_nouveau:warp_scroll"
+				tag: { }
+			}
+			id: "4BD4A1D70A671426"
+			rewards: [{
+				id: "47DBC2B18C124C97"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "211419B6290FCE3B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&cWarp Scroll"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:scroll_of_aquatic_life"
+				tag: {
+					enchant: 1b
+				}
+			}
+			id: "108DC82B24312402"
+			rewards: [{
+				id: "496F29642D8F6200"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:scroll_of_aquatic_life"
+					tag: {
+						enchant: 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$350"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "7D93C7397F84043F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&cEnchanted Scroll of Aquatic Life"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:scroll_of_lightning_resistance"
+				tag: {
+					enchant: 1b
+				}
+			}
+			id: "11B0D9311D4DA484"
+			rewards: [{
+				id: "4844597BC0692982"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:scroll_of_lightning_resistance"
+					tag: {
+						enchant: 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$350"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "689127B1193B5F16"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&cEnchanted Scroll of Lightning Resistance"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:scroll_of_purification"
+				tag: {
+					enchant: 1b
+				}
+			}
+			id: "69A150096889366E"
+			rewards: [{
+				id: "317150D4F10D830D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:scroll_of_purification"
+					tag: {
+						enchant: 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$350"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "3B14207E391A9511"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&cEnchanted Scroll of Purification"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:scroll_of_true_sight"
+				tag: {
+					enchant: 1b
+				}
+			}
+			id: "43F8F11A20885766"
+			rewards: [{
+				id: "02E88761621240DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:scroll_of_true_sight"
+					tag: {
+						enchant: 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$350"
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "2221147430271784"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&cEnchanted Scroll of True Sight"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:essence_of_undeath"
+			}
+			id: "33964A5BF8632D85"
+			rewards: [{
+				id: "49542CFB913D8456"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:essence_of_undeath"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "43AF2093595418C4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&cEssence of Undeath"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:grave_dust"
+			}
+			id: "5C66C0220BE4D214"
+			rewards: [{
+				count: 2
+				id: "38042761D5148928"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:grave_dust"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "4ECD6B5DC3C9D4A6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cGrave Dust"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:ankh_of_pray"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20A40CA531A105BD"
+			rewards: [{
+				id: "74C20458789CA875"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:ankh_of_pray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "044A7A156734B3DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&cAnkh of Pray"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:book_of_disenchantment"
+			}
+			id: "4F185073C6FACDDE"
+			rewards: [{
+				id: "73E2ABA423B83D67"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:book_of_disenchantment"
+				}
+				type: "item"
+			}]
+			subtitle: "$300"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5EAA08850026DB8E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cBook of Disenchantment"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:tablet_of_home"
+			}
+			id: "738333B66739E8D2"
+			rewards: [{
+				id: "5E4CD8978C409060"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:tablet_of_home"
+				}
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "545F6D602D909D8B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&cTablet of Home"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: "cyclic:charm_xp_speed"
+			id: "08DE87287095A6B6"
+			rewards: [{
+				id: "38BF0006DE8E43C0"
+				item: "cyclic:charm_xp_speed"
+				type: "item"
+			}]
+			subtitle: "$800"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "122F52C62A322041"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&cRing of Experience"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			id: "34276E149D2FDF6E"
+			rewards: [{
+				id: "141B5F4ED0590BB6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "2A1E352BA6B6F8F3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cInfinity Wand"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:mana_pearl"
+			}
+			id: "5D8F53EB3C5D1608"
+			rewards: [{
+				count: 3
+				id: "4478575A35D28CA3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:mana_pearl"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "222442090FBAC99D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cMana Pearl"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: "ars_nouveau:source_gem"
+			id: "509363C3F698D359"
+			rewards: [{
+				count: 2
+				id: "059DF57DF2500FDF"
+				item: "ars_nouveau:source_gem"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "4602D1151062D4E4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cSource Gem"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "cyclic:fireball"
+			}
+			id: "3CBE4154FC2FE207"
+			rewards: [{
+				id: "2F5868D69CE5C3B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:fireball"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "3902330A5376902A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&cFireball"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "cyclic:fireball_dark"
+			}
+			id: "0AB8027E7BDFC765"
+			rewards: [{
+				id: "7551503F981B579C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:fireball_dark"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "22FB94C7713144B8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&cDark Fireball"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			icon: "botania:third_eye"
+			id: "02A0419564C4F512"
+			rewards: [{
+				id: "4E4828DC679C6499"
+				item: "botania:third_eye"
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "4CD906189DB8F768"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cThird Eye"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E94175903F734E9"
+			rewards: [{
+				id: "0AAC2F3103BB2459"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "77597423DAB383A5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cWitch Eye"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24DE9E068E71ECA2"
+			rewards: [{
+				id: "55017EB01D1A1921"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7A2EDF918ED683CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&cUndead Eye"
+			x: -5.5d
+			y: 1.0d
+		}
+	]
+	title: "Supernatural"
+}

@@ -1,0 +1,6 @@
+#Creative Wireless Transmitter Options
+#
+#How much should the Creative Wireless Transmitter Consume?
+#Range: 0 ~ 1000000000
+creativeWirelessTransmitterEnergyConsume = 0
+

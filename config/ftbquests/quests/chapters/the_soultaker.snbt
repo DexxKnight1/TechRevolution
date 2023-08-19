@@ -1,0 +1,1528 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_soultaker"
+	group: "0734189F95095884"
+	icon: {
+		Count: 1b
+		id: "cyclic:charm_antipotion"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "20AD9EFF4CC6CE1B"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_soul.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 8.0d
+					Type: "mysticalagriculture:pig"
+				}
+			}
+			id: "51020303E35F5AAE"
+			repeatable: true
+			rewards: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 8.0d
+						Type: "mysticalagriculture:pig"
+					}
+				}
+				id: "772F79FECBE7C469"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "6CAD42420B255163"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Pig "
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 8.0d
+					Type: "mysticalagriculture:chicken"
+				}
+			}
+			id: "4C9C9F7800320D93"
+			repeatable: true
+			rewards: [{
+				id: "1F392A114888EB7A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 8.0d
+						Type: "mysticalagriculture:chicken"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "71691F93BF40607F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Chicken "
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 8.0d
+					Type: "mysticalagriculture:cow"
+				}
+			}
+			id: "6C870263D0A41588"
+			repeatable: true
+			rewards: [{
+				id: "5544D0C483092354"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 8.0d
+						Type: "mysticalagriculture:cow"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "7031FC32177E2F97"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Cow "
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 8.0d
+					Type: "mysticalagriculture:sheep"
+				}
+			}
+			id: "6A27B099F9D6630E"
+			repeatable: true
+			rewards: [{
+				id: "31CB079407AC70D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 8.0d
+						Type: "mysticalagriculture:sheep"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "79D6AA99275E75D1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Sheep "
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:squid"
+				}
+			}
+			id: "182D34822ED4DB14"
+			repeatable: true
+			rewards: [{
+				id: "4E8747BE289B75CE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 6.0d
+						Type: "mysticalagriculture:squid"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "69FB34E211AD715D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Squid "
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:fish"
+				}
+			}
+			id: "449D66C3EAB9F663"
+			repeatable: true
+			rewards: [{
+				id: "55843CFD37478A42"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 6.0d
+						Type: "mysticalagriculture:fish"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "342AAA975604786E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Fish "
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 12.0d
+					Type: "mysticalagriculture:slime"
+				}
+			}
+			id: "79AE82354CF5F25E"
+			repeatable: true
+			rewards: [{
+				id: "56C2331A6C3525FB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 12.0d
+						Type: "mysticalagriculture:slime"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "0963D3AC368DA227"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Slime "
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:turtle"
+				}
+			}
+			id: "4E0D8849D6660E1A"
+			repeatable: true
+			rewards: [{
+				id: "246E2BEE0346055B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 6.0d
+						Type: "mysticalagriculture:turtle"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "5169BC227194F109"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Turtle "
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 10.0d
+					Type: "mysticalagriculture:zombie"
+				}
+			}
+			id: "66CAA0C9699E6B14"
+			repeatable: true
+			rewards: [{
+				id: "14AA59A43A527487"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 10.0d
+						Type: "mysticalagriculture:zombie"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "3CB30BC95848E80D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Zombie "
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 10.0d
+					Type: "mysticalagriculture:skeleton"
+				}
+			}
+			id: "4A3E59249C2ECF84"
+			repeatable: true
+			rewards: [{
+				id: "7FA3B6A1F57BB401"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 10.0d
+						Type: "mysticalagriculture:skeleton"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "7B8805289D286AD3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Skeleton "
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 10.0d
+					Type: "mysticalagriculture:creeper"
+				}
+			}
+			id: "79092F8D38799A32"
+			repeatable: true
+			rewards: [{
+				id: "678DD5112535E720"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 10.0d
+						Type: "mysticalagriculture:creeper"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "5F9E6E4F34EDB63E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Creeper "
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 10.0d
+					Type: "mysticalagriculture:spider"
+				}
+			}
+			id: "21B542D79C936A49"
+			repeatable: true
+			rewards: [{
+				id: "1E675BC0A242CF5A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 10.0d
+						Type: "mysticalagriculture:spider"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "49FF62A5999A45D3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Spider "
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:rabbit"
+				}
+			}
+			id: "1AE52A85C2635A5C"
+			repeatable: true
+			rewards: [{
+				id: "52F38508BA8B0CDC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 6.0d
+						Type: "mysticalagriculture:rabbit"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "2146CB906BF3F146"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Rabbit "
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 10.0d
+					Type: "mysticalagriculture:blaze"
+				}
+			}
+			id: "00DC90D015701E8C"
+			repeatable: true
+			rewards: [{
+				id: "73FE50B9813E577A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 10.0d
+						Type: "mysticalagriculture:blaze"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "24D7F690C7EA36EB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Blaze "
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 4.0d
+					Type: "mysticalagriculture:ghast"
+				}
+			}
+			id: "07185AD343F363A0"
+			repeatable: true
+			rewards: [{
+				id: "471B581C0AD64BE7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 4.0d
+						Type: "mysticalagriculture:ghast"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "2CC77E6218FCC952"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Ghast "
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 8.0d
+					Type: "mysticalagriculture:enderman"
+				}
+			}
+			id: "0E13427AA142D76A"
+			repeatable: true
+			rewards: [{
+				id: "750518C16FC0DE65"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 8.0d
+						Type: "mysticalagriculture:enderman"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "2100539419A34146"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Enderman "
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 8.0d
+					Type: "mysticalagriculture:wither_skeleton"
+				}
+			}
+			id: "4AA4CB60035CCD42"
+			repeatable: true
+			rewards: [{
+				id: "5B489DDE2EB84F4F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 8.0d
+						Type: "mysticalagriculture:wither_skeleton"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "1A18F9F1CD27CA61"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Wither Skeleton "
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:blizz"
+				}
+			}
+			id: "0760C3A925CFF0E2"
+			repeatable: true
+			rewards: [{
+				id: "616A1C7257DC0294"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 6.0d
+						Type: "mysticalagriculture:blizz"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "26C1AFC3C7056C6F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Blizz "
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:blitz"
+				}
+			}
+			id: "6020E5E1CD537EE6"
+			repeatable: true
+			rewards: [{
+				id: "0BA39C86C0184D05"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 6.0d
+						Type: "mysticalagriculture:blitz"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "7A5BDE6655950BCD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Blitz "
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:soul_jar"
+				tag: {
+					Souls: 6.0d
+					Type: "mysticalagriculture:basalz"
+				}
+			}
+			id: "457D3A3B10F36CFD"
+			repeatable: true
+			rewards: [{
+				id: "603CEA67F961D468"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:soul_jar"
+					tag: {
+						Souls: 6.0d
+						Type: "mysticalagriculture:basalz"
+					}
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "5DDB498DF52D9B28"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Jar &f&o&n Basalz "
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:ender_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "054588E435094099"
+			repeatable: true
+			rewards: [{
+				id: "632FAD5B7D2B8271"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:ender_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$700"
+			tasks: [
+				{
+					consume_items: true
+					id: "4FE261762C7C39B1"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_500"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7B6A78338FD22B9B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+			]
+			title: "&3Soulscribe"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:soul_receptacle"
+			}
+			id: "25285F9FB221F5B6"
+			repeatable: true
+			rewards: [{
+				id: "3502502B91622931"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "tombstone:soul_receptacle"
+				}
+				type: "item"
+			}]
+			subtitle: "$700"
+			tasks: [
+				{
+					consume_items: true
+					id: "2465511C4F290A94"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_500"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0F2F153B8D9FBE48"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+			]
+			title: "&3Soul Receptacle"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "blue_skies:soul_fragment"
+			}
+			id: "07B7CDC552693656"
+			repeatable: true
+			rewards: [{
+				id: "0ABF8D781FF8F67A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "blue_skies:soul_fragment"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "4903B0B03C843761"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Fragment"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			icon: "nourished_nether:soul_quartz"
+			id: "3E35A953B53ECC8F"
+			repeatable: true
+			rewards: [{
+				count: 4
+				id: "1B7B0118B2FB4634"
+				item: "nourished_nether:soul_quartz"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "1F752569339F8C30"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Quartz"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			icon: "theabyss:phantom_soul_item"
+			id: "12932776A4388037"
+			repeatable: true
+			rewards: [{
+				id: "17B4C4D0B5AB8260"
+				item: "theabyss:phantom_soul_item"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$600"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6804B7ABD0497216"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&3Phantom Soul"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:soul_cross"
+				}
+			}
+			id: "2B10BB5404D2E23B"
+			repeatable: true
+			rewards: [{
+				id: "6319F0945E261D9C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "botania:brew_flask"
+					tag: {
+						brewKey: "botania:soul_cross"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "3138B10D9F19EA60"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&3Flask of Crossed Soul"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagradditions:withering_soul"
+			}
+			id: "1A90728CD2250369"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "7320389A31FBA762"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagradditions:withering_soul"
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "5B2B24942A69982D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&3Withering Soul"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "deeperdarker:soul_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A76F01946B2A097"
+			repeatable: true
+			rewards: [{
+				id: "77C92C3C842561CD"
+				item: {
+					Count: 1b
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "117BC8F53953FC2E"
+				item: "kubejs:5k_card"
+				type: "item"
+			}]
+			title: "&3Soul Elytra"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: "quark:soul_bead"
+			id: "41AF901C39C6C7DD"
+			repeatable: true
+			rewards: [{
+				id: "2BB77D36F3E59BA4"
+				item: "quark:soul_bead"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "5CE63CC5BA9D034F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Bead"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			icon: "allthemodium:soul_lava_bucket"
+			id: "463DDBA550FFD9B7"
+			repeatable: true
+			rewards: [{
+				id: "6152AE6D374BD90D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthemodium:soul_lava_bucket"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$20'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "216163A819076530"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&3Soul Lava"
+			x: 0.0d
+			y: -3.75d
+		}
+	]
+	title: "The Soul Patcher"
+}

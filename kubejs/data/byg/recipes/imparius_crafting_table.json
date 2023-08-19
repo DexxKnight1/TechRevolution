@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:imparius_planks"},
+        "R":{"tag":"byg:imparius_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:imparius_crafting_table"
+    }
+}

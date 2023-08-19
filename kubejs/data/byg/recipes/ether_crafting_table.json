@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:ether_planks"},
+        "R":{"tag":"byg:ether_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:ether_crafting_table"
+    }
+}

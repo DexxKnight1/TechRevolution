@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:cika_planks"},
+        "R":{"tag":"byg:cika_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:cika_crafting_table"
+    }
+}

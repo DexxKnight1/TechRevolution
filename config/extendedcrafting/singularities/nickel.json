@@ -1,0 +1,10 @@
+{
+  "name": "Nickel",
+  "colors": [
+    "beb482",
+    "beb482"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/nickel"
+  }
+}

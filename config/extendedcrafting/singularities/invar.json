@@ -1,0 +1,10 @@
+{
+  "name": "Invar",
+  "colors": [
+    "929d97",
+    "929d97"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/invar"
+  }
+}

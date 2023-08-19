@@ -1,0 +1,13 @@
+{
+	chapter_groups: [
+		{ id: "0734189F95095884", title: "&bStore" }
+		{ id: "6734042A4302E9F3", title: "&bTools" }
+		{ id: "39E458E1366D7D1D", title: "&bAgriculture \\& Food" }
+		{ id: "4764DDDD84D4A3BB", title: "&bStorage" }
+		{ id: "556BC0391B5938FF", title: "&bEnergy" }
+		{ id: "318AD3DF2B0AC047", title: "&bTechnology" }
+		{ id: "37D24E36044B603B", title: "&bMagic" }
+		{ id: "5B1FD5CFBA160ABA", title: "&bExploration" }
+		{ id: "0191929ABBCAE7CF", title: "&bChallenges" }
+	]
+}

@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:rainbow_eucalyptus_planks"},
+        "R":{"tag":"byg:rainbow_eucalyptus_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:rainbow_eucalyptus_crafting_table"
+    }
+}

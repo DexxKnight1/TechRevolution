@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:holly_planks"},
+        "R":{"tag":"byg:holly_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:holly_crafting_table"
+    }
+}

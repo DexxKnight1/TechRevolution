@@ -1,0 +1,50 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:textures/item/rune_bag.png"
+		}
+	}
+	id: "2BF7C14D0BDC4BFA"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 16, item: "thermal:corn" }
+		{ count: 16, item: "thermal:onion" }
+		{ count: 16, item: "thermal:rice" }
+		{ count: 16, item: "thermal:eggplant" }
+		{ count: 16, item: "thermal:bell_pepper" }
+		{ count: 16, item: "thermal:green_bean" }
+		{ count: 16, item: "thermal:sadiroot" }
+		{ count: 16, item: "thermal:radish" }
+		{ count: 16, item: "minecraft:cooked_porkchop" }
+		{ count: 16, item: "minecraft:cooked_mutton" }
+		{ count: 16, item: "minecraft:cooked_beef" }
+		{ count: 16, item: "minecraft:cooked_chicken" }
+		{ count: 16, item: "minecraft:cooked_rabbit" }
+		{ count: 16, item: "farmersdelight:barbecue_stick" }
+		{ count: 16, item: "farmersdelight:smoked_ham" }
+		{ count: 16, item: "farmersdelight:mixed_salad" }
+		{ count: 16, item: "farmersdelight:chicken_sandwich" }
+		{ count: 16, item: "farmersdelight:hamburger" }
+		{ count: 16, item: "farmersdelight:salmon_roll" }
+		{ count: 16, item: "farmersdelight:bacon_and_eggs" }
+		{ count: 16, item: "farmersdelight:fried_egg" }
+		{ count: 16, item: "farmersdelight:apple_pie" }
+		{ count: 16, item: "delightful:nut_butter_and_jelly_sandwich" }
+		{ count: 16, item: "delightful:cheeseburger" }
+		{ count: 16, item: "croptopia:lemon_chicken" }
+		{ count: 16, item: "croptopia:macaron" }
+		{ count: 16, item: "croptopia:fruit_salad" }
+		{ count: 16, item: "croptopia:taco" }
+		{ count: 16, item: "croptopia:roasted_squash" }
+		{ count: 16, item: "croptopia:grilled_eggplant" }
+		{ count: 16, item: "croptopia:chili_relleno" }
+		{ count: 16, item: "croptopia:doughnut" }
+		{ count: 16, item: "croptopia:toast" }
+	]
+	title: "Food's Bag"
+	use_title: true
+}

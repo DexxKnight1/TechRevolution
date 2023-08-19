@@ -1,0 +1,2165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "318AD3DF2B0AC047"
+	icon: "industrialforegoing:block_breaker"
+	id: "3A7FC6101E64D06C"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -0.10357142857142065d
+		y: -11.062500000000004d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0DA972D85BB3C86C"]
+			description: ["Industrial Foregoing is a mod that adds many machines to the game which serve a wide variety of purposes. These machines largely help the player to automate processes which are difficult or impossible to automate in vanilla Minecraft such as lava production, crop farming, animal husbandry, and ore collection."]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+			id: "484AA004E235D07D"
+			rewards: [
+				{
+					id: "28D65A524C3F1BC5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "481C2F4DDC7BAF69"
+					item: "industrialforegoing:straw"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oCoke Oven&r quest*"
+			tasks: [{
+				id: "5CDCDDFD361DFFBD"
+				type: "checkmark"
+			}]
+			title: "Welcome to &3Industrial Foregoing"
+			x: -0.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6FA7CF416D1C9C9D"]
+			id: "1A4674A6B818BFE8"
+			rewards: [
+				{
+					id: "4866F5DBB8027E81"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0AAC4523984BD6B8"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "073103F5A75FCF47"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1A4674A6B818BFE8"]
+			id: "0773B45F80E9EB41"
+			rewards: [
+				{
+					id: "76501D3EAD34C36C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "03BC242A8A385411"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01DCB25E5418893B"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["484AA004E235D07D"]
+			id: "55C0841BBDCA69F4"
+			rewards: [
+				{
+					id: "75FAA9BD0C03D922"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DA36EAE5B6096DB"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1375E29C154020A9"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: -4.567857142857129d
+			y: -9.955357142857146d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "513ED8B3BE23BF6E"
+			rewards: [
+				{
+					id: "3532A0F78FF05DC4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 8
+					id: "6EAF6D2ABDBA43EE"
+					item: "minecraft:nether_brick"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "46BD3B3FB8EC85BA"
+					item: "minecraft:brick"
+					type: "item"
+				}
+				{
+					id: "058BB64E2DF2BC02"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "46517576F726EA51"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"513ED8B3BE23BF6E"
+				"00E7410F65814081"
+			]
+			id: "5C2CBC6B89014BEC"
+			rewards: [
+				{
+					id: "536F28228778FB40"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "46C23949B93B6935"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0D3115B5D816CE73"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "054B2BA570F930BC"
+			rewards: [
+				{
+					id: "24FD48EE23C67938"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E7938F0E538A960"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4D67EEB063B3CEF2"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			id: "0CAD4E1A68F3DA0A"
+			rewards: [
+				{
+					id: "7CFC7159E53D8269"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3E43DBBAFB22D9E4"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "7C5C10C174758873"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6678E675B2953C23"]
+			id: "7445BC964E4997E9"
+			rewards: [
+				{
+					id: "6D942DE15ED667A1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F4A491FA4FDD8F3"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "452E08E7FA7BBE3C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6D61AF67D1F225BA"
+				item: "industrialforegoing:pity_black_hole_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0CAD4E1A68F3DA0A"]
+			id: "6678E675B2953C23"
+			rewards: [
+				{
+					id: "17EE37DEBAF0D3E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13CC6332F5BEF0CA"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "012A83D073F38DAB"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "093B1B928EF19EEB"
+				item: "industrialforegoing:common_black_hole_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["241FC2CDF86571E6"]
+			id: "11312D1DA1B0B740"
+			rewards: [
+				{
+					id: "058307AC362F1603"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "59F95E4F482941D0"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "09B39B8943919CD2"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "2476CA6854F0E77F"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7445BC964E4997E9"]
+			id: "4EC639CAA771FB58"
+			rewards: [
+				{
+					id: "2D22C2F41FCDEF23"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "037AC5B71BC1036B"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "588972942646292D"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "145CB14289DDCBE7"
+				item: "industrialforegoing:simple_black_hole_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0CAD4E1A68F3DA0A"]
+			id: "656EB0A3579F4119"
+			rewards: [
+				{
+					id: "57A153E0224DB355"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "006478768F9D65D7"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "42F1F21660C76135"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3E5AB8D37CED9078"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["656EB0A3579F4119"]
+			id: "247099216FB9A068"
+			rewards: [
+				{
+					id: "6BB2EC65632C4FD8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7060761AB77666C8"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "301C7ECDC4B8CBCF"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "53BAED0F51A8FD34"
+				item: "industrialforegoing:pity_black_hole_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["247099216FB9A068"]
+			id: "7B7BAE2DC1D7DE57"
+			rewards: [
+				{
+					id: "31D6CFB26D66DF2A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C933075FC803AD1"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "3FEA9774FB3CF229"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3EF83B57041442DE"
+				item: "industrialforegoing:simple_black_hole_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7B7BAE2DC1D7DE57"]
+			id: "330E4A7591F2FD1A"
+			rewards: [
+				{
+					id: "57832F5DF17CF55C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6525980A0DD96201"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "1B2D7B457216A607"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "00711F35F4710383"
+				item: "industrialforegoing:advanced_black_hole_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["330E4A7591F2FD1A"]
+			id: "5B584592AC60C2EA"
+			rewards: [
+				{
+					id: "3F7A68E292090C7D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "563AB445C4A7AC4B"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "16B525E6C53967EC"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "428D12C5BF2797ED"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4EC639CAA771FB58"]
+			id: "241FC2CDF86571E6"
+			rewards: [
+				{
+					id: "27253E507532CB77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "04EDD3FE316F4BCA"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "4E06951454108D2E"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "07E07E432B5FB305"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["054B2BA570F930BC"]
+			id: "3AE8F1E0E7CE1434"
+			rewards: [
+				{
+					id: "3A9AB1EDC0A239D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D5E78E6A9847BFA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "square"
+			size: 1.2d
+			tasks: [{
+				id: "0EC7B27179FDB5B4"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "4C841CDCB034ACB5"
+			rewards: [
+				{
+					id: "105FD4EC8E1B7D36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CCA12A5B48CD5F2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0965BB77913DBA44"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "5BAD582523A809FA"
+			rewards: [
+				{
+					id: "3DF7690761842D03"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DF0C6E54ADF0A4C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1337A00FF100C83C"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "2971172A19254B68"
+			rewards: [
+				{
+					id: "40EEFBA862ADC8B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30D940E9EA7187E8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "51AB45A3DABA266E"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "05C7970BCDAB942A"
+			rewards: [
+				{
+					id: "7B99C687277BA2E4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E3F71853D250F4F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1252335E81303047"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "4C6FC968CBEF995B"
+			rewards: [
+				{
+					id: "45A1316C93C173D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1FC9A00F8B808C08"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "20B8585391153D77"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "7701F04BB50DCC28"
+			rewards: [
+				{
+					id: "70C8326B711D88BE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E29606DE77A2BC1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CE39540E3F0FC48"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "6D7788993C5B9139"
+			rewards: [
+				{
+					id: "41DE83EB09CA9400"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2568CF76E7CB59D0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "778C256ACACD690E"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "6611B10CFF5DD33C"
+			rewards: [
+				{
+					id: "6C91E2E148BF26F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "499C0843251AADDF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CB9AAA61B973F75"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "645548A4E940BB5C"
+			rewards: [
+				{
+					id: "54DC1B3456A1E204"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A7D7FBCEC9B6B8E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "18F56609A124BFD9"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "2C9ACEED49DDF974"
+			rewards: [
+				{
+					id: "1038C12CA57900E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BEC3565EB8ACD12"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0E639758FA07724B"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "1325B383BCCD6534"
+			rewards: [
+				{
+					id: "564F87E06D4F489B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "383AB179B29EEAB9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3603EF2961846C40"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "02CFF7F97A942D8C"
+			rewards: [
+				{
+					id: "253B11BD116ABCB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3D0AE511ADB06B55"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "584B9DB0E79ACFEB"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "301887B504EF4F82"
+			rewards: [
+				{
+					id: "5842C02EEDDD1398"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B4C627610DFDA05"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "68D5216F8D5E1A00"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "1193ABAFF90CD90C"
+			rewards: [
+				{
+					id: "38379BE09840D8B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C16211804AC8018"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "46FC3DAEFC427B1B"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "5DFA1C0FA80815F4"
+			rewards: [
+				{
+					id: "02B85D7F018E5428"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0DDAEA40841EEA0C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B962E6A8C6DD143"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2227AB6625806066"
+			rewards: [
+				{
+					id: "4DB80EE89DAEEE5D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "017E878C86102D08"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1EC6A0AEF6C612DD"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AE8F1E0E7CE1434"]
+			hide_dependency_lines: true
+			id: "0ADFE9AD2310EE3B"
+			rewards: [
+				{
+					id: "1234237DB5A23404"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5BDA4749D029B9A2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4ADE80FF3CA939F5"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			id: "6FA7CF416D1C9C9D"
+			rewards: [
+				{
+					id: "3D385B0E22808E2B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DDB3DE0122B878E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5A2FBF9B25E0B831"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"55C0841BBDCA69F4"
+				"0773B45F80E9EB41"
+			]
+			id: "3B22A51CC6F798F1"
+			rewards: [
+				{
+					id: "6817507DD12E5B7F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "770D57CE760002A6"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "645CB0B66AFF6305"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: -5.032142857142844d
+			y: -8.491071428571438d
+		}
+		{
+			dependencies: ["1A4674A6B818BFE8"]
+			id: "2649F8D4FD0ADA63"
+			rewards: [
+				{
+					id: "24A21E2CF129B56B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "46A875642AD10324"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "4B8E66D5B58A319E"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			description: [
+				"Addons can increase:"
+				"- Range"
+				"- Speed"
+				"- Efficiency"
+				"Addons are most important for quickier progress."
+			]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:range_addon10"
+				tag: {
+					TitaniumAugment: {
+						Range: 10.0f
+					}
+				}
+			}
+			id: "41B9C21ACFDC2E1A"
+			rewards: [{
+				id: "4EFAEA1383038E29"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "34C5A702E4E32C95"
+				type: "checkmark"
+			}]
+			title: "&3&lAddons"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"55C0841BBDCA69F4"
+				"0773B45F80E9EB41"
+			]
+			id: "01CC7AB47AE60276"
+			rewards: [
+				{
+					id: "6B9D879EB75C450D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "223561CAED752453"
+					item: {
+						Count: 1b
+						id: "alltheores:gold_gear"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "25E930ED6D466931"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon2"
+						tag: {
+							TitaniumAugment: {
+								Range: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "578A40D1561A3126"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["54AD9CDE86A81ADC"]
+			id: "09E13CFE06559ECF"
+			rewards: [
+				{
+					id: "6A5E99ACF92AD7B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6660910023E3E7C5"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "11412BD860EB31C4"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["55C0841BBDCA69F4"]
+			id: "54AD9CDE86A81ADC"
+			rewards: [
+				{
+					id: "6584B15C2905B950"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C91E0BC5DE053C3"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "713DEDE411F98C44"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: -1.0321428571428584d
+			y: -8.727678571428577d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "262348E502DEA77B"
+			rewards: [
+				{
+					id: "0618ECD46AF7DE65"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "727A801C0684F487"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48BA71B84607D000"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "54506DD7D686AC50"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "270EA2C1C055CDB7"
+			rewards: [
+				{
+					id: "7DAA293E461AC419"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15A137DF14C11C89"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C552F07D71A122D"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6EE539BCB09A8266"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "32E12479206D6686"
+			rewards: [
+				{
+					id: "778077043C1B30E9"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C8DA5A52D876AF7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FD75D050483EC0D"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "38A3BDCD2922554A"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "23F8D2B6939329F3"
+			rewards: [
+				{
+					id: "339D2D78BF491B0F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "424847FF752197C8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22F39B95615F824B"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "652C171739659AAD"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "74C23539C132EABF"
+			rewards: [
+				{
+					id: "182990FADBD5BAE7"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B1973ED65F51A38"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7250418D48BCC04F"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1CCB825000A8CE9C"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_launcher"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Plunger: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "51C0F60980038AB9"
+			rewards: [
+				{
+					id: "52A82E84A2B2E686"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1ED83F766E1A1B1C"
+					item: "industrialforegoing:pink_slime"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59AA73691072E253"
+				item: "industrialforegoing:pink_slime"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "30B059CB97415938"
+			rewards: [
+				{
+					id: "15323192A66EE873"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "612D1C89A93555DC"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0930A913B569691D"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "26526DBD1CC48848"
+			rewards: [
+				{
+					id: "0391FB2452562DD5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A13A0E4B09557E7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1430D02A96678D88"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "7113E27E75B373C4"
+			rewards: [
+				{
+					id: "53B27DFF95F02394"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "261F76BCAEC995B6"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "521BEE68C16E960E"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "139CFD1AA7AC0319"
+			rewards: [
+				{
+					id: "1B2E64E82E1B6FFF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "33AA061A65262FAB"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "14D659C0EBB6BFEA"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "3C72F1176556D81D"
+			rewards: [
+				{
+					id: "0F2A60ECBF806F5B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B72A0C1F0F78CD0"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2A716B440B5EF762"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "66F1BCEE09A2680D"
+			rewards: [
+				{
+					id: "5EEE098424590A62"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12AE3C095B0EB7A5"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon2"
+						tag: {
+							TitaniumAugment: {
+								Range: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "532F5371C9C69B1D"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09CAE11C932A223A"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "39D3FA7F734D5421"
+			rewards: [
+				{
+					id: "4325165D9D3D5A56"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5732D0451A9F7596"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:range_addon2"
+						tag: {
+							TitaniumAugment: {
+								Range: 2.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C5573ECA9627898"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A4674A6B818BFE8"]
+			id: "371982593B9A363C"
+			rewards: [
+				{
+					id: "79D7FA4C7A46ED35"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2FF9AD6B04E2C5E5"
+					item: "industrialforegoing:latex_bucket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C813D179A8012C5"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "00E7410F65814081"
+			rewards: [
+				{
+					id: "000270D983FD096D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "543B109C7FD4CDD7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3A280991D7E36DF2"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5C2CBC6B89014BEC"
+				"6D10476842650BE5"
+			]
+			id: "09907A62A610CEB1"
+			rewards: [
+				{
+					id: "34467C6CD2AC6818"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "1308A76A4DF8E5FF"
+					item: "industrialforegoing:pink_slime_ingot"
+					type: "item"
+				}
+				{
+					id: "4647E3806893DB77"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "678B11AEB76F8344"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26526DBD1CC48848"]
+			id: "6D10476842650BE5"
+			rewards: [
+				{
+					id: "32A6C454307E07FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1298929D86EE0C91"
+					item: "industrialforegoing:essence_bucket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "72E97104BD3E21D1"
+				item: "industrialforegoing:essence_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09907A62A610CEB1"]
+			id: "3BD57D2C9CCDBD72"
+			rewards: [
+				{
+					id: "437CC24AE6B1DC29"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7AE9964C725B665C"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "20CF4F3EA8E4D991"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			id: "5A2A5523A425B7F3"
+			rewards: [
+				{
+					id: "57363F6FE77BF3ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "22F43EA593DE3243"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "60E762274329A1FC"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2649F8D4FD0ADA63"]
+			id: "12D8D3A9F88EFBA9"
+			rewards: [
+				{
+					id: "518A042E353A2BE5"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E9A5327D38EDEEA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "617C162342EDFB95"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "75DD0C71099A37ED"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			hide: true
+			hide_dependency_lines: true
+			id: "76E70BD18B5A5BF6"
+			rewards: [
+				{
+					id: "5B36C89ECCA77B9D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15D7F8C9CFDFB346"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "494904E7F8222ADA"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B37DB5FBEED9086"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.2d
+			tasks: [{
+				id: "6D9913F3180B3C29"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_charger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C2CBC6B89014BEC"]
+			id: "4ABF34DC1EC7A108"
+			rewards: [
+				{
+					id: "3AF20DD100186EC3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "75A32E4C55E04E40"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "industrialforegoing:pink_slime_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC999FAB32DE20E"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4CFEE8D13E062249"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:laser_drill"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4ABF34DC1EC7A108"]
+			id: "084591915C3DE938"
+			rewards: [
+				{
+					id: "4822C04D5CD852A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "536C60F377F73EEF"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "516165BB1C6B1D0D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:ore_laser_base"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ABF34DC1EC7A108"]
+			id: "5A684F31A88E1C9F"
+			rewards: [
+				{
+					id: "7A0ED899FA3B064C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B00FD6E63550C38"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0BBCFA6395F1AB6F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:fluid_laser_base"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4ABF34DC1EC7A108"]
+			id: "504E97B6BB638F87"
+			rewards: [
+				{
+					id: "4AE520818C09A807"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A39693DC4FC958C"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6E1A48B768B1EF7A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "industrialforegoing:laser_lenses"
+					}
+				}
+				title: "Any #industrialforegoing:laser_lens"
+				type: "item"
+			}]
+			title: "The Laser Lenses"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["513ED8B3BE23BF6E"]
+			id: "135C0EE181AFECE7"
+			rewards: [
+				{
+					id: "670D562412B19257"
+					type: "xp"
+					xp: 70
+				}
+				{
+					count: 2
+					id: "5F13CA440896C220"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "industrialforegoing:fertilizer"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "105AB0FD42EDBE31"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "botania:fertilizer"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3068FD86973B90F3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "immersiveengineering:fertilizer"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2211156AC229D127"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "mysticalagriculture:mystical_fertilizer"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "779EEA5CB0181A70"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:plant_fertilizer"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "45FE60D77F541D08"
+			rewards: [
+				{
+					id: "1495EF7204A5300C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "297C71C95E2202DF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B4B47208FFD9392"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:meat_feeder"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["01CC7AB47AE60276"]
+			id: "3C86D092F681C644"
+			rewards: [
+				{
+					id: "05A424427EF8262A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "313DFA0CBA6049A7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "industrialforegoing:mechanical_dirt"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AC4A2599ED43A0C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:mechanical_dirt"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["54AD9CDE86A81ADC"]
+			id: "537CEDC602B81DDE"
+			rewards: [
+				{
+					id: "0500B22A4BC03ACE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B69FA474D2A0CF6"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "5150198CAFCD9AA2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:sludge_refiner"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+	]
+	title: "&d&oIndustrial Foregoing"
+}

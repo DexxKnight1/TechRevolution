@@ -1,0 +1,3005 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquaculture"
+	group: "39E458E1366D7D1D"
+	icon: {
+		Count: 1b
+		id: "aquaculture:neptunium_fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "00000000000009CF"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -6.285714285714285d
+			y: -6.410714285714288d
+		}
+		{
+			click: "https://www.youtube.com/watch?v=FGDPc1QN8ZQ"
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: ["Need a Tutorial?"]
+			image: "botania:item/goldfish"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D3"
+			rewards: [
+				{
+					id: "499404A0558F2001"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C906318784D1D5D"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "68296CAC6E7858C3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009D4"
+				item: "aquaculture:atlantic_cod"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D5"
+			rewards: [
+				{
+					id: "229E8090CB06A6E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F430FAA874BCD8"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "48951B20425DA9E3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009D6"
+				item: "aquaculture:blackfish"
+				type: "item"
+			}]
+			x: 8.4d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D7"
+			rewards: [
+				{
+					id: "78B04E9B2504B4CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1829710548A1AEE4"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "305751DAA8D38EEC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009D8"
+				item: "aquaculture:pacific_halibut"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009D9"
+			rewards: [
+				{
+					id: "345DE91BAAED1741"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CD92B5C0FD50BA6"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "3F4B5F6605300FA2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009DA"
+				item: "aquaculture:atlantic_halibut"
+				type: "item"
+			}]
+			x: 8.4d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009DB"
+			rewards: [
+				{
+					id: "64F06EB4EF2CFFFA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46189DAB3DED8009"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "193EE295B268BEA4"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009DC"
+				item: "aquaculture:atlantic_herring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009DD"
+			rewards: [
+				{
+					id: "2464A3CA39B21D18"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C2CB73909710B4"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "02C90F68AAB199C3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009DE"
+				item: "aquaculture:pink_salmon"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009DF"
+			rewards: [
+				{
+					id: "49930CF5ADFE9725"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A3C0F281BE97472"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "28A2D0A59BBA92D3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009E0"
+				item: "aquaculture:pollock"
+				type: "item"
+			}]
+			x: 7.35d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E1"
+			rewards: [
+				{
+					id: "0055F364CDF1CBEB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "697BF2669F3D9DDC"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "0DE13E535D147A51"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arctic Ocean"
+			tasks: [{
+				id: "00000000000009E2"
+				item: "aquaculture:rainbow_trout"
+				type: "item"
+			}]
+			x: 8.049999999999999d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E3"
+			rewards: [
+				{
+					id: "06666B03882D0C61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A2CCE346C480593"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "274B1D0EE49FFCAB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "00000000000009E4"
+				item: "aquaculture:bayad"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E5"
+			rewards: [
+				{
+					id: "6B27A5C63B560CDC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46DC2918FA73C24F"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "4C5B7997ACAAAD9D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "00000000000009E6"
+				item: "aquaculture:capitaine"
+				type: "item"
+			}]
+			x: 8.4d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E7"
+			rewards: [
+				{
+					id: "17D27445A2B93C66"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15565A3C4D6D0115"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "3E142066D05607DE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "00000000000009E8"
+				item: "aquaculture:synodontis"
+				type: "item"
+			}]
+			x: 7.7d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009E9"
+			rewards: [
+				{
+					id: "0C75DE2CE8D525C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35489EA08FE06A42"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "602D9E7CC850977F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009EA"
+				item: "aquaculture:smallmouth_bass"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009EB"
+			rewards: [
+				{
+					id: "11567542D85D34D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ADAD9E7455E48CE"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "2007372EFDA09BC4"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009EC"
+				item: "aquaculture:bluegill"
+				type: "item"
+			}]
+			x: 5.6d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009ED"
+			rewards: [
+				{
+					id: "61F3DF3F339C83EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8BF70AE97DBCD1"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "08641D095E204631"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009EE"
+				item: "aquaculture:brown_trout"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009EF"
+			rewards: [
+				{
+					id: "1973E74284D4D6CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "316E09D805762A26"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "49B811EA3097869F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F0"
+				item: "aquaculture:carp"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F1"
+			rewards: [
+				{
+					id: "1323D2B2A0E07C0B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E060E95016BA617"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "4028D25B3629C73D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F2"
+				item: "aquaculture:catfish"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F3"
+			rewards: [
+				{
+					id: "67928996C1230D77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "166EBCFBEAA098F4"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "47B64F0E46292737"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F4"
+				item: "aquaculture:gar"
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F5"
+			rewards: [
+				{
+					id: "274818A3331A215C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A620765A8181DB6"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "2B347FBCD9D28326"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F6"
+				item: {
+					Count: 1b
+					id: "aquaculture:minnow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -4.8999999999999995d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F7"
+			rewards: [
+				{
+					id: "152BF774F233F3AA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EAD3A6934FF0EF8"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "4F2760308BDCBE1B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009F8"
+				item: "aquaculture:muskellunge"
+				type: "item"
+			}]
+			x: 5.6d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009F9"
+			rewards: [
+				{
+					id: "202EB7421427F504"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "565883AEF338745E"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "2B2F324C23566C2A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Freshwater"
+			tasks: [{
+				id: "00000000000009FA"
+				item: "aquaculture:perch"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009FB"
+			rewards: [
+				{
+					id: "6AD987AE47FA5557"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5403B1E850FE3E6F"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "48F29C11CF7DF36C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Jungle"
+			tasks: [{
+				id: "00000000000009FC"
+				item: "aquaculture:arapaima"
+				type: "item"
+			}]
+			x: 9.799999999999999d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009FD"
+			rewards: [
+				{
+					id: "00ABDA3762179458"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75F0823BB33BA9BD"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "458748B57585BA4C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Jungle"
+			tasks: [{
+				id: "00000000000009FE"
+				item: "aquaculture:piranha"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "00000000000009FF"
+			rewards: [
+				{
+					id: "0889E22A467D982C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43CCA735AEBE9C65"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "0BAEA9AEA8656DBA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Jungle"
+			tasks: [{
+				id: "0000000000000A00"
+				item: "aquaculture:tambaqui"
+				type: "item"
+			}]
+			x: 11.2d
+			y: -2.8d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A01"
+			rewards: [
+				{
+					id: "4485E2D24D7BEEB4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B494608E30E410A"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "48714C75C282F24E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Mushroom Island"
+			tasks: [{
+				id: "0000000000000A02"
+				item: "aquaculture:brown_shrooma"
+				type: "item"
+			}]
+			x: 4.55d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A03"
+			rewards: [
+				{
+					id: "7A88977EF93BDCF6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60DB4C51393D23BA"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "3BC972AF515B2A0D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Mushroom Island"
+			tasks: [{
+				id: "0000000000000A04"
+				item: "aquaculture:red_shrooma"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A05"
+			rewards: [
+				{
+					id: "77A28DD36A007BC0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23414D61CBE693D2"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "647553591B02F190"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Saltwater"
+			tasks: [{
+				id: "0000000000000A06"
+				item: "aquaculture:jellyfish"
+				type: "item"
+			}]
+			x: 11.2d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A07"
+			rewards: [
+				{
+					id: "49F03BAC9558E7B4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C25E9D396BDB67C"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "517D6536BA82FB2B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Saltwater"
+			tasks: [{
+				id: "0000000000000A08"
+				item: "aquaculture:red_grouper"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A0B"
+			rewards: [
+				{
+					id: "40D6D069F15B9799"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11709EF40AA50DB6"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "54B37F4A1352AA0E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Saltwater"
+			tasks: [{
+				id: "0000000000000A0C"
+				item: "aquaculture:tuna"
+				type: "item"
+			}]
+			x: 9.799999999999999d
+			y: -5.6d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A0F"
+			rewards: [
+				{
+					id: "4DA42337D4A5380E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17BBAF9AA61BA65D"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "0B54DCA570619D49"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Swamp"
+			tasks: [{
+				id: "0000000000000A10"
+				item: {
+					Count: 1b
+					id: "aquaculture:leech"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.85d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A11"
+			rewards: [
+				{
+					id: "020E7EF9A5D72872"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F8829E0DF5FB2C2"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "4448671D188C993E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Swamp"
+			tasks: [{
+				id: "0000000000000A12"
+				item: "aquaculture:box_turtle"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -4.2d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0000000000000A17"
+			rewards: [
+				{
+					id: "7BEEC8B8A93C6737"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D1C1DE618777E5D"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "051A7314FC3B1593"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4C8D2BF68199EAE0"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Anywhere"
+			tasks: [{
+				id: "0000000000000A18"
+				item: "aquaculture:goldfish"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29B8B607653A5DCF"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A19"
+			rewards: [
+				{
+					id: "69A7CC514C058BC3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E39B8E69F71F6B9"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "227D8B124CDE9F3E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A1A"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A1B"
+			rewards: [
+				{
+					id: "3E35E1840099FF76"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D7CD6D7597DD075"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "4BCE6761DEA71A7D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A1C"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A1B"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A1D"
+			rewards: [
+				{
+					id: "7981BB04A38CFB4F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4FA0F95ED2C2013E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "61024AB1200AD631"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A1E"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A1D"]
+			description: ["The only difference between the rods is different durability."]
+			id: "0000000000000A1F"
+			rewards: [
+				{
+					id: "622F8251E7507144"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3ECB25A203EEA3A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "70ACC7ECE2004491"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A20"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CB54778353322B0"]
+			id: "0000000000000A21"
+			rewards: [
+				{
+					id: "600661D264444C39"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B2470DA9633B479"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			subtitle: "Has a chance to not use durability."
+			tasks: [{
+				id: "0000000000000A22"
+				item: "aquaculture:iron_hook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A23"
+			rewards: [
+				{
+					id: "55AE34F8DBD1887F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35C67F56D8B2F56C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "48B84EF0F8C08493"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Increased Luck."
+			tasks: [{
+				id: "0000000000000A24"
+				item: "aquaculture:gold_hook"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A25"
+			rewards: [
+				{
+					id: "72B0FE7738AC27B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F3AB6F1B7270645"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0B0455AE23BE002D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Has a chance to not use durability."
+			tasks: [{
+				id: "0000000000000A26"
+				item: "aquaculture:diamond_hook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A27"
+			rewards: [
+				{
+					id: "54BB4ED3E8F9D083"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33CCF6DEA775398E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "486642F1F93EBE4B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Casts further."
+			tasks: [{
+				id: "0000000000000A28"
+				item: "aquaculture:light_hook"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A29"
+			rewards: [
+				{
+					id: "1E18487D364C16AD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F61572E5EC7B83E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "73DFE3550CDE666C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Casts shorter."
+			tasks: [{
+				id: "0000000000000A2A"
+				item: "aquaculture:heavy_hook"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A2B"
+			rewards: [
+				{
+					id: "4D119A75B973C997"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45F969DCB1EA07BE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4499A5CD3226AB5D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "A chance to catch two things."
+			tasks: [{
+				id: "0000000000000A2C"
+				item: "aquaculture:double_hook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000A2D"
+			rewards: [
+				{
+					id: "6D80CB1605319EFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "399AFCB1B601AF0F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5EE4CEB8EC36E639"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Longer opportunity to reel in a fish."
+			tasks: [{
+				id: "0000000000000A2E"
+				item: "aquaculture:redstone_hook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A25"]
+			id: "0000000000000A2F"
+			rewards: [
+				{
+					id: "714E0E9061A5A71E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44C4F327EED8036D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "44A11B6A74197615"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Chance to not use durability and increased luck."
+			tasks: [{
+				id: "0000000000000A30"
+				item: "aquaculture:nether_star_hook"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["200D9343E9BCE109"]
+			description: ["The Tackle Box. In it, you can store all of the hooks, bait \\& bobbers, fishing lines. Oh and also bait."]
+			id: "0000000000000A83"
+			rewards: [
+				{
+					id: "3CDAB04DE93FC78D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47B0A19DA850BAED"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73D02E2BBF48B239"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A84"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000A83"]
+			description: ["A dyeable fishing line that can be dyed like leather armor."]
+			id: "0000000000000A85"
+			rewards: [
+				{
+					id: "19C654071918C50A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "034CF1924B3A9E9E"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7E3389280DA74866"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:fishing_line"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000A85"]
+			description: ["A dyeable bobber that can be dyed like leather armor."]
+			id: "0000000000000A87"
+			rewards: [
+				{
+					id: "3EB99FDBD228336A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4072EDC59BC5C7B7"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A88"
+				item: "aquaculture:bobber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29B8B607653A5DCF"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A8C"
+			rewards: [
+				{
+					id: "6786D5DB2889C2E4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5343D46C08B25CCD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:oak_planks"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A8D"
+				item: {
+					Count: 1b
+					id: "aquaculture:wooden_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A8C"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A8E"
+			rewards: [
+				{
+					id: "56BA42E6E2D01977"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0CD4E6B31BCC1E19"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:cobblestone"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A8F"
+				item: {
+					Count: 1b
+					id: "aquaculture:stone_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A8E"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A90"
+			rewards: [
+				{
+					id: "3BB9DED887BBF2F5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2D0CE5FF52276397"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A91"
+				item: {
+					Count: 1b
+					id: "aquaculture:iron_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A90"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A92"
+			rewards: [
+				{
+					id: "52CC42F6CD420EF1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "35BD8984CA8A47AB"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A93"
+				item: {
+					Count: 1b
+					id: "aquaculture:gold_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A92"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A94"
+			rewards: [
+				{
+					id: "2CED485BAFEE36F4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "43B2EBAC19C7E9E4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A95"
+				item: {
+					Count: 1b
+					id: "aquaculture:diamond_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: ["You can make fish fillet with a fish filet knife. The amount of fish fillets you get depends on the type of fish."]
+			id: "0000000000000A96"
+			rewards: [
+				{
+					id: "7F49948507C8B117"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2378BD20CA123BD3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunium_ingot"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C1A2F2FC151ABB8"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000A97"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_fillet_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			id: "0000000000000ADB"
+			rewards: [
+				{
+					id: "52BD341DB813182A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "328B3A23A8A7C776"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1434DF4A1791D286"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "An audible alert when a fish is approaching."
+			tasks: [{
+				id: "0000000000000ADC"
+				item: "aquaculture:note_hook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer sees better underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000ADD"
+			rewards: [
+				{
+					id: "2EDFC9038405477C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B45458BB097A364"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54E467B084AE4FB9"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A5EF6936DD0AE03"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1720C869763007F3"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000ADE"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer breathes underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000ADF"
+			rewards: [
+				{
+					id: "31D00B469267D08F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45623D1DEC63B4CB"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5581B304AFC1D69C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BFE9064480689EF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "14925B8B6B2D2A70"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0000000000000AE0"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer \"falls\" underwater."]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			id: "0000000000000AE1"
+			rewards: [
+				{
+					id: "4BCE03C0AE55514D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F877999E35A426C"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2048CB0B9FDB89C7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CDC7F60DBEEF298"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6CA3DFA4F65A6140"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0000000000000AE2"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["The wearer \"falls\" underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE3"
+			rewards: [
+				{
+					id: "72040E05B1136680"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A9EF7B5F2AD2571"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "687FA081839F6E77"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D21899BF2C5740"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "36FCFCFB1D66A2A5"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0000000000000AE4"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Deal extra damage underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE5"
+			rewards: [
+				{
+					id: "358FD1DA0C0E5489"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FB40487A238DF82"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19E8DA96C52F2D06"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18E93EEF4E770A46"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "00E5EE504D97679A"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0000000000000AE6"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Doesn't have a mining speed penalty when underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE7"
+			rewards: [
+				{
+					id: "3112549CF9D3FA64"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "262D300A7158BD47"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45BE5FC11D814F44"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36CD0A1BA06CE6D0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2D2C1532FDC87239"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AE8"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Doesn't have a mining speed penalty when underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AE9"
+			rewards: [
+				{
+					id: "673AE29451187A2E"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E393A27EC8A340A"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42443C3A2E171C0C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "328FA8D9AB72E68B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "42D15AA7BF92000C"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AEA"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Deal extra damage underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AEB"
+			rewards: [
+				{
+					id: "41CD13550CA6D152"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D28A62FD5DD5887"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "506CB34285CFFBE8"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59342CC8FDF27D43"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3AC1881C136271D1"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AEC"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Land tilled with this hoe will always be hydrated"]
+			hide_dependency_lines: true
+			id: "0000000000000AED"
+			rewards: [
+				{
+					id: "75B34C07C7E017B7"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31AB120019BDA41F"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E1BC11451A578DA"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "794C29888BA7C26C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2EE2C32FE027979E"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0000000000000AEE"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Normal arrows fired from this bow are not impeded underwater."]
+			hide_dependency_lines: true
+			id: "0000000000000AEF"
+			rewards: [
+				{
+					id: "7B9CDDCCFA106553"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC1FB2756F550DE"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F167443DE96668B"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "730E1D964B6CCDFF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3822708440053E7F"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0000000000000AF0"
+				item: {
+					Count: 1b
+					id: "aquaculture:neptunium_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75A7F6E7A82C6FD6"]
+			description: [
+				"Aquaculture adds new fishing rods to the game."
+				""
+				"You can still use the vanilla wooden fishing rod and modded fishing rods to catch Aquaculture fish."
+				""
+				"But only the Aquaculture fishing rods are able to get equipment attached, that adds various mechanics that improve your fishing capabilities."
+			]
+			icon: "aquaculture:fish_bones"
+			id: "29B8B607653A5DCF"
+			rewards: [{
+				id: "71655C3AC9F6E284"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oMarket&r quest*"
+			tasks: [{
+				id: "65751E28D91F1BD7"
+				type: "checkmark"
+			}]
+			title: "Welcome to &9Aquaculture"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["29B8B607653A5DCF"]
+			description: [
+				"A worm farm is a block you can craft to obtain worms that can be used as bait for fishing."
+				""
+				"You can use any of the same items that can be used in the composter."
+				""
+				"Just right click on the worm farm with an empty hand or a non-compostable item to get the worms out."
+			]
+			id: "200D9343E9BCE109"
+			rewards: [
+				{
+					id: "6515F4C86DB812E7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40472F502AEFBC14"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "747D8E53DBE64D1C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:worm_farm"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["200D9343E9BCE109"]
+			description: ["You can obtain &eLeeches&r and &eMinnows&r by fishing, and &eWorms&r in a &eWorm Farm&r."]
+			id: "7CB54778353322B0"
+			rewards: [
+				{
+					id: "5521338909835B67"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6A1395164CB4AEEE"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "470235A9D5AB71A0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B77B6033B9CE866"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "You can use use bait to increase your chances of catching a fish"
+			tasks: [
+				{
+					id: "3DEDFD93B6B3E7F0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C2755FCCF2A8A33"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:minnow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FB0E54A8FE31E73"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:leech"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Baits"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["1 Driftwood = 4 Planks"]
+			hide_dependency_lines: true
+			id: "2A85265CE54A03DD"
+			rewards: [{
+				id: "3ADE47259DB4DAC9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4BFF36980CDD8C80"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:driftwood"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["1 Tin Can = 7 Iron Nuggets"]
+			hide_dependency_lines: true
+			id: "6FF0C371CE762C6A"
+			rewards: [{
+				id: "2DE6478FFE1598C6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1F6CFCD4AF1B10C0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:tin_can"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: ["Just a Souvenir"]
+			hide_dependency_lines: true
+			id: "55A0F4A599D3C5EF"
+			rewards: [{
+				id: "50DF3C676021ADB6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "78A6EC9157814F0E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:message_in_a_bottle"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "22EF8C7D7A1FC05A"
+			rewards: [
+				{
+					id: "47EE069F0A366809"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5909DFFBF6497FC3"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "6545011E2108955F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "Arid"
+			tasks: [{
+				id: "0665CB61F12EDE4B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:boulti"
+				}
+				type: "item"
+			}]
+			x: 7.7d
+			y: -3.15d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "2B0E9DE7DED23FA7"
+			rewards: [
+				{
+					id: "195A8526258F6ED7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12B7ED80FE5EF194"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "2474CB35B207EF80"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3E9486769B6DB14F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:arrau_turtle"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["0000000000000A19"]
+			hide_dependency_lines: true
+			id: "0CC956CC59C9230C"
+			rewards: [
+				{
+					id: "526882560D092173"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "731F1ABA5B0DEAA8"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F7A1B7673FBD27"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "06A3486801307398"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Twilight Forest"
+			tasks: [{
+				id: "737AFACAC1A30A2B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:starshell_turtle"
+				}
+				type: "item"
+			}]
+			x: 7.714285714285715d
+			y: -0.0535714285714306d
+		}
+		{
+			dependencies: ["67B5D04DDD4C617C"]
+			hide_dependency_lines: true
+			id: "7B845F14F8BF24D9"
+			rewards: [
+				{
+					id: "2ED5196A04F39E07"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3BD6CED7343B264B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:fish_fillet_cooked"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "46850ECAEB94EBC8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:fish_fillet_cooked"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B845F14F8BF24D9"]
+			hide_dependency_lines: true
+			id: "2C5C27518167A681"
+			rewards: [
+				{
+					id: "72E80FFAFC6CEC48"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "688EF123FA9110C5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:turtle_soup"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "670B273AE88BE641"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:turtle_soup"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B845F14F8BF24D9"]
+			hide_dependency_lines: true
+			id: "0741A2D68BFA7C4E"
+			rewards: [
+				{
+					id: "3603857CC513F81D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "44392698F9423CA7"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:sushi"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6F01667469B610B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:sushi"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000A21"]
+			description: ["Neptune's Bounty is rare treasure loot. &eLuck of the Sea&r enchantment increases the chance of getting &eNeptune's Bounty&r."]
+			id: "49C85FBF01906661"
+			rewards: [
+				{
+					id: "5A31684897C232A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3AF990C16DD2BC2C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:neptunes_bounty"
+					}
+					type: "item"
+				}
+				{
+					id: "797F3B667DD9E260"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4A62D4ED65C4A5E6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:neptunes_bounty"
+				}
+				type: "item"
+			}]
+			title: "&aNeptune's Bounty"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["49C85FBF01906661"]
+			description: [
+				"You can make tools and armor from Neptunium. This material has various properties when underwater."
+				""
+				"You can obtain &eNeptunium Ingots&r from &eNeptune's Bounty&r."
+			]
+			hide_dependency_lines: true
+			id: "53BE9B73AB5E9736"
+			rewards: [
+				{
+					id: "57A56E21C739633A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A2CA35A520DEE30"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "439F989F9D7A07C8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:neptunium_ingot"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53BE9B73AB5E9736"]
+			id: "1B3191327BAB7083"
+			rewards: [
+				{
+					id: "2330085955705918"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A3883125814E322"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "75E5601A0EA0063E"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D0C50565E5BAFB6"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:neptunium_block"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000A8C"]
+			id: "67B5D04DDD4C617C"
+			tasks: [{
+				id: "0A4FB75491570274"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "aquaculture:fish_fillet_raw"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+	]
+	title: "&7&oAquaculture"
+}

@@ -1,0 +1,1303 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rocksndiamonds"
+	group: "0734189F95095884"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+		id: "tombstone:impregnated_diamond"
+	}
+	id: "5BCAB193B521641B"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_ores.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "mekanism:digital_miner"
+			id: "427562764AB84FC5"
+			repeatable: true
+			rewards: [{
+				id: "3BFDA405151FAAE1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mekanism:digital_miner"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$350'000"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "49D2FA654AF2255F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:100k_card"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "00133A2C2E042EA0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:50k_card"
+					}
+					type: "item"
+				}
+			]
+			title: "&eDigital Miner"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:emerald"
+			id: "090AEAB0A935BF04"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "1E577EFF8FF41DC7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$250"
+			tasks: [
+				{
+					consume_items: true
+					id: "5FB7275818096517"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4CE9BBAD3E56C7D4"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+			]
+			title: "&eEmeralds"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:diamond"
+			id: "2A1A343696627433"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "7C79DE75DCCF946F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "760D6F34F807B2AA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&eDiamonds"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			icon: "alltheores:platinum_ingot"
+			id: "0E80EE8D27476ED5"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "41305B87D490D662"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:platinum_ingot"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$150"
+			tasks: [
+				{
+					consume_items: true
+					id: "7A64629181664B84"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_100"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0320BB0F4DBEE7E3"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+			]
+			title: "&ePlatinum Ingots"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			icon: "alltheores:osmium_ingot"
+			id: "6C4EBCE0395944D9"
+			repeatable: true
+			rewards: [{
+				count: 3
+				id: "3E821C76E63FFE8C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alltheores:osmium_ingot"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "47EBCA26E165E8DF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eOsmium Ingots"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			icon: "minecraft:iron_ingot"
+			id: "4AC9844BDF866735"
+			repeatable: true
+			rewards: [{
+				count: 8
+				id: "575991D799B5BC26"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2292D9DBF64E62E3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eIron Ingots"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			icon: "minecraft:gold_ingot"
+			id: "2008F2FCFAE9F69C"
+			repeatable: true
+			rewards: [{
+				count: 8
+				id: "70ECE9DFFE4F0DB0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "199CC4DD278F857C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eGold Ingots"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			icon: "minecraft:lapis_lazuli"
+			id: "6018CFA5500D3656"
+			repeatable: true
+			rewards: [{
+				count: 8
+				id: "518BF2DFEEF369C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:lapis_lazuli"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "05F444B4D10F0166"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eLapis"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:redstone"
+			id: "3C93AA39B6C1785F"
+			repeatable: true
+			rewards: [{
+				count: 8
+				id: "47A8419E785C026B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:redstone"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "7922A3BADFD72CFA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eRedstone"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:glowstone_dust"
+			id: "02A61A02C4E624E3"
+			repeatable: true
+			rewards: [{
+				count: 16
+				id: "0EFE28AB0BFF2A51"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:glowstone_dust"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "352E85D1E0A10B80"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&eGlowstone"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:coal"
+			id: "645FBC7989B99662"
+			repeatable: true
+			rewards: [{
+				count: 12
+				id: "19509CA0D3BCD529"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:coal"
+				}
+				random_bonus: 6
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "3DA4D275B1553B6E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&eCoal"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "mininggadgets:mininggadget_fancy"
+				tag: { }
+			}
+			id: "0921E0D8A80B21BB"
+			repeatable: true
+			rewards: [{
+				id: "3575CAC879B3ABB7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mininggadgets:mininggadget_fancy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "$15'000"
+			tasks: [
+				{
+					consume_items: true
+					id: "63705BCB2044DCA5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:10k_card"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1B58045BAF279CE0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:5k_card"
+					}
+					type: "item"
+				}
+			]
+			title: "&eMining Gadget&r &fMK2"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 5
+					}
+				}
+				id: "immersiveengineering:drill"
+				tag: { }
+			}
+			id: "25AFA6A9097D9B47"
+			repeatable: true
+			rewards: [{
+				id: "039C01E2BF8C719D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "immersiveengineering:drill"
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "38C1A168B222B167"
+				item: "kubejs:note_1000"
+				type: "item"
+			}]
+			title: "&eMining Drill"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			icon: "minecraft:stone"
+			id: "333950DDDFB57244"
+			repeatable: true
+			rewards: [{
+				count: 24
+				id: "12406A08DE70C138"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:stone"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "41ED3ACE5C77F771"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&eStone"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:diorite"
+			id: "0C2AB8D032788B2B"
+			repeatable: true
+			rewards: [{
+				count: 24
+				id: "3291F1864079B037"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diorite"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "13C6829C209B67F1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&eDiorite"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:andesite"
+			id: "6BB27CD2757F2403"
+			repeatable: true
+			rewards: [{
+				count: 24
+				id: "6A6F933EE6A74C60"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:andesite"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "426D9F8CCE0190E9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&eAndesite"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:deepslate_bricks"
+			id: "259170345B2E1CD2"
+			repeatable: true
+			rewards: [{
+				count: 16
+				id: "00A8ABBD35DA8A86"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:deepslate_bricks"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$50"
+			tasks: [{
+				consume_items: true
+				id: "31511864048DDD7A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&eDeepslate Bricks"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:quartz"
+			id: "6A8FD2530D96D370"
+			repeatable: true
+			rewards: [{
+				count: 12
+				id: "619C0ACC7CC6905C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:quartz"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "03475B15388A5489"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&eNether Quartz"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			icon: "alltheores:uranium_ore"
+			id: "0707870535435474"
+			repeatable: true
+			rewards: [{
+				id: "43115D6BC2244269"
+				item: "alltheores:uranium_ore"
+				type: "item"
+			}]
+			subtitle: "$300"
+			tasks: [
+				{
+					consume_items: true
+					id: "5B5E474D5C184B8C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "682F4A6569F29626"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_100"
+					}
+					type: "item"
+				}
+			]
+			title: "&eUranium Ore"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			icon: "alltheores:nickel_ore"
+			id: "361F3DD0D0E414C8"
+			repeatable: true
+			rewards: [{
+				id: "7EDB44FC2B626875"
+				item: "alltheores:nickel_ore"
+				type: "item"
+			}]
+			subtitle: "$250"
+			tasks: [
+				{
+					consume_items: true
+					id: "7774C9E4939E047B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "479EEE82905B9658"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+			]
+			title: "&eNickel Ore"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			icon: "alltheores:aluminum_ore"
+			id: "257CD6C62EAFE233"
+			repeatable: true
+			rewards: [{
+				id: "056F4A1F40F0E63E"
+				item: "alltheores:aluminum_ore"
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2A95BD5BA4A12FA9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eAluminum Ore"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			icon: "powah:uraninite_ore_dense"
+			id: "68A0140FFF76D0F4"
+			repeatable: true
+			rewards: [{
+				id: "5FB2CC593AD37F32"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "powah:uraninite_ore_dense"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$150"
+			tasks: [
+				{
+					consume_items: true
+					id: "188043071CA6885B"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_100"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "715C26B942260C56"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_50"
+					}
+					type: "item"
+				}
+			]
+			title: "&eUraninite Ore (Dense)"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			icon: "byg:ametrine_ore"
+			id: "0ED88862DAA86C32"
+			repeatable: true
+			rewards: [{
+				id: "5B8A34EF87C69605"
+				item: "byg:ametrine_ore"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "63067D658EFE1B7A"
+				item: "kubejs:note_200"
+				type: "item"
+			}]
+			title: "&eAmetrine Ore"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:copper_ore"
+			id: "4E7951BBA77EE0E1"
+			repeatable: true
+			rewards: [{
+				id: "17E6686320BDEFE8"
+				item: "minecraft:copper_ore"
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2E8940E8CD4252AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eCopper Ore"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			icon: "alltheores:zinc_ore"
+			id: "4BFF0206D2D53611"
+			repeatable: true
+			rewards: [{
+				id: "42B384C99064B663"
+				item: "alltheores:zinc_ore"
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "6D630EF049AFC2F5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eZinc Ore"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			icon: "rftoolsbase:dimensionalshard_overworld"
+			id: "447F8D5F1378B007"
+			repeatable: true
+			rewards: [{
+				id: "1E1ABF20CB12D798"
+				item: "rftoolsbase:dimensionalshard_overworld"
+				type: "item"
+			}]
+			subtitle: "$300"
+			tasks: [
+				{
+					id: "6FDDAEC478DD6922"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+				{
+					id: "665BEDF0D8A8459A"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			title: "&eDimensional Shard Ore"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "389598117E0A82D3"
+			repeatable: true
+			rewards: [{
+				id: "3BFBB965B7857B5E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$3'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5577408DAD980504"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&eNetherite Pickaxe"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0454A9BB0A59DB42"
+			repeatable: true
+			rewards: [{
+				id: "755BFEA523ECC439"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4993037BB707F4BF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&eDiamond Pickaxe"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			icon: "alltheores:lead_ore"
+			id: "56EE89D2DCDB8A74"
+			repeatable: true
+			rewards: [{
+				id: "11052338BA925A33"
+				item: "alltheores:lead_ore"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "0B0C9B23532EDE93"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&eLead Ore"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			icon: "mysticalagriculture:inferium_ore"
+			id: "5D40604B52D6D893"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "65F8A5FBC4B89BBD"
+				item: "mysticalagriculture:inferium_ore"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "256666AA2D1E7DA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&eInferium Ore"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			icon: "alltheores:tin_ore"
+			id: "2406277784E7F772"
+			repeatable: true
+			rewards: [{
+				id: "7C6392AFBBB13A53"
+				item: "alltheores:tin_ore"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "1CFBE28423268BEA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&eTin Ore"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			icon: "alltheores:ruby"
+			id: "4F6AB04C8D4989A5"
+			repeatable: true
+			rewards: [{
+				count: 2
+				id: "09CF8EEAF72D8879"
+				item: "alltheores:ruby"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "51A2CCB2D1C3250E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&eRuby"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			icon: "mysticalagriculture:prosperity_ore"
+			id: "2965DCFB37F0C464"
+			repeatable: true
+			rewards: [{
+				id: "3A05DB264F585807"
+				item: "mysticalagriculture:prosperity_ore"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$250"
+			tasks: [
+				{
+					consume_items: true
+					id: "36753F295CF602BF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+				{
+					id: "1B8D9CD9BCD50BD0"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			title: "&eProsperity Ore"
+			x: -4.5d
+			y: 1.5d
+		}
+	]
+	title: "Rocks'n'Diamonds"
+}

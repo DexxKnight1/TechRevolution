@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:ebony_planks"},
+        "R":{"tag":"byg:ebony_logs"}
+        
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:ebony_crafting_table"
+    }
+}

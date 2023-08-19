@@ -1,0 +1,10 @@
+{
+  "name": "Aluminum",
+  "colors": [
+    "caccda",
+    "caccda"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/aluminum"
+  }
+}

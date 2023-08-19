@@ -1,0 +1,13 @@
+{
+	# When enabled, toasts regarding the advancement progression will be disabled.
+	# Default: false
+	disable_advancements_toasts: false
+	
+	# When enabled, toasts regarding the recipe unlocks will be disabled.
+	# Default: false
+	disable_recipe_toasts: false
+	
+	# When enabled, toasts regarding the in-game start tutorial will be disabled.
+	# Default: true
+	disable_tutorial_toasts: true
+}

@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:willow_planks"},
+        "R":{"tag":"byg:willow_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:willow_crafting_table"
+    }
+}

@@ -1,0 +1,809 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toms_simple_storage"
+	group: "4764DDDD84D4A3BB"
+	icon: "toms_storage:ts.inventory_connector"
+	id: "5164395CDB9E390D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -5.25d
+		y: -8.937500000000004d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6366C83E82CF5FB1"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ssn.png"
+				}
+			}
+			id: "15F6FC38CA52AAAB"
+			rewards: [{
+				id: "70B21002B0D96887"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oIron Chest&r quest*"
+			tasks: [{
+				id: "53D19971B43869A8"
+				type: "checkmark"
+			}]
+			title: "Welcome to &eTom's Simple Storage "
+			x: -6.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["15F6FC38CA52AAAB"]
+			id: "76199D604106DA00"
+			rewards: [
+				{
+					id: "31756418C0AA8965"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01797EBED0F57E2C"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "113110A7FFA40593"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "6D7646E8D6B84D02"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64311E854D9C943D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_connector"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "1820F2AAEE16E283"
+			rewards: [
+				{
+					id: "77B0B49EE88DFB7E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D19487042C8A79E"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31916C4290F50D4B"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5C015A7DEAF65C23"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.storage_terminal"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1820F2AAEE16E283"]
+			id: "5C2F31B1E1B34BE2"
+			rewards: [
+				{
+					id: "1F5EE79091529D92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B63156909EAA2DB"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B2B2C8828AD11A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "333E2594FA6FD9D6"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FD10AA8BE987870"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.crafting_terminal"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "1BA22008EB73A2E6"
+			rewards: [
+				{
+					id: "725EBFCBF2BFD6E0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C778A259F32B36B"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0524DD958823F65A"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2FE86E1296D433C1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.trim"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "7AF6D28AD4696F00"
+			rewards: [
+				{
+					id: "774DE6E19196B106"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30F2AAB9CF6FB211"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79536290255C2FFF"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "51943D657352CA1D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.open_crate"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "31266C79E612F903"
+			rewards: [
+				{
+					id: "09F501509BDAF3D1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BAEC558A71B4D12"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "625D067803196C4E"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6AA30A3D4D1F7C4C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31266C79E612F903"]
+			id: "66784B5E6CF56843"
+			rewards: [
+				{
+					id: "35E5EF35A9977706"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49FB657BC337F3F3"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7428A1EB1FEBC95E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "789781B474CA8EA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_framed"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31266C79E612F903"]
+			id: "3C63CDB473F8341E"
+			rewards: [
+				{
+					id: "29835D3F2E708652"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A0D6DDEA9F3A9A2"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0333D4436AF5416F"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "471862657C5AE4E0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_hopper_basic"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C63CDB473F8341E"]
+			id: "325C9E26297FFFA0"
+			rewards: [
+				{
+					id: "2412C5E83AD35CD0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321948312959F116"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F01FD1226DB397A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "392F5E7B5FDB1A8F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.level_emitter"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["474ED1E79C740AAC"]
+			id: "7660821A30C11441"
+			rewards: [
+				{
+					id: "6449DB6C180E873C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72CF93220845FBD9"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627F2C6201D41D5F"
+					table_id: 687554054301909623L
+					type: "random"
+				}
+				{
+					id: "5E246A2643DE430C"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "231E3B51BB948374"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:beacon"
+					}
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "588E8EA89ECA9D58"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+			]
+			title: "Level 1 Beacon"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31266C79E612F903"]
+			id: "474ED1E79C740AAC"
+			rewards: [
+				{
+					id: "2C99EB43695AB514"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "152027A65DA8102F"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73609AC2D5D7E990"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "1ED86EEBB13936FB"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32EA6F6682A7A8D0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_connector"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["474ED1E79C740AAC"]
+			id: "66B8214F01DF24F0"
+			rewards: [
+				{
+					id: "45ECF8D147F13A92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "085DEDBB7162D3B0"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BBF47D28768364A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "38E3E0F2C2F11FF9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_connector_framed"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["474ED1E79C740AAC"]
+			id: "104ECB251BDE1B0B"
+			rewards: [
+				{
+					id: "28C96743B4F735CF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D064E354E5776BC"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EC38B306E2E2551"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "520D17181C11D22D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_cable_connector_filtered"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["76199D604106DA00"]
+			id: "60EBAC6CF5F415AE"
+			rewards: [
+				{
+					id: "1750249D14BD1E21"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4165264C094BA4FD"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BF7C1398EAE0F09"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "35492E25BF860EA4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3C63CDB473F8341E"]
+			id: "64E366B6645CD04A"
+			rewards: [
+				{
+					id: "7FC74093AFE42020"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18EF7896B40E142C"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B720CD69C2B7253"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "192894F0F8817766"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.inventory_proxy"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5C2F31B1E1B34BE2"]
+			id: "3784D91672D27614"
+			rewards: [
+				{
+					id: "76E6521D0A336CE0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "685F5AFEB836AB70"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "627F402F1F03D08B"
+					table_id: 687554054301909623L
+					type: "random"
+				}
+				{
+					id: "5FB8210652BB1911"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			subtitle: "&oRequires level 2 Beacon"
+			tasks: [{
+				id: "2FF107FE344A4067"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.wireless_terminal"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3784D91672D27614"]
+			id: "2223C841C71C7A80"
+			rewards: [
+				{
+					id: "68511FBED56AD9D5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06DA2008B9882B16"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B725620888F81DB"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "6AA6E53D8AB23445"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			subtitle: "&oRequires level 4 Beacon"
+			tasks: [{
+				id: "0FA084774BFB8B00"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "toms_storage:ts.adv_wireless_terminal"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7660821A30C11441"]
+			id: "17E63BF15C04E4DD"
+			rewards: [
+				{
+					id: "4F773631E0538524"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1407D507A55CD842"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D05C7E128574602"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1BA0DE4F1186A67A"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "57BBF507122B90B5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:beacon"
+					}
+					type: "item"
+				}
+				{
+					count: 164L
+					id: "74150352360E2F6A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+			]
+			title: "Level 4 Beacon"
+			x: 3.5d
+			y: -1.0d
+		}
+	]
+	title: "&e&oTom's Simple Storage"
+}

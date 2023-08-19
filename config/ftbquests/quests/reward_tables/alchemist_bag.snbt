@@ -1,0 +1,119 @@
+{
+	hide_tooltip: true
+	icon: "blue_skies:bag_of_spoils"
+	id: "59C611EFA5A47279"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_strength"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:long_fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "apotheosis:strong_absorption"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_swiftness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "apotheosis:strong_knowledge"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "apotheosis:strong_haste"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "alexsmobs:long_poison_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_regeneration"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "apotheosis:strong_sundering"
+				}
+			}
+		}
+	]
+	title: "Alchemist's Bag"
+	use_title: true
+}

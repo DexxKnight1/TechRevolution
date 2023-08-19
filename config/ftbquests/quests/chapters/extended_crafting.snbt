@@ -1,0 +1,4189 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extended_crafting"
+	group: "318AD3DF2B0AC047"
+	icon: "extendedcrafting:ultimate_singularity"
+	id: "059EE974D686567D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 3.3d
+			y: -14.1d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.1003584229390682d
+			x: 1.5d
+			y: -5.0d
+		}
+	]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "3AC9CDB30455CFC7"
+			rewards: [
+				{
+					id: "1DC575F246CBCC99"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0F0AA9B69FCCF771"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "21611D253155C010"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2A46C4A0942C7DBD"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "6FD3E92C40DF4BF0"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -10.5d
+		}
+		{
+			dependencies: ["183E47DFBC340187"]
+			hide_dependency_lines: true
+			id: "00BF1724D4F902C9"
+			rewards: [
+				{
+					id: "722D11DB429E2BCE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22DA3537CF259665"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7507B3C0814E4F8C"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "5F934C4262B92C4E"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "083864D1D5521A55"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "6C8754CBAA4B7D90"
+			rewards: [
+				{
+					id: "4644A399C7D36B24"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "33140B5E07D69BC1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6DA63F6FF08C0C37"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F8F90D381CFBC0B"
+				item: "extendedcrafting:black_iron_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "7E21D8137624442D"
+			rewards: [
+				{
+					id: "5059C78C5CC3E223"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "3AD877149729C5C6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B90F5DB00927532"
+				item: "extendedcrafting:luminessence"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "183E47DFBC340187"
+			rewards: [
+				{
+					id: "5AE6BCB303392DE1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "65783EC24F8C9E59"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6FCDDC1725F9112D"
+				item: "extendedcrafting:basic_component"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "47D23E9CB93DE790"
+			rewards: [
+				{
+					id: "7977D77292549C43"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E29681E3E49B855"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1B37ED02929B9A9D"
+				item: "extendedcrafting:advanced_component"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "5974F712DA017C94"
+			rewards: [
+				{
+					id: "67112CE18B7B1588"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "4DB039D78E25494F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "65888C9373BDE859"
+				item: "extendedcrafting:black_iron_slate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "790B36479144770F"
+			rewards: [
+				{
+					id: "00EAD3A92FB95802"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7F9BCD6D22B44FFC"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7CEC8E31849AB419"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "655EE2C39F3D4A3B"
+				item: "extendedcrafting:elite_component"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+			]
+			hide_dependency_lines: true
+			id: "74C4FD5EF14EDB3A"
+			rewards: [
+				{
+					id: "1D6560348F266270"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1AD6ED97055D8286"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "266F3B687B571712"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5ED6E0A246579FCC"
+				item: "extendedcrafting:ultimate_component"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"22698729A224CCBC"
+			]
+			hide_dependency_lines: true
+			id: "058BAA533EFE63EB"
+			rewards: [
+				{
+					id: "222906277E8EB209"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7BB7D5C2724C4C15"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2043A39906AD2C1E"
+				item: "extendedcrafting:redstone_component"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"0C43E0D8C4C8743F"
+			]
+			hide_dependency_lines: true
+			id: "33565398C0DA7135"
+			rewards: [
+				{
+					id: "66FE88B7CA746354"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7E442E2A3D2FD491"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6143CD2016F44AE8"
+				item: "extendedcrafting:ender_component"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"386E842C193E1B4F"
+			]
+			hide_dependency_lines: true
+			id: "501A8D68AA146608"
+			rewards: [
+				{
+					id: "697D04B41793D84A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F49648E57582E7E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2781E8CD4FE980FC"
+				item: "extendedcrafting:enhanced_ender_component"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"0A6FFA0295BE1616"
+			]
+			hide_dependency_lines: true
+			id: "7C3C6EE0AF2DF234"
+			rewards: [
+				{
+					id: "4480E77D89994B82"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4EB18FA01F99E29E"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "463C09A32EB7CF9C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "453DD53D65CA3456"
+				item: "extendedcrafting:crystaltine_component"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"65FCFDB9AABCE966"
+			]
+			hide_dependency_lines: true
+			id: "3CB10BBE42C7A96C"
+			rewards: [
+				{
+					id: "6958A5C39F92A222"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1A46300213664B77"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6496DE982C9FFD9A"
+				item: "extendedcrafting:the_ultimate_component"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "22698729A224CCBC"
+			rewards: [
+				{
+					id: "07ABB495030849F5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "26C8F1C0690C23A5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "26F85B6B54762AA6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "144F4E5A99402EA8"
+				item: "extendedcrafting:redstone_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5530C0D8BF092FCA"]
+			id: "0C43E0D8C4C8743F"
+			rewards: [
+				{
+					id: "19425D72CDE62497"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5F5A343F8CD0E676"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2DA3DD640AA2B5CD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2580DAA4B175FE13"
+				item: "extendedcrafting:ender_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0C43E0D8C4C8743F"]
+			description: [
+				"The &aEnder Crafter&r will launch the &9Ender Alternators&r power in a 7x7x7 area around it. The Ender Crafter is the center block."
+				""
+				"If you have more Ender Alternators in the zone, you can produce faster."
+			]
+			id: "11E16D072634AAF5"
+			rewards: [
+				{
+					id: "6193FE00966B025D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "37AEE64BCA837D13"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "3E9ED60638672049"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "0F85D30F539B477D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "63C7DA2D36D1B2D9"
+					item: "extendedcrafting:ender_crafter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "067469321364E50E"
+					item: "extendedcrafting:ender_alternator"
+					type: "item"
+				}
+			]
+			title: "&3The Ender Crafter"
+			x: 9.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["11E16D072634AAF5"]
+			id: "2EC1D0576E0D417C"
+			rewards: [
+				{
+					id: "3656BEABEC65A314"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3416B5F01A2A19FD"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D8F351DF2D78F69"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5C2D2D8EA44EC9A3"
+				item: "extendedcrafting:ender_star"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2EC1D0576E0D417C"]
+			hide_dependency_lines: true
+			id: "386E842C193E1B4F"
+			rewards: [
+				{
+					id: "327524BF39FDFA77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "25D9FBCD4E45D107"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "5D1CEA0D550C7DFC"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "4AAA9145E4A1E067"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "338796FF897068E3"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "76B078734C493219"
+				item: "extendedcrafting:enhanced_ender_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["183E47DFBC340187"]
+			id: "7BA12D4416DFE365"
+			rewards: [
+				{
+					id: "69749952C22D7CED"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4F5A76BC030373C0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "46D3E6C8704E814F"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6B74D9EF98EC52C1"
+				item: "extendedcrafting:basic_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["47D23E9CB93DE790"]
+			id: "36EC2AF9842DE616"
+			rewards: [
+				{
+					id: "3FA064B88256B550"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "4618F19A190602C3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "01D7D3538E4656BF"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "09949A29031EE658"
+				item: "extendedcrafting:advanced_catalyst"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74C4FD5EF14EDB3A"]
+			id: "63CAB90493C64AF3"
+			rewards: [
+				{
+					id: "26DB8781D370B25F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "711E308A04D4DF23"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "237C5FD38FE6BE91"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "438378079B871F9D"
+				item: "extendedcrafting:ultimate_catalyst"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["790B36479144770F"]
+			id: "4FDC471CEB587D21"
+			rewards: [
+				{
+					id: "0FDE2B1009618F81"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "01976E5F77955464"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3B7694E2B41BF671"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "475B340444DF0D55"
+				item: "extendedcrafting:elite_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["058BAA533EFE63EB"]
+			id: "73B42C0D21A49E3E"
+			rewards: [
+				{
+					id: "334AF57B71D79DF5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "55DFC3DABB067073"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "05D59479C6D1FCA6"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "5CC6BB956250E287"
+				item: "extendedcrafting:redstone_catalyst"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["33565398C0DA7135"]
+			id: "618B0D093FBA3493"
+			rewards: [
+				{
+					id: "0E248C02CFAC25F1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0FCD827667418840"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "085285894CE50128"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0200140B45388556"
+				item: "extendedcrafting:ender_catalyst"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["501A8D68AA146608"]
+			id: "771A061136A9EB5B"
+			rewards: [
+				{
+					id: "4985E9F52411D6D1"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "398E55055671139B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "387EA46AF64403F3"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2DC3117CFB460CE7"
+				item: "extendedcrafting:enhanced_ender_catalyst"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["47D23E9CB93DE790"]
+			hide_dependency_lines: true
+			id: "6735CD1B161A8AB2"
+			rewards: [
+				{
+					id: "6BEC7F8A6C23193B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7D73721F59B6DC7D"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "14DA177D1B8EB993"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "0D817CBEDFA92EA3"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47B0E733F050B3F0"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["790B36479144770F"]
+			hide_dependency_lines: true
+			id: "083AABDD7093C1E4"
+			rewards: [
+				{
+					id: "2283BE09431CCDA5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0A2C870E80CE70DA"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "3137ADD497B121E7"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "03F7BD8D286D9ECB"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "608257B6E9FBF326"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["74C4FD5EF14EDB3A"]
+			hide_dependency_lines: true
+			id: "588BD1C2DEC4DEE6"
+			rewards: [
+				{
+					id: "6AE9F30BAEE326D6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "76C2554AE2AF631A"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "58909D957878F373"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "6F5095EC85676049"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10E081FC887016AF"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00BF1724D4F902C9"]
+			id: "6AC18A3442FCA08B"
+			rewards: [
+				{
+					id: "7390177F31F0D404"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "48287DC972811EF2"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "18736D48420B70C4"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3ECD222894F2B49F"
+				item: "extendedcrafting:basic_auto_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6735CD1B161A8AB2"]
+			id: "6C791BA6842F1E47"
+			rewards: [
+				{
+					id: "01E6446624ADBBF0"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					id: "5F2850DDF5B7F948"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2082045BA24B7A41"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2EA9CDF7A9BE6839"
+				item: "extendedcrafting:advanced_auto_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["083AABDD7093C1E4"]
+			id: "4C230E52619BEC30"
+			rewards: [
+				{
+					id: "768E83787A35082A"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					id: "76C9C3228F3FCBBD"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0968BBA0961F29ED"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "76E2264331A94361"
+				item: "extendedcrafting:elite_auto_table"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["588BD1C2DEC4DEE6"]
+			id: "14D8F70EEA0CE1E7"
+			rewards: [
+				{
+					id: "17E7AB03E5A71DA7"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					id: "7299FDABA811FED5"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "04CA55E432A918C8"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "54A37B5DF233FB38"
+				item: "extendedcrafting:ultimate_auto_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66958504698EE334"]
+			id: "23BBDF8CF20438C6"
+			rewards: [
+				{
+					id: "499B07522170A347"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "41CDDF6DD2C87593"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C689066DCDAE690"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68ED9937DB5C5C30"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "1DC60E6DE25A84D9"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5026A8F813F0C05B"
+				item: "extendedcrafting:compressor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "2C78B234BDE90453"
+			rewards: [
+				{
+					id: "5E75525B4CF2E25B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6CBDA4684B162F42"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0DC24B6C517509D3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "42AFB5CADCB50926"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "3DAD49D3D12ACF57"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -9.8d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "05DB564891E2E33C"
+			rewards: [
+				{
+					id: "7F21708B23681E5B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "521A3E5DF32D34C6"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "28BABB496716795D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "501C3769188FF0D5"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "034AEFB6250386CD"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -9.1d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "1CEC64D4467F1A5C"
+			rewards: [
+				{
+					id: "4C09EFBC58BE0204"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "659F8291C2ED2A18"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "36D4823D6E21D043"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3E707DE8ED848B8C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "21A818255B0BBDBA"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -8.4d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "1EEE587EF5E7CD1E"
+			rewards: [
+				{
+					id: "6251965447D6D29F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1DE122791D6B7240"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "39A03E6846213EFD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5D048E44593AEC0E"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "06DF6E2B71FA3369"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -7.699999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "2E8312DD29BA623A"
+			rewards: [
+				{
+					id: "7CCB66939FE77FB0"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7656A0646803B8A1"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "60022B738FA6A091"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0497982FDE8CE710"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "14AA29F5943777DA"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "60840821A91FDAA1"
+			rewards: [
+				{
+					id: "381A975FA9C63AC7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7FC0E8F1597A79BA"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2F8CB23BA2E580CF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3D4A547F7A7040CE"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "22B8BD43BE3F7562"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -6.299999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "5F296C7E554A68C7"
+			rewards: [
+				{
+					id: "1DAB2A445C6372FA"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "49BDF61421CF40AE"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "563E4680F2C82B3F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2A9E48F0261EB5AD"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "269F86DB88EFC2BA"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.8999999999999995d
+			y: -5.6000000000000005d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "4C1D05B5771632E8"
+			rewards: [
+				{
+					id: "29AEE90BD81F3D8E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "242ADB1A5998A476"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "41A060629B1270BE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "50565D06CD3FFB1C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "7B939909B7115FD6"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:enderium"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -10.5d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "5DF6072B55A2B707"
+			rewards: [
+				{
+					id: "5224091698B20682"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "494EE07CCB1F701C"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "5BC86B8EF747E36F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5DE1FAEC634C5A59"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "602864CCDCFA298D"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -9.8d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "48B957900CC486CC"
+			rewards: [
+				{
+					id: "478343E8ECE424A4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "600D9A48ADF7B54C"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7CED1E6ED806F0E0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "28D60054718108A2"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "23EE1A2E95EDE011"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -9.1d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "663791C451321230"
+			rewards: [
+				{
+					id: "4FBD8744807F20FE"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "27906ADF88161055"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1695494488EC4175"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6F5D3082A84AC4F6"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "01F17419821D7FF6"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "4CF45F0ADC0C6803"
+			rewards: [
+				{
+					id: "57B6EC48A1AC0F4B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6C2239CD17D7BC49"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "72FF9D3DAE1D8D28"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3E261D18E0669DEB"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "3A62381D3CBD2C82"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -7.699999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "6D18D5ED3E935602"
+			rewards: [
+				{
+					id: "0B130A2CCBCA3365"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6F5F50A4E555C7B8"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "552D6F87B10CF6C9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2ECDAC2309BE040B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "7815A9A03931EE15"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:iridium"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "0D792E9A006F7D94"
+			rewards: [
+				{
+					id: "77443448441CCF08"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5CB4CB336ADBB0DB"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0C57EB328AB071FC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "28D0A8F55AB7600B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "4AB92253C15419D9"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:dimensionalshard"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -6.299999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "634C61375BD3032F"
+			rewards: [
+				{
+					id: "6905D3637A36A704"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0C6FDFB33EFE28A8"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "352D49BCEA3674E3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "65E2E9C4BBBCBD50"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "16B94949C1428A09"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -5.6000000000000005d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "419AD0C0E6CF132C"
+			rewards: [
+				{
+					id: "24A7337C1C669EA4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6481805A94EAC318"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "62D2F402CEB1B7C4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "12E64DCCC8C3CA2C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "4DF3BE5AAAA1C770"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:plastic"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "2376132F1D8CF6B4"
+			rewards: [
+				{
+					id: "53ABB2AA8A56A5B2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6398E6792514193A"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "05621D2186269F35"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2C0168EA87FA5018"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "781C6F6E996DA011"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:refined_obsidian"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.8d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "338BCDC639CFC66A"
+			rewards: [
+				{
+					id: "7D9233582B6AFB4C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1F32B49FDBB817AE"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "10A8CF3E531BA5BA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1C34982CAF378453"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "123E118C8D7CB99D"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.1d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "12B5B22C0C4A7C1A"
+			rewards: [
+				{
+					id: "545B9E985351680C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "6B6220B87643E8C8"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "5CF01F8325226FCD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4222AA8E726BA6B7"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "03807760DA3C1746"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lumium"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.4d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "2EB941533398A59E"
+			rewards: [
+				{
+					id: "30F029864400096A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0A5A1A5633E37EDF"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1CA88110D4A61A57"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1709F82D075A417D"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "3F6E112B8769914B"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:osmium"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.699999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "3649703EF74144E6"
+			rewards: [
+				{
+					id: "4DDDE6BF83746D8F"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "0272E68D7EC7F799"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "030FF62EE74ACDE0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "31527DAF531CB169"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "1A8A0A9C481C7B72"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "68360C6D7895AC95"
+			rewards: [
+				{
+					id: "7239E9D5026FC991"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "73B4A3839346C5B1"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "68DB9585E34C6863"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "435E756243597DAD"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "16D9F91320D0DB0C"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:cobalt"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.299999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "6E7E294C3D0D7EF7"
+			rewards: [
+				{
+					id: "3C34D60AE487772D"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "49F22C020A468FE9"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "24184D2C5369AC2D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "67517F3EFCC16CED"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "2B1296950F55943C"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:supremium_coal"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.6000000000000005d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "1A5CCF827009AF30"
+			rewards: [
+				{
+					id: "5AD1D388E4439C02"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7AD222BC1FF922CD"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0713B6CE6E314059"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "12668527F25B4D73"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "4F10062F1A9DD392"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:clay"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -6.299999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "58018BA9973870A1"
+			rewards: [
+				{
+					id: "5AC3BB8EE2762657"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "05BC6BDEE960B56F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0F09896C276CE8AF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6FFE7A3307DD9F92"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "4A79A19601EC4E51"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -10.5d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "6DD6687069F5A1D7"
+			rewards: [
+				{
+					id: "0D30589310AE4E75"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3864FE0C0ECFCD00"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "3DBA8F296E1D62F0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4F4B4B5696EFECB5"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "01C38BA5C365906A"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -9.8d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "526C345CDAE5B62E"
+			rewards: [
+				{
+					id: "2711018107BDFFDF"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5DE24EF6E2409F89"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "649A351B8B41CEE5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "103F70D9971F2D6F"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "1255B65A5E42B3BE"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -8.4d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "0AD078BFEE076984"
+			rewards: [
+				{
+					id: "0A22840B667507D2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7E7750AFF0DA67B1"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "58849084EB88E0A7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3E0108DF466A9CBA"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "645A0686595529F7"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:oak"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -5.6000000000000005d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "6BD5C13BDF7ABE2E"
+			rewards: [
+				{
+					id: "585B3CB340963C24"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3AA9E5EA44E77CBA"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "64CD8BD3DD032E30"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5EC2966A38C0D8B3"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "03DCFE928B70B47A"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -7.699999999999999d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "01B700C0220211D5"
+			rewards: [
+				{
+					id: "6E6ADD43BC3CB7E5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7E6D1BA866FC2602"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7928828BB132E01C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7F793C3D5B8D5D83"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "05E69A54D3B8F1FE"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.8d
+			y: -9.1d
+		}
+		{
+			dependencies: ["23BBDF8CF20438C6"]
+			hide_dependency_lines: true
+			id: "2323688BB7BAB20D"
+			rewards: [
+				{
+					id: "622071D56FDE238E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "362D930FDAD20E73"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "14B718830ED287F9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "52890AF4DD8797CE"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "24D6AD64FFBD7EDD"
+				item: {
+					Count: 1b
+					id: "extendedcrafting:singularity"
+					tag: {
+						Id: "extendedcrafting:pink_slime"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.2d
+			y: -8.4d
+		}
+		{
+			dependencies: [
+				"58018BA9973870A1"
+				"2C78B234BDE90453"
+				"1A5CCF827009AF30"
+				"60840821A91FDAA1"
+				"6BD5C13BDF7ABE2E"
+				"48B957900CC486CC"
+				"0D792E9A006F7D94"
+				"6D18D5ED3E935602"
+				"1CEC64D4467F1A5C"
+				"3649703EF74144E6"
+				"4C1D05B5771632E8"
+				"634C61375BD3032F"
+				"3AC9CDB30455CFC7"
+				"05DB564891E2E33C"
+				"663791C451321230"
+				"1EEE587EF5E7CD1E"
+				"01B700C0220211D5"
+				"4CF45F0ADC0C6803"
+				"0AD078BFEE076984"
+				"2EB941533398A59E"
+				"12B5B22C0C4A7C1A"
+				"2323688BB7BAB20D"
+				"419AD0C0E6CF132C"
+				"5DF6072B55A2B707"
+				"5F296C7E554A68C7"
+				"5F296C7E554A68C7"
+				"2376132F1D8CF6B4"
+				"6DD6687069F5A1D7"
+				"68360C6D7895AC95"
+				"338BCDC639CFC66A"
+				"6E7E294C3D0D7EF7"
+				"526C345CDAE5B62E"
+				"2E8312DD29BA623A"
+			]
+			hide_dependency_lines: true
+			id: "3D9A982B63582765"
+			rewards: [
+				{
+					id: "7E0F5B7C474FFCFB"
+					type: "xp"
+					xp: 100000
+				}
+				{
+					id: "5A7B705345CBB783"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "30E9B56E8A1AAB62"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "1DE246D3A15DB480"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "41641390AF061650"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "3CAF233D3EEB3DE9"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "48F7109B8675F13F"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "693B37D4621CADA3"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Ultimate Singularity"
+			tasks: [{
+				id: "187735BA60615F3A"
+				item: "extendedcrafting:ultimate_singularity"
+				type: "item"
+			}]
+			title: "&5&l&oOne to rule them all"
+			x: -3.8499999999999943d
+			y: -12.089285714285708d
+		}
+		{
+			dependencies: ["083AABDD7093C1E4"]
+			hide_dependency_lines: true
+			id: "0A6FFA0295BE1616"
+			rewards: [
+				{
+					id: "7803C1895D37AC1D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2A3333A67734BEE1"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "0780CFFB6ADB97DA"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "34B404E3CC102471"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "3DCD9AF64AAF1925"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "63E3F7822EC875DC"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "105F39E89EBB6821"
+				item: "extendedcrafting:crystaltine_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7C3C6EE0AF2DF234"]
+			id: "096B6FA766A45B4B"
+			rewards: [
+				{
+					id: "27EC0D1FDB054C25"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "0C215B79A923CDE9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5689CE511B182EBA"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "618F0A545977BD6F"
+				item: "extendedcrafting:crystaltine_catalyst"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3CB10BBE42C7A96C"]
+			id: "0556703DAFD956F0"
+			rewards: [
+				{
+					id: "7C11DF0C689E2722"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1BAB81BA33BE5090"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6CDF42EF8DB1976D"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0AF69654B5379B18"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"5C0A4C069A734BBA"
+				"2BB44DAD789D9B55"
+				"5221B42012F4F654"
+				"0376670CB817A736"
+				"519722416D2CFD2E"
+				"1E51DC175423A50E"
+				"2E9E445E64CEE3A5"
+				"19D43A57F7DDFEFD"
+				"066E6AEECFC91987"
+				"171C4F31855DDD61"
+				"0673F4D4729B66C7"
+				"1AA921D0E4991FAF"
+				"06227706D23AFDE1"
+				"72E3DFFE15517D1D"
+				"182AF9C98F217B26"
+				"15CA115E396C9A08"
+				"5F535153F1D1645D"
+				"0927A55DAE8D021E"
+				"3B5583B4E8E86ADE"
+				"1D1B1782CB6FB0FE"
+				"4655C16B3399289A"
+				"69E67FE52D8122D8"
+				"4B9B4A78100569FF"
+				"0BF667282F9555CF"
+				"05C7A1A82E485E0D"
+				"22C0A3DE9089FC74"
+				"03AC279BC14A7D2B"
+				"2F87FA571962AEDE"
+				"11F64AFF50EA732F"
+				"135A28D4F002E10A"
+				"72A0889E558D1BE0"
+				"46E72DABBA448B8B"
+				"1E4888F773B66ED1"
+				"110272A10A3A98B6"
+				"5E291F1C950AAD36"
+				"54CE3F818E8B2C37"
+				"1E41333D7379CBC3"
+				"5C0B43C6C5CFB0CC"
+				"5751C713438E0B43"
+				"4DD5501E4384F23F"
+				"4A7E6C0A48B57B86"
+				"2521274BEA57E8EE"
+				"3A44544F9742678E"
+				"3B405DE3A628BC0D"
+				"239FB312537E723A"
+				"3274D9E240B0BFD2"
+				"5BC5FE1028EF0348"
+				"304844E3384973B4"
+				"01D815459838C379"
+			]
+			hide_dependency_lines: true
+			id: "65FCFDB9AABCE966"
+			rewards: [
+				{
+					id: "3EBE040098263475"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "7CEFD4C9DF164F6A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5CC6D063F1D22B55"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7804607AD9F82209"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0C06708DCADAC385"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "63778C14F750051B"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "The Ultimate Ingot"
+			tasks: [{
+				id: "4DA07334BF25E287"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			title: "&5&l&oThe one and only"
+			x: 12.221428571428596d
+			y: -10.446428571428562d
+		}
+		{
+			id: "3B5583B4E8E86ADE"
+			rewards: [
+				{
+					id: "5997EAB3EA0B9324"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5678D7DE61D2DBA1"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1ED9D4D2A40AEE4B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -8.75d
+		}
+		{
+			id: "06227706D23AFDE1"
+			rewards: [
+				{
+					id: "6DD41C01364D8912"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "42DEEC9818D09957"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "359D3FBDA100D43D"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 11.55d
+			y: -8.75d
+		}
+		{
+			id: "05C7A1A82E485E0D"
+			rewards: [
+				{
+					id: "4E9EC2EF391C8E4A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B1400FD26F17587"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4D3D40622C944B71"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 14.35d
+			y: -8.049999999999999d
+		}
+		{
+			id: "2BB44DAD789D9B55"
+			rewards: [
+				{
+					id: "207904C2B6E7387C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3DEB7FFF66E8DE42"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6321056F84546D90"
+				item: "alltheores:aluminum_ingot"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -8.75d
+		}
+		{
+			id: "2E9E445E64CEE3A5"
+			rewards: [
+				{
+					id: "3508A4B6AE64FE44"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6C1BF36253958F5C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0C00B932F1F557E8"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 10.85d
+			y: -8.75d
+		}
+		{
+			id: "1D1B1782CB6FB0FE"
+			rewards: [
+				{
+					id: "01C179BBBD839216"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4DA55C265ED8206E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "180EDB6D99BA75A5"
+				item: "alltheores:lead_ingot"
+				type: "item"
+			}]
+			x: 13.65d
+			y: -8.75d
+		}
+		{
+			id: "22C0A3DE9089FC74"
+			rewards: [
+				{
+					id: "75390B017E563752"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "59AF4D61A73E0CAA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "59BAC20259F561B6"
+				item: "alltheores:nickel_ingot"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -8.049999999999999d
+		}
+		{
+			id: "2F87FA571962AEDE"
+			rewards: [
+				{
+					id: "36AC42F630BE3601"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "296594D1A051030D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "37B82B2E0D5BB836"
+				item: "alltheores:osmium_ingot"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -8.049999999999999d
+		}
+		{
+			id: "135A28D4F002E10A"
+			rewards: [
+				{
+					id: "43A63DA05C2EE9F3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6F7E63CD8FED34B8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4F36D5EE23011056"
+				item: "alltheores:platinum_ingot"
+				type: "item"
+			}]
+			x: 13.65d
+			y: -8.049999999999999d
+		}
+		{
+			id: "54CE3F818E8B2C37"
+			rewards: [
+				{
+					id: "0FE5FC15F987B884"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "553A768368D5E655"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1CC76AFF21A52EA8"
+				item: "alltheores:silver_ingot"
+				type: "item"
+			}]
+			x: 14.35d
+			y: -8.75d
+		}
+		{
+			id: "3A44544F9742678E"
+			rewards: [
+				{
+					id: "50115C7DCAA9AF32"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "202907AD5E3B04FE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "272B89CC0004A07E"
+				item: "alltheores:tin_ingot"
+				type: "item"
+			}]
+			x: 12.950000000000001d
+			y: -8.75d
+		}
+		{
+			id: "239FB312537E723A"
+			rewards: [
+				{
+					id: "7CD56071E16E69EC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "13847DE1D64ACA4B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "29B65E76A2BC349B"
+				item: "alltheores:uranium_ingot"
+				type: "item"
+			}]
+			x: 12.950000000000001d
+			y: -8.049999999999999d
+		}
+		{
+			id: "5BC5FE1028EF0348"
+			rewards: [
+				{
+					id: "1E286D7D210A0AFF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2054B0A6A9721DDF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3BFB731B8C9FAC2D"
+				item: "alltheores:zinc_ingot"
+				type: "item"
+			}]
+			x: 10.85d
+			y: -8.049999999999999d
+		}
+		{
+			id: "69E67FE52D8122D8"
+			rewards: [
+				{
+					id: "567197AA56076369"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "02BF4D895BA403F7"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "61E518CD1B8ACA03"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 11.55d
+			y: -5.95d
+		}
+		{
+			id: "19D43A57F7DDFEFD"
+			rewards: [
+				{
+					id: "5FF2FFA9285CCB2D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "263AF4C73AB5C55A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1E8E53F8A6EF376C"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 12.950000000000001d
+			y: -5.95d
+		}
+		{
+			id: "4A7E6C0A48B57B86"
+			rewards: [
+				{
+					id: "115BAD11A1B9E882"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "553C30BC4A81980B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "093D5B733B14E0E1"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -5.95d
+		}
+		{
+			id: "519722416D2CFD2E"
+			rewards: [
+				{
+					id: "69C1F630CC51ABC8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C7DA92015BDB3DB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3B7F88E881B48EE2"
+				item: "silentgear:crimson_iron_ingot"
+				type: "item"
+			}]
+			x: 10.85d
+			y: -5.25d
+		}
+		{
+			id: "1E41333D7379CBC3"
+			rewards: [
+				{
+					id: "0364F6FDAF724120"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "734C912AE89E0D6E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1AA15BF12EC94037"
+				item: "silentgear:crimson_steel_ingot"
+				type: "item"
+			}]
+			x: 11.55d
+			y: -5.25d
+		}
+		{
+			id: "46E72DABBA448B8B"
+			rewards: [
+				{
+					id: "1C7D1722FF44D36D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "75FBE80AB391FAF6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3AA7AF4C3591D77A"
+				item: "silentgear:blaze_gold_ingot"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -5.25d
+		}
+		{
+			id: "4B9B4A78100569FF"
+			rewards: [
+				{
+					id: "73B083857B2B066F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "44A3881982091370"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2C4257B93046587E"
+				item: "silentgear:azure_silver_ingot"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -5.25d
+		}
+		{
+			id: "72E3DFFE15517D1D"
+			rewards: [
+				{
+					id: "17E7636599E902FA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0AE1BF1D1C9FDA64"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "34F0BFBB3AF99429"
+				item: "silentgear:azure_electrum_ingot"
+				type: "item"
+			}]
+			x: 12.950000000000001d
+			y: -5.25d
+		}
+		{
+			id: "15CA115E396C9A08"
+			rewards: [
+				{
+					id: "4D8CE8BF01D538A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7824451FA6F08731"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6C7C1E69EFB323E3"
+				item: "mysticalagriculture:inferium_ingot"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -6.6499999999999995d
+		}
+		{
+			id: "72A0889E558D1BE0"
+			rewards: [
+				{
+					id: "5C418F83A9E411C1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "72C5A05DD418407E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5339A8F54130E83A"
+				item: "mysticalagriculture:prudentium_ingot"
+				type: "item"
+			}]
+			x: 10.85d
+			y: -6.6499999999999995d
+		}
+		{
+			id: "2521274BEA57E8EE"
+			rewards: [
+				{
+					id: "4D172054BAD7707C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "499B0F8FEDD0F8E1"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2F4C2AE5C435070E"
+				item: "mysticalagriculture:tertium_ingot"
+				type: "item"
+			}]
+			x: 11.55d
+			y: -6.6499999999999995d
+		}
+		{
+			id: "182AF9C98F217B26"
+			rewards: [
+				{
+					id: "2088BD8736DFD21D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0E4A908B1EC91626"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "655D5694B3C8CFAC"
+				item: "mysticalagriculture:imperium_ingot"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -6.6499999999999995d
+		}
+		{
+			id: "4DD5501E4384F23F"
+			rewards: [
+				{
+					id: "7D1A3A3B5C567A97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "037A01ABF6A1FA0D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "00DBC4498C5628E7"
+				item: "mysticalagriculture:supremium_ingot"
+				type: "item"
+			}]
+			x: 12.950000000000001d
+			y: -6.6499999999999995d
+		}
+		{
+			id: "5F535153F1D1645D"
+			rewards: [
+				{
+					id: "5BCE97B7D3224134"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "312860B1B73F91DD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "31620B88F18CDB13"
+				item: "mysticalagradditions:insanium_ingot"
+				type: "item"
+			}]
+			x: 13.65d
+			y: -6.6499999999999995d
+		}
+		{
+			id: "110272A10A3A98B6"
+			rewards: [
+				{
+					id: "58B9D05C199CB2BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38DB05D01D4C2510"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "09F6610FB05C8739"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 10.85d
+			y: -5.95d
+		}
+		{
+			id: "1E4888F773B66ED1"
+			rewards: [
+				{
+					id: "7E536442165F643F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "420FDA1E80A29ABF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4BEC75BBAF962F5D"
+				item: "mekanism:ingot_refined_glowstone"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -5.95d
+		}
+		{
+			id: "5751C713438E0B43"
+			rewards: [
+				{
+					id: "4EFDC0BF4A047F9D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1EA330EDFC0FC02F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4891C8CAD806E40F"
+				item: "alltheores:steel_ingot"
+				type: "item"
+			}]
+			x: 11.55d
+			y: -8.049999999999999d
+		}
+		{
+			id: "5C0B43C6C5CFB0CC"
+			rewards: [
+				{
+					id: "3FAB2B0231DD1446"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E64383491FFB007"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4967B6F94C5169B2"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: 14.35d
+			y: -7.35d
+		}
+		{
+			id: "11F64AFF50EA732F"
+			rewards: [
+				{
+					id: "0AF067530FBA061B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5F9496F630233610"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "50589120B450F145"
+				item: "theabyss:fusion_ingot"
+				type: "item"
+			}]
+			x: 14.35d
+			y: -5.95d
+		}
+		{
+			id: "5C0A4C069A734BBA"
+			rewards: [
+				{
+					id: "36FA63A74772A4ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3BCFA0B8B41526C8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "405A326F796D88A7"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			x: 12.950000000000001d
+			y: -4.55d
+		}
+		{
+			id: "3B405DE3A628BC0D"
+			rewards: [
+				{
+					id: "6BF8ECB3682566E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2FFF31CB27C0016F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "10E8449D7C102784"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			x: 14.35d
+			y: -4.55d
+		}
+		{
+			id: "3274D9E240B0BFD2"
+			rewards: [
+				{
+					id: "42F98C740083E762"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3AF32AEDE6925ADA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4A31B9B05D01D569"
+				item: "allthemodium:vibranium_ingot"
+				type: "item"
+			}]
+			x: 13.65d
+			y: -4.55d
+		}
+		{
+			id: "5221B42012F4F654"
+			rewards: [
+				{
+					id: "52D7B6DF42778571"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0FA05ACAC7BE3797"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "60E443561F53196F"
+				item: "thermal_extra:dragonsteel_ingot"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -4.55d
+		}
+		{
+			id: "03AC279BC14A7D2B"
+			rewards: [
+				{
+					id: "5E786331E0AAC3EE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "36E0217DB64E1185"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "54CB751674B6EABC"
+				item: "theabyss:unorithe_ingot"
+				type: "item"
+			}]
+			x: 13.65d
+			y: -5.95d
+		}
+		{
+			id: "1AA921D0E4991FAF"
+			rewards: [
+				{
+					id: "5D9EDF910812E017"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "321319D23487DEAD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6A34F2E4C0C42C80"
+				item: "thermal_extra:shellite_ingot"
+				type: "item"
+			}]
+			x: 11.55d
+			y: -4.55d
+		}
+		{
+			id: "066E6AEECFC91987"
+			rewards: [
+				{
+					id: "1BAC22D7921960EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7A912171DBB1619E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "19070CDD214B8C5D"
+				item: "thermal_extra:soul_infused_ingot"
+				type: "item"
+			}]
+			x: 10.85d
+			y: -4.55d
+		}
+		{
+			id: "0376670CB817A736"
+			rewards: [
+				{
+					id: "09E8E9092FC2556A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "32B84A411D7C0E0D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7C81B97851D1AD40"
+				item: "alltheores:bronze_ingot"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -7.35d
+		}
+		{
+			id: "0927A55DAE8D021E"
+			rewards: [
+				{
+					id: "7892D493E9457EE7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16B11D44D28BBFE2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "34210EBC26052DBC"
+				item: "alltheores:invar_ingot"
+				type: "item"
+			}]
+			x: 11.549999999999999d
+			y: -7.35d
+		}
+		{
+			id: "1E51DC175423A50E"
+			rewards: [
+				{
+					id: "41D41578B9D9C597"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2071B71E2BFAC368"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3526C022DB30DA71"
+				item: "alltheores:constantan_ingot"
+				type: "item"
+			}]
+			x: 10.85d
+			y: -7.35d
+		}
+		{
+			id: "5E291F1C950AAD36"
+			rewards: [
+				{
+					id: "37A3F718A30D9117"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "72A66D24B19CC112"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4BECABEFE320098C"
+				item: "alltheores:signalum_ingot"
+				type: "item"
+			}]
+			x: 12.25d
+			y: -7.35d
+		}
+		{
+			id: "4655C16B3399289A"
+			rewards: [
+				{
+					id: "1C12D144F00FB1AD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "49AEA8086D03FAAB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4B340BD4EA1FEFE0"
+				item: "alltheores:lumium_ingot"
+				type: "item"
+			}]
+			x: 12.95d
+			y: -7.35d
+		}
+		{
+			id: "0673F4D4729B66C7"
+			rewards: [
+				{
+					id: "2A42DFDA7BF15C6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06779A03F9A4F39B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3E9C36447BA25F07"
+				item: "alltheores:enderium_ingot"
+				type: "item"
+			}]
+			x: 13.65d
+			y: -7.35d
+		}
+		{
+			id: "0BF667282F9555CF"
+			rewards: [
+				{
+					id: "0DECB26A2DB91B03"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1DCE9AD073D93241"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "321A511740F88F84"
+				item: "thermal_extra:twinite_ingot"
+				type: "item"
+			}]
+			x: 10.15d
+			y: -4.55d
+		}
+		{
+			id: "171C4F31855DDD61"
+			rewards: [
+				{
+					id: "427F07122A2DDE26"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "270DC6FE3C32C603"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3077FDA63128B610"
+				item: "silentgear:tyrian_steel_ingot"
+				type: "item"
+			}]
+			x: 13.65d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "extendedcrafting:guide"
+				}
+			}
+			id: "5530C0D8BF092FCA"
+			rewards: [
+				{
+					id: "0AF715B461260280"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "5B86CE14C59C8FDD"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oStarting Tools&r quest*"
+			tasks: [{
+				id: "5A2B1BC3223E3031"
+				type: "checkmark"
+			}]
+			title: "Welcome to &5Extended Crafting"
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: [
+				"6C8754CBAA4B7D90"
+				"5974F712DA017C94"
+			]
+			hide_dependency_lines: true
+			id: "66958504698EE334"
+			rewards: [
+				{
+					id: "7687EF507152BD97"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6D99D5808E9F98FD"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "6D1AC316472A100B"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "771DD1F4D2F1DABD"
+				item: "extendedcrafting:frame"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			id: "01D815459838C379"
+			rewards: [
+				{
+					id: "6A02EF783A557704"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16CC9C68A80415ED"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3BB9B826E830E288"
+				item: "blue_skies:horizonite_ingot"
+				type: "item"
+			}]
+			x: 14.35d
+			y: -5.25d
+		}
+		{
+			id: "304844E3384973B4"
+			rewards: [
+				{
+					id: "1D1E2E82C866EDC9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1607C8FA2551DBA4"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3B143CB521A72634"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 14.35d
+			y: -6.6499999999999995d
+		}
+		{
+			dependencies: ["22698729A224CCBC"]
+			description: ["Same as &aEnder Crafter&r the &6Flux Crafter&r will launch the &9Flux Alternators&r in a 7x7x7 area around it, but it requires power."]
+			id: "6E79797DBD8A54EA"
+			rewards: [
+				{
+					id: "7A55DB6FA65AF146"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C11B81A6FA17562"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "744B979B93A34261"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "3226094BE8E6C3F2"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0AD85F5B03D91D42"
+					item: "extendedcrafting:flux_crafter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7EEE25C59319BB4E"
+					item: "extendedcrafting:flux_alternator"
+					type: "item"
+				}
+			]
+			title: "&6The Flux Crafter"
+			x: 9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"5974F712DA017C94"
+				"7E21D8137624442D"
+				"147EE4FB2C5F1A34"
+			]
+			hide_dependency_lines: true
+			id: "0C824D2FDD62401F"
+			rewards: [
+				{
+					id: "0447B7832F86314E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "006B95B9934461A7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2F11B0E265255BC0"
+				item: "extendedcrafting:enhanced_redstone_component"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0C824D2FDD62401F"]
+			id: "1CBD77D9822D9F8B"
+			rewards: [
+				{
+					id: "5B4A853A1176C107"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "683261CAF5031623"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "797BC7B3D970FFC8"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "24731D4D0B0CD09B"
+				item: "extendedcrafting:enhanced_redstone_catalyst"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6E79797DBD8A54EA"]
+			id: "68463B5E8E6698F6"
+			rewards: [
+				{
+					id: "2D5738EBED964E38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D9F0381056AB3A6"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28AD356294F27EF0"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "69D8441E6D3018B9"
+				item: "extendedcrafting:flux_star"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["68463B5E8E6698F6"]
+			hide_dependency_lines: true
+			id: "147EE4FB2C5F1A34"
+			rewards: [
+				{
+					id: "18A66DCF32F78A26"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C9270C8CA14AC5D"
+					table_id: 1375643567800692047L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79AF8ED4A9B325CE"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "058D08876310241D"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "031A9DCBFFD40A2B"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6BD21B689412A9DD"
+				item: "extendedcrafting:enhanced_redstone_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"11E16D072634AAF5"
+				"6E79797DBD8A54EA"
+			]
+			hide_dependency_lines: true
+			id: "5C6453AF1DC98785"
+			rewards: [
+				{
+					id: "21C0DC4ED315B195"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BF9B58744F94400"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "628CEFC7229FC80C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "15C6599010C94009"
+					item: "extendedcrafting:auto_ender_crafter"
+					type: "item"
+				}
+				{
+					id: "3445E0658213FEB4"
+					item: "extendedcrafting:auto_flux_crafter"
+					type: "item"
+				}
+			]
+			title: "&bAuto Ender \\& Flux Crafters"
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6C8754CBAA4B7D90"]
+			id: "095FFE54A4BE60A3"
+			rewards: [
+				{
+					id: "1697322C06309A94"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3F0E4EE85214AEA6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ABE27ACF6E0EBB7"
+				item: "extendedcrafting:pedestal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -13.5d
+		}
+	]
+	title: "&d&oExtended Crafting"
+}

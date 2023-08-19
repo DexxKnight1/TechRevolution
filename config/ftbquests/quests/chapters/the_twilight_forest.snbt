@@ -1,0 +1,2360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: "5B1FD5CFBA160ABA"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "2ED5FF4A7C518741"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.1071428571428541d
+			y: -0.8392857142857117d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/tfore.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 3.4285714285714306d
+			y: -1.0892857142857189d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "kubejs:textures/item/lich.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: -6.178571428571431d
+			y: 1.2321428571428577d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "kubejs:textures/item/ur-gh.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.250000000000007d
+			y: 8.589285714285712d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: [ ]
+			image: "kubejs:textures/item/minoshroom.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -8.035714285714292d
+			y: 7.839285714285712d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Twilight Forest realm is an endless world like any other Minecraft dimension, except this dimension is densely forested. It has more of an enchanted, fairy tale, and mythological theme and feel than the Overworld. The skies are perpetually dim and always twilight, giving a darker, somewhat gloomy cast to the world below. An over-story of larger Trees further shades most of the world below, creating a canopy covering most of the world (so thick that you can actually walk on it most places)."
+				""
+				"The canopy is pierced only occasionally by massive trees that rise to the ceiling of the world. The terrain is flatter, or at least less mountainous than regular Minecraft, but you will occasionally encounter Hills, sometimes rising far above the canopy level. These hills are hollow too, containing Caves filled with valuable ores, treasure and dangerous monsters."
+				""
+				"You may also run across many different dungeons, bosses, structures, trees, and a numerous amount of unique items throughout your travels through the Twilight Forest realm. There is much to explore."
+			]
+			id: "4D7941CA6D1FDC14"
+			rewards: [
+				{
+					id: "78BD42AC0D88FC11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "65BBDF04F7A4FA29"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "twilightforest:twilightforest"
+				id: "6BEFB71875673A1A"
+				title: "Visit Dimension: &2The Twilight Forest"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D7941CA6D1FDC14"]
+			id: "1D39595A7EDFB122"
+			rewards: [{
+				id: "086F012A37ED851C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "46A6CC833404C39D"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D7941CA6D1FDC14"]
+			id: "40335B19A9A4ABC6"
+			rewards: [
+				{
+					id: "6232CE41B33A4942"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2453E8452DD55727"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "7D7070D8ED4DC5EA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F61B96723B74A53"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"40335B19A9A4ABC6"
+				"1D39595A7EDFB122"
+			]
+			id: "68033BC44B8D5F98"
+			rewards: [
+				{
+					id: "1946D76130C7B1B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "0AC9B1DCC1F48639"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22F69BC2B31EF6D8"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68033BC44B8D5F98"]
+			icon: "twilightforest:magic_map"
+			id: "66F31134DFC73B0C"
+			rewards: [
+				{
+					id: "2F40054160575C2C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "71B1ED6CB4705640"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0360A6E754A6B10E"
+				item: {
+					Count: 1b
+					id: "twilightforest:magic_map"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Magic Map"
+			x: -0.9285714285714306d
+			y: 3.125d
+		}
+		{
+			dependencies: ["66F31134DFC73B0C"]
+			icon: "twilightforest:naga_trophy"
+			id: "4E70E59453A4EB80"
+			rewards: [
+				{
+					id: "389EB987C8BBD748"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71537740CEA8DE3E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "71B4988BCEE9A6D1"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_spawn_egg"
+				id: "0AB1B14AAA8331E0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4E70E59453A4EB80"]
+			icon: "twilightforest:lich_trophy"
+			id: "73BE906D919617A4"
+			rewards: [
+				{
+					id: "4D5CCF61C4F57D7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12A29758DDB49179"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "3E2F782BDD9FAE0A"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_spawn_egg"
+				id: "202582FE2821D487"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73BE906D919617A4"]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "2862009B6A3627C7"
+			rewards: [
+				{
+					id: "73C47A94AC3024A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "20F6724FDFAE3093"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					id: "50E235D0724B6539"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_spawn_egg"
+				id: "0EA13365C7F8B7A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2862009B6A3627C7"]
+			icon: "twilightforest:hydra_trophy"
+			id: "6903BF83ACBB676B"
+			rewards: [
+				{
+					id: "4A49E3731892BFA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "651DBF7CF8EAD486"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2BEF41824FAE5FE6"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_spawn_egg"
+				id: "715028024E2B9147"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "728CC3FF9A23D30F"
+			rewards: [
+				{
+					id: "24943E185FDCC2B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "406F1F880AA28E7D"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "07425C7518D5BDD3"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_spawn_egg"
+				id: "1A931440F8030F01"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "7E4E3392CAD99C79"
+			rewards: [
+				{
+					id: "56FA0B3BB6EA9EB9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5FC9FB1019F8B044"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "06293EEF00259132"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_spawn_egg"
+				id: "4B7C14437571693A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E4E3392CAD99C79"]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "589D26882C96E3ED"
+			rewards: [
+				{
+					id: "6947CFB3E09A1205"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "018A17BC0853B024"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "7BEE2580C0253A06"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_spawn_egg"
+				id: "04986A6416F41720"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "3232B88DD64C9534"
+			rewards: [
+				{
+					id: "77996D01F39357CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C1EF71115A57FD4"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "08A6E5A45CBB540B"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_spawn_egg"
+				id: "65E8E99DD14712D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3232B88DD64C9534"]
+			icon: "twilightforest:quest_ram_trophy"
+			id: "344941089BB146FC"
+			rewards: [
+				{
+					id: "36F452B67F06ACC9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3BEE5F4C941B3C26"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "60D9CFB82A7C1F45"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:quest_ram"
+				icon: "twilightforest:quest_ram_spawn_egg"
+				id: "7DDA31D01509E7DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4E70E59453A4EB80"]
+			id: "01A3CFA02787B924"
+			rewards: [
+				{
+					id: "4680A0B237161D63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "521A6D3B058F057D"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D60841F3F9C32BD"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["01A3CFA02787B924"]
+			id: "4D8F2FC43E695909"
+			rewards: [
+				{
+					id: "6BFC2A37207B8AB3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3DB768FAB7CCCB1F"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "12C0137E02C935B5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73A78E237B199131"
+				item: {
+					Count: 1b
+					id: "twilightforest:naga_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fire_protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01A3CFA02787B924"]
+			id: "1D2D23E270829133"
+			rewards: [
+				{
+					id: "42FC0CC7E5DE599D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "10B13A3CBADFB4B9"
+					item: {
+						Count: 1b
+						id: "twilightforest:twisted_stone_pillar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6636583E66771E26"
+					item: {
+						Count: 1b
+						id: "twilightforest:twisted_stone"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23E57B731866CF7A"
+				item: {
+					Count: 1b
+					id: "twilightforest:naga_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["73BE906D919617A4"]
+			id: "7F9BC61AC62DF669"
+			rewards: [
+				{
+					id: "6DF4D5029A8A40AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "1B2134715145FBB5"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "59D6E74B5A47439D"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "7A8322805479685E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "053BDBA3BB04F2B9"
+				item: {
+					Count: 1b
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F9BC61AC62DF669"]
+			id: "7F8BDB36C7601293"
+			rewards: [
+				{
+					id: "64335488E4F3A590"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "12F45C40B017BB57"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					id: "40887AB25CC66A2F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0AE779CCA62DCF04"
+				item: {
+					Count: 1b
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7F8BDB36C7601293"]
+			id: "5A39A0BFE41D5504"
+			rewards: [
+				{
+					id: "0A7B36D1AF237265"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "20F28A1B635AA4F9"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "743C1C9E09CFD0CB"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "29A01203337A10DF"
+				item: {
+					Count: 1b
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.142857142857139d
+			y: 3.4107142857142847d
+		}
+		{
+			dependencies: ["7F8BDB36C7601293"]
+			id: "1BABA585A112FEDC"
+			rewards: [
+				{
+					id: "308E25E21F9A2AA5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "5003F2D5DC86F815"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "4AA8A221567C1E5D"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0C420AD1C85FF8EB"
+				item: {
+					Count: 1b
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: 5.553571428571431d
+		}
+		{
+			dependencies: ["2862009B6A3627C7"]
+			id: "1F2EF7D085D343A7"
+			rewards: [
+				{
+					id: "3055F2E18E8C2FF3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "72F4867AF853FFD0"
+					item: "twilightforest:cooked_meef"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "70110DCBE7AF87FD"
+					item: "twilightforest:maze_wafer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "516A191C291E36EB"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2862009B6A3627C7"]
+			id: "0420E1C56CF9FF59"
+			rewards: [
+				{
+					id: "10EFDB586BE0F5D2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7930C96FE0BE8DF7"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "52EEAB7E11473E22"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30D3FCF626C3617F"
+				item: {
+					Count: 1b
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0420E1C56CF9FF59"]
+			id: "3CF22D6A3BCE809A"
+			rewards: [
+				{
+					id: "4122EF21CFFCCE06"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "12BAE7D036E0D3EE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6274C6214CE16451"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0969F471997122A5"
+				item: {
+					Count: 1b
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.357142857142861d
+			y: 8.125d
+		}
+		{
+			dependencies: ["0420E1C56CF9FF59"]
+			id: "100AB610D9817B34"
+			rewards: [
+				{
+					id: "5087960F6710E4DE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4761653CDB2896F8"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "6E51E38C6FD57CE6"
+				item: {
+					Count: 1b
+					id: "twilightforest:gold_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.357142857142861d
+			y: 7.625000000000007d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			id: "3225E2204A9CB2D4"
+			rewards: [{
+				id: "5488377EDF7F2459"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "517CDFDD85A794A3"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: -1.5357142857142847d
+			y: 5.232142857142861d
+		}
+		{
+			dependencies: ["3225E2204A9CB2D4"]
+			id: "7F6E21582FD78957"
+			rewards: [
+				{
+					id: "6EFD8ADEEB06CB00"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5CB484D27355FD71"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4A9B4B133EF71257"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.3928571428571459d
+			y: 5.767857142857146d
+		}
+		{
+			dependencies: ["3225E2204A9CB2D4"]
+			id: "0E76D007D59C899E"
+			rewards: [
+				{
+					id: "10EBE8ED2F5DDAA1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7254F601FFBDD0AC"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7E27240E73AE20A0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "100E331D99F135F5"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			id: "3ADA7C53428A336F"
+			rewards: [
+				{
+					id: "0B511107B8038ACD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "19424B293A82609F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "721299E42E60E52F"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: -1.607142857142854d
+			y: 7.625d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "436AF350DCE3EFF3"
+			rewards: [
+				{
+					id: "320B03099B8DC3B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BC051AC5820E8DF"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "1ADF02581B0056F6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36A44F2428B1615A"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "34D0E974E9C419D7"
+			rewards: [
+				{
+					id: "6477E0959CC44035"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28FEE70494686B9C"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "3EC5810B7F51B4EC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "537B40BDD3A9AFBF"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.3214285714285694d
+			y: 7.732142857142854d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "4AA2835F633C257E"
+			rewards: [
+				{
+					id: "3FA3BB209B09EF86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "751A305EDFB79E55"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "635A673B48CC0FD6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6786C3113A654F20"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.607142857142854d
+			y: 9.05357142857143d
+		}
+		{
+			dependencies: ["3ADA7C53428A336F"]
+			id: "58F71C553D23F411"
+			rewards: [
+				{
+					id: "1F14F985FF25A636"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AEDF7DBA11C6EDB"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "4681B7ECEE0C0569"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64EF9E2DDE3F0977"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.6071428571428612d
+			y: 8.767857142857139d
+		}
+		{
+			dependencies: ["6903BF83ACBB676B"]
+			id: "086E36E3822A642B"
+			rewards: [
+				{
+					id: "3D243477CAE0EF22"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "2977F61047ACAA9C"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "089EDFAF2EBE6D3F"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: -3.035714285714299d
+			y: 7.160714285714292d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "49C17844BC8B2964"
+			rewards: [
+				{
+					id: "570DE9C550BED0CB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3BAD921984A2E923"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3F2A403A74A7F0BC"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "7D6C2783879A637E"
+			rewards: [
+				{
+					id: "58C7F35045CED141"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B2A8F9FE813EBF6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "68CA0D4FC61EBA9F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D8D4B8752416010"
+				item: {
+					Count: 1b
+					id: "twilightforest:phantom_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.1785714285714093d
+			y: 7.875d
+		}
+		{
+			dependencies: ["728CC3FF9A23D30F"]
+			id: "2DD1D2ABD218B037"
+			rewards: [
+				{
+					id: "5EA35EA0B2DE9FFD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "158554A8930974E8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "026D127E6B8DF231"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "138E9ED075AEE03D"
+				item: {
+					Count: 1b
+					id: "twilightforest:phantom_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.321428571428555d
+			y: 8.232142857142854d
+		}
+		{
+			dependencies: ["25934830F432ED0D"]
+			id: "1A3DC7E76630A4CB"
+			rewards: [
+				{
+					id: "1A2467AAB1C1721B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32B2912137FA12B9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1ECB64446BA13319"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "532EBC800F09EDBE"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.8571428571428328d
+			y: 3.625d
+		}
+		{
+			dependencies: ["1A3DC7E76630A4CB"]
+			id: "3F97566BDED714A4"
+			rewards: [
+				{
+					id: "5D3838145EB50500"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B900776503A6D7B"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "235DF0899B8C29EE"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.2499999999999858d
+			y: 2.625d
+		}
+		{
+			dependencies: ["3F97566BDED714A4"]
+			id: "61E768A128FBBD98"
+			rewards: [
+				{
+					id: "1BEC6D05CE5B394E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57D9A4E5DCF2B4E3"
+					item: "twilightforest:knightmetal_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F3FA25F50F3D2B8"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.8928571428571317d
+			y: 1.767857142857146d
+		}
+		{
+			dependencies: ["49C17844BC8B2964"]
+			id: "25934830F432ED0D"
+			rewards: [
+				{
+					id: "6486427DC4405E27"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "0F9E62A361B719F3"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76775CD12258D544"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0714285714285552d
+			y: 4.6964285714285765d
+		}
+		{
+			dependencies: ["49C17844BC8B2964"]
+			id: "6FDBC1615C039BB9"
+			rewards: [
+				{
+					id: "7A94A563999D44AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46502B7FFC88FE3D"
+					item: "twilightforest:ore_meter"
+					type: "item"
+				}
+				{
+					id: "394CA6AA52C2B8FD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6FAB5022DCF7ABAF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C952D286494B27D"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.249999999999986d
+			y: 4.6964285714285765d
+		}
+		{
+			dependencies: ["6FDBC1615C039BB9"]
+			id: "6CA4D7585CBA24F6"
+			rewards: [
+				{
+					id: "4BAB70A3466922AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "48429A0F280BF8D2"
+					item: {
+						Count: 1b
+						id: "twilightforest:ore_magnet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5232D2AB92E8B59C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0570A38454EDD62B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02DA31DEFD92E8BC"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.3928571428571246d
+			y: 3.625d
+		}
+		{
+			dependencies: ["6CA4D7585CBA24F6"]
+			id: "4B42FE2988EC5F80"
+			rewards: [
+				{
+					id: "7048EAA6CF473F79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1370624E8BDB4856"
+					item: {
+						Count: 1b
+						id: "twilightforest:block_and_chain"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00A4A301E237F13E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "65E8D336807573CA"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.749999999999986d
+			y: 2.6964285714285694d
+		}
+		{
+			dependencies: ["4B42FE2988EC5F80"]
+			id: "5D4A72B6E1DBD873"
+			rewards: [
+				{
+					id: "349BFBDD738E9327"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0F545BF760F76C18"
+					item: "twilightforest:knightmetal_ring"
+					type: "item"
+				}
+				{
+					id: "69BFFE4A5AA2B184"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D499EC0857CED71"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.3928571428571317d
+			y: 1.875d
+		}
+		{
+			dependencies: ["7E4E3392CAD99C79"]
+			id: "0DF45E4CAFDF7E47"
+			rewards: [
+				{
+					id: "02C0A9BA3BA1F474"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "30731DE09DD3BF57"
+					item: "twilightforest:cooked_venison"
+					type: "item"
+				}
+				{
+					id: "1FC6C4545BAE6251"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B73E23800CDFC7D"
+				item: "twilightforest:experiment_115"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5398B6EDFB976DD0"]
+			id: "75A0651EFA643023"
+			rewards: [
+				{
+					id: "56C5E0057EB67B42"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0E2EF61DE639E44D"
+					item: "twilightforest:charm_of_keeping_2"
+					type: "item"
+				}
+				{
+					id: "27751DF788F6689B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "444BE5A88CAC5295"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E4E3392CAD99C79"]
+			id: "098438A24614CCB4"
+			rewards: [
+				{
+					id: "2F7F511CED542609"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "0FF2EAE2721DD3FA"
+					item: "twilightforest:reappearing_block"
+					type: "item"
+				}
+				{
+					id: "4AE3FA7426E988E0"
+					item: "twilightforest:locked_vanishing_block"
+					type: "item"
+				}
+				{
+					id: "19A1C1E46CC100D9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77BA0F6F7BA7A2B9"
+				item: "twilightforest:tower_key"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["098438A24614CCB4"]
+			id: "5398B6EDFB976DD0"
+			rewards: [
+				{
+					id: "5DE6EC4285011A7B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7E94E4FF8D520AC9"
+					item: "twilightforest:ironwood_ingot"
+					type: "item"
+				}
+				{
+					id: "314D0D1B37B30AF0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2810131198BDD39A"
+				item: "twilightforest:vanishing_block"
+				type: "item"
+			}]
+			x: 4.392857142857125d
+			y: 6.482142857142854d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			id: "3A18EF8901E1D8FE"
+			rewards: [
+				{
+					id: "56E05DC04C42E90A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "062185087472584C"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+				{
+					id: "2960A3A68644A8A9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1272739EEAC2C028"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 5.499999999999979d
+			y: 3.3392857142857153d
+		}
+		{
+			dependencies: ["3A18EF8901E1D8FE"]
+			id: "4C1B1D98E7A214B7"
+			rewards: [
+				{
+					id: "09E0228716891A2E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7388229897B6CED2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "319C06C130F5C2F9"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.178571428571416d
+			y: 2.267857142857139d
+		}
+		{
+			dependencies: ["4C1B1D98E7A214B7"]
+			id: "56E6D14BA6139E70"
+			rewards: [
+				{
+					id: "3A18F25197AFC7D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CB4BC6029F1A14C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "089F9E25B89E81B8"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.178571428571416d
+			y: 1.1964285714285765d
+		}
+		{
+			dependencies: ["56E6D14BA6139E70"]
+			id: "15D24CE1A55257C7"
+			rewards: [
+				{
+					id: "04906ECA4C8166DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "161C3E19FEF45D79"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "69D38166AD73C486"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_leggings"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.35714285714284d
+			y: 0.41071428571428825d
+		}
+		{
+			dependencies: ["15D24CE1A55257C7"]
+			id: "1C598E496AAFF2B0"
+			rewards: [
+				{
+					id: "0A83278B726FA581"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2247B0E9E447B9D6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4F9B655280840201"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:protection"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.2857142857142634d
+			y: -0.01785714285714235d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			id: "726ABDA427CE9603"
+			rewards: [
+				{
+					id: "5180E9C17F911F8C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6278B7140DE3C91E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03C72A2F9DAD2DA2"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			x: 6.499999999999986d
+			y: 2.5892857142857153d
+		}
+		{
+			dependencies: ["589D26882C96E3ED"]
+			id: "21B42FDABFAFF6AF"
+			rewards: [
+				{
+					id: "5092CF2E899F9A1F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D020C1768E9BC14"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "229FC8B411E23B43"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A31CC39F9D725BC"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 7.642857142857125d
+			y: 3.3392857142857153d
+		}
+		{
+			dependencies: ["21B42FDABFAFF6AF"]
+			id: "190ED62E60208DFE"
+			rewards: [
+				{
+					id: "51C103C816CF2E7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E4AFE63530ABC66"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4E13C803C415B90B"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.071428571428555d
+			y: 2.232142857142861d
+		}
+		{
+			dependencies: ["190ED62E60208DFE"]
+			id: "54ACBBDA7D29B42A"
+			rewards: [
+				{
+					id: "23BE55E4123C8259"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "218BE60F706B9719"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "27FDFCAF739F5D5B"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.857142857142847d
+			y: 1.125d
+		}
+		{
+			dependencies: ["54ACBBDA7D29B42A"]
+			id: "6F715741679FD001"
+			rewards: [
+				{
+					id: "220E40988BCFFA7D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "308A9F6ADE424CF7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "732E620BDEA4851D"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.178571428571416d
+			y: 0.3035714285714306d
+		}
+		{
+			dependencies: ["6F715741679FD001"]
+			id: "4B7737E8CB0014D5"
+			rewards: [
+				{
+					id: "1ED0C872D860CD5C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "68E8764D7E00D50D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "463E23B4C6A6398B"
+				item: {
+					Count: 1b
+					id: "twilightforest:arctic_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.0892857142857153d
+		}
+		{
+			dependencies: ["3232B88DD64C9534"]
+			id: "20AB6E2ED37F0B3F"
+			rewards: [
+				{
+					id: "48310A6B8FD7644E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F7171069D446699"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "692BC34736FDD9F6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16AC7E3B81A0D394"
+				item: {
+					Count: 1b
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.749999999999979d
+			y: 5.553571428571431d
+		}
+		{
+			dependencies: ["3232B88DD64C9534"]
+			id: "01E8FDE21EAE0F87"
+			rewards: [
+				{
+					id: "6E16B3444101CCA9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71C03F49612E7C9E"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0B13F12656B3394F"
+				item: {
+					Count: 1b
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["75A0651EFA643023"]
+			id: "696CD62637078076"
+			rewards: [
+				{
+					id: "7581F3A7E346E2B5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34ED63838C77624A"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "20BB8E6223FB6E86"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["344941089BB146FC"]
+			id: "50318D865286765F"
+			rewards: [
+				{
+					id: "756C495BDEE4B826"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7C6E418FA9646E84"
+					item: {
+						Count: 1b
+						id: "twilightforest:blue_castle_door"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6323936A18FBADCE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "447D09489F3811A8"
+				item: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.785714285714263d
+			y: 8.69642857142857d
+		}
+		{
+			dependencies: ["50318D865286765F"]
+			id: "24D759D9E93816B6"
+			rewards: [
+				{
+					id: "70BC67F29BA4C848"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "0A9C8F1EBE9AB21C"
+					item: {
+						Count: 1b
+						id: "twilightforest:huge_lily_pad"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6271348A4DD408D7"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B36BC8BCA89B6F8"
+				item: "twilightforest:transformation_powder"
+				type: "item"
+			}]
+			x: 5.999999999999972d
+			y: 9.517857142857139d
+		}
+		{
+			dependencies: ["24D759D9E93816B6"]
+			id: "2AC26E35E1874C5F"
+			rewards: [
+				{
+					id: "1D5D849332B7AA3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79A6CACA3C87EBDD"
+					item: "twilightforest:charm_of_life_1"
+					type: "item"
+				}
+				{
+					id: "31F8E8FC608A34AE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "510CAD500B26D7AD"
+				item: {
+					Count: 1b
+					id: "twilightforest:crumble_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.357142857142826d
+			y: 9.19642857142857d
+		}
+		{
+			dependencies: ["2AC26E35E1874C5F"]
+			id: "5A4312842D783A27"
+			rewards: [
+				{
+					id: "3834C304366BF94E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2F9265AFB14D2420"
+					item: "twilightforest:lich_tower_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "6F6CC98735B55207"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2FBFBAFF64178163"
+				item: {
+					Count: 1b
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.60714285714284d
+			y: 8.410714285714285d
+		}
+		{
+			dependencies: ["5A4312842D783A27"]
+			id: "04349C90D4C9D879"
+			rewards: [
+				{
+					id: "4369DF81D394EA42"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "130014D9D8EB051A"
+					item: "twilightforest:twilight_portal_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "735A728FA631BC5D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51CF199DE156AA97"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.321428571428548d
+			y: 7.339285714285708d
+		}
+		{
+			dependencies: ["04349C90D4C9D879"]
+			id: "680909E7F1B2184C"
+			rewards: [
+				{
+					id: "48408242B6399153"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "4F5BF192872A3689"
+					item: "twilightforest:iron_ladder"
+					type: "item"
+				}
+				{
+					id: "38238230389D36F3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7022174B7A658B4D"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 9.571428571428555d
+			y: 6.0535714285714235d
+		}
+		{
+			dependencies: ["680909E7F1B2184C"]
+			id: "6330234912B543EB"
+			rewards: [
+				{
+					id: "23AA0CB4EE71C749"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "346FF98A150CF53D"
+					item: "twilightforest:thorn_rose"
+					type: "item"
+				}
+				{
+					id: "309A975E325137BB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57D2342BB162990A"
+				item: {
+					Count: 1b
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.71428571428568d
+			y: 4.625d
+		}
+		{
+			dependencies: ["6330234912B543EB"]
+			id: "0FA86CAD486B45DE"
+			rewards: [
+				{
+					id: "14F14B7C46797E8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "7CA94926ED435080"
+					item: "twilightforest:armor_shard_cluster"
+					type: "item"
+				}
+				{
+					id: "1B0A20EE4865C23C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DC8A627E88B53DB"
+				item: {
+					Count: 1b
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.821428571428541d
+			y: 3.3035714285714377d
+		}
+		{
+			dependencies: ["0FA86CAD486B45DE"]
+			id: "5B9E8CDA7A7FD29E"
+			rewards: [
+				{
+					id: "79EF470A0C03C926"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "30C4C8E7F0637906"
+					item: "twilightforest:trophy_pedestal"
+					type: "item"
+				}
+				{
+					id: "733F6FFA30613FE0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4077F722014B44DA"
+				item: "twilightforest:trophy_pedestal"
+				type: "item"
+			}]
+			x: 9.785714285714256d
+			y: 2.0892857142857224d
+		}
+	]
+	title: "&3&oThe Twilight Forest"
+}

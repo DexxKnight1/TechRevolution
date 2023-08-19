@@ -1,0 +1,1840 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5B1FD5CFBA160ABA"
+	icon: "minecraft:end_portal_frame"
+	id: "0252A38B84277ADE"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.5d
+			hover: [ ]
+			image: "kubejs:textures/item/end_drag.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.1071428571428612d
+			y: -4.9464285714285765d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1A33EEC89D130D51"
+			rewards: [
+				{
+					id: "6A44DB9BB8ECB636"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C847B5B5FEFA09A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7AA522034DCC517D"
+				title: "Visit Dimension: &2The End"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			description: ["The poise forest can be located semi-rarely in the outer islands of the end (where the chorus biome can also spawn)."]
+			id: "7E92DD525C638AB2"
+			rewards: [
+				{
+					id: "60D2439A419D8071"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 16
+					id: "7C3D87D8FF623A54"
+					item: "enlightened_end:ebony_fence"
+					type: "item"
+				}
+				{
+					id: "4D780F4B3775BD0F"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "60C33F9A2983B1B8"
+				item: "enlightened_end:ebony_stalk"
+				type: "item"
+			}]
+			title: "Ebony Stalk"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E92DD525C638AB2"]
+			id: "12D7FD4BC49F3D28"
+			rewards: [
+				{
+					id: "6294F7528EF42A9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "4D189192CB2CD8C7"
+					item: {
+						Count: 1b
+						id: "darkutils:poison_plate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "33DBE85F9287DD24"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "65B7F208CD805ADC"
+				item: "byg:shulkren_fungus"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["12D7FD4BC49F3D28"]
+			id: "47D251C3AE1CECAB"
+			rewards: [
+				{
+					id: "7A6E992E324FF9EC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "5E1DBF9018C0BAC9"
+					item: "enlightened_end:ennegel_pasta"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "16A9EFEFA0150007"
+				item: "enlightened_end:ennegel_glob"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "72BAC92E25A843DB"
+			rewards: [
+				{
+					id: "08895493C80A1C1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1FBE3AEF96B31A5C"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "38D493A938A211E2"
+				item: {
+					Count: 1b
+					id: "quark:myalite_bricks"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0EB7D152A3046A98"]
+			description: ["The endergrade are flying end creatures that can be found in the end islands. They can be found eating chorus fruit, You can ride them with a saddle and chorus fruit on a stick, Although slow they can be useful when traversing the treacherous landscape, Although they aren't very useful anywhere else as they are very slow and weak."]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/endergrade.png"
+				}
+			}
+			id: "2A4DEBDF3C16E0D2"
+			rewards: [
+				{
+					id: "5ECC9F8D7B8545BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "17D90C70A5426D4D"
+					item: "apotheosis:pearl_endshelf"
+					type: "item"
+				}
+				{
+					id: "4A1315F566067B57"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:endergrade"
+				icon: "alexsmobs:spawn_egg_endergrade"
+				id: "6BDB8F1B85FCFEE9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EB7D152A3046A98"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/enhe.png"
+				}
+			}
+			id: "192AF43D0151121D"
+			rewards: [
+				{
+					id: "7BB860FBAEDA214F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "49855F9D104D0CF8"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E5161BF07B165FB"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "187657D335A52118"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "77B7904B490FC543"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "0EB7D152A3046A98"
+			rewards: [
+				{
+					id: "265D010FBEE337B7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7C28D34A2D9C5C28"
+					item: {
+						Count: 1b
+						id: "byg:bulbis_shell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "494F55E73896F47C"
+				item: {
+					Count: 1b
+					id: "byg:bulbis_stem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0EB7D152A3046A98"]
+			id: "6A196CC789B4198E"
+			rewards: [
+				{
+					id: "464A9ED90C6E9FB1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "009C019F324333D0"
+					item: {
+						Count: 1b
+						id: "cyclic:charm_void"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2E27449A9CA267E1"
+				item: {
+					Count: 1b
+					id: "byg:ether_log"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A196CC789B4198E"]
+			id: "25C3335CD3F77F7F"
+			rewards: [
+				{
+					id: "68498FBF0648B29E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DA859C21F7F0341"
+					item: "aquaculture:brown_shrooma"
+					type: "item"
+				}
+				{
+					id: "639424D52615F629"
+					item: {
+						Count: 1b
+						id: "aquaculture:red_shrooma"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "570FAABD4F397D58"
+				item: {
+					Count: 1b
+					id: "byg:purple_shroomlight"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72BAC92E25A843DB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/enderiophage.png"
+				}
+			}
+			id: "0BDC4238B58B6AA3"
+			rewards: [
+				{
+					id: "2169FD2F4375DBC2"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "111FC0E9EC96D5A1"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D492792059F3EDA"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "00A651AAC7D15A6A"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: "alexsmobs:spawn_egg_enderiophage"
+				id: "4D2102203B171533"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "43E4AB9EEE8802A5"
+			rewards: [
+				{
+					id: "59A995F843B7FF18"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "7C90A8C55BA6EB2E"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6EA9C9AE04A930C4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "58E5632EFADF3740"
+				title: "Find The End City"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43E4AB9EEE8802A5"]
+			id: "678CA57E073C80BA"
+			rewards: [
+				{
+					id: "1FDA1578EB9F4195"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0975E3F36BBEC2EF"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:shulker"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60B3378DB3FF67AC"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "46633E4B108C2AC6"
+				item: "minecraft:shulker_shell"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["678CA57E073C80BA"]
+			id: "4CA4A097432608A6"
+			rewards: [
+				{
+					id: "29BC463529F2F8B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7841D687047C65A0"
+					item: {
+						Count: 1b
+						id: "alexsmobs:tarantula_hawk_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73FB47E05667D69D"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76C2007C1CC4C3D1"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43E4AB9EEE8802A5"]
+			description: [
+				"Mimicubes are relatives of the slimes of the Overworld and the Magma Cubes of the Nether. These monsters can often be found guarding end cities. Unlike their slimy cousins, these gelatinous creatures possess a more powerful magic than almost any other known beast."
+				""
+				"When attacked, Mimicubes will attempt to mimic the weapons and armor of their attacker. This can mean that anyone wearing a helmet and brandishing a sword can find themselves being attacked by a Mimicube with the exact same equipment."
+				""
+				"Mimicubes can drop some of their magical gel, called Mimicream. One can harness the natural shape-shifting magic of the mimicream by using eight mimicream and any damageable item in the crafting grid. With a few limitations, this can effectively create a mimiced, copied tool or equipment, with almost all the enchantments of the original."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/mimicube.png"
+				}
+			}
+			id: "7F8E159B907F0ADD"
+			rewards: [
+				{
+					id: "6F236421DC02AC47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7A2D1428FA952582"
+					item: "alexsmobs:mimicream"
+					type: "item"
+				}
+				{
+					id: "2EE833D4FAA3F04E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				icon: "alexsmobs:spawn_egg_mimicube"
+				id: "21C41E49E874A97A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A33EEC89D130D51"]
+			id: "7B41E22954C3A94D"
+			rewards: [
+				{
+					id: "32AD7BF49CD97C0D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7BF95F4628901421"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "47070320DC6355AE"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "6328BB51C46208F9"
+				title: "&2Awake the Ender Dragon... Again!"
+				type: "advancement"
+			}]
+			x: -0.8928571428571459d
+			y: -0.7678571428571459d
+		}
+		{
+			dependencies: ["7008FF1C49CD51AD"]
+			id: "0E37113432F0E8BD"
+			rewards: [
+				{
+					id: "0B84E4384A97730F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "41505BE8BBEE534D"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "61007DDFB7809E00"
+				item: "alexsmobs:enderiophage_rocket"
+				type: "item"
+			}]
+			title: "Enteriophage Rocket"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B41E22954C3A94D"]
+			id: "16343E20329BD2F2"
+			rewards: [
+				{
+					id: "2785EC384050A4D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "150C4958D00E8696"
+					item: "mysticalagradditions:dragon_egg_crux"
+					type: "item"
+				}
+				{
+					id: "3CE0A8C2B6A9DF13"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "479783FC7A337D9D"
+				item: "mysticalagradditions:dragon_scale"
+				type: "item"
+			}]
+			title: "Dragon Scale"
+			x: -0.75d
+			y: 0.625d
+		}
+		{
+			dependencies: ["16343E20329BD2F2"]
+			id: "763A800FB961D730"
+			rewards: [
+				{
+					id: "77A21343965E0FE0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "5BE838BBE0CF5AF2"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CB5232AE5F8879D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6FEEAC6640BCD560"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Dragon Egg"
+			x: 0.1071428571428612d
+			y: 1.6607142857142918d
+		}
+		{
+			dependencies: ["192AF43D0151121D"]
+			id: "3636A75AB53F8C36"
+			rewards: [
+				{
+					id: "1B82E471A74CEBA9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02FCDBC59D97296D"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:enderman"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A90E6074AEA1489"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "1526BBF478C0770D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43E4AB9EEE8802A5"]
+			id: "1E9C22F2A7A08C39"
+			rewards: [
+				{
+					id: "3BC9006FE850CD9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "574B2A76703F8366"
+					item: "reliquary:mob_charm_belt"
+					type: "item"
+				}
+				{
+					id: "36962CFDD7DFDBE6"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6535E019F0CE5D05"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 1.642857142857146d
+			y: -0.1607142857142847d
+		}
+		{
+			dependencies: ["7E92DD525C638AB2"]
+			id: "5FE3C9E85E742804"
+			rewards: [
+				{
+					id: "1DEEF6DA4E139C72"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 16
+					id: "47B49FE37A780929"
+					item: "enlightened_end:nullstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "71910769CFA4585A"
+				item: "enlightened_end:malachite"
+				type: "item"
+			}]
+			title: "Malachite"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FCF214BD662A2E3"]
+			id: "65206F763931628C"
+			rewards: [
+				{
+					id: "6158FC8B6CAD6604"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 8
+					id: "0DF75E80D1C87AE5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "enlightened_end:enduring_waste"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "054AC1FF9376B93A"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "13A9095F40F4A575"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_plates"
+				}
+				type: "item"
+			}]
+			title: "Adamantite Plates"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EB7D152A3046A98"]
+			id: "59A6AC34663D0B81"
+			rewards: [
+				{
+					id: "274447EECF391793"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02EE05E994F34DF3"
+					item: {
+						Count: 1b
+						id: "byg:cryptic_campfire"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2826CA3EAA7AF500"
+				item: {
+					Count: 1b
+					id: "byg:cryptic_magma_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FE3C9E85E742804"]
+			id: "06D65DDFE01AAD3A"
+			rewards: [
+				{
+					id: "482F21972185095A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06F7A9AF6DB1DF33"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "26C551E4FD8B9B4B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:bismuth_ingot"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72BAC92E25A843DB"]
+			id: "53B058048BE931AE"
+			rewards: [
+				{
+					id: "2E070DDC52BDC648"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "56CA9CFF56E0A998"
+					item: "byg:ametrine_horse_armor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "1FA91A7B5680D217"
+				item: "byg:ametrine_ore"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12D7FD4BC49F3D28"]
+			id: "13D5C42B8FA3A918"
+			rewards: [
+				{
+					id: "024BF7FE340E296A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 16
+					id: "3546DB4F9A7C35BD"
+					item: {
+						Count: 1b
+						id: "cyclic:carrot_ender"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "5E044C2ADB0FD2D4"
+				item: {
+					Count: 1b
+					id: "byg:ender_lily"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["72BAC92E25A843DB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/coscod.png"
+				}
+			}
+			id: "76120B24A26A4AB9"
+			rewards: [
+				{
+					id: "762E979B83D247AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "692EA8CC205E8517"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "57B1C40F39F5F6F0"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:cosmic_cod"
+				icon: {
+					Count: 1b
+					id: "alexsmobs:spawn_egg_cosmic_cod"
+					tag: { }
+				}
+				id: "38C0FEC789E3F8A9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BDC4238B58B6AA3"]
+			id: "7008FF1C49CD51AD"
+			rewards: [
+				{
+					id: "734D9E7606BBCC29"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1469EF6C21AEB51A"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "355B07C0866D8168"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "70C521AEDD50EAE4"
+				item: {
+					Count: 1b
+					id: "alexsmobs:capsid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7008FF1C49CD51AD"]
+			description: ["The Mysterious Worm can be obtained by placing a Crimson Mosquito Larva inside an Enderiophage's Capsid."]
+			id: "09B620FA362A1232"
+			rewards: [
+				{
+					id: "6615BBFB07989025"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D05FFBA9BB9ED1"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "6E95FFC3CB2BDE0E"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68299D99B2D05943"
+				item: {
+					Count: 1b
+					id: "alexsmobs:mysterious_worm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"65206F763931628C"
+				"5FE3C9E85E742804"
+			]
+			id: "7DF6C0F52B73F477"
+			rewards: [
+				{
+					id: "1CDE4F42B610E438"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "212DE935655EBD2A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FFA9A7E5D6C0A4E"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "19FA97543B3EC62F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_ingot"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DF6C0F52B73F477"]
+			hide_dependency_lines: true
+			id: "39989695ACD16421"
+			rewards: [
+				{
+					id: "52B96D0FA83A51B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F0D1EC1679FC22B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CBACBE034158BE5"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7051D693898FEA51"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_armor_helmet"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39989695ACD16421"]
+			hide_dependency_lines: true
+			id: "360782F3CD27D57F"
+			rewards: [
+				{
+					id: "4E5E3B316E669565"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BA5DC530C391842"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "144E49D097DE9B60"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E961B8EBB8F9083"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_armor_chestplate"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["360782F3CD27D57F"]
+			hide_dependency_lines: true
+			id: "1A088E7F3F029B01"
+			rewards: [
+				{
+					id: "70C3D864DA1C1C31"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "496B22BE407757AF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "023583AFFE8E74DF"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "68C979B988EDC34C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_armor_leggings"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A088E7F3F029B01"]
+			hide_dependency_lines: true
+			id: "5B481E77490207F3"
+			rewards: [
+				{
+					id: "01C83CA1E23E3F4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60467851CBB4E1AD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6624A1AB250D26A9"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6B1C685FA466C7DA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_armor_boots"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["045F78B2C5164D63"]
+			hide_dependency_lines: true
+			id: "7BD38BC076D6E43E"
+			rewards: [
+				{
+					id: "5B558022EB986234"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4800F8FEE35AB193"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6149CD0902C2CD5A"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "55BB692566DA7EF4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_pickaxe"
+				}
+				type: "item"
+			}]
+			x: 3.9642857142857153d
+			y: 2.482142857142854d
+		}
+		{
+			dependencies: ["045F78B2C5164D63"]
+			hide_dependency_lines: true
+			id: "33824373448877E5"
+			rewards: [
+				{
+					id: "6822A483F5B2A0E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EE363DD8ECB72E7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E94A6D6AD2E80CC"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2B9DD80BAA66F2B4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_axe"
+				}
+				type: "item"
+			}]
+			x: 3.4642857142857153d
+			y: 2.982142857142854d
+		}
+		{
+			dependencies: ["045F78B2C5164D63"]
+			hide_dependency_lines: true
+			id: "0E31EDCDDA1A5EEA"
+			rewards: [
+				{
+					id: "6069046A28FF9111"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BD0F3196C4A10CE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F674274807AC975"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0B1382213E7D44DD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_shovel"
+				}
+				type: "item"
+			}]
+			x: 4.464285714285715d
+			y: 2.982142857142854d
+		}
+		{
+			dependencies: ["045F78B2C5164D63"]
+			hide_dependency_lines: true
+			id: "0406A592C47FD944"
+			rewards: [
+				{
+					id: "151BF12DC226A4F4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "747C54224AC17075"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AC72C457F802EEC"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3728BA476E495D44"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_hoe"
+				}
+				type: "item"
+			}]
+			x: 3.9642857142857153d
+			y: 3.482142857142854d
+		}
+		{
+			dependencies: ["360782F3CD27D57F"]
+			hide_dependency_lines: true
+			id: "045F78B2C5164D63"
+			rewards: [
+				{
+					id: "0DA70F0A5931F41E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64549E396EAEFF41"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "480F6E2E4CCC22DC"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "037BA18B4589A67E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:adamantite_sword"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E92DD525C638AB2"]
+			id: "555FA519570F13FD"
+			rewards: [
+				{
+					id: "368BAF9DFEEB9ECE"
+					type: "xp"
+					xp: 33
+				}
+				{
+					exclude_from_claim_all: true
+					id: "760418BA0F43BE77"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "4EB7C4FF4FC51E1B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:magnetite_crystal"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["555FA519570F13FD"]
+			id: "355D1567423CB8DC"
+			rewards: [
+				{
+					id: "5F67E7219BCCD165"
+					type: "xp"
+					xp: 33
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35590ECB13D47406"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "139F66B141EED76E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:magnet"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"39989695ACD16421"
+				"360782F3CD27D57F"
+				"1A088E7F3F029B01"
+				"5B481E77490207F3"
+			]
+			hide_dependency_lines: true
+			id: "56650B23959C2289"
+			rewards: [
+				{
+					id: "4D9907A3D20712AA"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B6BEDD49DF95C47"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4138C76D908B9A71"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "27C513130C4641F7"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "79602C5F63B8E3E8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:portal_flask"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12D7FD4BC49F3D28"]
+			id: "4A29CD5914261BCA"
+			rewards: [
+				{
+					id: "6A7EF083C37CB419"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C554EAFC6A20A78"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "321BEBC08D02BD27"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:potion"
+						tag: {
+							Potion: "enlightened_end:radiation_resistance_potion"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "250A74DF13E236A9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:ooze_bottle"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A29CD5914261BCA"]
+			id: "52EFCA67A429C2C3"
+			rewards: [
+				{
+					id: "721715EDD257342F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5FA2ABC3A87F755F"
+					item: "enlightened_end:dart"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4484B92F8ED3BD2E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2517BFFAB82CE15F"
+				item: "enlightened_end:dart"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7E92DD525C638AB2"]
+			id: "3FCF214BD662A2E3"
+			rewards: [
+				{
+					id: "00AE1BE43F68C7FB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E737272993048F6"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5AB4E2A540474043"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:enduring_waste"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E92DD525C638AB2"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/stalker.png"
+				}
+			}
+			id: "6CA4445BE2979E5D"
+			rewards: [
+				{
+					id: "20EA7366A70EB192"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C94007D08A7405B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "5EE34ED9DB47E9FC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "enlightened_end:stalker"
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:stalker_spawn_egg"
+				}
+				id: "6B43351B88C45108"
+				type: "kill"
+				value: 3L
+			}]
+			x: 7.178571428571431d
+			y: -2.6964285714285694d
+		}
+		{
+			dependencies: ["6CA4445BE2979E5D"]
+			id: "0C237F55B1EBF12A"
+			rewards: [
+				{
+					id: "432380EFD0C43F54"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2364090767325F68"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "587A7E511ED7FAE3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:stalker_tooth"
+				}
+				type: "item"
+			}]
+			title: "Stalker Tooth"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"06D65DDFE01AAD3A"
+				"0C237F55B1EBF12A"
+			]
+			id: "033BC1805EEE7F07"
+			rewards: [
+				{
+					id: "0B939089BE52CF57"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E34FB5ABC2511A6"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "75E4A4A2BC6BF68B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "enlightened_end:serrated_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12D7FD4BC49F3D28"]
+			id: "7957299B23CB20CC"
+			rewards: [
+				{
+					id: "39C7254D92491C4E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "79127407B9EA2875"
+					item: "enlightened_end:jelly_ring_item"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BC606387B8AD900"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "7D077271EF445ED4"
+				item: "enlightened_end:parasol_leaf_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+	]
+	title: "&3&oThe End"
+}

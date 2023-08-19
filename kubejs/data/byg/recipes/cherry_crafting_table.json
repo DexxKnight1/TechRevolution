@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:cherry_planks"},
+        "R":{"tag":"byg:cherry_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:cherry_crafting_table"
+    }
+}

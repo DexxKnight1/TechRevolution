@@ -1,0 +1,5102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_abyss"
+	group: "5B1FD5CFBA160ABA"
+	icon: "theabyss:unstable_obsidian"
+	id: "459FE21BF31AD78B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -1.142857142857146d
+			y: -7.446428571428573d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "kubejs:textures/item/roka.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.535714285714285d
+			y: 2.223214285714292d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "kubejs:textures/item/abyssaur.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.8392857142857153d
+			y: 0.7589285714285694d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To enter the &bAbyss&r dimension you'll need to build a portal using the &9Unstable Obsidian&r."
+				""
+				"To craft the &9Unstable Obsidian&r you'll need:"
+				"&b- 20x Obsidian"
+				"&b- 5x Crying Obsidian"
+				"&b- 20x Loran&r"
+				""
+				"The &aLoran&r can be obtained from &dLoran Ores&r in the &eEnd&r."
+				""
+				"Once you have all this materials you can build the portal, which has to be activated with &6Abyss Portal Activator&r."
+				""
+				"{image:kubejs:textures/item/abyss_portal.png width:250 height:170 align:1}"
+			]
+			id: "6B0F68E785D714E4"
+			rewards: [
+				{
+					id: "66E7642FF33932E1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "16C19A5CD1F38000"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "4A33A9FFF4E95FDB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "theabyss:the_abyss"
+				id: "31434B99DF3CA473"
+				title: "Visit Dimension: &2The Abyss II - The Other Side"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			id: "457D91C7D94C4266"
+			rewards: [
+				{
+					id: "1268F6015D484100"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3EE356B2310388A2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2013949FCF0E07BA"
+				item: "theabyss:loran_ore"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["457D91C7D94C4266"]
+			id: "32FBA5C18050522A"
+			rewards: [
+				{
+					id: "3FEB07E729BF7A8A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7FB5897EE1E95CE6"
+					item: "theabyss:loran"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "111B5477166FB501"
+				item: "theabyss:loran"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["32FBA5C18050522A"]
+			id: "29D2B3D37EB81AE3"
+			rewards: [
+				{
+					id: "0BB3C65DE3511BFA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D10ACA780104276"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "40B8CF88E128BEAB"
+				item: "theabyss:loran_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"32FBA5C18050522A"
+				"75059EF65BB20F3E"
+			]
+			description: [
+				"&3Loran Energy&r is both used as a crafting material and energy source."
+				""
+				"Unlike most items it has a durability of &b&n64&r and can have &denchantments&r applied onto it."
+			]
+			hide_dependency_lines: true
+			id: "2132C6BD66DE0344"
+			rewards: [
+				{
+					id: "045D971C08086C3D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F3D386D3642C792"
+					item: {
+						Count: 1b
+						id: "theabyss:loran_energy"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2875F3B7B7DC4BED"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7076CA667053CA11"
+				item: {
+					Count: 1b
+					id: "theabyss:loran_energy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			id: "7A081E3B5875DD64"
+			rewards: [
+				{
+					id: "1CC2173868E3B9D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "74B1A01FA706410D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09638CD381E7A89D"
+				item: "theabyss:ignisithe_ore"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A081E3B5875DD64"]
+			id: "7F9B732949B475B2"
+			rewards: [
+				{
+					id: "7AC62666B7C39D44"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1AE01AED2BA2E1BC"
+					item: "theabyss:ignisithe_gem"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "002EB70B70DAB3F9"
+				item: "theabyss:ignisithe_gem"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F9B732949B475B2"]
+			id: "19EA79B6454929D3"
+			rewards: [
+				{
+					id: "31FE149E80DAD4D0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E11B28521AED92C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "39F5EF0C8A854F1A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A4731222FB8ADC4"
+				item: {
+					Count: 1b
+					id: "theabyss:ignisithe_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			id: "48C061C55704CCE2"
+			rewards: [
+				{
+					id: "009D356A87F5FC57"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C3DE2EC16061493"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "129FDEEAB3E843C0"
+				item: "theabyss:fusion_ore"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48C061C55704CCE2"]
+			id: "515CF0E338CD9F06"
+			rewards: [
+				{
+					id: "639940BD755C90F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24A6E77804DB1C59"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1E0759A4470573B6"
+				item: "theabyss:unactive_fusion_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["515CF0E338CD9F06"]
+			id: "6B26F1F376F2929E"
+			rewards: [
+				{
+					id: "42B38F246B76F33A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "227B6DD57394549E"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "65A7BFD38B943BED"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78D3A67DD32C1AB0"
+				item: "theabyss:fusion_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			id: "15EC3A4C511CB22E"
+			rewards: [
+				{
+					id: "559A479AB4F399BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3AD7AC44A813DFF9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "05C7BFD2B8C1DD35"
+				item: "theabyss:glacerythe_ore"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["15EC3A4C511CB22E"]
+			id: "5E12778F8F74EAB5"
+			rewards: [
+				{
+					id: "69E5369B0003454E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C7746BEBFEE9036"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "006DB8098F916784"
+				item: "theabyss:glacerythe_gem"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E12778F8F74EAB5"]
+			id: "0D73D7F072DDCAB6"
+			rewards: [
+				{
+					id: "3DDE6BB1D835B06D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C930F2F7088E804"
+					table_id: 6813199617749196115L
+					type: "random"
+				}
+				{
+					id: "0C252986C9C67762"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0963B082A4768AD8"
+					item: {
+						Count: 1b
+						id: "theabyss:glacerythe_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2041DA31D32BFD29"
+					item: {
+						Count: 1b
+						id: "theabyss:glacerythe_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AA0A52C9C1F77ED"
+					item: {
+						Count: 1b
+						id: "theabyss:glacerythe_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "681D622D1EAE0F50"
+					item: {
+						Count: 1b
+						id: "theabyss:glacerythe_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Glacerythe Armor"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			id: "180B476B93492B79"
+			rewards: [
+				{
+					id: "13D38E12B406DAE7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3CEF8996A3701877"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "507DF3EDA4DDFC8C"
+				item: "theabyss:garnite_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["180B476B93492B79"]
+			id: "43DD0E92AB930CF8"
+			rewards: [
+				{
+					id: "137F96EB6D79888E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BA37349492D8F12"
+					item: "theabyss:garnite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A69027E9B383449"
+				item: "theabyss:garnite_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			id: "1D16C01CD80EDFC1"
+			rewards: [
+				{
+					id: "1C2C789535F63CFB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "576FE89F2B0706B5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "321BDECFA9B5AB9A"
+				item: "theabyss:aberythe_ore"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D16C01CD80EDFC1"]
+			id: "589950417C2BBF76"
+			rewards: [
+				{
+					id: "091893D07DE443F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "13A801C469936686"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "7C0F3C16598E0312"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "76FA585D3547AA84"
+				item: "theabyss:aberythe_gem"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["589950417C2BBF76"]
+			id: "1663754CEE80FC30"
+			rewards: [
+				{
+					id: "2DE4D4E0DD74CD23"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "474BAD969C7AAB82"
+					table_id: 6813199617749196115L
+					type: "random"
+				}
+				{
+					id: "18241AEC594E1336"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0E51507A40D60CB5"
+					item: {
+						Count: 1b
+						id: "theabyss:aberythe_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57ACFE8960D71E54"
+					item: {
+						Count: 1b
+						id: "theabyss:aberythe_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F64D93D59D08358"
+					item: {
+						Count: 1b
+						id: "theabyss:aberythe_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C125440ECA6CEA5"
+					item: {
+						Count: 1b
+						id: "theabyss:aberythe_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Aberythe Armor"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["589950417C2BBF76"]
+			id: "4112947C8E772130"
+			rewards: [
+				{
+					id: "020092BA1C4557B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "460F2BD5BE1E6397"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "5BB6D95F6236CF07"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C33C43F0CF27193"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:aberythe_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:aberythe_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:aberythe_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:aberythe_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Aberythe Tools"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["589950417C2BBF76"]
+			id: "4292FEBE5BFBFD32"
+			rewards: [
+				{
+					id: "3544F66DEE84834A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4361D5E09C32B678"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "107A1BC56949DB65"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54E0590E6B267525"
+				item: {
+					Count: 1b
+					id: "theabyss:aberythe_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			id: "651A0DE978B4C308"
+			rewards: [
+				{
+					id: "2795CE2367E92431"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "080061DF9E95275C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5E1B63A9E6216EE9"
+				item: "theabyss:incorythe_ore"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["651A0DE978B4C308"]
+			id: "75059EF65BB20F3E"
+			rewards: [
+				{
+					id: "7AF74F42DED43AD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CD864608255525F"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "780D054E8CB922C1"
+				item: "theabyss:incorythe_gem"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_slime_spider.png"
+				}
+			}
+			id: "16DD01CE55A29E82"
+			rewards: [
+				{
+					id: "22FCA22ACD77248B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17BF372640A744E7"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "05AC34AB398EBF61"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:slime_spider"
+				icon: "theabyss:slime_spider_spawn_egg"
+				id: "2B5DEEB9F0AFA10F"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_phantom.png"
+				}
+			}
+			id: "7963FB8000ABF8BB"
+			rewards: [
+				{
+					id: "54DA8FF8F3993295"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "695369D0939846BC"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7C887A077C7FB770"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "theabyss:infected_phantom"
+				icon: "theabyss:infected_phantom_spawn_egg"
+				id: "1CEA308E9A5C730C"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16DD01CE55A29E82"]
+			id: "148E5E4DCDBF7485"
+			rewards: [
+				{
+					id: "3503301C1DA2B6A3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "215B8AB835698C82"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "34E77D9289DB234C"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "68D7F5BCACA7792E"
+				item: "theabyss:infected_slime"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7963FB8000ABF8BB"]
+			description: [""]
+			id: "37298F04B0042BBE"
+			rewards: [
+				{
+					id: "7BDAB8F5BA922DF2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "546582B710B8D2C8"
+					item: "theabyss:phantom_soul_item"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "102D0C337A92D024"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0F68C2FEC2EFF2EB"
+				item: "theabyss:phantom_soul_item"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"37298F04B0042BBE"
+				"223468E7C3D8BAAA"
+			]
+			id: "6E1959383E7B5157"
+			rewards: [
+				{
+					id: "05362E609E02087F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1368282B6496EF6C"
+					item: "theabyss:phantom_essence"
+					type: "item"
+				}
+				{
+					id: "6684B2CCFAC746DE"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0825C626BE646367"
+				item: "theabyss:phantom_essence"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E1959383E7B5157"]
+			id: "626596FEBBA49561"
+			rewards: [
+				{
+					id: "26D1490AB2CD888E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14FE66EF09A50D85"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "0543BDAE8546FD1D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CE063B2E4A5E82A"
+				item: "theabyss:phantom_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["626596FEBBA49561"]
+			id: "7BD495D8F4E830E9"
+			rewards: [
+				{
+					id: "72218957F455417E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "067DA0B4B5D667E0"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "06F712E91862D5C5"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "1D5157D480F3ACD1"
+				item: "theabyss:unorithe_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_scorpion.png"
+				}
+			}
+			id: "0863445268AF655F"
+			rewards: [
+				{
+					id: "3755361D9EDD8AE0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79E4832D9B0D5413"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "3B625E0B65A90854"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:scorpion"
+				icon: "theabyss:scorpion_spawn_egg"
+				id: "686CA3ABF177570C"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0863445268AF655F"]
+			id: "08E323CD74C66CF8"
+			rewards: [
+				{
+					id: "6A972FBE6E91A839"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AD9C879FF57DA8D"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "0566617B42472B57"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0005E358375F26F1"
+				item: "theabyss:scorpion_eye"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_creeper.png"
+				}
+			}
+			id: "784B8718EF1A3097"
+			rewards: [
+				{
+					id: "793D56A22A143A60"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00C0FE1D48E143EC"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "6FAD4E1EBB77DA87"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:infected_creeper"
+				icon: "theabyss:infected_creeper_spawn_egg"
+				id: "223DE25407064F1C"
+				type: "kill"
+				value: 5L
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["784B8718EF1A3097"]
+			id: "6AE11C0C29379DD6"
+			rewards: [
+				{
+					id: "1B8E07977B5E2ECE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2257667F75AD1593"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "41D6739FA56DE781"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "1DFB0C2900DF6BFF"
+				item: "theabyss:creeper_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_ice_knight.png"
+				}
+			}
+			id: "58C2F7C7B73E3216"
+			rewards: [
+				{
+					id: "6734EEAB55B7B47E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62F5EE3C349AC0C1"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "4CAD29BB11BCCDFC"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "theabyss:ice_knight"
+				icon: "theabyss:ice_knight_spawn_egg"
+				id: "44CABCDB31CB0C8C"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["58C2F7C7B73E3216"]
+			id: "1F135968A8E422F7"
+			rewards: [
+				{
+					id: "7DA8114958E46370"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3B9822932CB45DED"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "41A04D4DCF2901F1"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "3E40268BC8A4E3C8"
+				item: "theabyss:knight_shard"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F135968A8E422F7"]
+			id: "3873BA2AC86C8D7C"
+			rewards: [
+				{
+					id: "31B908DE33D06046"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A43E85D76DB4340"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "5FC191BE3A422AA9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5958A8B06FFEB6F6"
+				item: "theabyss:bricked_knight_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3873BA2AC86C8D7C"]
+			id: "076883099C94561F"
+			rewards: [
+				{
+					id: "55969A9A61B5918E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E36AE4B904F60A6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78C892A0E03D4138"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "50D2A6D0B4290347"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E55DAF24586B134"
+				item: "theabyss:knight_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["076883099C94561F"]
+			id: "6CA010FF4AAD1351"
+			rewards: [
+				{
+					id: "72E451043ED45D00"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E6193B48C77963F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "341EBA89CE7910CB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48D125497D54CEB3"
+				item: {
+					Count: 1b
+					id: "theabyss:knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			description: [
+				"The &eRoka&r is a Mini-Boss that spawns in &9Blue Forests&r."
+				""
+				"The &eRoka&r drops 1 &7Roka Horn&r which has a 100% chance to drop."
+				"Like most drops this drop is not affected by looting."
+				""
+				"The &7Roka Horn&r can be crafted into various &dRings&r as well as the &6Eye Of Abyss&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_roka_end_boss.png"
+				}
+			}
+			id: "3B4E65B4FFFF526F"
+			rewards: [
+				{
+					id: "2A7E67C2636392CE"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "134405D7D3ED8555"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7E6F85A1FC1D38CD"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:the_roka"
+				icon: "theabyss:the_roka_spawn_egg"
+				id: "1DF1DD95F9DD5EC6"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B4E65B4FFFF526F"]
+			id: "10C4C38B5C104ED1"
+			rewards: [
+				{
+					id: "7D16B93BCFF07576"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30B3A9F4AB5F51AE"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7731F04E1F549218"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "15D1B8A1BE6E90C4"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0A9E501269C5E397"
+				item: "theabyss:roka_horn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2132C6BD66DE0344"]
+			hide: false
+			id: "7FE8AEA17E23AEEA"
+			rewards: [
+				{
+					id: "13C64B42C390F804"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41852EDEA74E3BFD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "49FC958A17340DCB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "03077F179F682AD6"
+				item: "theabyss:arcane_workbench"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["43DD0E92AB930CF8"]
+			id: "4910F029ACAE9F2E"
+			rewards: [
+				{
+					id: "25EC9130BF1AD0E2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25676D2BCE47BCD7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "74D8A5E5A829A118"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "397046A8C203FA3C"
+					item: {
+						Count: 1b
+						id: "theabyss:garnite_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B23009764AE6BB1"
+					item: {
+						Count: 1b
+						id: "theabyss:garnite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B85D88F9B8CF06E"
+					item: {
+						Count: 1b
+						id: "theabyss:garnite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70BA7E4D830C9848"
+					item: {
+						Count: 1b
+						id: "theabyss:garnite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Garnite Armor"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43DD0E92AB930CF8"]
+			id: "4DC44C42040B6984"
+			rewards: [
+				{
+					id: "7746A55E14778038"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "534965C5E60F274F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "0A7CAFB6B4BAC81E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6771F18F2CC33FF6"
+				item: {
+					Count: 1b
+					id: "theabyss:garnite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43DD0E92AB930CF8"]
+			id: "08B00DC35509652B"
+			rewards: [
+				{
+					id: "188A62B0E4A96F45"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0333B0E20C904379"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "7971858B1A305E55"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5197C44F4338B530"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:garnite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:garnite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:garnite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:garnite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Garnite Tools"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"32FBA5C18050522A"
+				"29D2B3D37EB81AE3"
+			]
+			description: [
+				"The &dTotem Of Abyss&r will activate once bellow &c3 Hearts&r or &e6 HP&r. Once activated it will restore your health back to max."
+				""
+				"Unlike a regular totem it does not grant any effects. Along with this, this totem will not activate to &aCreeper&r explosions or &4instant kill&r methods."
+				""
+				"It has a durability of &b&n100&r which means it has a total of &b&n&l4 uses&r when unenchanted."
+				""
+				"However when &denchanted&r with &eUnbreaking III&r it can last for over &b&n10+ times&r."
+			]
+			hide_dependency_lines: true
+			id: "036FA3A4CD94FF22"
+			rewards: [
+				{
+					id: "40AE9119D9344071"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DC410012876B363"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "293E1D08C141153A"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			tasks: [{
+				id: "7AF3405CCD3A1A5C"
+				item: {
+					Count: 1b
+					id: "theabyss:totem_of_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F9B732949B475B2"]
+			id: "05FB21AB88A39710"
+			rewards: [
+				{
+					id: "23B259BD7FAF6C98"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "562FCEFF0A0E9FB9"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5D0C7854AB57F2E9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1992BD0A75FF3B53"
+					item: {
+						Count: 1b
+						id: "theabyss:ignisithe_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49FDA1B009DF2191"
+					item: {
+						Count: 1b
+						id: "theabyss:ignisithe_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "282FD12C8C0E4D7D"
+					item: {
+						Count: 1b
+						id: "theabyss:ignisithe_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28DAE6C703CEF691"
+					item: {
+						Count: 1b
+						id: "theabyss:ignisithe_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ignisithe Armor"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B26F1F376F2929E"]
+			id: "114B48B6E734DCEE"
+			rewards: [
+				{
+					id: "7818A304CCBEB03A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A9CFF4031AC672B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "2D5CD30560234ACA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7836715DD8714F23"
+				item: {
+					Count: 1b
+					id: "theabyss:fusion_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B26F1F376F2929E"]
+			id: "0BAA49BAA498E557"
+			rewards: [
+				{
+					id: "24009DA4D6F45256"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "594FDC28F3865F9C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2C773FB196EBEBFE"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "48EB8AC8F9A50D09"
+					item: {
+						Count: 1b
+						id: "theabyss:fusion_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E59E60691CE5FC0"
+					item: {
+						Count: 1b
+						id: "theabyss:fusion_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A63D160569ADAD7"
+					item: {
+						Count: 1b
+						id: "theabyss:fusion_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A75FAA0A272BCC3"
+					item: {
+						Count: 1b
+						id: "theabyss:fusion_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fusion Armor"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B26F1F376F2929E"]
+			id: "382444BDCE237F24"
+			rewards: [
+				{
+					id: "5498A93EDD05C070"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73DD8A4DD4D0C417"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "40C2B550E8AE0A0C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10F5572DB68812A1"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:fusion_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:fusion_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:fusion_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:fusion_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Fusion Tools"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75059EF65BB20F3E"]
+			id: "090457094804EAC8"
+			rewards: [
+				{
+					id: "46B4738A1F63FB6E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "560395553983BEF9"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "79A1508CD0153000"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "162D1A29BD94499A"
+					item: {
+						Count: 1b
+						id: "theabyss:incorythe_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1715E0DC4E1D44FC"
+					item: {
+						Count: 1b
+						id: "theabyss:incorythe_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "477FA9B0AFF4AD2C"
+					item: {
+						Count: 1b
+						id: "theabyss:incorythe_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "783250605B9FBA09"
+					item: {
+						Count: 1b
+						id: "theabyss:incorythe_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Incorythe Armor"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75059EF65BB20F3E"]
+			id: "71F19AFBDE0E235D"
+			rewards: [
+				{
+					id: "592DBB4B01E3C590"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A3C326CBB29F970"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "275E08EBACC28969"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C5E0C09768701AD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:incorythe_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:incorythe_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:incorythe_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:incorythe_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Incorythe Tools"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75059EF65BB20F3E"]
+			id: "469E7A2408B37B3C"
+			rewards: [
+				{
+					id: "5BC2601D152B85E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E3470833FD60C24"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "1AD96AE8F70880BC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7885401B244195EF"
+				item: {
+					Count: 1b
+					id: "theabyss:incorythe_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["469E7A2408B37B3C"]
+			id: "3BE03375C70F8556"
+			rewards: [
+				{
+					id: "56E6CB60BC3BC072"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "217A431194DEF900"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74AF70C0A724EFE8"
+				item: {
+					Count: 1b
+					id: "theabyss:incorythe_sword_mkii"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FA0EFCD2EF781F6"]
+			icon: "theabyss:somnium_infuser"
+			id: "0A5B3C003C5D860F"
+			rewards: [
+				{
+					id: "5C54F4A961D28EDC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00F5B90B44A3A89D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4841723EF6E16388"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.8d
+			tasks: [
+				{
+					id: "6743420E0FD87A60"
+					item: "theabyss:test_tube_head"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4724D68DD2B55827"
+					item: "theabyss:test_tube"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "43C798056CA7A3BE"
+					item: "theabyss:cobble_stone"
+					type: "item"
+				}
+			]
+			title: "¬&bThe Somnium Infuser"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2132C6BD66DE0344"]
+			id: "449F415BD03DD0ED"
+			rewards: [
+				{
+					id: "73EEFBB3F2FD1D43"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F4D89A21572A90F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "669E9DCB5D12BF23"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7072B1572A3ED87B"
+				item: "theabyss:mortar_and_pestle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2132C6BD66DE0344"]
+			id: "44CEEDB2078754EA"
+			rewards: [
+				{
+					id: "2602FABE994DA989"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "598BBC683682D611"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1348BE9FB039A160"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "582506769D63CF7F"
+				item: "theabyss:research_table"
+				type: "item"
+			}]
+			x: -8.285714285714292d
+			y: -1.8125d
+		}
+		{
+			dependencies: ["2132C6BD66DE0344"]
+			id: "65D1C84A1C44AA68"
+			rewards: [
+				{
+					id: "63E0006267E02B84"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5873CDB64DB0F6E5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "07F6352373201BB8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70AE7E10A391F6F7"
+				item: "theabyss:somnium_extractor"
+				type: "item"
+			}]
+			x: -5.678571428571431d
+			y: -1.7723214285714235d
+		}
+		{
+			dependencies: ["2132C6BD66DE0344"]
+			id: "00F31A131544690E"
+			rewards: [
+				{
+					id: "6B85B86621AC2CD6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C8F3690E7D2678"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5EF7B5FDE3D13053"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "698E19E5E4CA4D78"
+				item: "theabyss:crystal_cutter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_lurker.png"
+				}
+			}
+			id: "7D0AB9E09E9064E2"
+			rewards: [
+				{
+					id: "6B99A5B0BC9CB5C1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F549EC94877F14F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "293AB71F82CE24C6"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:jungle_lurker"
+				icon: "theabyss:jungle_lurker_spawn_egg"
+				id: "722B1D71C293B430"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D0AB9E09E9064E2"]
+			id: "15CCA46AF2796DEA"
+			rewards: [
+				{
+					id: "5D75CAB3A905662D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75E5EB7896D8AA79"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "6113AF395927CD48"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "066F35246C05B0F5"
+				item: "theabyss:lurker_sobber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["626596FEBBA49561"]
+			id: "0E7DE39A078A0AC7"
+			rewards: [
+				{
+					id: "0213BA9343FA2EED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "763F5422C4ED0DE7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "12B08B2C466F89C8"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5CE30A78AF686482"
+					item: {
+						Count: 1b
+						id: "theabyss:phantom_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "527A5E7D3E323560"
+					item: {
+						Count: 1b
+						id: "theabyss:phantom_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26C36AB2C44C0BA9"
+					item: {
+						Count: 1b
+						id: "theabyss:phantom_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5003D63FC2AEAA36"
+					item: {
+						Count: 1b
+						id: "theabyss:phantom_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Phantom Armor"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["626596FEBBA49561"]
+			id: "0C43EE9007965C11"
+			rewards: [
+				{
+					id: "0B9CFA117BA5705C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365460A7A0AB17D4"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "59AFF1487801CD1E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11F0BC0EA1A470D4"
+				item: {
+					Count: 1b
+					id: "theabyss:phantom_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["626596FEBBA49561"]
+			id: "498E2091CA568A08"
+			rewards: [
+				{
+					id: "1CDC123CB967AAC5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A9F25477B7241B3"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "04BA9A868634DCD5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B6537490135381A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:phantom_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:phantom_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:phantom_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:phantom_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Phantom Tools"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7BD495D8F4E830E9"]
+			id: "491ED2B255F3E89F"
+			rewards: [
+				{
+					id: "638F5F3565AA495F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53AB6B2387F342BB"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "09A519FBB5F64936"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38485A073C09C76B"
+					item: {
+						Count: 1b
+						id: "theabyss:unorithe_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C5EF3D3FCA8FA91"
+					item: {
+						Count: 1b
+						id: "theabyss:unorithe_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6048B82373D2C71D"
+					item: {
+						Count: 1b
+						id: "theabyss:unorithe_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "762400F1ADA97784"
+					item: {
+						Count: 1b
+						id: "theabyss:unorithe_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Unorithe Armor"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BD495D8F4E830E9"]
+			id: "3A59691715AE0A85"
+			rewards: [
+				{
+					id: "1364335ED39B7A90"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "785180302CF2B6D0"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "4AA5063EFD268E98"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68A207D101220DF9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:unorithe_pick_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:unorithe_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:unorithe_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:unorithe_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Unorithe Tools"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BD495D8F4E830E9"]
+			id: "7F5A9E2DCEB6C5C2"
+			rewards: [
+				{
+					id: "56F43B42B2D75F2F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CA79D7FB9FF7278"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "7C0A5DC78D56079E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B2287AE068E8C09"
+				item: {
+					Count: 1b
+					id: "theabyss:unorithe_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["076883099C94561F"]
+			id: "35B35D7C12B3D578"
+			rewards: [
+				{
+					id: "7D8301665E5E6336"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AB229F9C0B3517F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "6BCBBC85EFDA6A87"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1317E3709971FD24"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:knight_pick_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:knight_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:knight_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:knight_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Knight Tools"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			icon: "theabyss:enchanted_bottle_of_somnium"
+			id: "2FE446A901C9935D"
+			rewards: [
+				{
+					id: "5E1C9114F097FC78"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "022382228D200D5F"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "11A6A1B51944F926"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "052765630F5E8638"
+				item: "theabyss:somnium_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_soul_guard.png"
+				}
+			}
+			id: "6160BD86F911188B"
+			rewards: [
+				{
+					id: "049C00AF5D076241"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23E4B102438ADB53"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "32924706A9C298C5"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:soul_guard"
+				icon: "theabyss:soul_guard_spawn_egg"
+				id: "3460B14CD7319DDD"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6160BD86F911188B"]
+			id: "48766B72505098F2"
+			rewards: [
+				{
+					id: "115C8424A0A879EA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05DD9F130C79489D"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "44F43B35E67CD5AD"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "3E999B974A83E88C"
+				item: "theabyss:soul_heart"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			id: "2F8CD3CCF5EDB682"
+			rewards: [
+				{
+					id: "38254B7C7B5F0853"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "609082A6F94FF7A2"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "05BDAEA2D00C6078"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "533018F396786673"
+				item: "theabyss:somnium_regen_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			id: "2A8D651DD2640C4A"
+			rewards: [
+				{
+					id: "3BFD592C32FE140C"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DBE858EE89332B1"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "2CA60D115450E0BC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "01FF144157481833"
+				item: "theabyss:anti_fear_essence"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			id: "445F208369EBA1E9"
+			rewards: [
+				{
+					id: "31767F8014E388BF"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43492B5A903E0589"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "385212EFD9DB15C0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "02C79AD8128D73E1"
+				item: "theabyss:somnium_cooldown_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			description: [
+				"&dCrystal Golem&r is a Mini-Boss that is slightly over 3 blocks tall."
+				"It has one of the most health in game aside from bosses."
+				""
+				"&dCrystal Golems&r drop 1 &1Crystal Hand&r which is not affected by looting."
+				""
+				"A &1Crystal Hand&r can only be used to craft &6Eye Of Abyss&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_crystal_golem.png"
+				}
+			}
+			id: "018CC18D69854D1F"
+			rewards: [
+				{
+					id: "037832C38C4F240B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FBDDCA60F93D0E5"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "71BE36CAAEF14D85"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:crystal_golem"
+				icon: "theabyss:crystal_golem_spawn_egg"
+				id: "284E123F71A5FF1F"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["018CC18D69854D1F"]
+			id: "53C72446542CD7A3"
+			rewards: [
+				{
+					id: "6AD29A0DD72CAEE7"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A780B7E87C6C9AC"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D3B8CDAE45D12B"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7A0E6109E8DDA584"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "27888FDECFF820F1"
+				item: "theabyss:crystal_hand"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			id: "2DE76D1E3C28DC27"
+			rewards: [
+				{
+					id: "59B40C994B962D44"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18073200426892CF"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "3376DC517203E6FF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2AE16D440A155B29"
+				item: "theabyss:somnium_damage_upragde"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			id: "6065387AA2C07646"
+			rewards: [
+				{
+					id: "0D590223857EA40D"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ED14BE9FF0E341C"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "0E9280391C286A19"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "02C8F698230F762C"
+				item: "theabyss:immortal_substance"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			id: "29D75AD3143011CB"
+			rewards: [
+				{
+					id: "6718D0FAAA637185"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5690418B297B1C9A"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "75966B8B254CBFA8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "56CB8C456F24EBF8"
+				item: "theabyss:anti_infect_essence"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A5B3C003C5D860F"]
+			id: "5C49D9C301BC84AD"
+			rewards: [
+				{
+					id: "4BE33A334A75D418"
+					type: "xp"
+					xp: 45
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79E7B1FA131C2F04"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "1E967D6D95CD5786"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "08A4EBC1DF08D49E"
+				item: "theabyss:lurker_juice"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E68F373FB933E0E"]
+			id: "0EE5AA0401EAAA75"
+			rewards: [
+				{
+					id: "1865F07BB729CBAA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6061E4C64AFEF4E2"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "2D6CCC89B32DCF55"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0D8AB6093C5D3419"
+				item: "theabyss:rotten_flesh"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65D1C84A1C44AA68"]
+			description: [
+				"&3Somnium&r is an item that can be obtained through the &eSomnium Extractor&r. In the &eSomnium Extractor&r &9Loran Energy&r and &9Loran&r are placed in there to create &3Somnium&r."
+				""
+				"&3Somnium&r can then be used in a crafting table with a glass bottle to create &cBottle Of Somnium&r. Drinking the &cBottle Of Somnium&r will fill up the &3Somnium Bar&r."
+			]
+			hide_dependency_lines: true
+			id: "5FA0EFCD2EF781F6"
+			rewards: [
+				{
+					id: "26E4E5A3466C3EBC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "262B7A5C7E5FEEB5"
+					item: "theabyss:somnium"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6F235FA92670C7FC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "274A274E0B78F639"
+				item: "theabyss:somnium"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_elder.png"
+				}
+			}
+			id: "126499813B8D2E12"
+			rewards: [
+				{
+					id: "05DAE99320FF327A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AFEA8445DDAAD1B"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "34D7738B75C77944"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:elder"
+				icon: "theabyss:elder_spawn_egg"
+				id: "44CDB51FC66D8FB1"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["126499813B8D2E12"]
+			id: "32792E36905DBC19"
+			rewards: [
+				{
+					id: "6C54A9EAEF74E508"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1590F6BDDB99C7EA"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78504B2EA0775977"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1F8D8ACDE8BF06F8"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "44FA160EA70E8355"
+				item: "theabyss:elder_eye"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "7CE1B0A8E651AF05"
+			rewards: [
+				{
+					id: "03548EEDA803FB7F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69ABEFDC64E3EE7D"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F2A5A0E5B637B7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "542A611C77719FC2"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "36702F16463A3A3E"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_reg"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.7d
+			y: 0.7d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "60F61EDB498EF15E"
+			rewards: [
+				{
+					id: "0DD530F29949B1ED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "124E187F14A3E032"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75FACD4C17D586BA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "099899C0F80C953B"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "07BD3BAC6A8FC40B"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_teleport"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.7d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "5C6C5D10139428C0"
+			rewards: [
+				{
+					id: "78E6FBEB8ED87F84"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05DF39506F90A0B1"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BB4313C5C768142"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "425C2119E76AAEF0"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "68A71B0CAACE07AA"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_eagle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.3d
+			y: 0.7d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "4357BE5671FA081C"
+			rewards: [
+				{
+					id: "66F492AD9179C7AB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "257E9629B99DAB33"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC21E8881CB9CC4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1FBD06539FE13249"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "30A5B8FD1B1DBD76"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_invisibility"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.7d
+			y: 1.4d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "75237BB2FE4CC832"
+			rewards: [
+				{
+					id: "63CA9C81CEDDAB8B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FF75B2480368619"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E57A50B885528C0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5C47CF29459C31ED"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3EBEED00E24F60A3"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_ocean"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.7d
+			y: 2.1d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "60E8538DA5B8DDCE"
+			rewards: [
+				{
+					id: "315B7D33867FDEBE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41577DC70A0DD1C7"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7437E6BD04F9BEA5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1FB1B02C02295445"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7B82F3761DADC0CE"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_thunder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.3d
+			y: 2.0999999999999996d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "0A50D0432F8BF1BB"
+			rewards: [
+				{
+					id: "559F92DF17DF6EFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68555CD9734120DA"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "626D53B984BA1AD0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1ACC76F8395225F5"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3F14958731AA9543"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_freeze"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.499999999999999d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "62E4B991A6DDEEAE"
+			rewards: [
+				{
+					id: "13F4B47785CFDB1B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17B81A722AC2517D"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2520F03E9DB5E2E5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1E08A371EBCE5F40"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4D02F13582637214"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_telekinetic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.7d
+			y: 3.499999999999999d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "5AFCDEC48C1B8461"
+			rewards: [
+				{
+					id: "790E86F4FFDA97E3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D6C6D57B6DB9944"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D26EF9293426805"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "510CDEFD21BE8DCA"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "550C362B303B72FB"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.4d
+			y: 2.8d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "44CDC6DFC3B50ECF"
+			rewards: [
+				{
+					id: "03DEAE8E45AAE751"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FF308F704C070B2"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46AC62DFE529FE04"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3008F4525C667850"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0B2BE33F464737F5"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_speed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.3d
+			y: 3.499999999999999d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "7C44C4ED792C2769"
+			rewards: [
+				{
+					id: "32C74BEFFD64C788"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F17E8F0483B0322"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2676421C2A379E1B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2D75F5084296AD76"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4E8C2F382EF97066"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_ghosts"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.4d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "0366121F2F6F6187"
+			rewards: [
+				{
+					id: "3F17F12255DFA34B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BB6A47B9CCF87AC"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DA257F228C1994C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3CCEFD784DB8D921"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1CA7EC5DAD3F14C2"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_time"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 2.8d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "0FB7DC4207A9D9BA"
+			rewards: [
+				{
+					id: "289D3B030F09B9FA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A8B4E4D203EA399"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "610E85D54A066453"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4926ED68A892E953"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "26F57AFE3A708736"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_jugger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "4AA4B52403FCFD1D"
+			rewards: [
+				{
+					id: "1C857EF8993532D3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48E7AF9DFB2651F8"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D003C3804A7371A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "14C2F180724EE21D"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "03037AFA33717E57"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_electro"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 2.0999999999999996d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "0EA92E40B68416B1"
+			rewards: [
+				{
+					id: "29CBB50767F94136"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "111873DD4B217374"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78BB69B289E86214"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5A1AFF06CC5C933F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "195E02355F8AAC71"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_firestrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 1.3999999999999997d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "6C615310E79FD1E4"
+			rewards: [
+				{
+					id: "71D34ED45E39BB33"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10EDFFD052335E0C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "430AD24613268A81"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7B77AE7C9A26ACF9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4A597A119435EB3C"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_blackstrike"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: 0.7d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "70002AB21A8669DC"
+			rewards: [
+				{
+					id: "44F6A5BC757341A9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "563B7DE9E3BF60E5"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E58F952EAED1F0C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "776C0DB0F79BE259"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "27F00EE12033EBCD"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_slide"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.95d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "66B137ECA98A66EA"
+			rewards: [
+				{
+					id: "241D88DE0F4C72BB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "451C81946E31F441"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CC8FBA8AEF3BB0D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7950E13C0CCBE73D"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2A140AB13C9E8AA4"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_curse"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.4d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "7757AE3C677CDFE6"
+			rewards: [
+				{
+					id: "6582777FFD19CD66"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D0BD3C543040D9B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C1DBD2E4FF645A1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "598AF177EA70C393"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "37197DB387D8CC3F"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_firestorm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.3d
+			y: 1.4d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "690F6E4A47A3925A"
+			rewards: [
+				{
+					id: "66D73DCE9F2BDD8F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59F25EF600090A34"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C53DBB193CD106C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "40B6C3BE1DC82491"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3A906E8433B16C34"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_nightblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "7DF6B9C9AAC7CF46"
+			rewards: [
+				{
+					id: "399D50F97D72808C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EFB888AD1D79A8E"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "323C7E1CE9F6206C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "36FD07E548523916"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "59D8EA1E2C50CC7B"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_home"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.7d
+			y: 2.799999999999999d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "2BA1EC8E0ABE97AE"
+			rewards: [
+				{
+					id: "67ED26C1309EEAAC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CBD0E9D9E5D4E8B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1024CF0651CF1A41"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7AD432DDAF24F017"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7C6804CF1F08A2B5"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_pocket_box"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.000000000000001d
+			y: 2.799999999999999d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "597D2E21838C068E"
+			rewards: [
+				{
+					id: "128136BB06151650"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "138DCD4B8E3FB6C9"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53399C8BDE5557EB"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "796A48EDB7F8B166"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6416573B52ED9772"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_seeker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.4d
+			y: 1.3999999999999997d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "3594E51989CB0AE6"
+			rewards: [
+				{
+					id: "6FBE84F456D1CA2F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F7FDEE4E59EEB56"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0692B289F5567532"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "140E1DB9E711E040"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5E0A648E870FF0DE"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_ender_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.4d
+			y: 2.0999999999999996d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "1AF6385B15EE5286"
+			rewards: [
+				{
+					id: "76B3262D8485D0E1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AB7EBE81C7BB0FA"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CBA98E42C29A715"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "242F1B61EEEBC632"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4495671E18836AD0"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_nature"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.4d
+			y: 0.7d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "013DE8DA4D7D6C40"
+			rewards: [
+				{
+					id: "75A4B529576DD852"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68BF7292C7FE3BC2"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5175650EB82ABD5D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "520CE053EBCE680F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0DCE81FD71CE0F85"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_flight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.300000000000001d
+			y: 2.799999999999999d
+		}
+		{
+			dependencies: ["69C525B22E85C531"]
+			hide_dependency_lines: true
+			id: "4FAF6DF603BAFDF0"
+			rewards: [
+				{
+					id: "5B36C2B6F7F717B7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EBA36B675F65AD3"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "710C87BBB1590BDF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "03323AEE43E54928"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4248AF8D16C7FFEA"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_fangs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.049999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FE8AEA17E23AEEA"]
+			id: "69C525B22E85C531"
+			rewards: [
+				{
+					id: "5DABC36952B3CD3C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "348F1C609F25DECD"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "41FF41FDDEB63344"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6E26E0051576EC30"
+				item: {
+					Count: 1b
+					id: "theabyss:ring_of_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.035714285714278d
+			y: -0.1696428571428541d
+		}
+		{
+			dependencies: [
+				"53C72446542CD7A3"
+				"32792E36905DBC19"
+				"10C4C38B5C104ED1"
+			]
+			description: [
+				"&6Eye Of Abyss&r can be used in the &dNight Altar&r to summon &2Nightblade&r."
+				""
+				"&dNight Altar&r can be found in the &bNightblade Summoning Structure&r."
+				""
+				"The &dNight Altar&r can be interacted with an &6Eye Of Abyss&r once all the pillars are lit in the Summoning Structure."
+				""
+				"If the pillars are &b&nnot&r lit you will receive a message saying:"
+				"&o&7\"That Does Not Work...\"&r"
+				""
+				"Once interacted with it will change its appearance."
+				""
+				"The &6Eye Of Abyss&r it's a final game item that cannot be used for anything else."
+			]
+			hide_dependency_lines: true
+			id: "7DE921F7FFEF4FE6"
+			rewards: [
+				{
+					id: "2B2B50AB6BD80A11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D8DBBF8A70FF88B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "3B83312DADC89385"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			tasks: [{
+				id: "2BD1C57DBDBB56ED"
+				item: "theabyss:eye_of_abyss"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/abyss_cow.png"
+				}
+			}
+			id: "5E68F373FB933E0E"
+			rewards: [
+				{
+					id: "552153ED4F8D4637"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A68C011F3F654B6"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "175974A0270F4F16"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "theabyss:infceted_cow"
+				icon: "theabyss:infceted_cow_spawn_egg"
+				id: "27E380CD569D8541"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"32FBA5C18050522A"
+				"2132C6BD66DE0344"
+			]
+			description: [
+				"The &dTotem Of Time&r will activate once bellow &c3 Hearts&r or &e6 HP&r. Once activated it will restore your health back to max and gives the effect &9Time Stop&r."
+				""
+				"Unlike the other Abyss Totems this grants an effect. Along with this, this totem will not activate to &aCreeper&r explosions or &4instant kill&r methods."
+				""
+				"It has a durability of &b&n100&r which means it has a total of &b&n&l4 uses&r when unenchanted."
+				""
+				"However when &denchanted&r with &eUnbreaking III&r it can last for over &b&n10+ times&r."
+			]
+			hide_dependency_lines: true
+			id: "3537A81356CE5C92"
+			rewards: [
+				{
+					id: "3A5D5F763962718D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B85016650F20047"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "62278064583520F2"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			tasks: [{
+				id: "2989E2AB8442BCDF"
+				item: {
+					Count: 1b
+					id: "theabyss:totem_of_time"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["32FBA5C18050522A"]
+			description: [
+				"The &dTotem Of Thunder&r will activate once bellow &c3 Hearts&r or &e6 HP&r. Once activated it will restore your health back to max and strike any mobs in the vicinity with &9Lightning&r."
+				""
+				"Unlike a regular totem it does not grant any effects. Along with this, this totem will not activate to &aCreeper&r explosions or &4instant kill&r methods."
+				""
+				"It has a durability of &b&n100&r which means it has a total of &b&n&l4 uses&r when unenchanted."
+				""
+				"However when &denchanted&r with &eUnbreaking III&r it can last for over &b&n10+ times&r."
+			]
+			hide_dependency_lines: true
+			id: "381E8A5F6B68D189"
+			rewards: [
+				{
+					id: "76ABB9018B8563D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04AA7D14B67F10D3"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "38F16A351C296E63"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			secret: true
+			shape: "hexagon"
+			tasks: [{
+				id: "3269BFDBBACD6CBB"
+				item: {
+					Count: 1b
+					id: "theabyss:totem_of_thunder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7963FB8000ABF8BB"]
+			description: [
+				"&3Broken Titan Bone&r can be crafted into &8Titan Bone&r."
+				""
+				"It can be gotten by breaking &6Bone Blocks&r that can be found in &cPhantom&r biomes."
+				"It can also be obtained in the &2Abyss Dungeon&r."
+			]
+			id: "1A337DA4552CB898"
+			rewards: [
+				{
+					id: "3314CE962DCD6051"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FC7FBE4ADCF3EE8"
+					item: "theabyss:fixed_bone"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "2B76173B82905975"
+				item: "theabyss:broken_bone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1A337DA4552CB898"]
+			id: "223468E7C3D8BAAA"
+			rewards: [
+				{
+					id: "159F1E8DF71AB600"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25EE25981EC4F0F4"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "2BEF976BAA8B2CF9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5A984D9E7CCB7A86"
+				item: "theabyss:fixed_bone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32FBA5C18050522A"]
+			id: "4AB42E3CD56BDA84"
+			rewards: [
+				{
+					id: "482A6A1CD0A77DDD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4204E52F9BDF97B5"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "30F7588F20CDEC8A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "225B8D007F80B0A6"
+				item: {
+					Count: 1b
+					id: "theabyss:shuriken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["223468E7C3D8BAAA"]
+			id: "38C27CEE1F15F72E"
+			rewards: [
+				{
+					id: "4F75FB82FD6CFCE5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51C28E0F6DBA2F6F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "550C54C166A1CF15"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [
+				{
+					id: "4C628F9B94130FFA"
+					item: {
+						Count: 1b
+						id: "theabyss:bone_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A2E4BD4A7C8A67A"
+					item: {
+						Count: 1b
+						id: "theabyss:bone_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "035AF371B990B8A7"
+					item: {
+						Count: 1b
+						id: "theabyss:bone_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C6A11A41867F37F"
+					item: {
+						Count: 1b
+						id: "theabyss:bone_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bone Armor"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["223468E7C3D8BAAA"]
+			id: "7A82C90B0A3C4B8B"
+			rewards: [
+				{
+					id: "01916D3E026F534D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "728D054EA6A07CAC"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "78F3E16A18FAFDBB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "0DE84205DAEB0D2C"
+				item: {
+					Count: 1b
+					id: "theabyss:bone_sword_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["223468E7C3D8BAAA"]
+			id: "5143093C488B656A"
+			rewards: [
+				{
+					id: "773F85DE4956C970"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471EB37739585E3D"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "4CDE17BC5331C31E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "1A5AE3F750494F29"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "theabyss:bone_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:bone_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:bone_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "theabyss:bone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Bone Tools"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4AB42E3CD56BDA84"]
+			id: "73DC9EDA375651D7"
+			rewards: [
+				{
+					id: "3D1DEE4EE31D432F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "63B482F0ABF3A319"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			secret: true
+			tasks: [{
+				id: "0712803656E03CE1"
+				item: {
+					Count: 1b
+					id: "theabyss:shuriken_explosive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B0F68E785D714E4"]
+			description: [
+				"To access the &bFrost World&r, have to craft the &eKey of Ice&r out of 2 Glacerythe Gems and one dark stone."
+				""
+				"Once a key has been acquired, use it on 4x5 vertical, rectangular frame of dark stone to gain access to the &bFrost World&r."
+				""
+				"Portal construction and activation is identical to vanilla &cNether&r portal procedures, with the exception of using &8Dark Stone&r in the place of &1Obsidian&r and the &eKey of Ice&r instead of &3Flint and Steel&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/frost_portal.png"
+				}
+			}
+			id: "731AD5B1280D241B"
+			rewards: [
+				{
+					id: "0DE7F688586C5392"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1504C424FD2768"
+					table_id: 4915960327715244389L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "0A6694884CC82292"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6FC2E978B2C2B75D"
+					item: {
+						Count: 1b
+						id: "theabyss:frost_world"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "09307B10570D8106"
+					item: "theabyss:dark_stone"
+					type: "item"
+				}
+			]
+			title: "&bThe Frost World"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4AF722A3316A4E5F"]
+			description: [
+				"&6Sword of Abyss&r is a weapon dropped after defeating the Nightblade boss."
+				""
+				"It deals &b&n22&r &cdamage&r, pretty good attack speed and descente durability."
+				""
+				"The Sword can be enchanted with normal sword enchantments."
+			]
+			id: "2C3097EF3834517E"
+			rewards: [
+				{
+					id: "4A959CACD580B3F0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "0BCC847E0762952E"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2229693D70A73B37"
+				item: {
+					Count: 1b
+					id: "theabyss:abyss_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+	]
+	title: "&3The Abyss II - The Other Side"
+}

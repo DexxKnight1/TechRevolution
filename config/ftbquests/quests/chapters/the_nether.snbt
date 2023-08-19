@@ -1,0 +1,2098 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nether"
+	group: "5B1FD5CFBA160ABA"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:textures/item/netherportal.png"
+		}
+	}
+	id: "6EBA4636AE96703F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.1428571428571459d
+			y: -5.8749999999999964d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.5d
+			hover: [ ]
+			image: "kubejs:textures/item/bastion_remnant.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 6.821428571428569d
+			y: 2.4107142857142847d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "kubejs:textures/item/pigman.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/wither_skeleton.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "669F5B17AB52A55D"
+			rewards: [
+				{
+					id: "050BA5456EB8AB64"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "694F6C4EBDA2A2F1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5D1D0E03723829F3"
+				title: "Visit Dimension: &2The Nether"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["61D6D62B804DAB03"]
+			id: "248D9AABA055FA0F"
+			rewards: [
+				{
+					id: "42193E2D8590E586"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7034DA6E127646D6"
+					item: "minecraft:quartz_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "7CA3C1B7DFB54F97"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -9.357142857142854d
+			y: -2.4107142857142776d
+		}
+		{
+			dependencies: ["6AD7D2C1D779E242"]
+			id: "2D5B898FA770B44E"
+			rewards: [
+				{
+					id: "2139616842E0BF0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "7975E5E8E27F7F8D"
+					item: "minecraft:nether_wart_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "3A3688084FB42010"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["248D9AABA055FA0F"]
+			id: "7A990724DDEBCDE9"
+			rewards: [
+				{
+					id: "5C2C7F02B537276F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "71054D704E7BC652"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "5412D2A12D826A2D"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			description: ["This is one of the biomes used to generate the Nether. Within this biome mobs such as ghasts, packs of piglins, zombified piglins and the occasional magma cubes and endermen spawn. Certain structures, such as Nether quartz ore \\& glowstone blobs, and Nether fortresses generate only in the Nether. Water lakes (and other Overworld structures) can still generate if the Nether is used in a superflat preset. Beds explode when used in this biome."]
+			id: "61D6D62B804DAB03"
+			rewards: [
+				{
+					id: "4565A687CCA27344"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "1E6BD51F4598EE25"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:nether_wastes"
+				icon: "minecraft:netherrack"
+				id: "26A7B9455590E661"
+				title: "Visit Biome: &2Nether Wastes"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			description: [
+				"A gray biome, the basalt deltas are said to be the remnant of ancient volcanic eruptions."
+				""
+				"The ground consists of basalt and blackstone blocks, with small patches of netherrack and pools of lava. The shape of the terrain is chaotic and uneven, making it somewhat difficult to traverse and build on. Unlike the other biomes in the Nether, Bastion remnants do not generate in basalt deltas. When this biome borders a lava ocean, clusters of basalt form near the coast."
+				""
+				"Magma cubes have a high spawn rate in this biome, making the Basalt Deltas the best place to farm Magma Cream. This biome also contains a much higher abundance of blackstone compared to other Nether biomes."
+			]
+			id: "01DC8326BFC1FE72"
+			rewards: [
+				{
+					id: "29E54E273EFB2535"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "0399616522BA03F0"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				icon: "chipped:overlapping_basalt_tiles"
+				id: "53773713773476A3"
+				title: "Visit Biome: &2Basalt Deltas"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			description: [
+				"The soul sand valley is a large grotto that is extensive and cuts through the Nether's usual terrain. Notable features of the biome are exposed nether fossils in various shapes and sizes, large amounts of lava, blue fog, large spires made of basalt, soul fire, and the occasional Nether fortress or Bastion remnant. The biome itself consists of soul sand, basalt and soul soil."
+				""
+				"This biome is extremely dangerous to traverse due to the combination of ghasts and skeletons spawning here and soul sand slowing down the player's movement speed, making it easy for a player to get overwhelmed by projectile attacks. In addition, ghasts fireballs impacting soul sand or soul soil can create soul fire, which is more harmful than regular fire if players get caught in it. It is recommended to avoid this biome unless players have sufficient equipment/strategies to navigate the terrain. The Soul Speed enchantment is especially helpful for traveling through this biome."
+			]
+			id: "22BF9344340978A4"
+			rewards: [
+				{
+					id: "6CCAA8261143EC0A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "089185EE02F690BD"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1345E33D551D8E72"
+					item: "minecraft:soul_soil"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:soul_sand_valley"
+				icon: "minecraft:soul_soil"
+				id: "7799F9E3042E8051"
+				title: "Visit Biome: &2Soul Sand Valley"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			description: [
+				"The Crimson Forest is a “red” crimson-themed biome, with warped and crimson fungus as well as huge crimson fungus scattered around the environment."
+				""
+				"There are huge fungus structures that contain weeping vines hanging off them and may also have a few blocks of shroomlight. The floor of the biome is covered in crimson nylium, with crimson roots growing. Occasional patches of netherrack and red nether wart blocks are found scattered throughout the biome. In the ceiling, apart from glowstone clusters, there are sparse nether wart block stalactites with vines growing."
+				""
+				"Piglins, zombified piglins and hoglins naturally spawn in this biome. As long as players equip at least one piece of gold armor, piglins should not cause any trouble. Hoglins can also be repelled by staying close to warped fungus. However, without these countermeasures, this biome can be fairly hostile to navigate. Nevertheless, the abundance of hoglins in this biome makes it a great source of food in the Nether, and the high population of piglins makes this biome an ideal location to barter with them."
+			]
+			id: "38DA9B7CBFD3EF84"
+			rewards: [
+				{
+					id: "72340040819E15ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "46746F2250CB6988"
+					item: "minecraft:crimson_stem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				icon: "minecraft:crimson_nylium"
+				id: "458502414DDE4350"
+				title: "Visit Biome: &2Crimson Forest"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			description: [
+				"The warped forest is a dense, “cyan” warped-themed biome, with warped and crimson fungus as well as huge warped fungus scattered around."
+				""
+				"The huge fungus structures may have a few blocks of shroomlight scattered around them. The floor of the biome is covered in warped nylium, with warped roots and nether sprouts growing. Occasional patches of raw netherrack and warped wart blocks can be found scattered throughout the biome."
+				""
+				"Apart from Striders, Endermen are the only mobs that spawn in this biome, making the warped forest an ideal location to collect ender pearls to access the End. This biome is also a relatively safe place to reside in the Nether, due to the fact that no hostile mobs spawn here. However, do note that other hostile mobs can still spawn from Bastion remnants that generate here, as well as from Nether fortresses that have cut into a warped forest after generating in another biome."
+			]
+			id: "6DE27D07E3DF9AE6"
+			rewards: [
+				{
+					id: "64D0492C730CA167"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "734356D773CBE616"
+					item: "minecraft:warped_stem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				icon: "minecraft:warped_nylium"
+				id: "3C1C81B3F7359D01"
+				title: "Visit Biome: &2Warped Forest"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A990724DDEBCDE9"]
+			id: "6AD7D2C1D779E242"
+			rewards: [
+				{
+					id: "4791DCA88B1AA563"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "7EA1E71B69B4774C"
+					item: "minecraft:nether_bricks"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "046B93CAC91AE37D"
+					item: "minecraft:red_nether_bricks"
+					type: "item"
+				}
+				{
+					id: "53BC0B05D726EE68"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "2C1AFC6E7DCE8C5D"
+				type: "advancement"
+			}]
+			title: "&2Find Nether Fortress"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			description: [
+				"Bastion remnants are large, castle-like generated structures found in the Nether in all of the biomes except basalt deltas. They generate in four distinct variants, each with a unique structure and set of loot."
+				""
+				"Piglins and piglin brutes spawn in these structures on generation, and hoglins may also spawn on generation in the bridge and hoglin stables variants."
+				""
+				"Bastion remnants are the only place to find the Pigstep music disc, the snout banner pattern, and the magma cube spawner."
+			]
+			id: "740634CC501C68FB"
+			rewards: [
+				{
+					id: "340CDFD8DE8A861D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "474B6790F7543FB4"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "2B3596CCD8EEA5A8"
+				type: "advancement"
+			}]
+			title: "&2Find Bastion Remnant"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22BF9344340978A4"]
+			id: "3619853C17BBA191"
+			rewards: [
+				{
+					id: "1859E520DDC70D44"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 16
+					id: "1EAE9A2908DA9D72"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "3FA30B9A6116C1B2"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "73C17050A6DD4EF9"
+				type: "advancement"
+			}]
+			title: "&2Kill Ghast with his own weapon"
+			x: -2.999999999999993d
+			y: -1.2678571428571388d
+		}
+		{
+			dependencies: ["3619853C17BBA191"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ghast.png"
+				}
+			}
+			id: "577D3DA1895B6D5F"
+			rewards: [
+				{
+					id: "06E7A1D4295AC127"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F2E764D90A08AED"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "minecraft:ghast"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A130D33F5E1F862"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "564FB4A0F6B84FC3"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "1C25B4C6D8B66B8F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["577D3DA1895B6D5F"]
+			id: "41125601D0C31176"
+			rewards: [
+				{
+					id: "6BD9C2CEF709F5D4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7157534768DC5A49"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "01AEB04AD106E137"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5BFA2074F362F93A"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD7D2C1D779E242"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/wskull.png"
+				}
+			}
+			id: "67E6E91784357EA5"
+			rewards: [
+				{
+					id: "2356492D7ED2F36D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2B295BCA42E53DC5"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "05DDC41F0C7B64C1"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "76FFAC7085633B8B"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["67E6E91784357EA5"]
+			id: "084807CC5D12528B"
+			rewards: [
+				{
+					id: "7D7EA283B4D54D45"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0225833F22FA4039"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "780299A1D3CC745C"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6AD7D2C1D779E242"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/blaze.png"
+				}
+			}
+			id: "1CDFBC965BAA217C"
+			rewards: [
+				{
+					id: "03D1A88B622355E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F8B7822ECCB6A62"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "149C1E4ED88A79BF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "255B9CE094B2B935"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5E55004892DA2E36"
+				type: "kill"
+				value: 10L
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1CDFBC965BAA217C"]
+			id: "7B42D53ABBE26B9E"
+			rewards: [
+				{
+					id: "11439E3B2636D7EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "752DE3793B70F9CF"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "343BA585E5911CE0"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "3B806A383DB6E156"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["740634CC501C68FB"]
+			id: "3B52B6A9E01EEE06"
+			rewards: [
+				{
+					id: "6F2B367AE7C295BC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "57C95A27B72266DC"
+					item: "morediscs:music_disc_krushearz"
+					type: "item"
+				}
+				{
+					id: "350FA2B7730D6699"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7738599CC39A3029"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["756C7A17DA1095F0"]
+			id: "6A6CF24AC6305BED"
+			rewards: [
+				{
+					id: "235A3EFD435EABB7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "51A19512E3D55FA3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0C466A6D82C31282"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "09F34937E759D898"
+				item: "minecraft:polished_blackstone_bricks"
+				type: "item"
+			}]
+			x: -6.678571428571431d
+			y: -0.017857142857138797d
+		}
+		{
+			dependencies: ["799A545D9389170A"]
+			description: [
+				"With the &9Soul Forge&r you'll be able to transmut &6Gold&r ingots to &3Necronium&r ingots by using &bSoul Quartz&r as a fuel. "
+				""
+				"Don't use a stack of Gold ingots and stack of Soul Quartz, bacause the Soul Forge will consume &b&n60&r Soul Quartz for &b&n2&r Necronium ingots. By using &b&none by one&r you can transmut one Gold ingot into one Necronium ingot at cost of just &b&none&r Soul Quartz."
+			]
+			id: "0666B01000975A34"
+			rewards: [
+				{
+					id: "26D7487CF0B41C73"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38C7BA655767CD5F"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5BEED819A2CCA902"
+				item: "nourished_nether:soul_forge"
+				type: "item"
+			}]
+			x: -1.8928571428571388d
+			y: -0.3392857142857153d
+		}
+		{
+			dependencies: ["6DE27D07E3DF9AE6"]
+			id: "2392C048E8B2AB48"
+			rewards: [
+				{
+					id: "741A442FB76BE7AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "7479A9830F874469"
+					item: "minecraft:stripped_warped_stem"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "593A6E8784A9C895"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			x: 3.857142857142861d
+			y: -1.982142857142854d
+		}
+		{
+			dependencies: ["38DA9B7CBFD3EF84"]
+			id: "162B792C03B6722C"
+			rewards: [
+				{
+					id: "7708E592B8B94514"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "3F4C385A2BF70C57"
+					item: "mcwlights:crimson_tiki_torch"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "7BD988516AAC4EBA"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["162B792C03B6722C"]
+			id: "03F7CB67AACB4095"
+			rewards: [
+				{
+					id: "6841BE055824ED21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FE27E2662CF396F"
+					item: {
+						Count: 1b
+						id: "lightingwand:wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "31164838BECC2A2C"
+				item: "minecraft:shroomlight"
+				type: "item"
+			}]
+			x: 1.9285714285714235d
+			y: -0.6607142857142776d
+		}
+		{
+			dependencies: ["01DC8326BFC1FE72"]
+			id: "5ABEB1721628EF20"
+			rewards: [
+				{
+					id: "646430D2B9960B0A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "62ED6083D21F1560"
+					item: "minecraft:polished_basalt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "5DF106550D604E8E"
+				item: {
+					Count: 1b
+					id: "minecraft:basalt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.428571428571431d
+			y: -2.9107142857142847d
+		}
+		{
+			dependencies: ["59A3A6B9D7C4A2D6"]
+			id: "1644A256A9CD6559"
+			rewards: [
+				{
+					id: "661CCABE8778F24F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "53F42D41AD1D183A"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "6A2CE238E9B1DF09"
+				item: "minecraft:magma_cream"
+				type: "item"
+			}]
+			x: 8.464285714285715d
+			y: 0.8035714285714235d
+		}
+		{
+			dependencies: ["740634CC501C68FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/mcube.png"
+				}
+			}
+			id: "59A3A6B9D7C4A2D6"
+			rewards: [
+				{
+					id: "583FE66357B47571"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1589A12684F2C238"
+					item: "cyclic:anvil_magma"
+					type: "item"
+				}
+				{
+					id: "60EEAA64AD81296F"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "52946065C5A46EDF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				id: "1D7C88DD0D396A76"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.642857142857139d
+			y: -0.3749999999999929d
+		}
+		{
+			dependencies: ["523D3DBFC0537627"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/piglin_brute.png"
+				}
+			}
+			id: "5B81A9BB53B48203"
+			rewards: [
+				{
+					id: "79590DA84DD82D4D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "70DBB6945BEAB299"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "4BFB4BE07C72B0B7"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "4C098B5F627BC167"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["740634CC501C68FB"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/piglin.png"
+				}
+			}
+			id: "523D3DBFC0537627"
+			rewards: [
+				{
+					id: "3F1D3822327743EB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 8
+					id: "428F5F3626DAE76D"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "2F0F1A81F0CD5F0E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["740634CC501C68FB"]
+			id: "3FE9359A9DAEA36A"
+			rewards: [
+				{
+					id: "131B94C53D4491B1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B28060D50E4888E"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "27BFEFD26771BE3C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "misctags:banner/patterns"
+					}
+				}
+				title: "Find any Banner Pattern"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			description: [
+				"Ancient debris is a rare ore found in the Nether, and is the main source of netherite scraps. Its high blast resistance makes it immune to normal explosions. In item form, it floats on lava and cannot be burned by any form of fire."
+				""
+				"Ancient debris generates in the Nether in the form of blobs. Up to two blobs may generate per chunk: one blob of 1–3 ancient debris attempts to generate with a periodic normal distribution (similarly to lapis lazuli ore) from levels 8 to 22, and an additional blob of 0–2 ancient debris attempts to generate randomly from levels 8 to 119. On average, Y-level 15 has the most ancient debris."
+			]
+			id: "587B2CD4C9B4860C"
+			rewards: [
+				{
+					id: "6FE1F3816B169D21"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0028C4371BDED46E"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "14BDA2AB1CB8D359"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "3B7F3723628A4CEE"
+				title: "&2Find Ancient Debris"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["587B2CD4C9B4860C"]
+			description: ["Netherite scrap is a material smelted from ancient debris, which is found in the Nether. It is used solely for crafting netherite ingots. Like most netherite-related items, it is not flammable."]
+			id: "3AE4F193DBC2464B"
+			rewards: [
+				{
+					id: "7ABE999438E5D3F9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 16
+					id: "07ADB817404D8E09"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "6B8F5645F0FA0E70"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 0.1071428571428612d
+			y: -1.982142857142854d
+		}
+		{
+			dependencies: ["3AE4F193DBC2464B"]
+			description: ["Netherite ingots are items obtained from crafting netherite scraps and gold ingots together, as well as loot from bastion remnant loot chests. Unlike other items, they are immune to fire and lava damage. They are primarily used to upgrade diamond gear and craft lodestones."]
+			id: "317B80BB771DEDF6"
+			rewards: [
+				{
+					id: "21A375926FEC32DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "428EDD39BB4D1264"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6BA2669FBE917A23"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "369A394DCA4645DB"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 0.0714285714285694d
+			y: -0.7678571428571388d
+		}
+		{
+			dependencies: ["317B80BB771DEDF6"]
+			description: ["A block of netherite is a precious metal block made from nine netherite ingots. Unlike most items, it is resistant to fire and lava."]
+			id: "799BD4941482FA9D"
+			rewards: [
+				{
+					id: "24188D9D5BC4850A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "687309B839DFB5B6"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "6BD565F599234513"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3281A6F2999E6564"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			x: 1.0357142857142847d
+			y: 0.2678571428571459d
+		}
+		{
+			dependencies: ["03F7CB67AACB4095"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/hoglin.png"
+				}
+			}
+			id: "4D33C82879480A1F"
+			rewards: [
+				{
+					id: "424D5AE176ADB8CE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 16
+					id: "78175804D4823DD4"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "4BBAA28480C7BE67"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:hoglin"
+				id: "5A7CFE96E3FFE5D4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.7857142857142776d
+			y: 0.3035714285714306d
+		}
+		{
+			dependencies: ["4D33C82879480A1F"]
+			id: "0362EDDF9CCDA09A"
+			rewards: [
+				{
+					id: "685D734A2FD141B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6D84D405CE8B23F2"
+					item: "nourished_nether:cooked_hoglin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "662D22D94DFD6F91"
+				item: "nourished_nether:raw_hoglin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22BF9344340978A4"]
+			description: [
+				"Soul sand is a block found naturally only in the Nether. Soul sand usually slows down the movement of mobs and players walking on it. It is also used for growing nether wart and for constructing a Wither."
+				""
+				"Soul soil is a block naturally found only in the soul sand valley."
+				"Unlike soul sand, soul soil does not slow mobs down and does not create bubble columns."
+			]
+			id: "2A739D919882BCC1"
+			rewards: [
+				{
+					id: "09BD4D415FC02CA8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "14DB5D236DD5BB8B"
+					item: "mcwfences:modern_nether_brick_wall"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "08AC137821133E84"
+					item: "mcwfences:railing_nether_brick_wall"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "0C25E6427E043E74"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "16BB09F296DC6507"
+					item: "minecraft:soul_soil"
+					type: "item"
+				}
+			]
+			title: "Soul Sand \\& Soul Soil"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22BF9344340978A4"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/nether_fossil.png"
+				}
+			}
+			id: "43B9BC1D5EA35B9E"
+			rewards: [
+				{
+					id: "4FF8AB6295ADD400"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "36A31B89E7624671"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "201DC4018F4E77AE"
+				item: "minecraft:bone_block"
+				type: "item"
+			}]
+			title: "&2Nether Fossil"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["38DA9B7CBFD3EF84"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/cmsq.png"
+				}
+			}
+			id: "5F7199C4BDEFA2D4"
+			rewards: [
+				{
+					id: "5C0463321A250CD2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "472F86214BC23BD8"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "alexsmobs:crimson_mosquito"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "167832C0022E641A"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "3B0C885F3644126F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: {
+					Count: 1b
+					id: "alexsmobs:spawn_egg_crimson_mosquito"
+					tag: { }
+				}
+				id: "2FA501ED611631B0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0714285714285694d
+			y: -1.4107142857142847d
+		}
+		{
+			dependencies: ["6A6CF24AC6305BED"]
+			id: "70D1BB8EC25D71BE"
+			rewards: [
+				{
+					id: "7B7A86BD016B2B53"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "001CCF1FF6FAD1C5"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:diamond_shulker_box"
+						tag: {
+							accentColor: 8439583
+							mainColor: 16701501
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "174FAA856A89D58F"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "418492285956BDEC"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: -6.607142857142854d
+			y: 1.1964285714285694d
+		}
+		{
+			dependencies: ["6CE18CE0654DB170"]
+			description: [
+				"First you have to do is to find a open space in the nether. Build a large platform as your fight Arena for example &b&n20x20&r."
+				""
+				"Place the &cNether Reactor Core&r in the middle of your &bArena&r with 3 &aNether Reactor Rods&r around it and power up with &6Blaze Powder&r."
+				""
+				"The Reactor will spawn &eBlazes&r and &ePiglin Brutes&r in waves. &nEach&r wave spawns more mobs and &neach&r time needs to be powered with Blaze Powder."
+				""
+				"After defeating each wave you'll be reward with random but good items."
+				""
+				"Enjoy your &oFIGHT&r."
+				""
+				"{image:kubejs:textures/item/nether_reactor_core.png width:210 height:120 align:1}"
+			]
+			icon: "nourished_nether:nether_reactor_core"
+			id: "78668D3B9D2BB225"
+			rewards: [
+				{
+					id: "45C36A324511858C"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B19312F1D1492BB"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "42C2E355CD7CF9E9"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "5E1CA6BB3DCE4B6F"
+					item: "nourished_nether:nether_reactor_core"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "059130133F79D727"
+					item: "nourished_nether:nether_reactor_rod"
+					type: "item"
+				}
+				{
+					id: "24CB5FF69E0AB766"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "&4The Nether Reactor Core"
+			x: 0.75d
+			y: 2.4464285714285694d
+		}
+		{
+			dependencies: ["01DC8326BFC1FE72"]
+			id: "756C7A17DA1095F0"
+			rewards: [
+				{
+					id: "18050C9655701636"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0212AD18D8784F15"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "2A5B531043B0CF08"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01DC8326BFC1FE72"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/straddler.png"
+				}
+			}
+			id: "75ED1C15B8426098"
+			rewards: [
+				{
+					id: "2E87CCD4C3EA48C0"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3A9F8A0FE68EC044"
+					item: {
+						Count: 1b
+						id: "reliquary:mob_charm"
+						tag: {
+							Damage: 0
+							entity: "alexsmobs:straddler"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "735BD7D182EA15AC"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "1B3225A04ED83D5F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:straddler"
+				icon: "alexsmobs:spawn_egg_straddler"
+				id: "3F479B6B7381CEFB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			id: "4B1B398098750158"
+			rewards: [
+				{
+					id: "7740313FC34C6695"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CA420B4D432EB97"
+					item: "byg:embur_bookshelf"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "byg:embur_bog"
+				icon: "byg:embur_hyphae"
+				id: "5E2059BC7FAE61B4"
+				title: "Visit Biome: &2Embur Bog"
+				type: "biome"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B1B398098750158"]
+			id: "624E053D2B0E203C"
+			rewards: [
+				{
+					id: "26DA4248B433EA99"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "333CF3ED622D21B6"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "0B74290E215F2C5B"
+				item: "byg:embur_gel_block"
+				type: "item"
+			}]
+			title: "Embur Gel Block"
+			x: 5.142857142857139d
+			y: -2.6607142857142847d
+		}
+		{
+			dependencies: ["34FF301C22A86827"]
+			id: "799A545D9389170A"
+			rewards: [
+				{
+					id: "2EA1B6738076F0BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "1E38FE71D25D410D"
+					item: "nourished_nether:soul_quartz"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "39E3DA7164AC0792"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "3FE91D31279E5EB5"
+				item: "nourished_nether:soul_quartz"
+				type: "item"
+			}]
+			x: -1.107142857142854d
+			y: -1.2678571428571388d
+		}
+		{
+			dependencies: ["624E053D2B0E203C"]
+			id: "152C0E3B1BCCF2E1"
+			rewards: [
+				{
+					id: "27D48046F4FC2015"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5891DAFD1322922E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "352417356307B01E"
+				item: "byg:embur_lily"
+				type: "item"
+			}]
+			title: "Embur Lily"
+			x: 4.857142857142861d
+			y: -1.5892857142857082d
+		}
+		{
+			dependencies: ["162B792C03B6722C"]
+			id: "419F1387EB6666DC"
+			rewards: [
+				{
+					id: "25E8557B18E84569"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "42AB604014EBE439"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "71BF169D558C2AB6"
+				item: "nourished_nether:red_nether_brick"
+				type: "item"
+			}]
+			x: 2.892857142857139d
+			y: -1.1964285714285694d
+		}
+		{
+			dependencies: ["2392C048E8B2AB48"]
+			id: "01C2E0673C52850F"
+			rewards: [
+				{
+					id: "00C7609DBC7469FA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3EF4D77AC6372DB0"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "440DB06D60AD3CCC"
+				item: "nourished_nether:warped_nether_brick"
+				type: "item"
+			}]
+			x: 3.9285714285714235d
+			y: -0.6964285714285694d
+		}
+		{
+			dependencies: ["2A739D919882BCC1"]
+			id: "35CE32079F098125"
+			rewards: [
+				{
+					id: "0CDB090D087EF3F3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CC28C056AF9CF0F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2670197E39FFEBA9"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "097D432D9AF78485"
+					item: "byg:warped_soul_sand"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "430691DB63CD4039"
+					item: "byg:warped_soul_soil"
+					type: "item"
+				}
+			]
+			title: "Warped Soul Sand \\& Warped Soul Soil"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["669F5B17AB52A55D"]
+			id: "753766F41DF3A0D2"
+			rewards: [
+				{
+					id: "47D59D395621888E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 12
+					id: "7B236AD18ACFCA6C"
+					item: "byg:polished_travertine"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "byg:subzero_hypogeal"
+				icon: "byg:travertine"
+				id: "33ED768779444E3C"
+				title: "Visit Biome: &2Subzero Hypogeal"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["753766F41DF3A0D2"]
+			id: "5EC21C3DD734D73B"
+			rewards: [
+				{
+					id: "179B0513DB5838DC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2827AD2C872E553F"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "59FAA483D399BABB"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "079F15842715729C"
+				item: "byg:subzero_crystal_shard"
+				type: "item"
+			}]
+			x: 9.285714285714292d
+			y: -3.374999999999993d
+		}
+		{
+			dependencies: ["753766F41DF3A0D2"]
+			id: "093F5567A373A7CE"
+			rewards: [
+				{
+					id: "2A033922F2953198"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D46044083739962"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "15673A8A02B7CDE0"
+				item: "byg:frost_magma"
+				type: "item"
+			}]
+			x: 8.571428571428584d
+			y: -2.6607142857142847d
+		}
+		{
+			dependencies: [
+				"0362EDDF9CCDA09A"
+				"6B3376E2219375C9"
+			]
+			id: "50689FD7BE774313"
+			rewards: [
+				{
+					id: "4FA9AD0A3453F808"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "149334AC6C173DD9"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "75FB14EA725FB371"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				count: 3L
+				id: "34FD77DB7708B643"
+				item: "nourished_nether:polterpork"
+				type: "item"
+			}]
+			x: 3.2857142857142847d
+			y: 2.767857142857139d
+		}
+		{
+			dependencies: ["22BF9344340978A4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ecto.png"
+				}
+			}
+			id: "16F95A1C5BC10D49"
+			rewards: [
+				{
+					id: "050647696ED084FC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BB0E2AE3CFE515C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "154D1FE045E7BEE3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "nourished_nether:ecto"
+				icon: "nourished_nether:ecto_spawn_egg"
+				id: "6F23B8808E57361E"
+				type: "kill"
+				value: 3L
+			}]
+			x: 4.107142857142861d
+			y: 0.8035714285714235d
+		}
+		{
+			dependencies: ["16F95A1C5BC10D49"]
+			id: "6B3376E2219375C9"
+			rewards: [
+				{
+					id: "53889CC8E0CE1619"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35423B979A622271"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "067F40D0E77F855C"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "7363D3B8C8F3AE11"
+				item: "nourished_nether:ectoplasm"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22BF9344340978A4"]
+			id: "433AD15E31E0CF50"
+			rewards: [
+				{
+					id: "3B909D22CF5E0756"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "620D178804ECC94D"
+					item: "nourished_nether:sludge_brick"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2B68B74305AD1D97"
+				item: "nourished_nether:sludge_ball"
+				type: "item"
+			}]
+			x: -1.6785714285714235d
+			y: -3.0535714285714235d
+		}
+		{
+			dependencies: ["5ABEB1721628EF20"]
+			id: "3594273CF4E61D50"
+			rewards: [
+				{
+					id: "02025621CD0841F1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "75499CC99AB57B8B"
+					item: "nourished_nether:ash_lump"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "24C3EFB69D7716E8"
+				item: "nourished_nether:ash_lump"
+				type: "item"
+			}]
+			x: -7.607142857142854d
+			y: -2.482142857142854d
+		}
+		{
+			dependencies: ["22BF9344340978A4"]
+			description: [
+				"By standing on the &aSoul Sludge&r it turns automatically into the &dRich Soul Sludge&r. Using a &eHoe&r you can farm the &bSoul Quartz&r. Be careful every time by harvesting a pice of Soul Quartz the Soul Sludge takes a pice of your &csoul&r (health), so be prepared."
+				""
+				"This works only in the &3Soul Sand Valley&r biome in the &2Nether&r. "
+			]
+			icon: "nourished_nether:rich_soul_sludge"
+			id: "34FF301C22A86827"
+			rewards: [{
+				id: "3ED9BB76871DA5AF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6035677A1951D62A"
+				type: "checkmark"
+			}]
+			title: "&dThe Rich Soul Sludge"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0666B01000975A34"]
+			id: "6CE18CE0654DB170"
+			rewards: [
+				{
+					id: "5A3FC4E996A03596"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A76F384F15F10C4"
+					item: "nourished_nether:necronium_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4729DC48E3797327"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					count: 3
+					id: "4063E21A3C4E717D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "1D6A547706CB1596"
+				item: "nourished_nether:necronium_ingot"
+				type: "item"
+			}]
+			x: -1.2142857142857153d
+			y: 0.875d
+		}
+		{
+			dependencies: ["6CE18CE0654DB170"]
+			id: "6AAA8D5281645AF5"
+			rewards: [
+				{
+					id: "5D8E746347B4CD08"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52A056D65DD59245"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69409B105CE16E44"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "nourished_nether:necronium_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "nourished_nether:necronium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "nourished_nether:necronium_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "nourished_nether:necronium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "&bNecronium Tools"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CE18CE0654DB170"]
+			id: "213DCFFF7B75FF40"
+			rewards: [
+				{
+					id: "55030FAB0D903C4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57762261109AB209"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64D70F29579BD523"
+				item: {
+					Count: 1b
+					id: "nourished_nether:necronium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["317B80BB771DEDF6"]
+			id: "7AE6A380F3E76727"
+			rewards: [
+				{
+					id: "67687023054055D8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D5CC34B8701E531"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "34019873421D42C5"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AEAD58145A238F0"
+				item: "angelring:energetic_angel_ring"
+				type: "item"
+			}]
+			x: -0.1785714285714306d
+			y: 0.4464285714285694d
+		}
+	]
+	title: "&3&oThe Nether"
+}

@@ -1,0 +1,119 @@
+{
+	hide_tooltip: true
+	id: "6A12F01DB889BA00"
+	loot_crate: {
+		color: 0
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "pirate_crate"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "cyclic:charm_magicdefense"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:personal_chest" }
+		{
+			item: {
+				Count: 1b
+				id: "botania:monocle"
+				tag: { }
+			}
+		}
+		{ item: "aquaculture:neptunes_bounty" }
+		{ item: "twilightforest:magic_map_focus" }
+		{
+			item: {
+				Count: 1b
+				id: "redstone_arsenal:flux_wrench"
+				tag: { }
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				id: "powah:solar_panel_blazing"
+				tag: { }
+			}
+		}
+		{ count: 16, item: "quark:gold_bars" }
+		{ count: 8, item: "minecraft:gold_block" }
+		{ count: 100, item: "thermal:gold_coin" }
+		{ item: "apotheosis:lucky_foot" }
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedbackpacks:netherite_backpack"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:unholy_cloak"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedstorage:packing_tape"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "torchmaster:dreadlamp" }
+		{ count: 3, item: "botania:terrasteel_ingot" }
+		{ count: 3, item: "botania:endoflame" }
+		{
+			item: {
+				Count: 1b
+				id: "cyclic:ghost"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:toolupgrade_revolver_electro"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ae2:capacity_card"
+				tag: { }
+			}
+		}
+		{ count: 4, item: "botania:rune_wrath" }
+		{ count: 16, item: "byg:subzero_crystal_shard" }
+		{
+			item: {
+				Count: 1b
+				id: "buildinggadgets:gadget_destruction"
+				tag: {
+					fuzzy: 1b
+					overlay: 1b
+				}
+			}
+		}
+		{ item: "ftbic:nuke" }
+		{ item: "botania:lens_magnet" }
+	]
+	title: "Pirate Crate"
+	use_title: true
+}

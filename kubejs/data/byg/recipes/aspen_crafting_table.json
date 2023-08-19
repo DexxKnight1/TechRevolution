@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "group":"crafting_table",
+    "key":{
+        "P":{"item":"byg:aspen_planks"},
+        "R":{"tag":"byg:aspen_logs"}
+    },
+    "pattern":["PR","RP"],
+    "result":{
+        "item":"byg:aspen_crafting_table"
+    }
+}

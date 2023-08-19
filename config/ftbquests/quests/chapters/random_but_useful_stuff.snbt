@@ -1,0 +1,1805 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "random_but_useful_stuff"
+	group: ""
+	id: "10697D13F04674A6"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.7d
+			hover: [ ]
+			image: "kubejs:textures/item/frie.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -0.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Ranged Pumps just pumps liquids in a range."]
+			id: "2DC280B70ED56153"
+			rewards: [
+				{
+					id: "043CC22CC9F19497"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "102AAFF1617B4C10"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3F92D190BA8580BE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5715ECADB2A2DAF8"
+				item: "rangedpumps:pump"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Scanner is a small addition to the smart explorer's tool."
+				"Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."
+				"What results are shown depends on the modules in the scanner. Up to three modules may be installed at the same time."
+				""
+				"Default modules include:"
+				"- Animal detection"
+				"- Monster detection"
+				"- Entity detection"
+				"- Common ore detection"
+				"- Rare ore detection"
+				"- Fluid detection"
+				"- Block detection"
+				"- Range booster"
+			]
+			id: "518C2FD1BE0377C1"
+			rewards: [
+				{
+					id: "46CB49A6E7CA761B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "501463FC34EE6E5F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "47E24A22419EDFD8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "58AAE6310531F6C3"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Lighting Wand can place invisible light source."
+				"Only if you have the wand in hand can you see the block bound."
+				"Tto repair wand use glowstone dust or Forge energy. You can shot a light blob by right clicking (really far)."
+			]
+			id: "549DF44E895CC2F5"
+			rewards: [
+				{
+					id: "42F7E5AB3BF94712"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "56E41E2B680B66C2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "40F1CF60B7B02A16"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F18767C8BFA20CB"
+				item: {
+					Count: 1b
+					id: "lightingwand:wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"The Twilight Cloak makes you invisible only in darkness."
+				"The Invisibility Cloak makes you completely invinsible"
+			]
+			id: "2ABCBE1EE15D8FDC"
+			rewards: [
+				{
+					id: "38F841A015775ABE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1657F5C2086D9C28"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "670CDF01272733B5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "123E16B16C0E0B00"
+					item: "reliquary:twilight_cloak"
+					type: "item"
+				}
+				{
+					id: "4DF22FF1638A3644"
+					item: {
+						Count: 1b
+						id: "botania:invisibility_cloak"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4B378858020CE8DE"
+					item: {
+						Count: 1b
+						id: "cyclic:charm_invisible"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Invisible Cloaks"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Nature's Compass is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."
+				""
+				"Explorer's Compass is an item that allows you to locate structures anywhere in the world."
+				""
+				"Sneak Right-click to set the structure you want to locate. After which you Right-click the Structure Compass normally to start searching."
+				""
+				"It will try to locate a structure within &410.000&r blocks by default, this can be changed in the &dconfig&r."
+			]
+			id: "47136B410C44DACE"
+			rewards: [
+				{
+					id: "7D81BEF7F1BEB225"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "55B3DA7D2C444369"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "75B3C71CE78888AF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "021AF825ECDBF527"
+					item: {
+						Count: 1b
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4DA609BC87D96121"
+					item: "structurecompass:structure_compass"
+					type: "item"
+				}
+			]
+			title: "The Compasses"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Extended Bone Meal is a minimalistic mod which extends bone meal behaviour."
+				"Grow netherwart, cactus, vines and sugarcane."
+				"Instant grow crops while holding the sneak butto"
+			]
+			icon: "minecraft:bone_meal"
+			id: "47675E08438252EA"
+			rewards: [
+				{
+					id: "4A4DF2931D7C4F47"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "40FEFF45DEBB621C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5AE1B32D45EF6950"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "428BD981DCC2F2E8"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "Extended Bone Meal"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!"
+				""
+				"&lBasic Item Collector"
+				"- The Basic Item Collector has a range of up to 5 blocks!"
+				"- Right-click a Basic Item Collector to open its GUI."
+				""
+				"&lAdvanced Item Collector"
+				"- The Advanced Item Collector has a range of up to 7 blocks!"
+				"- Right-click an Advanced Item Collector to open its GUI."
+				"- The Advanced Item Collector can filter items"
+			]
+			id: "472909F6DD13B586"
+			rewards: [
+				{
+					id: "0156F542DCC4A258"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "21AA5E9649040230"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6E347897C8B27501"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2D8AFC57E693F9BA"
+					item: "itemcollectors:basic_collector"
+					type: "item"
+				}
+				{
+					id: "7F3050D6702C4026"
+					item: "itemcollectors:advanced_collector"
+					type: "item"
+				}
+			]
+			title: "Item Collectors"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"This mod adds platforms with a range of customization."
+				"You can make decks, bridges, mine shafts, or even wooden coaster supports."
+				""
+				"The Wrench:"
+				"- Right-Click to rotate a platform"
+				"- Shift+Right-Click to change the style of a platform"
+				"- Shift+Left-Click a platform to remove the rail"
+				"When a wrench is in your offhand the placement overlay is displayed."
+			]
+			id: "2AB23D8411416410"
+			rewards: [
+				{
+					id: "5857F392CB2A0644"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "15C89B7BC6783611"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4D67C46D8FA9C8CE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "17BBDA96D724DB33"
+					item: "platforms:platformer"
+					type: "item"
+				}
+				{
+					id: "07EAFC77B803299B"
+					item: {
+						Count: 1b
+						id: "platforms:wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Platforms"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Notes provides a fully functional in-game notepad."
+				""
+				"- Open the Notes GUI by pressing Alt+N"
+				"- View all notes relevant to your current world or server"
+				"- Create and edit notes through a simple in-game GUI"
+				"- Save notes per-world, per-server, or globally"
+				"- Pin important notes to the HUD"
+			]
+			id: "59DAD81445AA2E94"
+			rewards: [
+				{
+					id: "7A3F7941BB4438D9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "60BFE7117412523F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "139BD8BE55EBFAAB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "19534E8F6375D8E4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			title: "Notes"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Shrink allows players to change their player's size."
+				"Shrinking to a smaller size allows the player to access places that they could normally not access without breaking blocks."
+				"By Shift-right clicking this item will cause your player to shrink down to about the size of a quarter of a block."
+			]
+			id: "766E571211A8E65A"
+			rewards: [
+				{
+					id: "796AE398540D42B3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "52C693F805B8499B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "578E0FCA7D2D1FA5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C7751C5F273D7F6"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The Building Gadget allows you to build structures using a set of different Building Modes."
+				""
+				"The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
+				""
+				"The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
+				""
+				"The Destruction Gadget allows you to void a large area."
+			]
+			id: "3B93DD9F68EE82CD"
+			rewards: [
+				{
+					id: "445A729EE3A6C408"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F380399A1B963E8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "126C925348F93A0D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0BF5E3D6B63C3543"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_building"
+						tag: {
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "232514A7C2FEB25E"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_exchanging"
+						tag: {
+							state: {
+								data: { }
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "402766AAED8FEEAD"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_copy_paste"
+						tag: {
+							mode: 0b
+							template_id: [I;
+								120383154
+								-440448739
+								-1452461045
+								-1485671215
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "160BAA19E77AD07D"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_destruction"
+						tag: {
+							fuzzy: 1b
+							overlay: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Gadgets"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			description: ["Hero's Medallion stores experience. When turned on it drains it from player. When turned off player can take one level out of it per right click."]
+			id: "1BF0E871C718F5CA"
+			rewards: [
+				{
+					id: "3EA995E47C6CFF67"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3D08D335A8F4F9FE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "798DB4C77C715F8B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C228448ABCA646C"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"FramedBlocks adds blocks of various shapes that can be made to look like almost any other block in the game."
+				""
+				"Usage:"
+				"Right click the block with almost any solid block to make it look alike."
+				"Right click the block with Glowstone Dust to make it produce light."
+				"Right click the block with a Framed Hammer to remove the camo."
+				"Framed Prism, Inner Prism and Double Prism Corners automatically activate a texture offset depending on their position when placed. This fixes the issue of prism corners not fitting together properly when building a larger surface out of these blocks. If this behaviour is not desired, you can toggle the offset state by left clicking the block with the Framed Hammer."
+				"The Framed Wrench can be used to cycle through different states of the camo block."
+				"The Framed Blueprint allows copying Framed Blocks including their camo and glowing state. The rotation of the Framed Block itself is not copied."
+				"The Framed Collapsible Block can be modified to create arbitrary slopes by changing the height of the four corners of a single block face with the Framed Hammer. Left click the corner on the face you want to change to move the face inward and left click the corner while sneaking to move the face outward."
+			]
+			id: "10EF7F6A09C3E6F9"
+			rewards: [
+				{
+					id: "29853E8B25256224"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E61EE23E5A898D5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7806908A92D06524"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "35A6AD7C04092F24"
+					item: "framedblocks:framed_hammer"
+					type: "item"
+				}
+				{
+					id: "3AA752A517D08A93"
+					item: "framedblocks:framed_wrench"
+					type: "item"
+				}
+				{
+					id: "74935AB1A7097F9D"
+					item: {
+						Count: 1b
+						id: "framedblocks:framed_blueprint"
+						tag: {
+							blueprint_data: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1ED870EBEF1AB71C"
+					item: "framedblocks:framed_cube"
+					type: "item"
+				}
+			]
+			title: "Framed Blocks"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Tesseract allows you to transport &b&lItems&r, &b&lFluid&r and &b&lEnergy&r. Tesseracts work at &b&lany distance&r and even &b&lacross dimensions&r! Use multiple channels to have &b&ldifferent groups&r of Tesseracts!"
+				""
+				"&lAdding a channel:"
+				"1. Right-Click a Tesseract to open its gui"
+				"2. Click on the desired category tab at the top of the gui"
+				"3. Click the 'Create' button to open a new gui"
+				"4. Select the text field and enter the channel name"
+				"5. Set the lock button to the desired state, locked means private, unlocked means public"
+				"6. Click the 'Create' button to confirm"
+				"&lRemoving a channel:"
+				"1. Right-Click a Tesseract to open its gui"
+				"2. Click on the category tab corresponding to the channel at the top of the gui"
+				"3. Click on the channel in the list"
+				"4. Click the REMOVE button"
+				"&lSetting the channel on a Tesseract:"
+				"1. Right-Click a Tesseract to open its gui"
+				"2. Click on the desired category tab at the top of the gui"
+				"3. Click on the desired channel in the list"
+				"4. Click the SET button"
+			]
+			id: "6E207413F76A2FA7"
+			rewards: [
+				{
+					id: "55EF679B231B889E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3BC98AC2851509BA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3D282F6FF72B4409"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "60B5565073F4BE50"
+				item: "tesseract:tesseract"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The &b&lTravel Anchor&r is a Block that allows for teleportation over greater distances when you stand on it, even throughobstacles as long as the anchor can be selected."
+				"You can rightclick the Travel Anchor with any block in you offhand to change it's appearance and model."
+				"You can also name the Travel Anchor whatever you want."
+				""
+				"The &b&lTravel Staff&r allows the Player to teleport by using \"Shift+Rightclick\" and aiming at the desired location."
+				"Aim the Stuff at the Travel Anchor to teleport onto it."
+			]
+			id: "6367F02028EDFADE"
+			rewards: [
+				{
+					id: "10A2D8AAD0EFAFFC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1C149E7FBCD71DC3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "17F986BBDD3051CB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "38DC63544EB7139E"
+					item: "travelanchors:travel_anchor"
+					type: "item"
+				}
+				{
+					id: "4AA17B49CDD5A3EC"
+					item: "travelanchors:travel_staff"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			description: ["Entangled gives you the materials needed to bind two blocks together, allowing you to interact with either one as if they were the same block! This will allow you to transfer items, energy, fluids or whatever you want instantly, you can have more than six sides to work with or you could just hide your messy cables, the possibilities are endless!"]
+			id: "4C10B1843C1F735C"
+			rewards: [
+				{
+					id: "7250E6202C1FB01B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "57399261010A3871"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7E5841447200F251"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2D26880A01060B4D"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4A0985E8D7A45732"
+					item: {
+						Count: 1b
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"This is a minecraft mod that provides skinnable blocks to be used in buildings inside the game minecraft. The core of this mod is a reskinning supporting model loader that gets the skin information passed from a none ticking block entity."
+				""
+				"Craft an architects cutter and place the materials in as requested. Then select the type of skinned block in the middle, and pick up the result on the right."
+			]
+			id: "6B692F502B4149A1"
+			rewards: [
+				{
+					id: "7D78AE6AA62BD81C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0802EC69A0AF617F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7AE81C388FFB9A15"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E0EE1EECDB1FF1D"
+				item: "domum_ornamentum:architectscutter"
+				type: "item"
+			}]
+			title: "Domum Ornamentum"
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"The Experience Obelisk  allows you to conveniently store and retrieve XP, as well as passively collect experience orbs from the environment. This is a standalone version of EnderIO's experience obelisk (with the XP vacuum functionality)."
+				""
+				"As the block stores XP as Raw Experience fluid, you should be able to extract it via any mod that has fluid handling options with an extraction function and store it similarly using general fluid tanks."
+			]
+			id: "5A70126E1D82E605"
+			rewards: [
+				{
+					id: "00DD744759E40AB0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2EC4AA5908F9EC77"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3B878BCDFAE3E7AC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "762DD5F28C112C98"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"You can use it for measuring energy transfer rates."
+				""
+				"The screen always displaying the current rate in order to keep you up-to-date."
+			]
+			id: "662F8EC1F2726A1C"
+			rewards: [
+				{
+					id: "0506900EC5DB6B8E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7A90AA2C650464F9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3A5F1C7E4C0E2DA9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6723E88DC9409ABE"
+				item: "energymeter:meter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Chipped is a building mod that expands on the variety of blocks. The mod offers overs 10,000+ unique building blocks, from stained glass variations, all the way to concrete, tuff, amethyst, prismarine, and even gilded blackstone!"
+				""
+				"Not only are all the textures hand-painted in the new vanilla style, but they also include a whole lot of connected textures!"
+			]
+			id: "34ADB529FF6BA4F2"
+			rewards: [
+				{
+					id: "2E67936B7A59EF12"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5ABEF1102E99F58B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "18845872A00C09EF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1CE14C1EF2819638"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "43A778C6B7D77492"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "0A083DEE3CC92DF9"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "74EBCE428CD0162C"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "43DEDD6C5B643685"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "48FBDA62A841366B"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "1067DD562C5DAE86"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&l&oMega Torch:&r"
+				"&l・&rPrevents natural spawning of hostile monsters in a big radius (&c64 blocks&r) around the torch."
+				"&l・&rMega Torch also prevents the death of monsters inside its radius. Monsters outside the Mega Torch can still enter its area of effects."
+				""
+				"&l&oDread Lamp:&r"
+				"&l・&rPrevents natural spawning of passive animals like squids, bats or ocelots in a big radius around the lamp."
+				""
+				"&l&oFeral Flare Lantern:&r"
+				"&l・&rPlaces invisible lights."
+				""
+				"&l&oFrozen Pearl:&r"
+				"&l・&rClears residual lights from a Feral Flame Lantern."
+				"&l・&rFormerly terrain lighter block."
+			]
+			id: "2867601010BAEC89"
+			rewards: [
+				{
+					id: "3B0017FB2B6420C9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DD8ABEA6A34DAC8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7EE9A527EDFC2068"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4F4553F42AAD95D8"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					id: "4FD08F6CF179FBD6"
+					item: "torchmaster:feral_flare_lantern"
+					type: "item"
+				}
+				{
+					id: "588AEBF7D48D81C5"
+					item: "torchmaster:dreadlamp"
+					type: "item"
+				}
+				{
+					id: "0BC00FB555D7B326"
+					item: "torchmaster:frozen_pearl"
+					type: "item"
+				}
+			]
+			title: "Torchmaster"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			description: ["With a Construction Wand you can place multiple blocks (up to 1024) at once, extending your build on the side you're facing. If that's not enough: you can upgrade your wand with additional cores, allowing you to place a block behind the block you are facing, conjure blocks in mid air or destroy lots of blocks very fast."]
+			id: "79546E1EC140AC69"
+			rewards: [
+				{
+					id: "6E0E8755AD5DFCA8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5494BDFADF7EA88B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6985C0399507DF1F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2640A9CF2EA59691"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "constructionwand:wands"
+					}
+				}
+				title: "Any #constructionwand:wands"
+				type: "item"
+			}]
+			title: "Construction Wands"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"The Tape Measure canbe used to measure the distance between positions."
+				""
+				"- After obtaining the Tape Measure you can start measuring by right-clicking on a block once."
+				"- Then moving to the second position and right-clicking the block on that position."
+				"- If you want to get rid of the measurements you shift-right click the ground."
+			]
+			id: "6104CA98E39138DF"
+			rewards: [
+				{
+					id: "5A4C4B54E14A4193"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08C6FB56399691F9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7E43AFC077E20214"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EFE9A3D5023BDD8"
+				item: {
+					Count: 1b
+					id: "measurements:tape_measure"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "2B66CD0674DEF0DF"
+			rewards: [
+				{
+					id: "6DCE10FBAB4231AA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D19871E5EFE0182"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "14C2B3769D3A521E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3D8701442EB76130"
+					item: {
+						Count: 1b
+						id: "cyclic:build_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47E9A265CAC31AD8"
+					item: {
+						Count: 1b
+						id: "cyclic:replace_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1570E908051203B0"
+					item: {
+						Count: 1b
+						id: "cyclic:offset_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "190C6B7A6974AF90"
+					item: {
+						Count: 1b
+						id: "cyclic:randomize_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Scepters"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "50C7D07627A83CAE"
+			rewards: [
+				{
+					id: "11025A66E6FB43F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5627EB4159B9AADC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4826CA845A28E202"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0C05943AE8B3E3C5"
+					item: {
+						Count: 1b
+						id: "cyclic:prospector"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "422B8B2346F13FC7"
+					item: {
+						Count: 1b
+						id: "cyclic:spelunker"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ADEDACD75B966B4"
+					item: {
+						Count: 1b
+						id: "cyclic:spawn_inspector"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Finders \\& Detectors"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["This item allows you to accelerate the rate at which blocks tick. It passively collects time while in your inventory which you can consume by right clicking a block with it. The first click requires 30 Seconds, the second 60, the third 120 the fourth 240 and the fifth 480. The speed at which the block ticks doubles with each click. The effect lasts 30 seconds."]
+			id: "38697C22121BC861"
+			rewards: [
+				{
+					id: "3CA2488059A2AC7D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C8D758B93914329"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2DD6F56B6A58E318"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DA5304ECE1EA4D0"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"This mod adds an obsidian pressure plate and a mossy cobblestone pressure plate."
+				""
+				"The obsidian plate can only be triggered by players and is able to withstand TNT."
+				""
+				"The mossy cobblestone plate can only be triggered by items \\& mobs."
+				""
+				"Both plates can also be crafted invisible with a single piece of glass pain."
+			]
+			id: "772EFD6035F14A1E"
+			rewards: [
+				{
+					id: "16C31F8312A17999"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39CB82BE4ED670D7"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6BBF88BEAB6F4E13"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "51DC3F285E4E40E0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "playerplates:obsidian_plate"
+					}
+					type: "item"
+				}
+				{
+					id: "1D5EF317F5491111"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "playerplates:mossy_plate"
+					}
+					type: "item"
+				}
+			]
+			title: "Player Plates"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"Wireless Chargers can charge nearby blocks and players!"
+				""
+				"&cBasic Wireless Block Charger:&r"
+				"- Charges blocks in a 5x5x5 area"
+				"- Charges at 50 FE/t per block"
+				"&cAdvanced Wireless Block Charger:&r"
+				"- Charges blocks in a 7x7x7 area"
+				"- Charges at 200 FE/t per block"
+				""
+				"&eBasic Wireless Player Charger:&r"
+				"- Charges players' items in a 9x9x9 area"
+				"- Charges at 50 FE/t per player"
+				"&eAdvanced Wireless Player Charger:&r"
+				"- Charges players' items in a 13x13x13 area"
+				"- Charges at 200 FE/t per player"
+			]
+			id: "4C234B39D1C6C7EC"
+			rewards: [
+				{
+					id: "1742492CD29C80ED"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3076650AC63E2433"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0446D2CB4C092E1C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "053B45E80FC7EF1D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "wirelesschargers:basic_wireless_block_charger"
+					}
+					type: "item"
+				}
+				{
+					id: "6CB59AAEEDBB360F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "wirelesschargers:basic_wireless_player_charger"
+					}
+					type: "item"
+				}
+			]
+			title: "The Wireless Chargers"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"This mod adds simple and highly configurable pipes that are designed to create as little lag as possible."
+				""
+				"Pipe Types:"
+				"- Item Pipes"
+				"- Fluid Pipes"
+				"- Energy Pipes"
+				"- Gas Pipes (Mekanism)"
+				"- Universal Pipes (All 4 Pipes in one!)"
+			]
+			id: "2E515E157BDC85AE"
+			rewards: [
+				{
+					id: "3B418D265675D827"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CE958C916BF3F3A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "088A7A19975F73C8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2EABBBEF692B348F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pipez:item_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "3605B0CEB2A58FD8"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pipez:basic_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "59FADED0EAA58A97"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "pipez:wrench"
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"With Chalk you can mark your way through the vast world of Minecraft!"
+				""
+				"- To make a chalk you'll need a piece of Calcite and Dye, any color will do."
+				"- Chalks can also be found in underground chests, as well as in some villages."
+				"- Mark will point at a direction depending on which part of a block was clicked. Sneak+Right Click will draw an X-mark."
+				"- You'll need a good flat surface to draw a mark on. Any full side of a block will suffice."
+				"- If you made a mistake - just draw a new mark on top of it, no need to brake it first."
+				""
+				"Store your chalks in a Chalk Box:"
+				"- Open Chalk Box by clicking while not looking at a block."
+				"- Quick-change selected chalk in Chalk Box by Shift+Clicking while not looking at a block."
+				""
+				"To make a mark glow - use Glowstone Dust or Glowing Ink Sac on it. It will even slightly light up surrounding area."
+				"If Glowstone of Glowing Ink is held in offhand - marks will be drawn glowing."
+				"You can draw on Supplementaries Blackboard with chalks. Enable colored_blackboard in Supplementaries config for colored drawings."
+			]
+			id: "6915C6A3FD1108DF"
+			rewards: [
+				{
+					id: "2C1B4C8133EF9BD0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A9A37C79F7322A4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "702EECE97F8E8A49"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "64B3B95BEA517FA8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "chalk:chalks"
+						}
+					}
+					title: "Any #chalk"
+					type: "item"
+				}
+				{
+					id: "05E7155EAAF282FC"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "chalk:chalk_box"
+						tag: {
+							Items: [
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+								{
+									Count: 1b
+									id: "minecraft:air"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Trash Cans adds Trash Cans which can be used to void items, fluids and energy!"
+				""
+				"Items and Fluids can be whitelisted or blacklisted and an energy transfer limit can be set!"
+			]
+			id: "5C679D7977409946"
+			rewards: [
+				{
+					id: "27EA8799E039AD5A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "796C843EFE843A1C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3328394E30D72C66"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1906AFC5EFC2644A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "trashcans:item_trash_can"
+					}
+					type: "item"
+				}
+				{
+					id: "743D23F1482C8992"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "trashcans:liquid_trash_can"
+					}
+					type: "item"
+				}
+				{
+					id: "690779EB5199C431"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "trashcans:energy_trash_can"
+					}
+					type: "item"
+				}
+				{
+					id: "6CCDF995F17E6ED6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "trashcans:ultimate_trash_can"
+					}
+					type: "item"
+				}
+			]
+			title: "The Trash Cans"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			description: ["A totem that prevents you from dying in the void."]
+			id: "7C03408C22441DBD"
+			rewards: [
+				{
+					id: "7D58812E1C3619F8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "026FA4AD4F655241"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2C83DB83A9C97B30"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0CB2E8BC0D7C3FC1"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "voidtotem:totem_of_void_undying"
+				}
+				type: "item"
+			}]
+			title: "Void Totem"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Golden Hopper is a very simple mod that adds, as the mod name states, golden hoppers!"
+				""
+				"They are just like a regular hopper but you can filter which item can be pulled and push."
+				""
+				"It tries to mimic the classes redstone hopper filtering design by only allowing one item to be filtered and you must also use one of the items in the filter, not just a reference."
+			]
+			id: "71B1B7CD4D07D788"
+			rewards: [
+				{
+					id: "6C0F364D7E548FD8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A47FC3167F6724"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5A4769808E458C29"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "731D659DE86FAC9C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "goldenhopper:golden_hopper"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"- &cRED HEARTS&r - Drop From Enemy Mobs"
+				"- &eYELLOW HEARTS&r - Drop From Boss Mobs (I.E. Wither)"
+				"- &aGREEN HEARTS&r - Drop from the Enderdragon"
+				"- &9BLUE HEARTS&r - Drop from Envoker inside Woodland Mansion"
+				""
+				"- &6HEART AMULET&r - Holds all Heart Canister's in One Bauble Slot "
+			]
+			id: "2607EB75EC3475AF"
+			rewards: [
+				{
+					id: "2C11DCA820B6B158"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B06B842D5068941"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "12D01E3A01D4C3F1"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2212703CB249C880"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "bhc:heart_amulet"
+				}
+				type: "item"
+			}]
+			title: "Baubley Heart Canisters"
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+	title: "&fTips, utilities \\& QoL stuff"
+}

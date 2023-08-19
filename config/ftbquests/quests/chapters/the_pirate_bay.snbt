@@ -1,0 +1,1320 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_pirate_bay"
+	group: "0734189F95095884"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:textures/item/dread_pirate_chest.png"
+		}
+	}
+	id: "18786EFE58A2C308"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_pirate.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "21A3AF8DC1DDDBD1"
+			rewards: [{
+				id: "463AC30EC005B534"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "41A9862AF8BFC943"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Black Eye"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "75364F2FB0027D1F"
+			rewards: [{
+				id: "31805939234E6CB7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "410B5BD50AC6C199"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Lost Eye"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "57A3183FA127B29A"
+			rewards: [{
+				id: "03B80001035BB60A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6B2DD19AD32F595A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Cryptic Eye"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C0F8D9997695D71"
+			rewards: [{
+				id: "25FC81B9940DDA98"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "60140AB725FD7118"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Evil Eye"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagradditions:creative_essence"
+			}
+			id: "06D5E24DC81D653B"
+			rewards: [{
+				id: "1059DB7656ED9F3B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagradditions:creative_essence"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'500'000'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "4EE58BC35B2F0A32"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:500m_card"
+				}
+				type: "item"
+			}]
+			title: "&6Creative Essence"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:creative"
+					Throttle: 1.0d
+				}
+			}
+			id: "2CE42B5BDED8BBA0"
+			rewards: [{
+				id: "5C128BC43FD278D1"
+				item: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:creative"
+						Throttle: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000'000'000"
+			tasks: [{
+				consume_items: true
+				id: "160F4C46031C4228"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:1b_card"
+				}
+				type: "item"
+			}]
+			title: "&6Creative Jetpack"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:beacon"
+			}
+			id: "431293E9ED5E25E0"
+			rewards: [{
+				id: "6FDB3DFD3C80A6D7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:beacon"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "14F2492F10D30A44"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Beacon"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "mysticalagriculture:diamond_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04615A79528F3E99"
+			rewards: [{
+				id: "7BCAC9FFC4C4AA68"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:diamond_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "6110EDAF127C473D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Diamond Scythe"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:ghast_tear"
+			}
+			id: "50EE889FA56713CD"
+			rewards: [{
+				count: 3
+				id: "59CC5AF72FF1A445"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:ghast_tear"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "$800"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6965979E4C45750D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&6Ghast Tears"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "villagertools:key"
+			}
+			id: "1B6E0D044CCF3544"
+			rewards: [{
+				id: "238B7B838D77D70A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "villagertools:key"
+				}
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "0696DE9DDD9EE9E8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&6Llama Liberation Key"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "twilightforest:rainbow_oak_sapling"
+			}
+			id: "1A61B64CA2A094BE"
+			rewards: [{
+				id: "4765B87E66E8FA7F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:rainbow_oak_sapling"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$300"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "390AB04C931A72CD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&6Rainbow Oak Sapling"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "ftbic:nuclear_reactor"
+			id: "510C8B9CE232E2F6"
+			rewards: [{
+				id: "4ABBC9D122560A6B"
+				item: "ftbic:nuclear_reactor_chamber"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "687EBF8A86EEE8B5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Nuclear Reactor"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "cyclic:ender_pearl_mounted"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1AB5B8C13FD5B001"
+			rewards: [{
+				id: "4A9EFC0F99FC289D"
+				item: {
+					Count: 1b
+					id: "cyclic:ender_pearl_mounted"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "5A70C6CC0A1C9755"
+				item: "kubejs:note_1000"
+				type: "item"
+			}]
+			title: "&6Ender Orb Translocator"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "allthemodium:piglich_heart"
+			}
+			id: "29294B620C6834C2"
+			rewards: [{
+				id: "2183C7CEF016F7B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "allthemodium:piglich_heart"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "4AF4821BC6F493BA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&6Piglich Heart"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:heart_of_the_sea"
+			}
+			id: "6090D01B5219BA85"
+			rewards: [{
+				id: "2FBCC7337964FC34"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:heart_of_the_sea"
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "409ED07CCCA0F574"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Heart of the Sea"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "mekanism:creative_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "18446744073709551615.9999"
+						}]
+					}
+				}
+			}
+			id: "3467DF550859619C"
+			rewards: [{
+				id: "016DAD915B1182C2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$5'000'000'000"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "415E834EDBEDC5E5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:1b_card"
+				}
+				type: "item"
+			}]
+			title: "&6Creative Energy Cube"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "thermal:hazmat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "397FD8FC9EB43F62"
+			rewards: [
+				{
+					id: "0427B1AF8B199488"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "thermal:hazmat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EFC5B8F942F06BA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "thermal:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52450812390AB599"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "thermal:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B1EE399A292D80E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "thermal:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "087927BE3067DD9E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&6Hazmat Set"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:bee_nest"
+			}
+			id: "09642BDD9DF8F7A0"
+			rewards: [{
+				id: "61CEC6470AB1D159"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:bee_nest"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "03BC1F694A27888C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&6Bee Nest"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "industrialforegoing:plastic"
+			}
+			id: "27FF465CF72BA797"
+			rewards: [{
+				count: 8
+				id: "5D9FFEA813B1C81F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "industrialforegoing:plastic"
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "5D00113EEF317B2B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&6Plastic"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			icon: "artifacts:obsidian_skull"
+			id: "2071410A1114E5AC"
+			rewards: [{
+				id: "5D4F559F9A8BEB65"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "479B3CA739F3CC7E"
+				item: "kubejs:note_1000"
+				type: "item"
+			}]
+			title: "&6Obsidian Skull"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "cyclic:detector_entity"
+			}
+			id: "0AAFD042C2FE24E3"
+			rewards: [{
+				id: "6732E2FF4997B0DC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:detector_entity"
+				}
+				type: "item"
+			}]
+			subtitle: "$200"
+			tasks: [{
+				consume_items: true
+				id: "16A5FC84955DE00F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&6Entity Detector"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: "ae2:quartz_growth_accelerator"
+			id: "4334D0EFE8189C7F"
+			rewards: [{
+				id: "06C647B8657A3BCA"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "5D3389E3F59A314A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Crystal Growth Accelator"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: "ae2:creative_item_cell"
+			id: "026E1A1481C43AD5"
+			rewards: [{
+				id: "3AE1105406534E20"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ae2:creative_item_cell"
+				}
+				type: "item"
+			}]
+			subtitle: "$4'000'000'000"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0549659F71AF47DF"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:1b_card"
+				}
+				type: "item"
+			}]
+			title: "&6Creative ME Item Cell"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			icon: "refinedstorage:creative_storage_disk"
+			id: "781AC39D7EAB48B0"
+			rewards: [{
+				id: "4A231EAF26F591EA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "refinedstorage:creative_storage_disk"
+				}
+				type: "item"
+			}]
+			subtitle: "$4'000'000'000"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7F422E922CE2242E"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:1b_card"
+				}
+				type: "item"
+			}]
+			title: "&6Creative Storage Disk"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "mysticalagriculture:creative_soulium_dagger"
+			}
+			id: "125579364B80E838"
+			rewards: [{
+				id: "2F20AA3C38BCDDAA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "mysticalagriculture:creative_soulium_dagger"
+				}
+				type: "item"
+			}]
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "483BD9A679DD573C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&6Creative Attuned Soulium Dagger"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			icon: "mekanism:pellet_polonium"
+			id: "723AA2AAFC71B6B9"
+			rewards: [{
+				id: "35A3FC46780EA833"
+				item: "mekanism:pellet_polonium"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$50'000"
+			tasks: [{
+				consume_items: true
+				id: "6918942521677624"
+				item: "kubejs:50k_card"
+				type: "item"
+			}]
+			title: "&6Polonium Pellet"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			icon: "nourished_nether:soul_forge"
+			id: "6AA7E88554E40545"
+			rewards: [{
+				id: "7BF3DC3D574AD470"
+				item: "nourished_nether:soul_forge"
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "309726C7CBE37715"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Soul Forge"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: "industrialforegoing:animal_baby_separator"
+			id: "64ADE67AF39053EA"
+			rewards: [{
+				id: "0BF6F54E7FCCF765"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "637D878A95B3F9ED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&6Animal Baby Separator"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "villagertools:gears"
+			}
+			id: "015C80A7C4561E4B"
+			rewards: [{
+				id: "25669F6E7C5FAB3F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "villagertools:gears"
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "69D92107049E6FC8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&6Oblivion Stone"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ringsofascension:ring_wither"
+			}
+			id: "5DA75C565DFACA6F"
+			rewards: [{
+				id: "138E1B10EE74535F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ringsofascension:ring_wither"
+				}
+				type: "item"
+			}]
+			subtitle: "$20'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "505B7989E9A03414"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&6Ring of Wither"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			icon: "productivebees:catcher"
+			id: "69A29D600A218A48"
+			rewards: [{
+				id: "6684A0A4ADB8FEBE"
+				item: "productivebees:catcher"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "6C5C6D45FEBE4088"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&6Catcher"
+			x: -5.5d
+			y: 1.0d
+		}
+	]
+	title: "The Black Market"
+}

@@ -1,0 +1,150 @@
+{
+	hide_tooltip: true
+	id: "4A44F82B0872FF4A"
+	loot_crate: {
+		color: 16711680
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "random_reward"
+	}
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 16, item: "minecraft:ender_pearl", weight: 4.0f }
+		{ count: 16, item: "minecraft:redstone", weight: 4.0f }
+		{ count: 16, item: "minecraft:glowstone_dust", weight: 4.0f }
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "thermal:sawdust"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{ count: 16, item: "minecraft:gunpowder", weight: 4.0f }
+		{ count: 16, item: "thermal:lead_dust", weight: 4.0f }
+		{ count: 16, item: "thermal:diamond_dust", weight: 4.0f }
+		{ count: 16, item: "thermal:nickel_dust", weight: 4.0f }
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "thermal:lapis_dust"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{ count: 16, item: "minecraft:blaze_powder", weight: 4.0f }
+		{ count: 16, item: "thermal:silver_dust", weight: 4.0f }
+		{ count: 16, item: "thermal:tin_dust", weight: 4.0f }
+		{ count: 16, item: "thermal:copper_dust", weight: 4.0f }
+		{ count: 16, item: "thermal:emerald_dust", weight: 4.0f }
+		{ count: 16, item: "minecraft:coal", weight: 4.0f }
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "thermal:quartz_dust"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "ae2:certus_quartz_dust"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "ae2:fluix_dust"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{ count: 16, item: "minecraft:charcoal", weight: 4.0f }
+		{ count: 16, item: "immersiveengineering:coal_coke", weight: 4.0f }
+		{ count: 16, item: "minecraft:glass", weight: 4.0f }
+		{ count: 16, item: "minecraft:obsidian", weight: 4.0f }
+		{ count: 16, item: "minecraft:stone", weight: 4.0f }
+		{ count: 16, item: "minecraft:white_wool", weight: 4.0f }
+		{ count: 4, item: "minecraft:piston", weight: 4.0f }
+		{ count: 4, item: "minecraft:sticky_piston", weight: 4.0f }
+		{ count: 6, item: "minecraft:hopper", weight: 4.0f }
+		{ count: 16, item: "minecraft:bricks", weight: 4.0f }
+		{ count: 16, item: "minecraft:cobweb", weight: 4.0f }
+		{ count: 16, item: "minecraft:slime_ball", weight: 4.0f }
+		{ count: 16, item: "minecraft:egg", weight: 4.0f }
+		{ count: 16, item: "minecraft:torch", weight: 4.0f }
+		{ count: 16, item: "minecraft:redstone_torch", weight: 4.0f }
+		{ count: 2, item: "torchmaster:feral_flare_lantern", weight: 4.0f }
+		{ count: 16, item: "minecraft:dark_prismarine", weight: 4.0f }
+		{ count: 16, item: "minecraft:prismarine_shard", weight: 4.0f }
+		{ count: 16, item: "minecraft:prismarine_crystals", weight: 4.0f }
+		{ count: 8, item: "minecraft:sea_lantern", weight: 4.0f }
+		{ count: 8, item: "minecraft:glowstone", weight: 4.0f }
+		{ count: 16, item: "minecraft:crying_obsidian", weight: 4.0f }
+		{ count: 16, item: "minecraft:iron_ingot", weight: 4.0f }
+		{ count: 16, item: "alltheores:lead_ingot", weight: 4.0f }
+		{ count: 16, item: "botania:mana_pearl", weight: 4.0f }
+		{ count: 16, item: "mekanism:alloy_infused", weight: 4.0f }
+		{ count: 16, item: "mekanism:basic_control_circuit", weight: 4.0f }
+		{ count: 16, item: "rftoolsbase:dimensionalshard", weight: 4.0f }
+		{ count: 16, item: "minecraft:blaze_rod", weight: 4.0f }
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "thermal:sulfur"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{ count: 16, item: "thermal:niter_dust", weight: 4.0f }
+		{ count: 16, item: "fluxnetworks:flux_dust", weight: 4.0f }
+		{
+			count: 8
+			item: {
+				Count: 1b
+				id: "ftbic:mixed_metal_blend"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{ item: "minecraft:totem_of_undying", weight: 4.0f }
+		{ item: "allthecompressed:sand_block_9x", weight: 4.0f }
+		{ item: "allthecompressed:hay_block_1x", weight: 4.0f }
+		{ item: "allthecompressed:terracotta_block_3x", weight: 4.0f }
+		{ item: "allthecompressed:clay_block_5x", weight: 4.0f }
+		{ item: "allthecompressed:snow_block_9x", weight: 4.0f }
+		{ item: "dankstorage:dank_3", weight: 4.0f }
+		{ item: "enderstorage:ender_chest", weight: 4.0f }
+		{ item: "alexsmobs:soul_heart", weight: 4.0f }
+		{ count: 12, item: "pipez:item_pipe", weight: 4.0f }
+		{ count: 12, item: "pipez:fluid_pipe", weight: 4.0f }
+		{ count: 12, item: "pipez:energy_pipe", weight: 4.0f }
+		{ count: 12, item: "pipez:gas_pipe", weight: 4.0f }
+		{
+			item: {
+				Count: 1b
+				id: "sophisticatedstorage:netherite_shulker_box"
+				tag: {
+					accentColor: 8439583
+					mainColor: 16701501
+				}
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Random Reward"
+	use_title: true
+}

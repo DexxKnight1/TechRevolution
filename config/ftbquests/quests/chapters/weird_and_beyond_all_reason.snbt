@@ -1,0 +1,944 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "weird_and_beyond_all_reason"
+	group: "0734189F95095884"
+	icon: "botania:cosmetic_witch_pin"
+	id: "37324CBA50096180"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/item/store_wierd.png"
+		rotation: 0.0d
+		width: 3.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "cyclic:glove_climb"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40C5EDF154192BB2"
+			rewards: [{
+				id: "2745AF5B00EB171C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:glove_climb"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$700"
+			tasks: [
+				{
+					consume_items: true
+					id: "7FC0914E09954EF5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_500"
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3F133128B5F604AF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "kubejs:note_200"
+					}
+					type: "item"
+				}
+			]
+			title: "&2Climbing Gloves"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:bottled_cloud"
+			}
+			id: "4EA676FD36CE3C79"
+			rewards: [{
+				id: "444697FB56BF9966"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:bottled_cloud"
+				}
+				type: "item"
+			}]
+			subtitle: "$150"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1B99546568894AF5"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&2Cloud in a Bottle"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:forgotten_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "146E65FBAD9E43AB"
+			rewards: [{
+				id: "7557C621CB072CFB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:forgotten_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "725C95A46DB4148F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&2Forgotten Hat"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "relics:space_dissector"
+				tag: {
+					Damage: 0
+					abilities: {
+						dissection: {
+							points: 0
+							stats: {
+								distance: 18.89576d
+								time: 6.68665d
+							}
+						}
+					}
+				}
+			}
+			id: "5211098687CBFFBB"
+			rewards: [{
+				id: "2F33387FECA8D59C"
+				item: {
+					Count: 1b
+					id: "relics:space_dissector"
+					tag: {
+						Damage: 0
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 18.89576d
+									time: 6.68665d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "756B4DBDCE3638A4"
+				item: "kubejs:note_1000"
+				type: "item"
+			}]
+			title: "&2Space Dissector"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: "apotheosis:blazing_hellshelf"
+			id: "393ECF9F4DF83193"
+			rewards: [{
+				id: "3611554ACCBB0B84"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "$50'000"
+			tasks: [{
+				consume_items: true
+				id: "57A3DC28593F13D5"
+				item: "kubejs:50k_card"
+				type: "item"
+			}]
+			title: "&2Blazing Hellshelf"
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						energy: {
+							energy: 0
+						}
+					}
+				}
+				id: "cyclic:wand_missile"
+				tag: {
+					energytt: 0
+					energyttmax: 16000
+				}
+			}
+			id: "0D3D68FFEF88E624"
+			rewards: [{
+				id: "6216D3F786EBCA58"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+					id: "cyclic:wand_missile"
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "2E0C37EA11E07DD2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&2Spirit Seeker"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			icon: "reliquary:emperor_chalice"
+			id: "592FAAA82C0E8F92"
+			rewards: [{
+				id: "5AE769EDA974B1CD"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "03055A85541B491E"
+				item: "kubejs:note_1000"
+				type: "item"
+			}]
+			title: "&2Emperor's Chalice"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:sponge"
+			}
+			id: "06544BA16A62F115"
+			rewards: [{
+				id: "69818BF9184B3CCB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:sponge"
+				}
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "6A680F234E87A227"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&2Sponge"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:rabbit_foot"
+			}
+			id: "55717FC1E964F46B"
+			rewards: [{
+				id: "16ADA7E54FADC80D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:rabbit_foot"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "58CD5FED8EB0C3A9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&2Rabbit's Foot"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "thermal:slime_grenade"
+			}
+			id: "03DC44A98579FDED"
+			rewards: [{
+				count: 4
+				id: "31C8E56E1B9C6E40"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "thermal:slime_grenade"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$400"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "34226E5E482CE018"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&2Slime Grenade"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			icon: "theabyss:apple_of_immortality"
+			id: "47294E96824ECDD9"
+			rewards: [{
+				id: "6436CBD5197D65B3"
+				item: "theabyss:apple_of_immortality"
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "1780B8FAFEFBAEE4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_200"
+				}
+				type: "item"
+			}]
+			title: "&2Apple Of Immortality"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: "cyclic:lever_remote"
+			id: "4747142FC9EB3468"
+			rewards: [{
+				id: "098700EB3D0D07A9"
+				item: "cyclic:lever_remote"
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "60FCF4401E141A4B"
+				item: "kubejs:note_100"
+				type: "item"
+			}]
+			title: "&2Remote Lever"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:diamond_heart"
+			}
+			id: "5BC57F567688268F"
+			rewards: [{
+				id: "01CB4F3F23ECB830"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:diamond_heart"
+				}
+				type: "item"
+			}]
+			subtitle: "$500"
+			tasks: [{
+				consume_items: true
+				id: "23F228F257FFDBE3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_500"
+				}
+				type: "item"
+			}]
+			title: "&2Heart of Diamond"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "scannable:textures/items/scanner.png"
+				}
+			}
+			id: "0EDDB55CAF686C79"
+			rewards: [{
+				id: "3457E5057F5A4229"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "scannable:scanner"
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "40ECC40274F569A9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&2Scanner"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon: "reliquary:kraken_shell"
+			id: "3AFA4257A4486E00"
+			rewards: [{
+				id: "5E747E60E28A6DBC"
+				item: "reliquary:kraken_shell"
+				type: "item"
+			}]
+			subtitle: "$15'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "67F04DF3C051AC8B"
+				item: "kubejs:5k_card"
+				type: "item"
+			}]
+			title: "&2Kraken Shell"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "reliquary:twilight_cloak"
+			}
+			id: "7776F7AAC8B8B1CB"
+			rewards: [{
+				id: "57DFD574A4090262"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "reliquary:twilight_cloak"
+				}
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "278B111962043D8F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&2Twilight Cloak"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			icon: "ars_nouveau:alchemists_crown"
+			id: "7F1E663EE6A291B4"
+			rewards: [{
+				id: "4B5D8A5C021DD89B"
+				item: "ars_nouveau:alchemists_crown"
+				type: "item"
+			}]
+			subtitle: "$150"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "75D3C6CFD2492B9B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_50"
+				}
+				type: "item"
+			}]
+			title: "&2Alchemist's Crown"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "thermal:glowstone_bucket"
+			id: "5C8E2710924AC267"
+			rewards: [{
+				id: "2800C160CA298CAD"
+				item: "thermal:glowstone_bucket"
+				type: "item"
+			}]
+			subtitle: "$300"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "458CB460266FB607"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&2Energized Glowstone Bucket"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			icon: "enlightened_end:jelly_ring_item"
+			id: "3A675E8F7031F606"
+			rewards: [{
+				id: "7242A8AB1A7A3FBE"
+				item: "enlightened_end:jelly_ring_item"
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "2ACC1AF91E6B8658"
+				item: "kubejs:note_100"
+				type: "item"
+			}]
+			title: "&2Jelly Ring"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			icon: "reliquary:midas_touchstone"
+			id: "6B41D4F7E44A6F90"
+			rewards: [{
+				id: "5B8A146DCF59DDD5"
+				item: "reliquary:midas_touchstone"
+				type: "item"
+			}]
+			subtitle: "$30'000"
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "17B0CE978DEB01B2"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:10k_card"
+				}
+				type: "item"
+			}]
+			title: "&2Touchstone of Midas"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			icon: "nourished_nether:totem_of_post_mortem"
+			id: "732C22F1C4423240"
+			rewards: [{
+				id: "1D9F47808A777822"
+				item: "nourished_nether:totem_of_post_mortem"
+				type: "item"
+			}]
+			subtitle: "$2'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "497100F4D6B4D8ED"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&2Totem Of Post Mortem"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			icon: "reliquary:infernal_claws"
+			id: "06DDEE507AC0E0AD"
+			rewards: [{
+				id: "3A33B880CD20363D"
+				item: "reliquary:infernal_claws"
+				type: "item"
+			}]
+			subtitle: "$20'000"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "257BDDD736073861"
+				item: "kubejs:10k_card"
+				type: "item"
+			}]
+			title: "&2Pig Soul"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:pupfish_locator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08FDC8A61B0DFD19"
+			rewards: [{
+				id: "19B8686353A95286"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:pupfish_locator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$5'000"
+			tasks: [{
+				consume_items: true
+				id: "3240DEB7EBF2E8CB"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:5k_card"
+				}
+				type: "item"
+			}]
+			title: "&3Strange Fish Finder"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "alexsmobs:novelty_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "764B2CAB9D888D97"
+			rewards: [{
+				id: "4CA5A986043F19DE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:novelty_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "$1'000"
+			tasks: [{
+				consume_items: true
+				id: "1904663E8FBBDA52"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_1000"
+				}
+				type: "item"
+			}]
+			title: "&2Novelty Hat"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "cyclic:spark"
+			}
+			id: "5A9363CCB5710E4E"
+			rewards: [{
+				count: 2
+				id: "4C1114365E98347B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "cyclic:spark"
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			subtitle: "$100"
+			tasks: [{
+				consume_items: true
+				id: "111FC342C91354A9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:note_100"
+				}
+				type: "item"
+			}]
+			title: "&2Spark"
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "Weird \\& Unusual"
+}

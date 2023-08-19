@@ -1,0 +1,10 @@
+{
+  "name": "Emerald",
+  "colors": [
+    "41f384",
+    "aa2c"
+  ],
+  "ingredient": {
+    "item": "minecraft:emerald"
+  }
+}

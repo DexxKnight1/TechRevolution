@@ -1,0 +1,10 @@
+{
+    "name": "Enderium",
+    "colors": [
+        "368BC1",
+        "737CA1"
+    ],
+    "ingredient": {
+        "tag": "forge:ingots/enderium"
+    }
+}

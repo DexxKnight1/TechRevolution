@@ -1,0 +1,2220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ftb_industrial_contraptions"
+	group: "318AD3DF2B0AC047"
+	icon: {
+		Count: 1b
+		id: "ftbic:roller"
+		tag: { }
+	}
+	id: "3AAD5233BCF07A34"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "kubejs:textures/item/quest.png"
+		rotation: 0.0d
+		width: 0.3d
+		x: -1.7142857142857153d
+		y: -9.891964285714277d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["06C7368D98DFEF51"]
+			description: [
+				"FTB Industrial Contraptions is a tech mod!"
+				"This mod uses ⚡ (Zaps) as power system and works slightly differently from RF. Your machines can get damaged if you aren't careful!"
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "ftbic:ftbic_guide"
+				}
+			}
+			id: "3BBF8EC8DF478E00"
+			rewards: [
+				{
+					id: "0ACB847CF44FFD45"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "649EBF01B708E530"
+					item: "ftbic:empty_can"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&l&oFurnace&r quest*"
+			tasks: [{
+				id: "4142B51EA42EFD12"
+				type: "checkmark"
+			}]
+			title: "Welcome to &dFTB Industrial Contraptions"
+			x: -2.4285714285714306d
+			y: -9.356249999999989d
+		}
+		{
+			dependencies: [
+				"38E9D25E7A0E2866"
+				"5C27B8306D7C6809"
+			]
+			id: "7FF5219D308F9F8C"
+			rewards: [
+				{
+					id: "761362AB90CF93A0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D2A76FF7512D65F"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1643FBE548F65C2E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "417596B2CB4F981A"
+				item: "ftbic:machine_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3BBF8EC8DF478E00"]
+			id: "38E9D25E7A0E2866"
+			rewards: [
+				{
+					id: "68D331F827DE33BD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "571D5B05C76C3DC1"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "789AB05B8DCEB612"
+				item: "ftbic:industrial_grade_metal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["38E9D25E7A0E2866"]
+			id: "5C27B8306D7C6809"
+			rewards: [
+				{
+					id: "63E0369FB24F0762"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "518E52A38C6FE5CA"
+					item: "ftbic:fuse"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 24L
+				id: "0029809440AB5B29"
+				item: "ftbic:fuse"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7FF5219D308F9F8C"]
+			id: "0BB384FD9396EB8F"
+			rewards: [
+				{
+					id: "5BA3D9D794547C65"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C41C91F5622CAB2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38BDE3657B2400FB"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "40429A6820B53AA9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B2E3CF01B2CE968"
+				item: "ftbic:macerator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BB384FD9396EB8F"]
+			id: "73D90C1A7DD02E11"
+			rewards: [
+				{
+					id: "1338C0B831B7515E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "564D168ADB16D0D3"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F0B935187DF7C4"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					id: "4B4C2F1410847C8E"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B8B3E0AE07EAA8B"
+				item: "ftbic:roller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["73D90C1A7DD02E11"]
+			id: "4AA4D317F72BC65E"
+			rewards: [
+				{
+					id: "3DE65D405CA7F9D1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03F68EDADF5AC7BA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DF27A3B5E3E5991"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					id: "57D062D505EFB8A9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13F80C81AEAA9654"
+				item: "ftbic:centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4AA4D317F72BC65E"]
+			id: "442599F7B4733F7D"
+			rewards: [
+				{
+					id: "4E20BB0BEBEAE657"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E1FCF4240EED8A"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35EF0FC1637B24D6"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					id: "71082396B4EE7593"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13C7724042C210C2"
+				item: "ftbic:extruder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7FF5219D308F9F8C"]
+			id: "26CFACC91AF5025E"
+			rewards: [
+				{
+					id: "0A2B214FADB319DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F3B3C535CB52F15"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "114783F9FAA9CE1A"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1CFD0A22E1667F43"
+				item: "ftbic:advanced_machine_block"
+				type: "item"
+			}]
+			x: -3.7142857142857153d
+			y: -5.273214285714282d
+		}
+		{
+			dependencies: ["26CFACC91AF5025E"]
+			id: "5E7F42FAC283095F"
+			rewards: [
+				{
+					id: "78DABFD3455C11EB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79D6EC1DE39AEA1D"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F8EA58F95139A96"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "3474429ACB202AEE"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C84E28725FC3BE6"
+				item: "ftbic:antimatter_constructor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5E7F42FAC283095F"]
+			id: "290C527A8E94826C"
+			rewards: [
+				{
+					id: "50FDAE5B7804FA4A"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CC923C0B3305DC9"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6495AC7A53EF2596"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "06BD07FBDC8555DF"
+				item: "ftbic:antimatter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["20B2811D88D47617"]
+			id: "305A782A16675616"
+			rewards: [
+				{
+					id: "52B7D7C2DCD7AE2B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73F5BF009F6CC2EC"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "467797689740ECF9"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "51193588EA11A8E4"
+				item: "ftbic:energy_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["305A782A16675616"]
+			id: "5495B343BA29DB5B"
+			rewards: [
+				{
+					id: "6CCA9548C493B036"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35C2768707A0D105"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A3C5A0AF8638A44"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "34D4689F09E299FE"
+				item: "ftbic:antimatter_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BB384FD9396EB8F"]
+			id: "6DCF5C1DC0177F8D"
+			rewards: [
+				{
+					id: "2043CD4EE2374A2E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73B2548116EEAE63"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "786C75D1901C4D90"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					id: "5443BAE3DC0296D8"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D1E936A35A9C5EC"
+				item: "ftbic:compressor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DCF5C1DC0177F8D"]
+			id: "7A7FE654FD840689"
+			rewards: [
+				{
+					id: "0631055162FB8694"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59CCBD0DADEB29BE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E0B14A550221BC2"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					id: "286DBE64458E31D1"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77102F9F1EA54669"
+				item: "ftbic:reprocessor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26CFACC91AF5025E"]
+			id: "55CC6DD936C631E0"
+			rewards: [
+				{
+					id: "49B86CF14CF5E29B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54F19833436A846F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42D4DE2A54161923"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "6022A08D8EC63893"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D23007ECFB559A9"
+				item: "ftbic:quarry"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["55CC6DD936C631E0"]
+			id: "288E8F4CBCF65564"
+			rewards: [
+				{
+					id: "466CBA58FB7B5B61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4072F496E6BD260B"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51F30AB8556DBA58"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1272BD2B2CE3E637"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "568F93F603AE5E4C"
+				item: "ftbic:pump"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4AA4D317F72BC65E"]
+			id: "20B2811D88D47617"
+			rewards: [
+				{
+					id: "0B205DF36BCB30BA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6045EF5C37CEB464"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19D610D26CAF3B15"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "5223F661BB75A62E"
+				item: "ftbic:silicon"
+				type: "item"
+			}]
+			x: 1.6785714285714306d
+			y: -5.773214285714289d
+		}
+		{
+			dependencies: ["7A7FE654FD840689"]
+			id: "0EA98BF706A74080"
+			rewards: [
+				{
+					id: "71407C894B70AFC7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F21687316082595"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E3A1B5380F3722B"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "6468541328FD943D"
+				item: "ftbic:scrap"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6DCF5C1DC0177F8D"]
+			id: "771F3E6F57C308D8"
+			rewards: [
+				{
+					id: "17F100630E994BE6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BE117350F2728E8"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F4F99D449D5FBDE"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "799BB9E93110FFC6"
+				item: "ftbic:carbon_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A7FE654FD840689"]
+			id: "172758D42C71D00B"
+			rewards: [
+				{
+					id: "00021C9AB16B852C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60198833EFF85479"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FB6708CA80E8F5B"
+					table_id: 4432288867142743846L
+					type: "random"
+				}
+				{
+					id: "45555BC7E96EB256"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50655FCBB98A3B41"
+				item: "ftbic:canning_machine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["172758D42C71D00B"]
+			id: "0D601891EB534188"
+			rewards: [
+				{
+					id: "220799217CFF3DAA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BA6931697C92A5B"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CA6AC9B8B557109"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "7ECAF5B385743FF2"
+				item: "ftbic:protein_bar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55CC6DD936C631E0"]
+			id: "50C2D9668D669E82"
+			rewards: [
+				{
+					id: "52A5E71E9E97E0E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EBDC485052C464D"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "09D6D1D2B5ACF4D8"
+				item: "ftbic:landmark"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"244A2A6D864B5CAA"
+				"0D239A4244E817CE"
+			]
+			hide_dependency_lines: true
+			id: "33D075B80C25E203"
+			rewards: [
+				{
+					id: "75A342483C3AF59E"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "313F08FA54616595"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DEE253BE4520A24"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AA90933C7AD614E"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "5B1209F5CFC754C0"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DF4DAF69151E57B"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"33D075B80C25E203"
+				"275AAA62EA696A7C"
+			]
+			hide_dependency_lines: true
+			id: "6E8AD54C6257E0F8"
+			rewards: [
+				{
+					id: "21AA49ADBD23CC15"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A6B02FB2007BD7E"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63750C7E64344F6B"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E3A8F9ACCC75CA2"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45B74A545FC72E55"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "3EE084E5E7E123BB"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "579D370BF891F83E"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E8AD54C6257E0F8"]
+			hide_dependency_lines: true
+			id: "74E495D504589303"
+			rewards: [
+				{
+					id: "631CD3B9BB0F5CDA"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "578AE50D1152B8F2"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2341F2EE9195B55D"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "477180CF8F210CB6"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "5F55DEA446293546"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "024F0924745D37AD"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74E495D504589303"]
+			hide_dependency_lines: true
+			id: "5985A82BB9F42644"
+			rewards: [
+				{
+					id: "49822D720B97789C"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "073C2407FDE6F4E2"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "090A86CF4E65EC29"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "558161D0737C0C24"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1D954765D6252E94"
+				item: {
+					Count: 1b
+					id: "ftbic:quantum_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"305A782A16675616"
+				"771F3E6F57C308D8"
+			]
+			hide_dependency_lines: true
+			id: "244A2A6D864B5CAA"
+			rewards: [
+				{
+					id: "449D6A9B1FEBC942"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B718B38AD2B04B3"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "180D0199D26DB617"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D754B286408E3BC"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "0D4357655353CE14"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0809283400C688CE"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["244A2A6D864B5CAA"]
+			hide_dependency_lines: true
+			id: "1E2D78DBFC15F649"
+			rewards: [
+				{
+					id: "2A8738294B0CB8D8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F2188CF948A6803"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "278B4C37574A0ED0"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AA844513B98DD55"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "3C4F363A51A2A2DA"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0910FCB157320708"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E2D78DBFC15F649"]
+			hide_dependency_lines: true
+			id: "134E0D9266646265"
+			rewards: [
+				{
+					id: "2B638B172F9DD008"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AB2E2865F1FFE5A"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C477A046A18D2A0"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "074C4F29C0BA45B7"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "78C25E5D92BC9587"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "71F9A307EF646668"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["134E0D9266646265"]
+			hide_dependency_lines: true
+			id: "33BA5C5E57960255"
+			rewards: [
+				{
+					id: "1B18AE99AC5DCAB5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "512DDF318CC02E35"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "650D5C390E9FF672"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "758ADDAC76AE5BDB"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "124164C33F32FF94"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "551ED85FFD5954C2"
+				item: {
+					Count: 1b
+					id: "ftbic:carbon_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["771F3E6F57C308D8"]
+			hide: true
+			hide_dependency_lines: true
+			id: "275AAA62EA696A7C"
+			rewards: [
+				{
+					id: "264198982FBFD7DB"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B14D81F1B6952A6"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A82AA75E9E4C665"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "5A25AF0321457941"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "0436249835A4E5AE"
+				item: {
+					Count: 1b
+					id: "ftbic:mechanical_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.607142857142854d
+			y: -0.38035714285713595d
+		}
+		{
+			dependencies: ["3BBF8EC8DF478E00"]
+			id: "11531F4C916E2F04"
+			rewards: [
+				{
+					id: "772CFF842FF83A7C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AEC320A4B0E2F8C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5041BC9F66E81D48"
+				item: "ftbic:rubber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["11531F4C916E2F04"]
+			id: "0EEBCE1E9F1216C6"
+			rewards: [
+				{
+					id: "29A90A5E5756EF4F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4B9259FFA2AF28"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "630B65A6473FE287"
+				item: "ftbic:lv_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0EEBCE1E9F1216C6"]
+			id: "03EF80B34ABC1EA6"
+			rewards: [
+				{
+					id: "09935893DDE5B2CC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B3FF7B46A2DAD59"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "2B8C9ECF000CACB7"
+				item: "ftbic:mv_cable"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["03EF80B34ABC1EA6"]
+			id: "28995335732CCB1E"
+			rewards: [
+				{
+					id: "1807F392C341E955"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "521F20D9CDED5DC9"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "6E936C7167E4D782"
+				item: "ftbic:hv_cable"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["28995335732CCB1E"]
+			id: "7854A8A9A9176019"
+			rewards: [
+				{
+					id: "3EDF74A23D6A873A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C48CDE3FE946828"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "3A7398146C1AFA89"
+				item: "ftbic:ev_cable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["305A782A16675616"]
+			id: "78F35206BF874F9C"
+			rewards: [
+				{
+					id: "74BAFD49F544B985"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F5954DAEB52A6C7"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6608D1AC4DE24815"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "652F72D621372AAA"
+				item: "ftbic:iv_cable"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["08B1A075F21E3E3F"]
+			id: "1ABFDC7AD1D26680"
+			rewards: [
+				{
+					id: "753B5664BBF7F582"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DB93AFC0A946920"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "541CF33CA0E340A9"
+				item: "ftbic:lv_battery"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3BBF8EC8DF478E00"]
+			id: "08B1A075F21E3E3F"
+			rewards: [
+				{
+					id: "349B6A7BBA5C5943"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23E7C84FC88377EA"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2BD2BA299DF7477C"
+				item: "ftbic:graphene"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1ABFDC7AD1D26680"]
+			id: "6CA835CD7E71B3B9"
+			rewards: [
+				{
+					id: "75784D965004F76A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CD933DAF489DFF2"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "542D2563AE5EE0B1"
+				item: "ftbic:mv_battery"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["008C0954B41C7F76"]
+			id: "460224610550126E"
+			rewards: [
+				{
+					id: "2B09AD6F4B47AC33"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "212111DFE769E059"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7F2104DBB96D9022"
+				item: "ftbic:ev_battery"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6CA835CD7E71B3B9"]
+			id: "008C0954B41C7F76"
+			rewards: [
+				{
+					id: "76ECB79481454C4B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56379A2F76C17926"
+					table_id: 6813199617749196115L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E01A53F40141A9C"
+				item: "ftbic:hv_battery"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["38E9D25E7A0E2866"]
+			id: "3116935B0B4AF62C"
+			rewards: [
+				{
+					id: "3CF4737E8EED6434"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24B065466E6B09B4"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C74E91716F15BB7"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "5671016CD8EE9C69"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D90518922C0DC5A"
+				item: "ftbic:electronic_circuit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3116935B0B4AF62C"]
+			id: "1F5ADF9AE80F9862"
+			rewards: [
+				{
+					id: "2F7A3443BAD95FAC"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AA8E4E634C8A8D3"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47EABCEFC164497F"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6296FDFEDACD7540"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37AE68C7B53C4295"
+				item: "ftbic:advanced_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1F5ADF9AE80F9862"]
+			id: "0D239A4244E817CE"
+			rewards: [
+				{
+					id: "6F686B207E24BB9F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55C633CD00A4C6C5"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63B1624E7A697FE3"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "1398D9317F663BC9"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33D9848D1BFA1CE9"
+				item: "ftbic:iridium_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["059CFF582EDD8324"]
+			id: "765F7720892E3177"
+			rewards: [
+				{
+					id: "6E174638D8DB6E8E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66E22558995B981E"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "660477B13DCE22EC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "09B9DBF7AC04C399"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "506FF0F441E1ADC4"
+				item: "ftbic:lv_solar_panel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"765F7720892E3177"
+				"059CFF582EDD8324"
+			]
+			id: "72970A98859430D2"
+			rewards: [
+				{
+					id: "744FEEED496156CB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7342C0C4ED0C7751"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "151C599D67373C22"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3418257B17FBE9D7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "2A0E9335FD4CC6D1"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2090107BD71FAFA1"
+				item: "ftbic:mv_solar_panel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"059CFF582EDD8324"
+				"64004EF971342FC9"
+			]
+			id: "6565F818BFEA6085"
+			rewards: [
+				{
+					id: "246344E305FBA7D8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EF70E1E884EE653"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "525A6366459A5307"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFF221D183B893F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4D67B922E799D87A"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05486141FB3699A4"
+				item: "ftbic:hv_solar_panel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"059CFF582EDD8324"
+				"72970A98859430D2"
+			]
+			id: "64004EF971342FC9"
+			rewards: [
+				{
+					id: "49360FEF7B762F4C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DB7DBB963DCBFB0"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "024D9256AFF929C6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06AAB5A2FC0A2640"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "2910E5F3654BF866"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38285A4F7CF4FEE7"
+				item: "ftbic:ev_solar_panel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7FF5219D308F9F8C"]
+			id: "48CF76E757DB467F"
+			rewards: [
+				{
+					id: "45E667F8F3E770EA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "070C821FC55307E9"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "5E48E2968BFC8190"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2870583AF32DA013"
+				item: "ftbic:iron_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48CF76E757DB467F"]
+			id: "059CFF582EDD8324"
+			rewards: [
+				{
+					id: "771683EB7D08381E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37FFAC0AC2C172A8"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57A157E8D90FC100"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1C8B3769FBC9F994"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C1621E02CD00035"
+				item: "ftbic:basic_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1ABFDC7AD1D26680"]
+			id: "09FB7997088AB760"
+			rewards: [
+				{
+					id: "086FDD5AC748F5CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20D342E5BA7A44A1"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57554D8652F30B28"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7FFDD0128806948A"
+				item: "ftbic:lv_battery_box"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["09FB7997088AB760"]
+			id: "36A43656696DA2A0"
+			rewards: [
+				{
+					id: "20FCE4A7610A9050"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48C96097D9C1C527"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "553CDEFB3BEAA986"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0CE0858EA6CFFD67"
+				item: "ftbic:mv_battery_box"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36A43656696DA2A0"]
+			id: "146C5693D6C602B7"
+			rewards: [
+				{
+					id: "160D6255BA54DAD5"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "308D523538E13EB1"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "385C06ACED4F77DD"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6F3B92B1EEAAFA3C"
+				item: "ftbic:hv_battery_box"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["146C5693D6C602B7"]
+			id: "407604408124964D"
+			rewards: [
+				{
+					id: "58BFF34F95C9D01E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "566467E3081BEEA6"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63B1F3328C15F4CE"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31B3A3F870CFD741"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5EE65325B9EFCD35"
+				item: "ftbic:ev_battery_box"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09FB7997088AB760"]
+			id: "3AC98754744A1B2D"
+			rewards: [
+				{
+					id: "353EBF93A5D328D5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C93854DF23E666"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "657069C7F001FFE3"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "227848BCC951E734"
+				item: "ftbic:lv_transformer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["564690C6FAD646B1"]
+			id: "2F3E4BE59C5462C3"
+			rewards: [
+				{
+					id: "3C627BAA86EFB4C3"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "583427B8F3A28910"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "292B44FFB730C471"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3715707A71D2F243"
+				item: "ftbic:hv_transformer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3AC98754744A1B2D"]
+			id: "564690C6FAD646B1"
+			rewards: [
+				{
+					id: "6E8367D8AA47BC49"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61D6BBB5E35DAAA6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "610AD1352AA54C7E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6E4C82480D03A84D"
+				item: "ftbic:mv_transformer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F3E4BE59C5462C3"]
+			id: "0CF57DD640A33784"
+			rewards: [
+				{
+					id: "004AF0D589203967"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75DAB5CC0C60355E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3673B23C6678568F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "58795001AEC0E904"
+				item: "ftbic:ev_transformer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3116935B0B4AF62C"]
+			hide: true
+			hide_dependency_lines: true
+			id: "429A8E5FA72F90E4"
+			rewards: [
+				{
+					id: "59E7C321871577DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A2E78D02B56C843"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12A119EF7E75E8DF"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "1DD074A836AD29C8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3E83F93D569EA25D"
+				item: "ftbic:overclocker_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3116935B0B4AF62C"]
+			hide: true
+			hide_dependency_lines: true
+			id: "3BC714AC2C7E3A2E"
+			rewards: [
+				{
+					id: "009D50E7BE48676F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7381AFE2FD2524C1"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B6696489BEBB62D"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "06624812BF62897F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4535573D1E6A4976"
+				item: "ftbic:energy_storage_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3116935B0B4AF62C"]
+			hide: true
+			hide_dependency_lines: true
+			id: "449EC70EEE193714"
+			rewards: [
+				{
+					id: "14F784A58ED4A306"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "642516FE465463CF"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16BE1A945893D7FC"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "4192DF7E885349D1"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "211E7D5FF36B9AEB"
+				item: "ftbic:transformer_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3116935B0B4AF62C"]
+			hide: true
+			hide_dependency_lines: true
+			id: "11F5C97F09A4B88D"
+			rewards: [
+				{
+					id: "4DEC03237BF54011"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0554E430091F6372"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E4BA486DE6698B6"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "6ACF0D243EC7DAAD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "43142BF9BAA5A80E"
+				item: "ftbic:ejector_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+	]
+	title: "&d&oFTB Industrial Contraptions"
+}

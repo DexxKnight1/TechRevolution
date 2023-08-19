@@ -1,0 +1,2653 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_agriculture"
+	group: "39E458E1366D7D1D"
+	icon: "thermal:flax"
+	id: "47BCBDF551D36028"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "kubejs:textures/item/agricul_b.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.2d
+			hover: [ ]
+			image: "kubejs:textures/item/agricul_a.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanismtools:textures/item/osmium/hoe.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/diamond_hoe"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0714285714285836d
+			y: -5.624999999999993d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -14.107142857142868d
+			y: -5.660714285714285d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/wheat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.7142857142857153d
+			y: -5.517857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/wheat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -13.750000000000007d
+			y: -5.482142857142854d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/wheat.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:textures/item/wheat.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: [ ]
+			image: "kubejs:textures/item/far_hat.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.035714285714292d
+			y: -9.55357142857143d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.7d
+			hover: [ ]
+			image: "kubejs:textures/item/agcul.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: -7.5d
+			y: -9.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "79E2640D359C6E10"
+			rewards: [
+				{
+					id: "7F23C756F33E2A7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1EFCCE6E621EA2B3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "662A027AA084F2E3"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "7559F5BC8A78974C"
+			rewards: [
+				{
+					id: "618356C6FCCAA9D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6DD7FA560FB9D792"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "3F182487FAD4D5B6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A511BD441042EA8"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "1F552C0DA2741587"
+			rewards: [
+				{
+					id: "4A50DF83A3C3C189"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "025F149C4607CB12"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "7DC7CF5A5A9F6B63"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6741DD6CC1155958"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "03D6822411AF1DD9"
+			rewards: [
+				{
+					id: "2E8045DA432AFD3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "308FF81FAA05672A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01F0F762672FB9DA"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "3916DED23F800E93"
+			rewards: [
+				{
+					id: "4674AE4600ECF660"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3962EB543A339B08"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "576BB7EDF7B2187B"
+				item: "thermal:flax_seeds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "6DEFAC2ABAC068DD"
+			rewards: [
+				{
+					id: "220CE2DA939E3E27"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79576A5D4A8B5E99"
+					item: "farmersdelight:rope"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "10AD8EAE9CC7ACD6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D050CCF2AFCB70C"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "313FAE0043E75DF0"
+			rewards: [
+				{
+					id: "6261E5D35EB82D7F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1FBC6EA304B37C10"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "6BF18EF8D3599D01"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F50D85344B18267"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "44756C77E963E90C"
+			rewards: [
+				{
+					id: "3D6AB88C2D63818B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "043230A1ABEDDE7C"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					id: "7BF0070372F2F744"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67070AA9E2B76A5F"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79E2640D359C6E10"]
+			id: "52275937BDA24F08"
+			rewards: [
+				{
+					id: "643CA2B9FC571F4A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "465705C566936517"
+					item: "pneumaticcraft:sourdough_bread"
+					type: "item"
+				}
+				{
+					id: "65393745B2B1863A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "680D1B7F0B6E5129"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03D6822411AF1DD9"]
+			id: "413C3145970C3311"
+			rewards: [
+				{
+					id: "5C054C41151AAD23"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6EFB58B6BC9E5CEE"
+					item: "minecraft:beetroot_soup"
+					type: "item"
+				}
+				{
+					id: "77F6499D2C195C89"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53703F4ED45CEC7C"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "268C28EFED471EBB"
+			rewards: [
+				{
+					id: "75DDAFF79B64E581"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4187610E0718A803"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0CE2B51F630F2F13"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08B105CDCF18F081"
+				item: {
+					Count: 1b
+					id: "quark:seed_pouch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "58F18E1391B508A8"
+			rewards: [
+				{
+					id: "603AF5C6871A73F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3B8B3B9DE1B97DF7"
+					item: {
+						Count: 1b
+						id: "byg:blueberry_pie"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "268D94DFF1608DED"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "411EDF4F8A3E2215"
+				item: "byg:blueberries"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "2BD67FC070D9F48D"
+			rewards: [
+				{
+					id: "4422CAE5219A92D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D831CEE5083383F"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "6F7779882DE8B1DA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21F9CA67302A0DA0"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "1D942F24F0200718"
+			rewards: [
+				{
+					id: "73A1EB941DAF06CA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B807E14C1182372"
+					item: "croptopia:elderberry_jam"
+					type: "item"
+				}
+				{
+					id: "773A219D62FC52E0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64591A46F47C0E7C"
+				item: "ars_nouveau:source_berry"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26BAC59CF7834E41"]
+			id: "23D25FCB0C893400"
+			rewards: [
+				{
+					id: "04AC0A84251813B8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6B2C96D3F2D8CB0B"
+					item: "croptopia:apple_pie"
+					type: "item"
+				}
+				{
+					id: "0CE6A985E824FCC8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DDC4CC987043858"
+				item: "thermal:apple_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["313FAE0043E75DF0"]
+			id: "6306100328FD1576"
+			rewards: [
+				{
+					id: "626EE50486458800"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "57DF28834D583389"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "31165FFEEB480CD0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "292E810079EF5EF5"
+				item: "thermal:carrot_block"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44756C77E963E90C"]
+			id: "015D871BC79CEBA5"
+			rewards: [
+				{
+					id: "0E578BB3FDE9FC59"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "31578FBEBD4FCDFD"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "37314E18A72465ED"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38EF98FC83BE17E3"
+				item: "thermal:potato_block"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["413C3145970C3311"]
+			id: "1CEB6B0EE29F2F24"
+			rewards: [
+				{
+					id: "75FB48C0AD853369"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "738D5F5E330D7B32"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "05FD9F7B5A1A9995"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "529925BC2FA27F89"
+				item: "thermal:beetroot_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "06CBD180CD184FBC"
+			rewards: [
+				{
+					id: "4E6F0D5D47720390"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "24BA3995A4C61D26"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58C019392CA79962"
+				item: "thermal:corn_seeds"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "33C8FF95807426B4"
+			rewards: [
+				{
+					id: "7CD4F2E01EBF18FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "02D565A9AC1D264C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FC6885F347C722C"
+				item: "thermal:onion_seeds"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "6D66FA9FF2740FC5"
+			rewards: [
+				{
+					id: "1B61C251725F1FB3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "037C4F309B4B46ED"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EA12B3DB153516D"
+				item: "thermal:radish_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "2CB6E6F205CA3EAC"
+			rewards: [
+				{
+					id: "7CA62865CC20BAB9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63323B24752CE78E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55DCD0DF18D02851"
+				item: "thermal:rice_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "24ECADE3CD4193E0"
+			rewards: [
+				{
+					id: "147D354B1F8CD479"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7A1AACE2A774C696"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2820F6732012C71E"
+				item: "thermal:sadiroot_seeds"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "775ADED3E0FEE5C0"
+			rewards: [
+				{
+					id: "6D0C8E4EEFF7D65C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "16497CEE49FFD133"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FDD6E3F961B3ACB"
+				item: "thermal:bell_pepper_seeds"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "4CF3B507D85AB4FC"
+			rewards: [
+				{
+					id: "3FF8EC7BBF203ABB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0FFC3028EC86E384"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43577C9AC9337537"
+				item: "thermal:eggplant_seeds"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CF3B507D85AB4FC"]
+			id: "63F323CCEFB22465"
+			rewards: [
+				{
+					id: "76CBE436B2A5D954"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3035917F472E4F93"
+					item: "thermal:cooked_eggplant"
+					type: "item"
+				}
+				{
+					id: "6881E130BE7F531A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ED217EF355CD0C4"
+				item: "thermal:eggplant"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63F323CCEFB22465"]
+			id: "518D4A2268207F0C"
+			rewards: [
+				{
+					id: "3362CA757DF626E7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "21336242A7104824"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "2AA906EEF7332E23"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "210B42FDF4C0E68E"
+				item: "thermal:eggplant_block"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06CBD180CD184FBC"]
+			id: "4FFD17BA9503CE3B"
+			rewards: [
+				{
+					id: "4571748CB471AE5F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0D7B3B5D80AB2325"
+					item: "thermal:cooked_corn"
+					type: "item"
+				}
+				{
+					id: "07E9F6471C6E667F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09E7FF595B3BAFAD"
+				item: "thermal:corn"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FFD17BA9503CE3B"]
+			id: "5D5E30C6606C36BE"
+			rewards: [
+				{
+					id: "2895B7CDCEB28270"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6D2F32DBAF7FE54F"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "39B59C5D9EC82C34"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "133DACE75DAF9406"
+				item: "thermal:corn_block"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33C8FF95807426B4"]
+			id: "099B9747D9845771"
+			rewards: [
+				{
+					id: "3B4CC7E15E403A43"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0355D00648B76D85"
+					item: "croptopia:onion_rings"
+					type: "item"
+				}
+				{
+					id: "15D6D4C02B1765A3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A5586A0DA86E44F"
+				item: "thermal:onion"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["099B9747D9845771"]
+			id: "45A698E634E3674C"
+			rewards: [
+				{
+					id: "434F68950F018E68"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "74E6DA0BECD34AF5"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "3AC412C41497E2D5"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D3891A12EB8F436"
+				item: "thermal:onion_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D66FA9FF2740FC5"]
+			id: "740AC4E27E6A2D59"
+			rewards: [
+				{
+					id: "160EE00F61A8216F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5B3822084B2B7DB5"
+					item: "croptopia:roasted_radishes"
+					type: "item"
+				}
+				{
+					id: "6614AC3421F712FD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A86EB2239C52DE6"
+				item: "thermal:radish"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["740AC4E27E6A2D59"]
+			id: "2542A89BCD71D5D4"
+			rewards: [
+				{
+					id: "1C0A4B53596BED2A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3AC82A0729A56257"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "7C4C497BD43BB810"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D3F38FECB91FDE7"
+				item: "thermal:radish_block"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24ECADE3CD4193E0"]
+			id: "659D8C33A176393D"
+			rewards: [
+				{
+					id: "53C756F5AE3F9F1F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4D95EA8012FFD27C"
+					item: "croptopia:quesadilla"
+					type: "item"
+				}
+				{
+					id: "6A3AE4B29AB74C7C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F728B1FA9AD2E87"
+				item: "thermal:sadiroot"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["659D8C33A176393D"]
+			id: "0065F99FD9EDA8E2"
+			rewards: [
+				{
+					id: "08FE79242F434851"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5B9F9EF5D2C31839"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "76CB06DBDDF7D068"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67B267D4F87F7A99"
+				item: "thermal:sadiroot_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "42B04FFE3871CAF4"
+			rewards: [
+				{
+					id: "05FF49464EFA9CF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1D9329E728B7F4B3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "123B926E7258D860"
+				item: "thermal:green_bean_seeds"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "261C0F3A757E5615"
+			rewards: [
+				{
+					id: "716C0022CB9AC011"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0DD5625FD74478A0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68F97C7B803228FD"
+				item: "thermal:tomato_seeds"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42B04FFE3871CAF4"]
+			id: "70DFFD8234BB10BE"
+			rewards: [
+				{
+					id: "0B4E91126C9D8359"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "73FC2EEB0CB1F299"
+					item: "thermal:green_bean_pie"
+					type: "item"
+				}
+				{
+					id: "75AF13E9E2EB8467"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E19FE6C242DBD20"
+				item: "thermal:green_bean"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70DFFD8234BB10BE"]
+			id: "7AA47A81B471C92E"
+			rewards: [
+				{
+					id: "7004CD818CB7EE0D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3B19C317B93B3AC3"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "1E7FEDCC9C487BB8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "243D64AE34EB5084"
+				item: "thermal:green_bean_block"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["775ADED3E0FEE5C0"]
+			id: "0EC9F6381F602588"
+			rewards: [
+				{
+					id: "1521F24E286B6EE7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "17DE951180CD50DE"
+					item: "thermal:stuffed_pepper"
+					type: "item"
+				}
+				{
+					id: "1475E9B49F60A80F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D62519F96F21039"
+				item: "thermal:bell_pepper"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EC9F6381F602588"]
+			id: "454479551B26E365"
+			rewards: [
+				{
+					id: "4B8C71E57B44BC37"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "077CB48D5A27B78D"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "7839698197F1CFE1"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E9414C7A98AA151"
+				item: "thermal:bell_pepper_block"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["261C0F3A757E5615"]
+			id: "003ECD975D1EBE31"
+			rewards: [
+				{
+					id: "52647911AE4A5D6C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4B4E66F6C14F36C5"
+					item: "croptopia:blt"
+					type: "item"
+				}
+				{
+					id: "170ED42B7D0E8D2E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F0FDD9A5F3783F0"
+				item: "thermal:tomato"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["003ECD975D1EBE31"]
+			id: "1A64008E92ED3521"
+			rewards: [
+				{
+					id: "2CBF2813B1AB4DDA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "46C8BD33C693D6D1"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "0F082B489FC4003C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D581DEE62CA3C1C"
+				item: "thermal:tomato_block"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "26BAC59CF7834E41"
+			rewards: [
+				{
+					id: "5CD8C4FC655E84BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49FEF5462E59540A"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "4327EFEA39949B3D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30953103745C6A04"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52275937BDA24F08"]
+			id: "1DAED41708F59166"
+			rewards: [
+				{
+					id: "7CCB10617AA2CDC4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "61458E5BA42B0203"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "1B749C84F069F21F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31515EB53115F460"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "376292C2B5855BA3"
+			rewards: [
+				{
+					id: "179C91C0CCCEE097"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3476FDA7CE47E66E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "541BEDC0444DB3F6"
+				item: "thermal:barley_seeds"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["376292C2B5855BA3"]
+			id: "6AC13BD922F8EA74"
+			rewards: [
+				{
+					id: "2FB398161EC964EC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "66FD7CE3DC3B51FA"
+					item: "croptopia:spaghetti_squash"
+					type: "item"
+				}
+				{
+					id: "2321478C11D8D68A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68719DB25A6DCBE8"
+				item: "thermal:barley"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CB6E6F205CA3EAC"]
+			id: "3B386ADCE3D0D09C"
+			rewards: [
+				{
+					id: "3747EA0C7C363C1E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "018BBAF528112011"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					id: "576FC7D3263D4710"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26C144B17FF1BAC4"
+				item: "thermal:rice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AC13BD922F8EA74"]
+			id: "0CFE5B6399802E31"
+			rewards: [
+				{
+					id: "63EAB20FC360C834"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "510B677D362A5956"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "3263DF9ACD98E170"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65930CF23AA8F04A"
+				item: "thermal:barley_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3B386ADCE3D0D09C"]
+			id: "55B531114FD82527"
+			rewards: [
+				{
+					id: "3F51B0FBCD87E47C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "58F7AA90DFDA6392"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "709F68AD65B3F2AB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66448DF57FC973FB"
+				item: "thermal:rice_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "23C845F1F06011E5"
+			rewards: [
+				{
+					id: "4C0E3051F167EC29"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20B22EDDA5A61783"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ACC427F54F5179A"
+				item: "thermal:spinach_seeds"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23C845F1F06011E5"]
+			id: "4F1A84D6D25FC6EB"
+			rewards: [
+				{
+					id: "7012F6C8EA1170A8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "134B77A9EADDE6E6"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "6621F3F8DF219528"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B567462D2BAF731"
+				item: "thermal:spinach"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F1A84D6D25FC6EB"]
+			id: "39286FCE4608FEBB"
+			rewards: [
+				{
+					id: "37F78C62E7FB1441"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1236501F5F2D3657"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "7D4F9976DB730F39"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0823FD19E8BF0E16"
+				item: "thermal:spinach_block"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "46783DEC79D20577"
+			rewards: [
+				{
+					id: "33F30DAF35E4028E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D162215CF093544"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "435211113A97338B"
+				item: "thermal:amaranth_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46783DEC79D20577"]
+			id: "0E72BEAA65AD7D70"
+			rewards: [
+				{
+					id: "16E12A2C7E450E22"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5CC9C1C7D66A3FA5"
+					item: "croptopia:chocolate_milkshake"
+					type: "item"
+				}
+				{
+					id: "668F6448D7B84443"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D62395D6D627131"
+				item: "thermal:amaranth"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0E72BEAA65AD7D70"]
+			id: "219022631E925C7A"
+			rewards: [
+				{
+					id: "3F0E0E14BA8FF7FB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "263ED51B91B37F5E"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "3BE4029E383C75BD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "12ADF6CF0090D537"
+				item: "thermal:amaranth_block"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7559F5BC8A78974C"]
+			id: "4174D2186D8714D6"
+			rewards: [
+				{
+					id: "1BD76C6A204CA6C7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0512E9CDDD03E371"
+					item: "croptopia:pumpkin_bars"
+					type: "item"
+				}
+				{
+					id: "649D204889835574"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A2534497AD7BD25"
+				item: {
+					Count: 1b
+					id: "minecraft:pumpkin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1F552C0DA2741587"]
+			id: "5A33ACCBCF0E9D34"
+			rewards: [
+				{
+					id: "37DD869D976C126C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "580967BABD3CDD9F"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+				{
+					id: "549EA9A0487EC8F7"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ACCD255A365A50F"
+				item: {
+					Count: 1b
+					id: "minecraft:melon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3916DED23F800E93"]
+			id: "0FEA23EE539787AD"
+			rewards: [
+				{
+					id: "3C6EE7823705554B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 12
+					id: "7E41FB89461BBFE1"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "7D9B575BB4D2390C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4DC01DE25B287EE2"
+				item: "thermal:flax"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FEA23EE539787AD"]
+			id: "78DD46AAF70ADCD7"
+			rewards: [
+				{
+					id: "1E34AEE1233B51F9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "11BB12A1175289C8"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "3E857BAADD39BD51"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B37E1942C9EA480"
+				item: "thermal:flax_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6DEFAC2ABAC068DD"]
+			id: "1E16F68DCB08F9A1"
+			rewards: [
+				{
+					id: "34844A0B210CDC92"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7981D00313A78B08"
+					item: "chipped:tall_lantern"
+					type: "item"
+				}
+				{
+					id: "336F1F290296EDCD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C5CF5B31BF53689"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "3B51E5842826FC29"
+			rewards: [
+				{
+					id: "7ADA45A53EFA86FE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "28B33D60311C657F"
+					item: "quark:bamboo_chest"
+					type: "item"
+				}
+				{
+					id: "55801148FD64FBBB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04A291E810A304C9"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3B51E5842826FC29"]
+			id: "6D747A7B5625970A"
+			rewards: [
+				{
+					id: "54EBDA70E24FC7F7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "6E3E801736089BA7"
+					item: "mcwbridges:bamboo_bridge"
+					type: "item"
+				}
+				{
+					id: "7B27052B2671A33E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ECD774734E509F1"
+				item: "thermal:bamboo_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "7C6B9862257DF97A"
+			rewards: [
+				{
+					id: "112D456964454CDA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5ED5EE6B2280F974"
+					item: "croptopia:cinnamon_roll"
+					type: "item"
+				}
+				{
+					id: "5808A5129D68CB27"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "284AC96F92259177"
+				item: {
+					Count: 1b
+					id: "minecraft:sugar_cane"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C6B9862257DF97A"]
+			id: "7AD134B23E35658D"
+			rewards: [
+				{
+					id: "5B10625D1B964AEB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "27C3C33D80D7EEFA"
+					item: "croptopia_additions:sugar_cookie"
+					type: "item"
+				}
+				{
+					id: "32D06D6AA40102F6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DDD16B0A8694725"
+				item: "thermal:sugar_cane_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D255DD5D32DA110"]
+			id: "16752C75AB6B8752"
+			rewards: [
+				{
+					id: "4B5EF181685C7D9C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "37417717E6C30B80"
+					item: "croptopia:peanut_butter"
+					type: "item"
+				}
+				{
+					id: "4241D68C9414E293"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "42360D05077EB6E3"
+				item: "thermal:peanut"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "1D255DD5D32DA110"
+			rewards: [
+				{
+					id: "61EE933556110CB0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D390D4E4EC961D1"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49FBD1D3B0A32F47"
+				item: "thermal:peanut_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16752C75AB6B8752"]
+			id: "2AFC0B5C9297996F"
+			rewards: [
+				{
+					id: "468DAFFB1540BF5E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "31C534C9A21F360D"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "23D3EE24D3BAF8B7"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DD48B2393A940E1"
+				item: "thermal:peanut_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "0CEFB0FBF2421E0B"
+			rewards: [
+				{
+					id: "3A18EE11FEFBEB18"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "7A8692B2006394EB"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "7B713417D9801EE2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2C2C468D7FBC5653"
+				item: {
+					Count: 1b
+					id: "cyclic:sprinkler"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			description: ["Can be found in the Nightshade Forest biome in the End."]
+			id: "0B7C4AD3BD6BE028"
+			rewards: [
+				{
+					id: "17AFEE4CD9DA36DD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "383B4E95DD07F823"
+					item: {
+						Count: 1b
+						id: "byg:nightshade_berry_pie"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "02F4590D288F178B"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EFA76D45312557E"
+				item: "byg:nightshade_berries"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "7AB5D8E326D6F705"
+			rewards: [
+				{
+					id: "4AF66C04B5DE62C1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12EFDBCCDB294985"
+					item: {
+						Count: 1b
+						id: "byg:crimson_berry_pie"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "19032AD1DF99E9F6"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "284882B24D05B224"
+				item: "byg:crimson_berries"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "0263B1BADC2C043F"
+			rewards: [
+				{
+					id: "5718057558739D78"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "6A2FB23DD77889BB"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "62563382D4C440C9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "*Unlocked by completing the &b&l&oStarting Tools&r quest*"
+			tasks: [{
+				id: "316363CE3CBF935C"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			description: ["Snad will increase the growth rate for sugarcane, cacti and any other plantable crop."]
+			id: "46848689837985E6"
+			rewards: [
+				{
+					id: "43504B4B35BF87EE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7F7AB6E977E463D6"
+					item: "snad:snad"
+					type: "item"
+				}
+				{
+					id: "0E67B401E7849000"
+					item: "snad:red_snad"
+					type: "item"
+				}
+				{
+					id: "4450C62CA0EF5D57"
+					item: "snad:soul_snad"
+					type: "item"
+				}
+				{
+					id: "6B0B767AFD892EB9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5394AB3EB2C182FF"
+				item: "snad:snad"
+				type: "item"
+			}]
+			title: "The Snad"
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "40467D90AE966A2B"
+			rewards: [
+				{
+					id: "25238438B43A71CE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "691D24F2F7525D65"
+					item: "farmersdelight:glow_berry_custard"
+					type: "item"
+				}
+				{
+					id: "750E891833671653"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37CFA08861EB1EFE"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "3EF924184E526FA5"
+			rewards: [
+				{
+					id: "1D924C78342071D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "4627718D0D10F8B5"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "42DDE5AC63AEA8B2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30C19D1A747E5F30"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "098DF6FFD516862B"
+			rewards: [
+				{
+					id: "33E94C65837034C5"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "39B2997E274FE258"
+					item: {
+						Count: 1b
+						id: "tools_complement:bronze_sickle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45796D11334BAADD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "721DEE53885D34BB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E3C35F0706E6731"
+				item: {
+					Count: 1b
+					id: "cyclic:terra_preta"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "57F4AF264DBB2F1A"
+			rewards: [
+				{
+					id: "6B8C8A3DC54FA612"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "040FAB2343670CAB"
+					item: {
+						Count: 1b
+						id: "cyclic:peat_unbaked"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0EEAB1C0ED7542ED"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "47EBC58FB49A0239"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40D25A66318BB49E"
+				item: {
+					Count: 1b
+					id: "cyclic:terra_glass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "4A3108020F9C7C13"
+			rewards: [
+				{
+					id: "7F07E920680CF473"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "401D3C2507B0D5E1"
+					item: "mysticalagriculture:mystical_fertilizer"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1469C0C1C0553706"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "64754DAF6E5A8503"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "01643DD86BD17CBD"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "24D4829189AD680E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "622E123064816FF4"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4640180968EE603B"
+				item: "reliquary:fertile_lily_pad"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "75A7F6E7A82C6FD6"
+			rewards: [
+				{
+					id: "5A1C83982CBAA72C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68BC06EDA86319AD"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "7EB6C0B5D4F88DF3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "720BAEBDC728FAAC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:market"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "611DDC4A90F93E77"
+			rewards: [
+				{
+					id: "55833D3F88DEF2BF"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AF2A6D5919B413A"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4569B09CF11480B3"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7277BBF6EB164AF4"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "6089A7A48D8D8DE3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:green_fertilizer"
+				}
+				type: "item"
+			}]
+			title: "&aGreen Fertilizer"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "1F0B32B83E5F8978"
+			rewards: [
+				{
+					id: "683D1B03E769340F"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C5FACDC90D47D70"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "193D1CBF48217AE3"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "5BE7CBFABDBD59EE"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "607F8888C86AFE13"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:red_fertilizer"
+				}
+				type: "item"
+			}]
+			title: "&cRed Fertilizer"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "1C011ED99A09AE75"
+			rewards: [
+				{
+					id: "7B002F859187520C"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15C1E063259DB6FA"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65090803C8C3637E"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "04F4C675D37E0E0F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "45E4464FAD56B2FA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:yellow_fertilizer"
+				}
+				type: "item"
+			}]
+			title: "&eYellow Fertilizer"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "4C1502994FB98C67"
+			rewards: [
+				{
+					id: "4B0C59F5EB3C3D21"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74F91DB18DD8B295"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56ECF236DA715C02"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "0D3FFC535BE976C3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DA3160B4F33ECD4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:feeding_trough"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4E6795A57F3B6C57"]
+			id: "3BDFF367362863B4"
+			rewards: [
+				{
+					id: "5A87DE5ABD36D6C1"
+					type: "xp"
+					xp: 70
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A71D3010835A71E"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FFEC6C7867026A4"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7D6958BD1BBB7706"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05EE840CF91C71FE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmingforblockheads:chicken_nest"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+	]
+	title: "&7&oBasic Agriculture"
+}
