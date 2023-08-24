@@ -1,4 +1,4 @@
-# [TECHR-v1.0.1] - 2023.24.08
+# [TECHR-v1.0.1] - 2023.08.24
 ### Fixed
 - Fixed Time Played Quest
 - Fixed Player Shop Quests are now repeatable
