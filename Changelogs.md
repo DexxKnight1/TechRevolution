@@ -1,3 +1,78 @@
+# [TECHR-v1.0.2] - 2023.09.13
+### Fixed
+- Fixed Planks recipes (now all Axes can be used to make all planks)
+- Fixed The Ultimate Singularity recipe
+- Fixed Emerald Jetpack marked the Creative Jetpack quest as completed
+- Fixed Infusion Altar recipe (now the recipe is less expensive)
+- Fixed Creative Essence recipe
+- Fixed Economy Cards recipes (now the Cards can be reverse crafted)
+- Fixed The Twilight Forest doesn't trigger the Quest completiton by entering to the Dimesion
+### Added
+- Added NEW custom Infinite Storage/Fluid Part recipe
+- Added NEW custom recipes for all Botany Pots
+- Added NEW Refined Storage Quests
+- Added NEW Applied Energistics 2 Quests
+- Added Adventurer's Lodge Quests
+- Added Ad Astra! Quests
+- Added Click Machine
+- Added Botany Pots Tiers
+- Added Atlantis
+- Added FancyMenu
+- Added Simple Discord Rich Presence
+- Added Time in a bottle Curio Support
+- Added Supplementaries
+- Added Presence Footsteps
+### Changed
+- Updated Forge version to 43.2.23
+- Updated Additional Enchanted Miner
+- Updated Apotheosis
+- Updated Applied Botanics Addon
+- Updated Applied Energistics 2
+- Updated Applied Mekanistics
+- Updated Artifacts
+- Updated Bigger Reactors
+- Updated BisectHosting Server Integration Mod
+- Updated Clickable advancements
+- Updated Cooking for Blockheads
+- Updated Cupboard
+- Updated Cucumber Library
+- Updated Cyclops Core
+- Updated Domum Ornamentum
+- Updated Drippy Loading Screen
+- Updated Durability Tooltip
+- Updated Entangled
+- Updated Experience Obelisk
+- Updated Extended Crafting
+- Updated Farming for Blockheads
+- Updated Functional Storage
+- Updated FTB Chunks
+- Updated FTB Pack Companion
+- Updated Iron Jetpacks
+- Updated Integrated Crafting
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Integrated Tunnels
+- Updated KubeJS
+- Updated ME Requester
+- Updated MEGA Cells
+- Updated Mining Gadgets
+- Updated ModernFix
+- Updated More Music Discs
+- Updated Mystical Agriculture
+- Updated Phosphophyllite
+- Updated Powah!
+- Updated Quartz
+- Updated Rechiseled
+- Updated RFTools Utility
+- Updated SerializationIsBad
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Terralith
+- Updated TexTrue's Rubidium Options
+- Updated Thermal Systeams
+### Removed
+- Removed PackMenu
 # [TECHR-v1.0.1] - 2023.08.24
 ### Fixed
 - Fixed Time Played Quest
