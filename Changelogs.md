@@ -1,3 +1,28 @@
+# [TECHR-v1.0.3] - 2023.09.19
+### Fixed
+- Fixed Mystical Agriculture custom seeds recipe issue
+- Fixed Extended Crafting Singularities recipe issue 
+- Fixed Axes and Saws being consumed their whole durability by crafting planks
+### Added
+- Achievement Optimizer (Server side only)
+### Changed
+- Rolled Back Extended Crafting to v.5.1.7
+- Rolled Back Iron Jetpacks to v.6.0.4
+- Rolled Back MysticalAgriculture to v.6.0.12
+- Updated Additional Enchanted Miner
+- Updated Balm
+- Updated Botany Pots
+- Updated Botany Trees
+- Updated Client Tweaks
+- Updated Cupboard
+- Updated FTB Pack Companion
+- Updated Integrated Tunnels
+- Updated Inventory Essentials
+- Updated Macaw's Windows
+- Updated Moonlight Lib
+- Updated Functional Storage
+- Updated Rechiseled
+- Updated TrashSlot
 # [TECHR-v1.0.2] - 2023.09.13
 ### Fixed
 - Fixed Planks recipes (now all Axes can be used to make all planks)
