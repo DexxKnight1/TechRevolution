@@ -1,3 +1,119 @@
+# [TECHR-v1.0.4] - 2023.11.11
+### Fixed
+- Fixed Tools can’t mine blocks issue
+- Fixed Advanced Inscriber no output issue 
+- Fixed Mystical Agriculture Awakened Altar recipe
+### Added
+- Added Embeddium
+- Added Embeddium++
+- Added TexTrue's Embeddium Options
+- Added fix GPU memory leak
+- Added Entangled Fix
+- Added Model Gap Fix
+- Added Redirector
+- Added Botanical Machinery
+- Added Faster Ladder Climbing
+### Changed
+- Updated Ad Astra: Giselle Addon
+- Updated Additional Enchanted Miner
+- Updated Advanced Peripherals
+- Updated Almost Unified
+- Updated Angel Ring
+- Updated Applied Botanics Addon
+- Updated Ars Nouveau
+- Updated Balm
+- Updated Better Fps - Render Distance
+- Updated BlockUI
+- Updated Botany Trees
+- Updated Chalk
+- Updated ChoiceTheorem's Overhauled Village
+- Updated Clickable advancements
+- Updated CoFH Core
+- Updated Collective
+- Updated Comforts
+- Updated Connected Glass
+- Updated Connectivity
+- Updated Corail Tombstone
+- Updated Create
+- Updated Create Crafts & Additions
+- Updated Cucumber Library
+- Updated Cupboard
+- Updated Curios API
+- Updated Cyclops Core
+- Updated Deeper and Darker
+- Updated Delightful
+- Updated Domum Ornamentum
+- Updated Ensorcellation
+- Updated Extended Bone Meal
+- Updated Extended Crafting
+- Updated Experience Obelisk
+- Updated Extreme sound muffler
+- Updated Farsight
+- Updated FramedBlocks
+- Updated FTB Backups 2
+- Updated FTB Essentials
+- Updated FTB Quests
+- Updated FTB XMod Compat
+- Updated Functional Storage
+- Updated Fusion
+- Updated Guard Villagers
+- Updated Harvest with ease
+- Updated Integrated Crafting
+- Updated Integrated Dynamics
+- Updated Integrated Tunnels
+- Updated Inventory Profiles Next
+- Updated Immersive Engineering
+- Updated Immersive Paintings
+- Updated Iron Jetpacks
+- Updated KubeJS
+- Updated Macaw's Trapdoors
+- Updated MEGA Cells
+- Updated ModernFix
+- Updated Moonlight Lib
+- Updated More Music Discs
+- Updated Multi-Piston
+- Updated Mystical Agriculture
+- Updated Oculus
+- Updated Oh The Biomes You'll Go
+- Updated Placebo
+- Updated PneumaticCraft: Repressurized
+- Updated Polymorph
+- Updated Quark
+- Updated Rhino
+- Updated Rechiseled
+- Updated Redstone Arsenal
+- Updated Relics
+- Updated Saturn
+- Updated ShetiPhianCore
+- Updated Simple Magnets
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structure Gel API
+- Updated Structurize
+- Updated SuperMartijn642's Core Lib
+- Updated Supplementaries
+- Updated Tesseract
+- Updated Thermal Cultivation
+- Updated Thermal Dynamics
+- Updated Thermal Expansion
+- Updated Thermal Foundation
+- Updated Thermal Innovation
+- Updated Thermal Integration
+- Updated Thermal Locomotion
+- Updated Thermal Systeams
+- Updated Thermal: Extra
+- Updated Titanium
+- Updated TrashSlot
+- Updated Villager Names
+- Updated YUNG's Better Ocean Monuments
+### Removed
+- Removed Atlantis
+- Removed Rubidium
+- Removed Rubidium Extra
+- Removed TexTrue's Rubidium Options
+- Removed Climb Ladders Fast
+- Removed Client Tweaks
 # [TECHR-v1.0.3] - 2023.09.19
 ### Fixed
 - Fixed Mystical Agriculture custom seeds recipe issue
