@@ -1,3 +1,51 @@
+# [TECHR-v1.0.5] - 2023.11.20
+### Added
+- Added Functional Storage Extra
+- Added The Aether
+- Added The Aether: Redux
+- Added Deep Aether
+- Added Default Options
+- Added Easy Villagers
+- Added Just Hammers
+### Changed
+- Updated Advanced Peripherals
+- Updated Apotheosis
+- Updated BetterF3
+- Updated BlockUI
+- Updated Cable Tiers
+- Updated Collective
+- Updated Configurable Extra Mob Drops
+- Updated Connected Glass
+- Updated Creative Crafter
+- Updated Creative Wireless Transmitter
+- Updated Eccentric Tome
+- Updated Embeddium
+- Updated Extended Bone Meal
+- Updated Farsight
+- Updated Fusion
+- Updated libIPN
+- Updated ModernFix
+- Updated OpenBlocks Elevator
+- Updated Placebo
+- Updated Platforms
+- Updated PneumaticCraft: Repressurized
+- Updated Rechiseled
+- Updated Refined Storage
+- Updated Refined Storage: Requestify
+- Updated ShetiPhianCore
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated The Lost Cities
+- Updated Villager Names
+- Updated YUNG's API
+- Updated YUNG's Better Mineshafts
+### Removed
+- Removed Dynamic Surroundings Resurrected
+- Removed DefaultSettings
+- Removed JCPlugin
+- Removed No Tree Punching
 # [TECHR-v1.0.4] - 2023.11.11
 ### Fixed
 - Fixed Tools can’t mine blocks issue
