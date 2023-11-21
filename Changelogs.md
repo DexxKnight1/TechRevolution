@@ -1,3 +1,16 @@
+# [TECHR-v1.0.6] - 2023.11.21
+### Fixed
+- Fixed Stone Gear recipe
+- Fixed Refined Storage broken quests
+### Changed
+- Updated Forge version to 43.3.35
+- Updated Almost Unified
+- Updated Bigger Reactors
+- Updated BlockUI
+- Updated Clickable advancements
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
 # [TECHR-v1.0.5] - 2023.11.20
 ### Added
 - Added Functional Storage Extra
