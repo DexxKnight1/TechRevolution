@@ -1,3 +1,74 @@
+# [TECHR-v1.0.7] - 2023.12.10
+### Fixed
+- Fixed Ore Hammers broken tags
+- Fixed Witch Hats wasn't dropped by killing witches
+- Fixed NBT issue on IE Blueprints quest
+- Fixed Tool Tiers
+### Added
+- Added The Aether Quests
+- Added LaserIO Quests
+- Added Deep Mob Learning Quests
+- Added No More Trampling
+- Added NoMoWanderer
+- Added Deep Mob Learning Reloaded
+- Added SilentGear Compat
+- Added Zaps Converter
+- Added Refined Polymorphism
+- Added Polymorphic Energistics
+- Added Recipe Essentials
+- Added MrCrayfish's Gun Mod
+- Added Project Arsenal
+- Added NineZero's Gun Expansion
+- Added Zombie Awareness
+- Added CoroUtil
+### Changed
+- Changed Botany Pots recipes
+- Changed Inferium, Prosperity,  Soulium seeds recipes
+- Changed Mystical Agriculture Farmlands recipes
+- Changed Silent Gear Salvager recipe
+- Changed Allthemodium Teleport Pad recipe
+- Updated Ars Nouveau
+- Updated BlockUI
+- Updated Crafting Tweaks
+- Updated Cooking for Blockheads
+- Updated Collective
+- Updated Create 
+- Updated Create Crafts & Additions
+- Updated Curios API
+- Updated Cyclops Core
+- Updated Easy Villagers
+- Updated Enlightend
+- Updated Embeddium
+- Updated Extra Disks
+- Updated FTB Quests
+- Updated Harvest with ease
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Jump Over Fences
+- Updated Kiwi
+- Updated KubeJS
+- Updated ModernFix
+- Updated Mystical Agriculture
+- Updated Netherific
+- Updated Pipez
+- Updated PneumaticCraft: Repressurized
+- Updated PolyLib
+- Updated RFTools Utility
+- Updated Saturn
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Structurize
+- Updated SuperMartijn642's Core Lib
+- Updated Supplementaries
+- Updated Thermal: Extra
+- Updated Villager Names
+- Updated Waystones
+### Removed
+- Removed Tempad
+- Removed ItemPhysic Lite
+- Removed Better Villages
+- Removed Library Ferret
+- Removed Presence Footsteps
 # [TECHR-v1.0.6] - 2023.11.21
 ### Fixed
 - Fixed Stone Gear recipe
