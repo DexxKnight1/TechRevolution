@@ -1,3 +1,22 @@
+# [TECHR-v1.0.8] - 2023.12.14
+### Fixed
+- Fixed Functional Storage broken recipes
+- Fixed Warp Dust recipe
+- Fixed Lava Quest
+### Added
+- Added The Hordes
+- Added Atlas Lib
+- Added Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
+- Added Extra Gore
+### Changed
+- Updated Embeddium
+- Updated ModernFix
+- Updated Saturn
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Terralith
+- Updated The Aether
 # [TECHR-v1.0.7] - 2023.12.10
 ### Fixed
 - Fixed Ore Hammers broken tags
