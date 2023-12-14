@@ -7,7 +7,6 @@
 - Added The Hordes
 - Added Atlas Lib
 - Added Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons
-- Added Extra Gore
 ### Changed
 - Updated Embeddium
 - Updated ModernFix
