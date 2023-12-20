@@ -1,3 +1,26 @@
+# [TECHR-v1.0.9] - 2023.12.20
+### Added
+- Added Enderman Overhaul
+- Added Paragliders
+### Changed
+- Updated CodeChicken Lib 1.8.+
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+- Updated Configurable Extra Mob Drops
+- Updated Connected Glass
+- Updated Embeddium++
+- Updated Extended Bone Meal
+- Updated Macaw's Windows
+- Updated PneumaticCraft: Repressurized
+- Updated Relics
+- Updated Simple Discord Rich Presence
+- Updated Supplementaries
+- Updated The Aether
+- Updated Tool Stats
+- Updated Villager Names
+### Removed
+- Removed The Hordes
+- Removed Atlas Lib
 # [TECHR-v1.0.8] - 2023.12.14
 ### Fixed
 - Fixed Functional Storage broken recipes
