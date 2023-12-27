@@ -1,3 +1,33 @@
+# [TECHR-v1.1.0] - 2023.12.27
+### Fixed
+- Fixed Missing rewards by some tools Quests
+### Added
+- Added Easy Piglins
+- Added Stackable Fixes
+### Changed
+- Updated AIOT Botania
+- Updated Ars Nouveau
+- Updated Canary
+- Updated Cloth Config API
+- Updated Collective
+- Updated Comforts
+- Updated Curios API
+- Updated Deep Aether
+- Updated Embeddium
+- Updated Extra Disks
+- Updated FTB Chunks
+- Updated ModernFix
+- Updated Moonlight Lib
+- Updated NoMoWanderer
+- Updated Project Arsenal
+- Updated Rhino
+- Updated Saturn
+- Updated Structurize
+- Updated The Aether
+- Updated Thermal Systeams
+- Updated Villager Names
+### Removed
+- Removed The Lost Cities
 # [TECHR-v1.0.9] - 2023.12.20
 ### Added
 - Added Enderman Overhaul
