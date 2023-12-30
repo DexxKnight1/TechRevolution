@@ -1,3 +1,19 @@
+# [TECHR-v1.1.1] - 2023.12.30
+### Fixed
+- Fixed World freezing issues
+### Changed
+- Updated ComplementaryUnbound Shaders
+- Updated Collective
+- Updated Common Capabilities
+- Updated Extended Crafting
+- Updated Functional Storage
+- Updated Industrial Foregoing
+- Updated Integrated Dynamics
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Supplementaries
+- Updated The Aether: Redux
 # [TECHR-v1.1.0] - 2023.12.27
 ### Fixed
 - Fixed Missing rewards by some tools Quests
