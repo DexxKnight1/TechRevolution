@@ -1,6 +1,6 @@
 # [TECHR-v1.1.2] - 2024.01.12
-Fixed
-### - Fixed [Missing feature]: Warp dust no recipe #4
+### Fixed
+- Fixed [Missing feature]: Warp dust no recipe #4
 - Fixed Creative Flight being canceled by switching items into hotbar
 ### Added
 - Added AECapFix
