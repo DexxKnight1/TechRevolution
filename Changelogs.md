@@ -1,3 +1,47 @@
+# [TECHR-v1.1.2] - 2024.01.12
+Fixed
+### - Fixed [Missing feature]: Warp dust no recipe #4
+- Fixed Creative Flight being canceled by switching items into hotbar
+### Added
+- Added AECapFix
+- Added NuclearCraft: Neoteric
+- Added Hostile Neural Networks
+- Added Tetra
+- Added mutil
+- Added Tetra tables looking neat
+- Added Tetranomicon
+- Added Ad Tetra!
+- Added Ars Armiger
+- Added Tetra's Delight
+- Added Botanic Additions
+- Added Tetra Quests
+### Changed
+- Updated Additional Enchanted Miner
+- Updated Applied Energistics 2
+- Updated Canary
+- Updated CC: Tweaked
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Connected Glass
+- Updated Corail Tombstone
+- Updated CoroUtil
+- Updated Deep Aether
+- Updated Embeddium++
+- Updated Fusion
+- Updated FTB Chunks
+- Updated Integrated Crafting
+- Updated Item Collectors
+- Updated ModernFix
+- Updated PneumaticCraft: Repressurized
+- Updated Saturn
+- Updated Smooth Boot (Reloaded)
+- Updated Supplementaries
+- Updated Structurize
+### Removed
+- Removed Deep Mob Learning Reloaded
+- Removed Artan'sProjectCoreMod
+- Removed Alchemistry
+- Removed ChemLib
+- Removed AlchemyLib
 # [TECHR-v1.1.1] - 2023.12.30
 ### Fixed
 - Fixed World freezing issues
