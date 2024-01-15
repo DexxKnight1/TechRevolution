@@ -1,3 +1,19 @@
+# [TECHR-v1.1.3] - 2024.01.15
+### Fixed
+- Fixed Apatite, Cinnabar, Niter and Sulfur ores can spawn in the Overwold again
+- Fixed No Tool issue with Axes and AIOTs
+- Fixed Bucket multiplying bug
+### Changed
+- Updated Embeddium
+- Updated FancyMenu
+- Updated Gravitational Modulating Additional Unit
+- Updated Harvest with ease
+- Updated Konkrete
+- Updated Structurize
+- Updated The Aether
+### Removed
+- Removed Tetra tables looking neat
+- Removed Stackable Fixes
 # [TECHR-v1.1.2] - 2024.01.12
 ### Fixed
 - Fixed [Missing feature]: Warp dust no recipe #4
