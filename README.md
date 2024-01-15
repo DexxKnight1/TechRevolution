@@ -412,9 +412,8 @@ Do you like to play **TechRevolution** modpack with your friends and you need a 
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments">YUNG's Better Ocean Monuments (Forge) (by YUNGNICKYOUNG)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/terrablender">TerraBlender (Forge) (by TheAdubbz)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-integration">Thermal Integration (by TeamCoFH)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/tetra-tables-looking-neat">Tetra tables looking neat (by MoonFather)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops">Get It Together, Drops! (by bl4ckscor3)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/paragliders">Paragliders (by Tictim)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops">Get It Together, Drops! (by bl4ckscor3)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-industrial-contraptions-forge">FTB Industrial Contraptions (Forge) (by FTB)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-aiots">Vanilla AIOTs (by MelanX)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/corail-recycler">Corail Recycler (by Corail_31)</a></li>
@@ -444,8 +443,8 @@ Do you like to play **TechRevolution** modpack with your friends and you need a 
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-cooking">Refined Cooking (by ItsSebastrn)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/configurable-extra-mob-drops">Configurable Extra Mob Drops (by Serilum)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked">Cosmetic Armor Reworked (by LainMI)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/rftools-base">RFTools Base (by McJty)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ctm">ConnectedTexturesMod (by tterrag1098)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/rftools-base">RFTools Base (by McJty)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/buildersaddition">Builders Crafts & Additions (Forge) (by MRHminer)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/merequester">ME Requester (by Relentless)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/silent-gear">Silent Gear (by SilentChaos512)</a></li>
@@ -453,9 +452,9 @@ Do you like to play **TechRevolution** modpack with your friends and you need a 
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-villagers">More Villagers (by SameDifferent)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ring-of-repair-forge">Ring of Repair [FORGE] (by kwpugh)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-immersive-multiblocks">Just Enough Immersive Multiblocks (by aronson_1)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils">Mob Grinding Utils (by vadis365)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/guard-villagers">Guard Villagers (by almightytallestred)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/largefluidtank">Large Fluid Tank (by Kotori316)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/guard-villagers">Guard Villagers (by almightytallestred)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils">Mob Grinding Utils (by vadis365)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ae2-things-forge">AE2 Things [Forge] (by thetechnici4n)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/shrink_">Shrink. (by Gigabit101)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/just-zoom-forge">Just Zoom [Forge] (by Keksuccino)</a></li>
@@ -466,12 +465,12 @@ Do you like to play **TechRevolution** modpack with your friends and you need a 
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/insanelib">InsaneLib (by Insane96)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/mekanism-generators">Mekanism Generators (by bradyaidanc)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-neoteric">NuclearCraft: Neoteric (by igentuman)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/journeymap-integration">JourneyMap Integration (by frankv_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/fastload">Fastload (by StockiesLad)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/journeymap-integration">JourneyMap Integration (by frankv_)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go">Oh The Biomes You'll Go (by AOCAWOL)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/integrated-crafting">Integrated Crafting (by kroeser)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/harvest-with-ease">Harvest with ease (by CrystalSpider)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/natures-compass">Nature's Compass (by Chaosyr)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/polymorph">Polymorph (Fabric/Forge/Quilt) (by TheIllusiveC4)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/thermal-locomotion">Thermal Locomotion (by TeamCoFH)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">Farmer's Delight (by vectorwing)</a></li>
