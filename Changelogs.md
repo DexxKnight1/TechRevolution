@@ -1,3 +1,40 @@
+# [TECHR-v1.1.4] - 2024.01.31
+### Fixed
+- Fixed [Bug]: Wireless Universal Terminal doesn’t contain all 3 types of Terminals #5
+- Fixed [Bug]: Mekanism Tier Installers doesn’t match Machine Factory recipe  #6
+### Added
+- Added ExtendedAE
+### Changed
+- Updated Additional Enchanted Miner
+- Updated Allthemodium
+- Updated Ars Nouveau
+- Updated BlockUI
+- Updated Botarium
+- Updated Canary
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Create Crafts & Additions
+- Updated Cupboard
+- Updated Curios API
+- Updated Deep Aether
+- Updated Easy Villagers
+- Updated Embeddium
+- Updated Embeddium++
+- Updated Farmer's Delight
+- Updated FTB Quests
+- Updated HammerLib
+- Updated Industrial Foregoing
+- Updated Iron Jetpacks
+- Updated Just Enough Resources (JER)
+- Updated Kiwi 🥝
+- Updated KubeJS
+- Updated Lootr
+- Updated Macaw's Fences and Walls
+- Updated NoMoWanderer
+- Updated Redirector [Modern]
+- Updated RFTools Builder
+- Updated Structurize
+- Updated Supplementaries
+- Updated The Aether
 # [TECHR-v1.1.3] - 2024.01.15
 ### Fixed
 - Fixed Apatite, Cinnabar, Niter and Sulfur ores can spawn in the Overwold again
