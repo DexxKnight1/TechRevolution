@@ -1,3 +1,35 @@
+# [TECHR-v1.1.5] - 2024.02.11
+### Fixed
+- Fixed [Bug]: Mangrove Plank recipe missing #7
+### Added
+- Added Ars Énergistique
+### Changed
+- Updated Advanced Peripherals
+- Updated Architectury API
+- Better Fps - Render Distance
+- Updated Botanic Additions
+- Updated Create Crafts & Additions
+- Updated Cyclops Core
+- Updated Deep Aether
+- Updated Embeddium++
+- Updated Integrated Dynamics
+- Updated Integrated Tunnels
+- Updated KubeJS
+- Updated Lootr
+- Updated Macaw's Roofs
+- Updated ModernFix
+- Updated Morph-o-Tool
+- Updated Placebo
+- Updated Saturn
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated Structurize
+- Updated Supplementaries
+- Updated Tetranomicon
+### Removed
+- Removed Canary (Moved to the server-side mods)
+- Removed Pluto (Moved to the server-side mods)
 # [TECHR-v1.1.4] - 2024.01.31
 ### Fixed
 - Fixed [Bug]: Wireless Universal Terminal doesn’t contain all 3 types of Terminals #5
