@@ -1,3 +1,51 @@
+# [TECHR-v1.1.6] - 2024.03.08
+### Fixed
+- Fixed [Bug]: Recipe for Energizing Rods are (probably) wrong #8
+- Fixed The Abyss Quests
+- Fixed Compact Machines recipe
+### Added
+- Added Immersive FX
+- Added Achievements Optimizer
+- Added Client Crafting
+### Changed
+- Updated Forge to v43.3.8
+- Updated Advanced Peripherals
+- Updated Almost Unified
+- Updated Architectury API
+- Updated Artifacts
+- Updated AttributeFix
+- Updated Botarium
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Croptopia Additions
+- Updated Cupboard
+- Updated Easy Villagers
+- Updated Embeddium
+- Updated Entangled
+- Updated FTB Essentials
+- Updated FTB Pack Companion
+- Updated Fusion
+- Updated Guard Villagers
+- Updated Just Enough Items (JEI)
+- Updated KubeJS
+- Updated Mob Grinding Utils
+- Updated ModernFix
+- Updated More Music Discs
+- Updated Oh The Biomes You'll Go
+- Updated Saturn
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated SuperMartijn642's Core Lib
+- Updated Supplementaries
+- Updated Titanium
+- Updated Tool Stats
+### Removed
+- Removed ChoiceTheorem's Overhauled Village
+- Removed Rotten Creatures
+- Removed Presence Footsteps
+- Removed FastSuite
+- Removed FPS Reducer
 # [TECHR-v1.1.5] - 2024.02.11
 ### Fixed
 - Fixed [Bug]: Mangrove Plank recipe missing #7
