@@ -1,3 +1,49 @@
+# [TECHR-v1.1.7] - 2024.03.30
+### Fixed
+- Fixed Game performance, Huge thanks to the ModernGamingWorld the owner of the Monumental Experience modpack
+- Fixed Grammer issues within the quest book
+- Fixed Custom Mystical seeds broken texture
+### Added
+- Added Dynamic View
+- Added ImmediatelyFast
+- Added SmoothChunk
+- Added Advanced Backups
+### Changed
+- Updated Forge to v43.3.9
+- Updated AeroBlender
+- Updated Apotheosis
+- Updated Ars Nouveau
+- Updated Botanical Machinery
+- Updated Collective
+- Updated Configurable Extra Mob Drops
+- Updated Corail Tombstone
+- Updated Croptopia Additions
+- Updated Cupboard Config
+- Updated Cupboard
+- Updated Drippy Loading Screen
+- Updated Embeddium
+- Updated Embeddium++
+- Updated FancyMenu
+- Updated Immersive Engineering
+- Updated Ineventory Profiles Next
+- Updated JourneyMap
+- Updated LibIPN
+- Updated Lootr
+- Updated Moderfix
+- Updated NuclearCraft: Neoteric
+- Updated Placebo
+- Updated Polymorph
+- Updated Relics
+- Updated Sophisticated Backpacks
+- Updated Sophisticated Core
+- Updated Sophisticated Storage
+- Updated The Aether
+- Updated The Aether: Redux
+- Updated Tom's Simple Storage
+### Removed
+- Removed ImmediatelyFast Reforged (Unofficial) – DISCONTINUED
+- Removed Entity Culling
+- Removed FTB Backups 2
 # [TECHR-v1.1.6] - 2024.03.08
 ### Fixed
 - Fixed [Bug]: Recipe for Energizing Rods are (probably) wrong #8
