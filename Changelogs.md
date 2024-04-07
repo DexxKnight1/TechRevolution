@@ -1,3 +1,19 @@
+# [TECHR-v1.1.8] - 2024.04.07
+### Fixed
+- Fixed [ERROR] issue by client side
+- Fixed [WARNING] issues by Aether recipes
+- Fixed missing Nuclearcraft ores into Mining Dimension
+### Added
+- Added Fixed Anvil Repair Cost
+### Changed
+- Updated Easy Piglins
+- Updated Embeddium
+- Updated FTB Pack Companion
+- Updated Macaw's Bridges
+- Updated Mystical Agriculture
+- Updated Redirector [Modern]
+- Updated Refined Polymorphism
+- Updated The Aether: Redux
 # [TECHR-v1.1.7] - 2024.03.30
 ### Fixed
 - Fixed Game performance, Huge thanks to the ModernGamingWorld the owner of the Monumental Experience modpack
