@@ -1,3 +1,15 @@
+# [TECHR-v1.2.0] - 2024.04.23
+### Fixed
+- Fixed RFTool’s Shape Card by changing characteristics crashes the game
+### Changed
+- Updated Better Advancements
+- Updated Botany Pots
+- Updated Botany Trees
+- Updated Collective
+- Updated Enchantment Descriptions
+- Updated Extended Bone Meal
+- Updated Pipez
+- Updated Polymorphic Energistics
 # [TECHR-v1.1.9] - 2024.04.22
 ### Fixed
 - Fixed Not being able to invite people to Teams
