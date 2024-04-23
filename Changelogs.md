@@ -1,3 +1,38 @@
+# [TECHR-v1.1.9] - 2024.04.22
+### Fixed
+- Fixed Not being able to invite people to Teams
+### Added
+- Added [EMF] Entity Model Features
+- Added [ETF] Entity Texture Features
+- Added FTB Ranks with custom Ranks from ModernGamingWorld
+- Added FTB Quests Optimizer
+- Added Not Enough Wands
+### Changed
+- Updated Forge to v43.3.13
+- Updated Advanced Backups
+- Updated Advanced Peripherals
+- Updated Botany Pots
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+- Updated Croptopia Additions
+- Updated Cyclic
+- Updated Cyclops
+- Updated Embeddium
+- Updated Embeddium++
+- Updated Entangled
+- Updated ExtendedAE
+- Updated Fancymenu
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Item Collectors
+- Updated Kubejs
+- Updated ModernFix
+- Updated Memoryleakfix
+- Updated Simple Magnets
+- Updated Aether
+- Updated The Aether: Redux
+- Updated Zume
+
 # [TECHR-v1.1.8] - 2024.04.07
 ### Fixed
 - Fixed [ERROR] issue by client side
