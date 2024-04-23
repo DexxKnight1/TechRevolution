@@ -1,6 +1,6 @@
 # TechRevolution
 
-![banner](https://media.discordapp.net/attachments/831803522507866191/1142378161649225768/banner_new.png?ex=661a4592&is=6607d092&hm=0f1182bb40dfeeefa34f16eabbb0beec8bc1e7ea696b86bb6f61b8175cbb8fa7&=&format=webp&quality=lossless&width=1920&height=574)
+![banner](https://i.imgur.com/4eoGcsM.png)
 
 This is the official repository and issue-tracker for TechRevolution 1.19.2
 
