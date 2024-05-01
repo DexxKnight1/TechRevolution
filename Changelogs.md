@@ -1,3 +1,40 @@
+# [TECHR-v1.2.1] - 2024.05.01
+### Fixed
+- Fixed [Bug]: Bucket duping caused by stacking #10
+- Fixed Flowing water drops FPS
+- Fixed Inventory Profiles Next buttons on NuclearCtaft machines
+### Added
+- Added My F***ing Tags
+### Changed
+- Downgraded Cyclic
+- Updated [EMF] Entity Model Features
+- Updated [ETF] Entity Texture Features
+- Updated Collective
+- Updated Embeddium++
+- Updated Integrated Dynamics
+- Updated Integrated Tunnels
+- Updated ModernFix
+- Updated Mystical Agradditions
+- Updated NineZero's Gun Expansion
+- Updated PneumaticCraft: Repressurized
+- Updated Rechiseled
+- Updated McJtyLib
+- Updated RFTools Base
+- Updated RFTools Builder
+- Updated RFTools Control
+- Updated RFTools Utility
+- Updated Xnet
+- Updated FancyMenu
+- Updated Curios API
+- Updated ImmediatelyFast
+- Updated Sophisticated Core
+- Updated The Aether
+- Updated Wireless Chargers
+- Updated Enderman Overhaul
+### Removed
+- Removed Stackable Fixes
+- Removed CullLessLeaves Reforged (Unofficial)
+- Removed TexTrue's Embeddium Options
 # [TECHR-v1.2.0] - 2024.04.23
 ### Fixed
 - Fixed RFTool’s Shape Card by changing characteristics crashes the game
