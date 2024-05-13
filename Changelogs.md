@@ -1,3 +1,29 @@
+# [TECHR-v1.2.2] - 2024.05.13
+### Fixed
+- Fixed Footspes to loud
+### Added
+- Added Security Craft Quests
+- Added Structure Essentials
+- Added Fast Async World Save
+- Added Too Fast
+### Changed
+- Updated Ad Astra: Giselle Addon
+- Updated Advanced Backups
+- Updated Apotheosis
+- Updated Aquaculture 2
+- Updated Collective
+- Updated Embeddium
+- Updated Embeddium++
+- Updated FancyMenu
+- Updated FTB XMod Compat
+- Updated HammerLib
+- Updated ImmediatelyFast
+- Updated Industrial Foregoing
+- Updated Integrated Tunnels
+- Updated NineZero's Gun Expansion
+- Updated Quartz
+- Updated The Aether: Redux
+- Updated Zume
 # [TECHR-v1.2.1] - 2024.05.01
 ### Fixed
 - Fixed [Bug]: Bucket duping caused by stacking #10
