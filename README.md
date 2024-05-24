@@ -17,7 +17,7 @@ To run this pack smoothly I'll recommend to allocate about **10GB** to **12GB** 
 - Custom Main Menu, Textures, Sounds & Items
 - Unique Custom Player Shops & Economy System
 - 500+ Custom recipes
-- 445+ mods
+- 450+ mods
 - 4'335+ Quests, 10 Chapter Groups, 60 Chapters
 - Overhauled World Generation & Ambient surroundings: Terralith, BYG, Quark, Ambient Sounds, Dynamic Surroundings
 - 8 Dimensions: The Twilight Forest, The Lost Cities, The Undergarden, The Abyss II, Blue Skies
