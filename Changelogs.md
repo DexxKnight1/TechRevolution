@@ -1,3 +1,32 @@
+# [TECHR-v1.2.3] - 2024.05.24
+### Fixed
+- Fixed Prismarine Watcher Boss doesn’t drop Grindstone Scrap
+- Fixed [Bug]: Where is the sapphire? #11
+### Added
+- Added Configured Defaults
+- Added Bocchium
+- Added DespawnTweaker
+- Added Suggestion Tweaker
+- Added Euphoria Patches
+### Changed
+- Updated Additional Enchanted Miner
+- Updated Building Gadgets
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+- Updated Cyclic
+- Updated Embeddium++
+- Updated FancyMenu
+- Updated ImmediatelyFast
+- Updated Macaw's Trapdoors
+- Updated McJtyLib
+- Updated NineZero's Gun Expansion
+- Updated Progressive Bosses
+- Updated The Aether: Redux
+- Updated Titanium
+- Updated Xnet
+- Updated Zume
+### Removed
+- Removed Let Me Despawn
 # [TECHR-v1.2.2] - 2024.05.13
 ### Fixed
 - Fixed Footspes to loud
