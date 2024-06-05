@@ -1,3 +1,20 @@
+# [TECHR-v1.2.4] - 2024.06.05
+### Added
+- Added Cobweb (Harvest with ease now requires Cobweb API to work)
+### Changed
+- Updated Ad Astra: Giselle Addon
+- Updated Additional Enchanted Miner
+- Updated Ars Énergistique
+- Updated Artifacts
+- Updated Collective
+- Updated Corail Tombstone
+- Updated Harvest with ease
+- Updated ImmediatelyFast
+- Updated Lootr
+- Updated ModernFix
+- Updated More Overlays Updated
+- Updated Pipez
+- Updated Structure Compass
 # [TECHR-v1.2.3] - 2024.05.24
 ### Fixed
 - Fixed Prismarine Watcher Boss doesn’t drop Grindstone Scrap
