@@ -1,3 +1,28 @@
+# [TECHR-v1.2.5] - 2024.06.20
+### Changed
+- Updated Forge to v43.4.0
+- Updated Advanced Backups
+- Updated Advanced Peripherals
+- Updated AECapFix
+- Updated Cobweb
+- Updated Euphoria Patches
+- Updated FTB Chunks
+- Updated FTB Pack Companion
+- Updated FTB Quests
+- Updated HammerLib
+- Updated ImmediatelyFast
+- Updated Just Enough Items (JEI)
+- Updated Just Zoom
+- Updated KubeJS
+- Updated Macaw's Doors
+- Updated Macaw's Fences and Walls
+- Updated Macaw's Lights and Lamps
+- Updated PolyLib
+- Updated RFTools Base
+- Updated The Aether: Redux
+- Updated Tom's Simple Storage Mod
+- Updated Xnet
+- Updated Zume
 # [TECHR-v1.2.4] - 2024.06.05
 ### Added
 - Added Cobweb (Harvest with ease now requires Cobweb API to work)
