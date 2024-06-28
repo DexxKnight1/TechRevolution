@@ -1,3 +1,26 @@
+# [TECHR-v1.2.6] - 2024.06.28
+### Fixed
+- Fixed Minor issue with NuclearCraft world genegation
+### Added
+- Added BadOptimizations
+- Added City Craft
+- Added Leon's Backport Paintings 1.21
+- Added Bakery Villager Trader
+- Added Nebulus Juice Trader
+- Added Nebulus Trader for the Desert
+- Added Mushroom Villager Trader
+- Added Leon's Ocean Trader
+### Changed
+- Updated Advanced Backups
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Collective
+- Updated Cyclops Core
+- Updated Harvest with ease
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Macaw's Bridges
+- Updated NuclearCraft: Neoteric
+- Updated Pipez
 # [TECHR-v1.2.5] - 2024.06.20
 ### Changed
 - Updated Forge to v43.4.0
