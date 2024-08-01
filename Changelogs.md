@@ -1,3 +1,42 @@
+# [TECHR-v1.2.7] - 2024.08.01
+### Fixed
+- Fixed [Bug]: Bucket duping caused by stacking
+### Added
+- Added Create Slice & Dice
+- Added Compressed Creativity
+### Changed
+- Updated Forge to v43.4.2
+- Updated Complementary Shaders - Reimagined to v5.2.2
+- Updated Ad Astra: Giselle Addon
+- Updated AIOT Botania
+- Updated AmbientSounds 6
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Common Capabilities
+- Updated Corail Tombstone
+- Updated CreativeCore
+- Updated Curios API
+- Updated CyclopsCore
+- Updated Easy Piglins
+- Updated Easy Villagers
+- Updated Embeddium
+- Updated Euphoria Patches
+- Updated Fast Async World Save
+- Updated Functional Storage
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Integrated Tunnels
+- Updated Just Enough Items (JEI)
+- Updated Macaw's Roofs
+- Updated Moonlight Lib
+- Updated More Music Discs
+- Updated Mystical Agradditions
+- Updated Pipez
+- Updated Recipe Essentials
+- Updated The Aether: Redux
+- Updated Xnet Gases
+- Updated Zume
+### Removed
+- Removed Stackable Fixes
 # [TECHR-v1.2.6] - 2024.06.28
 ### Fixed
 - Fixed Minor issue with NuclearCraft world genegation
