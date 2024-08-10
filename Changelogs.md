@@ -1,3 +1,23 @@
+# [TECHR-v1.2.8] - 2024.08.10
+### Fixed
+- Fixed Open to Lan connecting issue
+- Fixed Minor KubeJs broken tags
+### Added
+- Added XP Counter
+- Added Supplementaries Squared
+- Added Aether Addon: Treasure Reforging
+### Changed
+- Updated Botania
+- Updated Cognition (formerly Experience Obelisk)
+- Updated ImmediatelyFast
+- Updated Integrated Tunnels
+- Updated Macaw’s Windows
+- Updated McJtyLib
+- Updated Morph-o-Tool
+- Updated RFTools Base
+### Removed
+- Removed Rings of Ascension
+- Removed Ring of Repair
 # [TECHR-v1.2.7] - 2024.08.01
 ### Fixed
 - Fixed [Bug]: Bucket duping caused by stacking
