@@ -219,6 +219,7 @@ Do you like to play **TechRevolution** modpack with your friends and you need a 
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-celestials">Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons (by Corgi_Taco)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons">YUNG's Better Dungeons (Forge) (by YUNGNICKYOUNG)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/too-fast">Too Fast (by Noobanidus)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/trash-compactor">Trash Compactor (by xBigEllx)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls">Macaw's Fences and Walls (by sketch_macaw)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/refined-storage">Refined Storage (by raoulvdberge)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/construction-wand">Construction Wand (by ThetaDev)</a></li>
@@ -327,8 +328,8 @@ Do you like to play **TechRevolution** modpack with your friends and you need a 
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips-forge">Food Effect Tooltips (Forge) (by Suel_ki)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul">Enderman Overhaul (by joosh_7889)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/ftb-quests-optimizer">FTB Quests Optimizer (by big_energy)</a></li>
-<li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared">Supplementaries Squared (by plantspookable)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected">Powah! (Rearchitected) (by thetechnici4n)</a></li>
+<li><a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared">Supplementaries Squared (by plantspookable)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/advanced-generators">Advanced Generators (by bdew)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked">Cosmetic Armor Reworked (by LainMI)</a></li>
 <li><a href="https://www.curseforge.com/minecraft/mc-mods/netherific">Netherific (by lixir)</a></li>
