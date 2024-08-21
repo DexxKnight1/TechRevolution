@@ -1,3 +1,13 @@
+# [TECHR-v1.2.9] - 2024.08.21
+### Added
+- Added Trash Compactor
+### Changed
+- Updated Advanced Backups
+- Updated Corail Tombstone
+- Updated Easy Villagers
+- Updated Framework
+- Updated ImmediatelyFast
+- Updated Lootr
 # [TECHR-v1.2.8] - 2024.08.10
 ### Fixed
 - Fixed Open to Lan connecting issue
