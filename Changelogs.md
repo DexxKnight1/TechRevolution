@@ -1,3 +1,27 @@
+# [TECHR-v1.3.0] - 2024.08.29
+### Added
+- Added Just Enough Mekanism Multiblocks
+- Added Mekanism: Weapons
+- Added PackagedMekemicals
+- Added PackagedExCrafting
+- Added PackagedAuto
+### Changed
+- Updated Additional Enchanted Miner
+- Updated Common Capabilities
+- Updated Connected Glass
+- Updated Easy Piglins
+- Updated Entangled
+- Updated XP Counter
+- Updated FTB Ultimine
+- Updated ImmediatelyFast
+- Updated Integrated Crafting
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated SuperMartijn642's Core Lib
+- Updated Trash Compactor
+- Updated World of bosses
+- Updated XNet Gases
+- Updated Zume
 # [TECHR-v1.2.9] - 2024.08.21
 ### Added
 - Added Trash Compactor
