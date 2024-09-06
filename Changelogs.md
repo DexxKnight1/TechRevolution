@@ -1,3 +1,22 @@
+# [TECHR-v1.3.1] - 2024.09.06
+### Fixed
+- Fixed Fuel compatibility by Advanced Generators
+### Added
+- Added Apotheosis Quests
+- Added Modular Force Field Systems
+- Added Laser Bridges & Doors
+- Added Simple Planes
+- Added Automobility
+- Added Packet Fixer
+- Added Loot Integrations
+- Added Modular Powersuits
+- Added GoProne
+### Changed
+- Updated Create
+- Updated Easy Piglins
+- Updated Easy Villagers
+- Updated Framework
+- Updated Integrated Dynamics
 # [TECHR-v1.3.0] - 2024.08.29
 ### Added
 - Added Just Enough Mekanism Multiblocks
