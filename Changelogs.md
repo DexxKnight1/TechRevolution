@@ -1,3 +1,21 @@
+# [TECHR-v1.3.2] - 2024.09.24
+### Added
+- Added Create: Steam 'n' Rails
+### Changed
+- Updated Forge to v43.4.4
+- Updated Bakery Villager Trader
+- Updated Cloth Config API
+- Updated Cognition (formerly Experience Obelisk)
+- Updated Corail Tombstone
+- Updated Create Slice & Dice
+- Updated Cucumber Library
+- Updated Easy Villagers
+- Updated FTB Chunks
+- Updated Harvest with ease
+- Updated Mushroom Villager Trader
+- Updated Mystical Agriculture
+- Updated Thermal Systeams
+- Updated XNet XNet
 # [TECHR-v1.3.1] - 2024.09.06
 ### Fixed
 - Fixed Fuel compatibility by Advanced Generators
