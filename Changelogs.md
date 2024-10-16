@@ -1,3 +1,22 @@
+# [TECHR-v1.3.3] - 2024.10.16
+### Fixed
+- Fixed Broken Quests
+### Changed
+- Updated Advanced Peripherals
+- Updated Aether Addon: Treasure Reforging
+- Updated Almost Unified
+- Updated Apotheosis
+- Updated Corail Tombstone
+- Updated Create
+- Updated Create: Steam 'n' Rails
+- Updated Drippy Loading Screen
+- Updated FancyMenu
+- Updated Integrated Dynamics
+- Updated Inventory Profiles Next
+- Updated Just Enough Items (JEI)
+- Updated Just Enough Mekanism Multiblocks
+- Updated ModernFix
+- Updated PackagedAuto
 # [TECHR-v1.3.2] - 2024.09.24
 ### Added
 - Added Create: Steam 'n' Rails
