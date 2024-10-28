@@ -1,3 +1,18 @@
+# [TECHR-v1.3.4] - 2024.10.28
+### Changed
+- Updated Corail Tombstone
+- Updated Curios API
+- Updated Cyclic
+- Updated FancyMenu
+- Updated ImmediatelyFast
+- Updated Integrated Crafting
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Just Enough Items (JEI)
+- Updated PackagedAuto
+- Updated PackagedExCrafting
+- Updated Simple Magnets
+- Updated Zume
 # [TECHR-v1.3.3] - 2024.10.16
 ### Fixed
 - Fixed Broken Quests
