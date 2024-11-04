@@ -1,3 +1,12 @@
+# [TECHR-v1.3.5] - 2024.11.04
+### Fixed
+- Fixed Crash with JEI and Sophisticated Core
+### Changed
+- Updated ImmediatelyFast
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Sophisticated Core
+- Updated Zume
 # [TECHR-v1.3.4] - 2024.10.28
 ### Changed
 - Updated Corail Tombstone
