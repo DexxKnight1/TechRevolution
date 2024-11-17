@@ -1,3 +1,17 @@
+# [TECHR-v1.3.6] - 2024.11.17
+### Changed
+- Updated Forge to v43.4.5
+- Updated Complementary Shaders – Reimagined
+- Updated Advanced Backups
+- Updated BisectHosting Server Integration Menu
+- Updated Corail Tombstone
+- Updated Cyclic
+- Updated Entangled
+- Updated Euphoria Patches
+- Updated Harvest with ease
+- Updated ImmediatelyFast
+- Updated Integrated Dynamics
+- Updated Lootr
 # [TECHR-v1.3.5] - 2024.11.04
 ### Fixed
 - Fixed Crash with JEI and Sophisticated Core
