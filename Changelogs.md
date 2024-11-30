@@ -1,3 +1,17 @@
+# [TECHR-v1.3.7] - 2024.11.30
+### Fixed
+- Fixed Multiplayer joining issues [# ticket-0087]
+### Changed
+- Updated Forge to v43.4.6
+- Updated Ad Tetra!
+- Updated Corail Tombstone
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Integrated Tunnels
+- Updated Just Enough Mekanism Multiblocks
+- Updated ShetiPhianCore
+### Removed
+-  Removed NuclearCraft: Neoteric
 # [TECHR-v1.3.6] - 2024.11.17
 ### Changed
 - Updated Forge to v43.4.5
