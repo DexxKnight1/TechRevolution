@@ -1,3 +1,16 @@
+# [TECHR-v1.3.8] - 2024.12.16
+### Fixed
+- Fixed Robit recipe
+### Changed
+- Updated Ars Énergistique
+- Updated Common Capabilities
+- Updated Harvest with ease
+- Updated ImmediatelyFast
+- Updated Integrated Dynamics
+- Updated Loot Integrations
+- Updated Lootr
+- Updated Macaw's Trapdoors
+- Updated PackagedAuto
 # [TECHR-v1.3.7] - 2024.11.30
 ### Fixed
 - Fixed Multiplayer joining issues [# ticket-0087]
