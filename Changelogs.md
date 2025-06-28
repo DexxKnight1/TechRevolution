@@ -1,3 +1,9 @@
+# [TECHR-v1.4.0] - 2025.06.28
+### Fixed
+- Resolved issue causing game to crash on startup
+### Changed
+- Downgraded Corail Tombstone
+- Updated Packet Fixer
 # [TECHR-v1.3.17] - 2025.06.22
 ### Changed
 - Updated Forge to v43.5.0
