@@ -1,3 +1,108 @@
+# [TECHR-v1.3.17] - 2025.06.22
+### Changed
+- Updated Forge to v43.5.0
+- Updated Corail Tombstone
+- Updated Euphoria Patches
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Integrated Tunnels
+- Updated Packet Fixer
+# [TECHR-v1.3.16] - 2025.06.15
+### Changed
+- Updated Loot Integrations
+- Updated Integrated Dynamics
+# [TECHR-v1.3.15] - 2025.05.31
+### Changed
+- Updated Common Capabilities
+- Updated Cyclops Core
+- Updated Deimos Lib
+- Updated Euphoria Patches
+- Updated FancyMenu
+- Updated Integrated Crafting
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Integrated Tunnels
+- Updated Macaw's Bridges
+# [TECHR-v1.3.14] - 2025.05.11
+### Changed
+- Updated Complementary Shaders
+- Updated Common Capablities
+- Updated Euphoria Patches
+- Updated EXP Counter
+- Updated Macaw's Lights and Lamps
+# [TECHR-v1.3.13] - 2025.05.05
+### Added
+- Added Leave's Be Gone
+- Separated Leaves
+### Changed
+- Updated Cyclops Core
+- Updated Integrated Dynamics
+- Updated Macaw's Roof
+### Removed
+- Removed Fast Leaf Decay
+# [TECHR-v1.3.12] - 2025.04.26
+### Changed
+- Updated Fusion
+# [TECHR-v1.3.11] - 2025.04.20
+### Changed
+- Updated Connected Glass
+- Updated Drippy Loading Screen
+- Updated FancyMenu
+- Updated Fusion
+- Updated Gravitational Modulating Additional Unit
+- Updated Measurements
+- Updated More Music Discs
+- Updated PackagedExCrafting
+- Updated PackagedMekmicals
+- Updated Trash Compactor
+# [TECHR-v1.3.10] - 2025.04.02
+### Changed
+- Updated Integrated Tunnels
+- Updated Macaw's Febces and Walls
+- Updated Relics
+# [TECHR-v1.3.9] - 2025.03.25
+### Added
+- Added Icterine
+### Changed
+- Updated Forge to v43.4.7
+- Updated Complementary Shaders - Reimagined
+- Updated Ad Astra: Giselle Addon
+- Updated Advanced Backups 
+- Updated Applied Energistics 2
+- Updated Baubley Heart Canisters
+- Updated Botanic Additions
+- Updated Cobweb
+- Updated Cognition
+- Updated Cyclops Core
+- Updated Drippy Loading Screen
+- Updated Euphoria Patches
+- Updated EXP Counter
+- Updated Fancy Menu
+- Updated FTB Industrial Contraptions
+- Updated FTB Quests
+- Updated Fusion
+- Updated ImmediatelyFast
+- Updated Integrated Crafting
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Integrated Tunnels
+- Updated Inventory Profile Next
+- Updated Just Enough Mekanism Multiblocks
+- Updated Just Zoom
+- Updated Laser Bridges & Doors
+- Updated Macaw's Doors
+- Updated Mystical Agriculture 
+- Updated Neko's Enchanted Books
+- Updated Oculus
+- Updated PackagedAuto
+- Updated PackagedExCrafting
+- Updated Packet Fixer
+- Updated Placebo
+- Updated SuperMartijin642 Core
+- Updated Tesseract
+- Updated Tetranomicon
+### Removed
+- Removed Achievements Optimizer
 # [TECHR-v1.3.8] - 2024.12.16
 ### Fixed
 - Fixed Robit recipe
