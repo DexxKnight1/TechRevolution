@@ -1,6 +1,6 @@
 # TechRevolution
 
-![banner](https://i.imgur.com/4eoGcsM.png)
+![banner](https://i.imgur.com/vd2LmEc.png)
 
 This is the official repository and issue-tracker for TechRevolution 1.19.2
 
