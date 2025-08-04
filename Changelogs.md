@@ -1,3 +1,17 @@
+# [TECHR-v1.4.1] - 2025.07.21
+### Fixed
+- Fixed Corail Tombstone crash, hopefully [Verified and tested in a single-player world]
+### Changed
+- Updated Forge to v43.5.1
+- Updated Corail Tombstone
+- Updated FancyMenu
+- Updated Fusion (Connected Textures)
+- Updated Integrated Dynamics
+- Updated Macaw's Windows
+- Updated PackagedAuto
+- Updated PackagedExCrafting
+- Updated PackagedMekemicals
+- Updated Packet Fixer
 # [TECHR-v1.4.0] - 2025.06.28
 ### Fixed
 - Resolved issue causing game to crash on startup
