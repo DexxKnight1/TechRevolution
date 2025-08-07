@@ -1,3 +1,14 @@
+# [TECHR-v1.4.2] - 2025.08.07
+### Changed
+- Updated Ad Astra: Giselle Addon
+- Updated Connected Glass
+- Updated Durability Tooltip
+- Updated Fusion (Connected Textures)
+- Updated Integrated Crafting
+- Updated Integrated Tunnels
+- Updated Item Collectors
+- Updated PackagedAuto
+- Updated PackagedExCrafting
 # [TECHR-v1.4.1] - 2025.07.21
 ### Fixed
 - Fixed Corail Tombstone crash, hopefully [Verified and tested in a single-player world]
