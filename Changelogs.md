@@ -1,3 +1,19 @@
+# [TECHR-v1.4.3] - 2025.08.24
+### Changed
+- Updated Common Capabilities
+- Updated FancyMenu
+- Updated Fusion (Connected Textures)
+- Updated Gravitational Modulating Additional Unit
+- Updated Integrated Terminals
+- Updated Inventory Profiles Next
+- Updated PackagedAuto
+- Updated PackagedMekemicals
+- Updated Platforms
+- Updated ShetiPhianCore
+- Updated Tesseract
+- Updated Wireless Chargers
+### Removed
+- Removed Infinity Upgrade recipe
 # [TECHR-v1.4.2] - 2025.08.07
 ### Changed
 - Updated Ad Astra: Giselle Addon
