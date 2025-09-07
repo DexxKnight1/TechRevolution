@@ -1,3 +1,13 @@
+# [TECHR-v1.4.4] - 2025.09.07
+### Changed
+- Updated Botanic Additions
+- Updated Deimos Lib
+- Updated Fusion (Connected Textures)
+- Updated Inventory Profiles Next
+- Updated Just Enough Mekanism Multiblocks
+- Updated PackagedAuto
+- Updated PackagedMekemicals
+- Updated Packet Fixer
 # [TECHR-v1.4.3] - 2025.08.24
 ### Changed
 - Updated Common Capabilities
