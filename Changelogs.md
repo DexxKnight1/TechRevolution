@@ -1,3 +1,11 @@
+# [TECHR-v1.4.5] - 2025.01.28
+### Changed
+- Updated Deimos Lib
+- Updated Euphoria Patches
+- Updated EXP Counter
+- Updated Integrated Terminals
+- Updated Just Enough Mekanism Multiblocks
+- Updated Macaw's Windows
 # [TECHR-v1.4.4] - 2025.09.07
 ### Changed
 - Updated Botanic Additions
