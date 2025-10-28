@@ -12,7 +12,7 @@
 - Updated Laser Bridges & Doors
 ### Removed
 - Removed Zume
-# [TECHR-v1.4.5] - 2025.01.28
+# [TECHR-v1.4.5] - 2025.09.28
 ### Changed
 - Updated Deimos Lib
 - Updated Euphoria Patches
