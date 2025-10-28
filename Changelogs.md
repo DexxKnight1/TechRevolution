@@ -1,3 +1,17 @@
+# [TECHR-v1.4.6] - 2025.10.28
+### Fixed
+- Fixed [Bug]: FTBIC Separator Latex to Rubber Recipe #15
+### Changed
+- Updated Complementary Shaders - Reimagined
+- Updated Common Capabilities
+- Updated Cyclops Core
+- Updated Euphoria Patches
+- Updated Functional Storage
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Laser Bridges & Doors
+### Removed
+- Removed Zume
 # [TECHR-v1.4.5] - 2025.01.28
 ### Changed
 - Updated Deimos Lib
