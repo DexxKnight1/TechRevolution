@@ -1,3 +1,46 @@
+# [TECHR-v1.4.8] - 2026.04.09
+### Fixed
+- Fixed minor broken quests
+### Added
+- Added Crash Assistant
+- Added Crash Utilities
+- Added Modern World Creation
+- Added OptiLeaves
+### Changed
+- Updated Forge to v43.5.2
+- Updated Complementary Shaders – Reimagined
+- Updated BisectHosting Server Integration Menu
+- Updated Botanic Additions
+- Updated Chalk
+- Updated Common Capabilities
+- Updated Cyclops Core
+- Updated Deimos Lib
+- Updated Entangled
+- Updated Euphoria Patches
+- Updated EXP Counter
+- Updated FancyMenu
+- Updated Fusion (Connected Textures)
+- Updated Integrated Crafting
+- Updated Integrated Dynamics
+- Updated Integrated Terminals
+- Updated Integrated Tunnels
+- Updated Inventory Profiles Next
+- Updated Item Collectors
+- Updated Just Enough Mekanism Multiblocks
+- Updated Macaw's Bridges
+- Updated Macaw's Doors
+- Updated Macaw's Fences and Walls
+- Updated Macaw's Lights and Lamps
+- Updated Macaw's Trapdoors
+- Updated Macaw's Windows
+- Updated NineZero's Gun Expansion
+- Updated PackagedAuto
+- Updated Packet Fixer
+- Updated Rechiseled
+- Updated Sophisticated Storage
+- Updated SuperMartijn642's Core Lib
+### Removed
+- Removed Drippy Loading Screen
 # [TECHR-v1.4.6] - 2025.10.28
 ### Fixed
 - Fixed [Bug]: FTBIC Separator Latex to Rubber Recipe #15
