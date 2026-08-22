@@ -1,3 +1,28 @@
+# [TECHR-v1.4.9] - 2026.08.22
+### Added
+- BSL Shaders
+- Complementary Shaders - Unbound
+- E-LITE shaders (MakeUp edit)
+- Solas Shader
+### Changed
+- Complementary Shaders - Reimagined
+- Ad Astra: Giselle Addon
+- Corail Tombstone
+- Crash Assistant
+- Deimos Lib
+- Euphoria Patches
+- FancyMenu
+- FTB Library
+- Fusion (Connected Textures)
+- Integrated NBT
+- Just Enough Items (JEI)
+- Just Enough Mekanism Multiblocks
+- Laser Bridges & Doors
+- PackagedExCrafting
+- Rechiseled
+- Structure Compass
+- SuperMartijn642's Core Lib
+- Trash Cans
 # [TECHR-v1.4.8] - 2026.04.09
 ### Fixed
 - Fixed minor broken quests
