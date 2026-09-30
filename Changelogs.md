@@ -1,3 +1,27 @@
+# [TECHR-v1.5.0] - 2026.09.30
+### Added
+- Extra Utilities Reborn
+- BuildCraft Community Edition
+- BuildCraft Community Edition: Localizations
+- Macaw’s Stairs
+- quick pack
+- Better Biome Blend
+- Moderately Enough Effect Descriptions (MEED)
+### Changed
+- Complementary Shaders – Reimagined
+- Complementary Shaders – Unbound
+- E-LITE shaders (MakeUp edit)
+- Solas Shader
+- Durability Tooltip
+- Euphoria Patches
+- FancyMenu
+- Fusion (Connected Textures)
+- Just Enough Items (JEI)
+- Just Enough Mekanism Multiblocks
+- Polymorph
+- Rechiseled
+- SuperMartijn642's Core Lib
+- Trash Cans
 # [TECHR-v1.4.11] - 2026.08.22
 ### Added
 - BSL Shaders
