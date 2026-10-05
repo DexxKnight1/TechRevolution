@@ -1,52 +1,65 @@
+# [TECHR-v1.5.1] - 2026.10.05
+### Fixed
+- Fixed the crash that occurred when loading the game
+### Added
+- Added Log Begone
+### Changed
+- Updated BuildCraft Community Edition
+- Updated Fusion (Connected Textures)
+- Updated Just Enough Items (JEI)
+- Updated Just Enough Mekanism Multiblocks
+- Updated Just Zoom
+- Updated Laser Bridges & Doors
+- Updated MezzConfig
 # [TECHR-v1.5.0] - 2026.09.30
 ### Added
-- Extra Utilities Reborn
-- BuildCraft Community Edition
-- BuildCraft Community Edition: Localizations
-- Macaw’s Stairs
-- quick pack
-- Better Biome Blend
-- Moderately Enough Effect Descriptions (MEED)
+- Added Extra Utilities Reborn
+- Added BuildCraft Community Edition
+- Added BuildCraft Community Edition: Localizations
+- Added Macaw’s Stairs
+- Added quick pack
+- Added Better Biome Blend
+- Added Moderately Enough Effect Descriptions (MEED)
 ### Changed
-- Complementary Shaders – Reimagined
-- Complementary Shaders – Unbound
-- E-LITE shaders (MakeUp edit)
-- Solas Shader
-- Durability Tooltip
-- Euphoria Patches
-- FancyMenu
-- Fusion (Connected Textures)
-- Just Enough Items (JEI)
-- Just Enough Mekanism Multiblocks
-- Polymorph
-- Rechiseled
-- SuperMartijn642's Core Lib
-- Trash Cans
+- Updated Complementary Shaders – Reimagined
+- Updated Complementary Shaders – Unbound
+- Updated E-LITE shaders (MakeUp edit)
+- Updated Solas Shader
+- Updated Durability Tooltip
+- Updated Euphoria Patches
+- Updated FancyMenu
+- Updated Fusion (Connected Textures)
+- Updated Just Enough Items (JEI)
+- Updated Just Enough Mekanism Multiblocks
+- Updated Polymorph
+- Updated Rechiseled
+- Updated SuperMartijn642's Core Lib
+- Updated Trash Cans
 # [TECHR-v1.4.11] - 2026.08.22
 ### Added
-- BSL Shaders
-- Complementary Shaders - Unbound
-- E-LITE shaders (MakeUp edit)
-- Solas Shader
+- Added BSL Shaders
+- Added Complementary Shaders - Unbound
+- Added E-LITE shaders (MakeUp edit)
+- Added Solas Shader
 ### Changed
-- Complementary Shaders - Reimagined
-- Ad Astra: Giselle Addon
-- Corail Tombstone
-- Crash Assistant
-- Deimos Lib
-- Euphoria Patches
-- FancyMenu
-- FTB Library
-- Fusion (Connected Textures)
-- Integrated NBT
-- Just Enough Items (JEI)
-- Just Enough Mekanism Multiblocks
-- Laser Bridges & Doors
-- PackagedExCrafting
-- Rechiseled
-- Structure Compass
-- SuperMartijn642's Core Lib
-- Trash Cans
+- Updated Complementary Shaders - Reimagined
+- Updated Ad Astra: Giselle Addon
+- Updated Corail Tombstone
+- Updated Crash Assistant
+- Updated Deimos Lib
+- Updated Euphoria Patches
+- Updated FancyMenu
+- Updated FTB Library
+- Updated Fusion (Connected Textures)
+- Updated Integrated NBT
+- Updated Just Enough Items (JEI)
+- Updated Just Enough Mekanism Multiblocks
+- Updated Laser Bridges & Doors
+- Updated PackagedExCrafting
+- Updated Rechiseled
+- Updated Structure Compass
+- Updated SuperMartijn642's Core Lib
+- Updated Trash Cans
 # [TECHR-v1.4.8] - 2026.04.09
 ### Fixed
 - Fixed minor broken quests
