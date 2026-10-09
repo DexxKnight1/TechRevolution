@@ -1,3 +1,25 @@
+# [TECHR-v1.5.2] - 2026.10.09
+### Fixed
+- Fixed all missing texture bugs by tweaking ModernFix configs 
+### Added
+- Added Refined Storage JEI Fix
+- Added Just Enough Breeding (JEBr)
+- Added Just Enough Botania
+- Added Just Enough Effect Descriptions (JEED)
+- Added FastSuite
+- Added Rhenium
+- Added Structure Layout Optimizer
+- Added Toms Storage Star Optimized
+- Added Sophisticated Chest Optimized
+- Added Async Logger
+### Changed
+- Updated Tesseract
+- Updated SuperMartijn642's Core Lib
+### Removed
+- Removed Loot Integrations
+- Removed Adaptive Optimization(reborn)
+- Removed BadOptimizations
+- Removed Additional Enchanted Miner
 # [TECHR-v1.5.1] - 2026.10.05
 ### Fixed
 - Fixed the crash that occurred when loading the game
