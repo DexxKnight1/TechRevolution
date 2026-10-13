@@ -1,3 +1,23 @@
+# [TECHR-v1.5.3] - 2026.10.13
+### Fixed
+- Fixed [Bug]: Crashing when using AE2 Wireless Terminal #16
+- Fixed [Bug]: Immersive Engineering Water Wheels/Windmills rendering issue #18
+- Fixed [Bug]: Mekanism recipe missing #19
+- Fixed [Bug]: XyCraft models flashing #20
+- Fixed [Bug]: Mystical Agriculture seed growing issue
+- Fixed Netherite Dust recipe
+- Fixed Empty rewards in Quest book
+### Added
+- Added FTB Backups 2
+- Added Waystone / Chunk Maps | Compatibility
+### Changed
+- Downgraded FancyMenu to the working version 3.3.2
+- Downgraded Just Enough Items (JEI) to the working version 11.8.1.1034
+- Downgraded Polymorph to the working version 0.46.6+
+### Removed
+- Removed Advanced Backups [replaced by FTB Backups 2 mod]
+- Removed Kerria [conflict with XyCraft mod]
+- Removed FastSuite [conflict with Mystical Agriculture mod]
 # [TECHR-v1.5.2] - 2026.10.09
 ### Fixed
 - Fixed all missing texture bugs by tweaking ModernFix configs 
