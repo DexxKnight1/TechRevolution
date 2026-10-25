@@ -1,3 +1,23 @@
+# [TECHR-v1.5.4] - 2026.10.25
+### Fixed
+- Fixed [Bug]: BuildCaft quarry causes you to not be able to place blocks #21
+- Fixed [Bug]: Creative Storage Disk Recipe Silicon #22
+- Fixed [Bug]: IMPOSSIBLE to find Biomes/Blocks for quests #23
+### Added
+- Added Bad Horse Fix
+- Added JEI/EMI Optimizations
+### Changed
+- Updated E-LITE shaders (MakeUp edit)
+- Updated Solas Shader
+- Updated AEInfinityBooster
+- Updated Async Logger
+- Updated BuildCraft Community Edition
+- Updated Laser Bridges & Doors
+- Updated RSInfinityBooster
+- Updated Trash Cans
+### Removed
+- Removed BuildCraft Community Edition: Localizations [No longer needed, as all translations have migrated to BCCE since version 8.0.24]
+- Removed Redirector (Modern) [conflict with BCCE mod]
 # [TECHR-v1.5.3] - 2026.10.13
 ### Fixed
 - Fixed [Bug]: Crashing when using AE2 Wireless Terminal #16
