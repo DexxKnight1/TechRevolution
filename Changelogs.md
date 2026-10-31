@@ -1,3 +1,19 @@
+# [TECHR-v1.5.5] - 2026.10.31
+### Fixed
+- Fixed [Crash]: Game crashes when placing chiseled blocks in the chisel GUI #24
+### Added
+- Added Lootr Liaison
+- Added Dimension Leak Fix
+- Added Fast Events
+- Added Chisel Chipped Integration
+### Changed
+- Updated BuildCraft Community Edition
+- Updated Deimos Lib
+- Updated EXP Counter
+- Updated Fusion (Connected Textures)
+- Updated JEI/EMI Optimizations
+- Updated Just Zoom
+- Updated SuperMartijn642's Core Lib
 # [TECHR-v1.5.4] - 2026.10.25
 ### Fixed
 - Fixed [Bug]: BuildCaft quarry causes you to not be able to place blocks #21
