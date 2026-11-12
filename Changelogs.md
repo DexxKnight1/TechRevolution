@@ -1,3 +1,18 @@
+# [TECHR-v1.5.6] - 2026.11.12
+### Fixed
+- Fixed an issue where custom Mystical Agriculture seeds weren’t boosted by the Cyclic Sprinkler or Mystical Agriculture farmland
+### Added
+- Added Automation Checklist
+### Changed
+- Updated AEInfinityBooster
+- Updated BuildCraft Community Edition
+- Updated Dimension Leak Fix
+- Updated Entangled
+- Updated Laser Bridges & Doors
+- Updated More Music Discs
+- Updated SuperMartijn642's Core Lib
+- Updated Tesseract
+- Updated Titanium
 # [TECHR-v1.5.5] - 2026.10.31
 ### Fixed
 - Fixed [Crash]: Game crashes when placing chiseled blocks in the chisel GUI #24
