@@ -1,3 +1,19 @@
+# [TECHR-v1.5.7] - 2026.11.18
+### Fixed
+- Fixed Apotheosis spawner modification items
+- Fixed the Undergarden questline (removed the Masticator boss quest because it doesn’t spawn naturally)
+- Fixed the unobtainable Cheesecake in the Farmer's Delight & Croptopia questline
+### Added
+- Added full automation capabilities to the Player Shop
+### Changed
+- Complementary Shaders - Reimagined
+- Complementary Shaders - Unbound
+- Solas Shader
+- BuildCraft Community Edition
+- Euphoria Patches
+- JEI/EMI Optimizations
+- PackagedAuto
+- PackagedMekemicals
 # [TECHR-v1.5.6] - 2026.11.12
 ### Fixed
 - Fixed an issue where custom Mystical Agriculture seeds weren’t boosted by the Cyclic Sprinkler or Mystical Agriculture farmland
